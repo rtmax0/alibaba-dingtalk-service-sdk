@@ -10,7 +10,7 @@ import com.taobao.api.TaobaoResponse;
  * @author top auto create
  * @since 1.0, null
  */
-public class OapiProcessinstanceExecuteResponse extends TaobaoResponse {
+public class OapiProcessInstanceExecuteResponse extends TaobaoResponse {
 
 	private static final long serialVersionUID = 7847887643924453279L;
 

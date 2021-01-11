@@ -1,17 +1,14 @@
 package com.dingtalk.api.request;
 
-import com.taobao.api.internal.util.RequestCheckUtils;
-import java.util.Map;
-import java.util.List;
-
+import com.dingtalk.api.DingTalkConstants;
+import com.dingtalk.api.response.OapiProcessInstanceExecuteResponse;
 import com.taobao.api.ApiRuleException;
 import com.taobao.api.BaseTaobaoRequest;
-import com.dingtalk.api.DingTalkConstants;
 import com.taobao.api.Constants;
+import com.taobao.api.internal.util.RequestCheckUtils;
 import com.taobao.api.internal.util.TaobaoHashMap;
-import com.taobao.api.internal.util.TaobaoUtils;
 
-import com.dingtalk.api.response.OapiProcessinstanceExecuteResponse;
+import java.util.Map;
 
 /**
  * TOP DingTalk-API: dingtalk.oapi.processinstance.execute request
@@ -19,7 +16,7 @@ import com.dingtalk.api.response.OapiProcessinstanceExecuteResponse;
  * @author top auto create
  * @since 1.0, 2020.03.09
  */
-public class OapiProcessinstanceExecuteRequest extends BaseTaobaoRequest<OapiProcessinstanceExecuteResponse> {
+public class OapiProcessInstanceExecuteRequest extends BaseTaobaoRequest<OapiProcessInstanceExecuteResponse> {
 	
 	
 
@@ -133,8 +130,8 @@ public class OapiProcessinstanceExecuteRequest extends BaseTaobaoRequest<OapiPro
 		return txtParams;
 	}
 
-	public Class<OapiProcessinstanceExecuteResponse> getResponseClass() {
-		return OapiProcessinstanceExecuteResponse.class;
+	public Class<OapiProcessInstanceExecuteResponse> getResponseClass() {
+		return OapiProcessInstanceExecuteResponse.class;
 	}
 
 	public void check() throws ApiRuleException {
