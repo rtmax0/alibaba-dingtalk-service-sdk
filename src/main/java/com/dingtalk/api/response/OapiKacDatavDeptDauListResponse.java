@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiKacDatavDeptDauListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6143124194432127547L;
+	private static final long serialVersionUID = 2515539439714715978L;
 
 	/** 
 	 * 结果码
@@ -68,7 +68,12 @@ public class OapiKacDatavDeptDauListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DeptDauSummaryVo extends TaobaoObject {
-		private static final long serialVersionUID = 7842577193581516873L;
+		private static final long serialVersionUID = 8247586612314434496L;
+		/**
+		 * 钉钉app端登录人数
+		 */
+		@ApiField("app_active_users")
+		private Long appActiveUsers;
 		/**
 		 * 通讯录人数
 		 */
@@ -89,7 +94,18 @@ public class OapiKacDatavDeptDauListResponse extends TaobaoResponse {
 		 */
 		@ApiField("dept_name")
 		private String deptName;
+		/**
+		 * 钉钉pc端登录人数
+		 */
+		@ApiField("pc_active_users")
+		private Long pcActiveUsers;
 	
+		public Long getAppActiveUsers() {
+			return this.appActiveUsers;
+		}
+		public void setAppActiveUsers(Long appActiveUsers) {
+			this.appActiveUsers = appActiveUsers;
+		}
 		public Long getContactsNumber() {
 			return this.contactsNumber;
 		}
@@ -114,6 +130,12 @@ public class OapiKacDatavDeptDauListResponse extends TaobaoResponse {
 		public void setDeptName(String deptName) {
 			this.deptName = deptName;
 		}
+		public Long getPcActiveUsers() {
+			return this.pcActiveUsers;
+		}
+		public void setPcActiveUsers(Long pcActiveUsers) {
+			this.pcActiveUsers = pcActiveUsers;
+		}
 	}
 	
 	/**
@@ -123,7 +145,7 @@ public class OapiKacDatavDeptDauListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DeptDauSummaryResponse extends TaobaoObject {
-		private static final long serialVersionUID = 7566165988597731119L;
+		private static final long serialVersionUID = 2355584923416849586L;
 		/**
 		 * 数据列表
 		 */

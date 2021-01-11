@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiPbpInstanceGroupMemberListResponse;
  * TOP DingTalk-API: dingtalk.oapi.pbp.instance.group.member.list request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.24
+ * @since 1.0, 2020.01.20
  */
 public class OapiPbpInstanceGroupMemberListRequest extends BaseTaobaoRequest<OapiPbpInstanceGroupMemberListResponse> {
 	

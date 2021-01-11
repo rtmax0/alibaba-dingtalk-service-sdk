@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiProcessinstanceGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.processinstance.get request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.06
+ * @since 1.0, 2020.11.23
  */
 public class OapiProcessinstanceGetRequest extends BaseTaobaoRequest<OapiProcessinstanceGetResponse> {
 	

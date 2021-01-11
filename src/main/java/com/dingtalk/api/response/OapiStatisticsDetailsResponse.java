@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiStatisticsDetailsResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8646383145864727829L;
+	private static final long serialVersionUID = 1684797127253368157L;
 
 	/** 
 	 * dingOpenErrcode
@@ -69,7 +69,7 @@ public class OapiStatisticsDetailsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class EnterpriseDataVo extends TaobaoObject {
-		private static final long serialVersionUID = 3871488113747189342L;
+		private static final long serialVersionUID = 7353359984238912721L;
 		/**
 		 * 数据的日期,格式为yyyy-MM-dd
 		 */

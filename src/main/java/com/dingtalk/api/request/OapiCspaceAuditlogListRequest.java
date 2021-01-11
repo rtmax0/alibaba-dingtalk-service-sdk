@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiCspaceAuditlogListResponse;
  * TOP DingTalk-API: dingtalk.oapi.cspace.auditlog.list request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.29
+ * @since 1.0, 2020.09.15
  */
 public class OapiCspaceAuditlogListRequest extends BaseTaobaoRequest<OapiCspaceAuditlogListResponse> {
 	

@@ -17,28 +17,28 @@ import com.dingtalk.api.response.OapiV2UserGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.v2.user.get request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.03
+ * @since 1.0, 2020.12.15
  */
 public class OapiV2UserGetRequest extends BaseTaobaoRequest<OapiV2UserGetResponse> {
 	
 	
 
 	/** 
-	* 国际化
+	* 语言
 	 */
-	private String lang;
+	private String language;
 
 	/** 
 	* 用户id
 	 */
 	private String userid;
 
-	public void setLang(String lang) {
-		this.lang = lang;
+	public void setLanguage(String language) {
+		this.language = language;
 	}
 
-	public String getLang() {
-		return this.lang;
+	public String getLanguage() {
+		return this.language;
 	}
 
 	public void setUserid(String userid) {
@@ -83,7 +83,7 @@ public class OapiV2UserGetRequest extends BaseTaobaoRequest<OapiV2UserGetRespons
 
 	public Map<String, String> getTextParams() {		
 		TaobaoHashMap txtParams = new TaobaoHashMap();
-		txtParams.put("lang", this.lang);
+		txtParams.put("language", this.language);
 		txtParams.put("userid", this.userid);
 		if(this.udfParams != null) {
 			txtParams.putAll(this.udfParams);
@@ -96,7 +96,9 @@ public class OapiV2UserGetRequest extends BaseTaobaoRequest<OapiV2UserGetRespons
 	}
 
 	public void check() throws ApiRuleException {
+		RequestCheckUtils.checkMaxLength(language, 6, "language");
 		RequestCheckUtils.checkNotEmpty(userid, "userid");
+		RequestCheckUtils.checkMaxLength(userid, 64, "userid");
 	}
 	
 

@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpLivenessGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3323518857491321494L;
+	private static final long serialVersionUID = 6561897399866341551L;
 
 	/** 
 	 * result
@@ -38,7 +38,7 @@ public class CorpLivenessGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OrgLivenessVo extends TaobaoObject {
-		private static final long serialVersionUID = 2799632996566613454L;
+		private static final long serialVersionUID = 3881342762417576423L;
 		/**
 		 * 活跃度，L1：不活跃，L2：低活跃，L3：中活跃，L4：高活跃，L5：超活跃
 		 */
@@ -60,7 +60,7 @@ public class CorpLivenessGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 8849857686187874428L;
+		private static final long serialVersionUID = 7827266732512725246L;
 		/**
 		 * dingOpenErrcode
 		 */

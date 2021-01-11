@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiPbpInstanceCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.pbp.instance.create request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.24
+ * @since 1.0, 2019.12.23
  */
 public class OapiPbpInstanceCreateRequest extends BaseTaobaoRequest<OapiPbpInstanceCreateResponse> {
 	

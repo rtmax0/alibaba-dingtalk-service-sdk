@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpDingReceiverstatusListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1591463666851774935L;
+	private static final long serialVersionUID = 2811275374359478136L;
 
 	/** 
 	 * 返回的根对象
@@ -40,7 +40,7 @@ public class CorpDingReceiverstatusListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingReceiverStatusResult extends TaobaoObject {
-		private static final long serialVersionUID = 4599618673586547193L;
+		private static final long serialVersionUID = 2269924253245655652L;
 		/**
 		 * 确认状态。0-未确认；1-已确认；
 		 */
@@ -95,7 +95,7 @@ public class CorpDingReceiverstatusListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 7235595653256198964L;
+		private static final long serialVersionUID = 1425754754774481856L;
 		/**
 		 * 错误码
 		 */

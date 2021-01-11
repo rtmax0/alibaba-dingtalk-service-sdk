@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripApprovalModifyResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2461238875686736872L;
+	private static final long serialVersionUID = 8281426772146995611L;
 
 	/** 
 	 * 错误码
@@ -79,7 +79,7 @@ public class OapiAlitripBtripApprovalModifyResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenApiNewApplyRs extends TaobaoObject {
-		private static final long serialVersionUID = 5568349592789968453L;
+		private static final long serialVersionUID = 1681749161694777769L;
 		/**
 		 * 商旅申请单id
 		 */

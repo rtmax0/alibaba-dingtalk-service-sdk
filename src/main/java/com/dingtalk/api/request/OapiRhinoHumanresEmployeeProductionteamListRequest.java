@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiRhinoHumanresEmployeeProductionteamListResp
  * TOP DingTalk-API: dingtalk.oapi.rhino.humanres.employee.productionteam.list request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.16
+ * @since 1.0, 2020.11.13
  */
 public class OapiRhinoHumanresEmployeeProductionteamListRequest extends BaseTaobaoRequest<OapiRhinoHumanresEmployeeProductionteamListResponse> {
 	
@@ -98,7 +98,12 @@ public class OapiRhinoHumanresEmployeeProductionteamListRequest extends BaseTaob
 	 * @since 1.0, null
 	 */
 	public static class QueryCorpEmployeeProductionTeamDto extends TaobaoObject {
-		private static final long serialVersionUID = 2362449734878454568L;
+		private static final long serialVersionUID = 2875884867199296142L;
+		/**
+		 * 是否包含未激活或者离职状态
+		 */
+		@ApiField("include_inactive")
+		private Boolean includeInactive;
 		/**
 		 * 资产ID
 		 */
@@ -116,6 +121,12 @@ public class OapiRhinoHumanresEmployeeProductionteamListRequest extends BaseTaob
 		@ApiField("userid")
 		private String userid;
 	
+		public Boolean getIncludeInactive() {
+			return this.includeInactive;
+		}
+		public void setIncludeInactive(Boolean includeInactive) {
+			this.includeInactive = includeInactive;
+		}
 		public String getTenantId() {
 			return this.tenantId;
 		}

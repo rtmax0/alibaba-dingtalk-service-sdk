@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiWorkspaceProjectMemberAddResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1245976989323454455L;
+	private static final long serialVersionUID = 7664859379348949928L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiWorkspaceProjectMemberAddResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenTagDto extends TaobaoObject {
-		private static final long serialVersionUID = 7833813672388572198L;
+		private static final long serialVersionUID = 5899317823683743226L;
 		/**
 		 * 角色的code
 		 */
@@ -115,7 +115,7 @@ public class OapiWorkspaceProjectMemberAddResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenProjectMemberDto extends TaobaoObject {
-		private static final long serialVersionUID = 1235927479738819219L;
+		private static final long serialVersionUID = 5794527481838857715L;
 		/**
 		 * 组织id
 		 */

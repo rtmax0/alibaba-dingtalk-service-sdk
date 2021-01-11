@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpRoleGetrolegroupResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8318366329221965225L;
+	private static final long serialVersionUID = 2887728248764919656L;
 
 	/** 
 	 * result
@@ -40,7 +40,7 @@ public class CorpRoleGetrolegroupResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenRole extends TaobaoObject {
-		private static final long serialVersionUID = 4542343956579274215L;
+		private static final long serialVersionUID = 4892831237556977157L;
 		/**
 		 * 角色id
 		 */
@@ -73,7 +73,7 @@ public class CorpRoleGetrolegroupResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenRoleGroup extends TaobaoObject {
-		private static final long serialVersionUID = 2675858226181856138L;
+		private static final long serialVersionUID = 3563761421328385523L;
 		/**
 		 * 角色组名
 		 */
@@ -107,7 +107,7 @@ public class CorpRoleGetrolegroupResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 5579873644343165239L;
+		private static final long serialVersionUID = 7364865636261611237L;
 		/**
 		 * dingOpenErrcode
 		 */

@@ -23,7 +23,7 @@ import com.dingtalk.api.response.OapiRhinoMosExecPerformCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.rhino.mos.exec.perform.create request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.09
+ * @since 1.0, 2020.07.20
  */
 public class OapiRhinoMosExecPerformCreateRequest extends BaseTaobaoRequest<OapiRhinoMosExecPerformCreateResponse> {
 	
@@ -33,6 +33,11 @@ public class OapiRhinoMosExecPerformCreateRequest extends BaseTaobaoRequest<Oapi
 	* 工序执行记录
 	 */
 	private String operations;
+
+	/** 
+	* 订单ID
+	 */
+	private Long orderId;
 
 	/** 
 	* 租户ID
@@ -54,6 +59,14 @@ public class OapiRhinoMosExecPerformCreateRequest extends BaseTaobaoRequest<Oapi
 
 	public String getOperations() {
 		return this.operations;
+	}
+
+	public void setOrderId(Long orderId) {
+		this.orderId = orderId;
+	}
+
+	public Long getOrderId() {
+		return this.orderId;
 	}
 
 	public void setTenantId(String tenantId) {
@@ -107,6 +120,7 @@ public class OapiRhinoMosExecPerformCreateRequest extends BaseTaobaoRequest<Oapi
 	public Map<String, String> getTextParams() {		
 		TaobaoHashMap txtParams = new TaobaoHashMap();
 		txtParams.put("operations", this.operations);
+		txtParams.put("order_id", this.orderId);
 		txtParams.put("tenant_id", this.tenantId);
 		txtParams.put("userid", this.userid);
 		if(this.udfParams != null) {
@@ -131,7 +145,7 @@ public class OapiRhinoMosExecPerformCreateRequest extends BaseTaobaoRequest<Oapi
 	 * @since 1.0, null
 	 */
 	public static class OperationReq extends TaobaoObject {
-		private static final long serialVersionUID = 6239377213284439286L;
+		private static final long serialVersionUID = 4388913723846397216L;
 		/**
 		 * 执行上下文
 		 */

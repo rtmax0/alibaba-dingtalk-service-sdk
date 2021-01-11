@@ -96,7 +96,7 @@ public class OapiCustomerserviceSessionCreateRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class SessionSourceDTO extends TaobaoObject {
-		private static final long serialVersionUID = 3148346947438486582L;
+		private static final long serialVersionUID = 1194959369522619758L;
 		/**
 		 * **      * H5页面      *     H5(0),     **      * APP内嵌的链接      *     APP(1),     **      * 微信小程序      *     WE_CHAT_APPLETS(2),     **      * 微信公众号      *     WE_CHAT_OFFICIAL_ACCOUNTS(3)
 		 */
@@ -239,7 +239,7 @@ public class OapiCustomerserviceSessionCreateRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class SessionTargetDTO extends TaobaoObject {
-		private static final long serialVersionUID = 2758254398154465957L;
+		private static final long serialVersionUID = 2692165914271382581L;
 		/**
 		 * 业务单元id
 		 */
@@ -283,7 +283,7 @@ public class OapiCustomerserviceSessionCreateRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class CreateSessionDTO extends TaobaoObject {
-		private static final long serialVersionUID = 5543834381266121621L;
+		private static final long serialVersionUID = 5648355649168745356L;
 		/**
 		 * 会员来源
 		 */

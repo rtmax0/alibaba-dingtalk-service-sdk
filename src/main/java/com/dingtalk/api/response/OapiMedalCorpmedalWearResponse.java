@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiMedalCorpmedalWearResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1712485859646448168L;
+	private static final long serialVersionUID = 7275127397668951242L;
 
 	/** 
 	 * 错误码

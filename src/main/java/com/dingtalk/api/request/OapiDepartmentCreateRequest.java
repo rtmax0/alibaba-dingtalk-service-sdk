@@ -16,7 +16,7 @@ import com.dingtalk.api.response.OapiDepartmentCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.department.create request
  * 
  * @author top auto create
- * @since 1.0, 2018.10.11
+ * @since 1.0, 2020.10.10
  */
 public class OapiDepartmentCreateRequest extends BaseTaobaoRequest<OapiDepartmentCreateResponse> {
 	

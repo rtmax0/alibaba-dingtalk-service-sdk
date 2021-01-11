@@ -96,7 +96,7 @@ public class OapiIsvOpenencryptRegistekmsRequest extends BaseTaobaoRequest<OapiI
 	 * @since 1.0, null
 	 */
 	public static class TopKMSMeta extends TaobaoObject {
-		private static final long serialVersionUID = 2493169251543932464L;
+		private static final long serialVersionUID = 7381959657118756672L;
 		/**
 		 * 微应用id
 		 */

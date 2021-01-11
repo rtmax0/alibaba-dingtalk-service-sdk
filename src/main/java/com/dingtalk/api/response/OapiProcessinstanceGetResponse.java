@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProcessinstanceGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2824364668289264771L;
+	private static final long serialVersionUID = 6247567396819565262L;
 
 	/** 
 	 * errcode
@@ -69,7 +69,7 @@ public class OapiProcessinstanceGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Attachment extends TaobaoObject {
-		private static final long serialVersionUID = 5193795748843279171L;
+		private static final long serialVersionUID = 7731555172818314457L;
 		/**
 		 * id
 		 */
@@ -124,7 +124,7 @@ public class OapiProcessinstanceGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OperationRecordsVo extends TaobaoObject {
-		private static final long serialVersionUID = 5412137312545496341L;
+		private static final long serialVersionUID = 8414459458466532262L;
 		/**
 		 * 评论附件
 		 */
@@ -202,7 +202,12 @@ public class OapiProcessinstanceGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TaskTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 2574911823879773394L;
+		private static final long serialVersionUID = 3515372277182454399L;
+		/**
+		 * 节点id
+		 */
+		@ApiField("activity_id")
+		private String activityId;
 		/**
 		 * 开始时间
 		 */
@@ -224,7 +229,7 @@ public class OapiProcessinstanceGetResponse extends TaobaoResponse {
 		@ApiField("task_status")
 		private String taskStatus;
 		/**
-		 * 任务节点id
+		 * 任务id
 		 */
 		@ApiField("taskid")
 		private String taskid;
@@ -239,6 +244,12 @@ public class OapiProcessinstanceGetResponse extends TaobaoResponse {
 		@ApiField("userid")
 		private String userid;
 	
+		public String getActivityId() {
+			return this.activityId;
+		}
+		public void setActivityId(String activityId) {
+			this.activityId = activityId;
+		}
 		public Date getCreateTime() {
 			return this.createTime;
 		}
@@ -290,7 +301,7 @@ public class OapiProcessinstanceGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormComponentValueVo extends TaobaoObject {
-		private static final long serialVersionUID = 5656891774582745833L;
+		private static final long serialVersionUID = 5211878629752663261L;
 		/**
 		 * 组件类型
 		 */
@@ -356,7 +367,7 @@ public class OapiProcessinstanceGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ProcessInstanceTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 5843758265151611675L;
+		private static final long serialVersionUID = 6346934814986384262L;
 		/**
 		 * 审批人
 		 */

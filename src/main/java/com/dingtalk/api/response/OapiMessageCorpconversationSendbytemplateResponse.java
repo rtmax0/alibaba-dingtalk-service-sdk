@@ -12,25 +12,25 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiMessageCorpconversationSendbytemplateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7371774779187346332L;
+	private static final long serialVersionUID = 8431457989163756847L;
 
 	/** 
-	 * 错误码
+	 * 返回码
 	 */
 	@ApiField("errcode")
 	private Long errcode;
 
 	/** 
-	 * 错误描述
+	 * 错误信息
 	 */
 	@ApiField("errmsg")
 	private String errmsg;
 
 	/** 
-	 * 推送任务taskId
+	 * 创建的异步发送任务id
 	 */
-	@ApiField("result")
-	private Long result;
+	@ApiField("task_id")
+	private Long taskId;
 
 
 	public void setErrcode(Long errcode) {
@@ -47,11 +47,11 @@ public class OapiMessageCorpconversationSendbytemplateResponse extends TaobaoRes
 		return this.errmsg;
 	}
 
-	public void setResult(Long result) {
-		this.result = result;
+	public void setTaskId(Long taskId) {
+		this.taskId = taskId;
 	}
-	public Long getResult( ) {
-		return this.result;
+	public Long getTaskId( ) {
+		return this.taskId;
 	}
 
 	public boolean isSuccess() {

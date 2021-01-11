@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiEduCertGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.edu.cert.get request
  * 
  * @author top auto create
- * @since 1.0, 2019.11.14
+ * @since 1.0, 2020.12.24
  */
 public class OapiEduCertGetRequest extends BaseTaobaoRequest<OapiEduCertGetResponse> {
 	

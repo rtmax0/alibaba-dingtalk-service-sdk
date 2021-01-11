@@ -4,6 +4,7 @@ import java.util.List;
 import com.taobao.api.internal.mapping.ApiField;
 import com.taobao.api.internal.util.RequestCheckUtils;
 import com.taobao.api.internal.mapping.ApiListField;
+import com.taobao.api.internal.util.json.JSONValidatingReader;
 import com.taobao.api.TaobaoObject;
 import java.util.Date;
 import java.util.Map;
@@ -22,7 +23,7 @@ import com.dingtalk.api.response.OapiAttendanceShiftAddResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.shift.add request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.24
+ * @since 1.0, 2020.12.30
  */
 public class OapiAttendanceShiftAddRequest extends BaseTaobaoRequest<OapiAttendanceShiftAddResponse> {
 	
@@ -115,27 +116,38 @@ public class OapiAttendanceShiftAddRequest extends BaseTaobaoRequest<OapiAttenda
 	 * @since 1.0, null
 	 */
 	public static class TopAtTimeVo extends TaobaoObject {
-		private static final long serialVersionUID = 5317446516523991152L;
+		private static final long serialVersionUID = 1839751451612422797L;
 		/**
 		 * 是否跨天
 		 */
 		@ApiField("across")
 		private Long across;
 		/**
+		 * 允许的最早提前打卡时间，分钟为单位
+		 */
+		@ApiField("begin_min")
+		private Long beginMin;
+		/**
 		 * check时间
 		 */
 		@ApiField("check_time")
 		private Date checkTime;
 		/**
-		 * 类型
+		 * 类型(OnDuty上班，OffDuty下班)
 		 */
 		@ApiField("check_type")
 		private String checkType;
 		/**
-		 * 调整时间
+		 * 允许的最玩打卡时间，分钟为单位（-1表示不限制）
 		 */
 		@ApiField("end_min")
 		private Long endMin;
+		/**
+		 * 当前卡点允许弹性调整范围
+		 */
+		@ApiListField("flex_minutes")
+		@ApiField("number")
+		private List<Long> flexMinutes;
 		/**
 		 * 是否免打卡
 		 */
@@ -147,6 +159,12 @@ public class OapiAttendanceShiftAddRequest extends BaseTaobaoRequest<OapiAttenda
 		}
 		public void setAcross(Long across) {
 			this.across = across;
+		}
+		public Long getBeginMin() {
+			return this.beginMin;
+		}
+		public void setBeginMin(Long beginMin) {
+			this.beginMin = beginMin;
 		}
 		public Date getCheckTime() {
 			return this.checkTime;
@@ -166,6 +184,12 @@ public class OapiAttendanceShiftAddRequest extends BaseTaobaoRequest<OapiAttenda
 		public void setEndMin(Long endMin) {
 			this.endMin = endMin;
 		}
+		public List<Long> getFlexMinutes() {
+			return this.flexMinutes;
+		}
+		public void setFlexMinutes(List<Long> flexMinutes) {
+			this.flexMinutes = flexMinutes;
+		}
 		public Boolean getFreeCheck() {
 			return this.freeCheck;
 		}
@@ -181,7 +205,7 @@ public class OapiAttendanceShiftAddRequest extends BaseTaobaoRequest<OapiAttenda
 	 * @since 1.0, null
 	 */
 	public static class TopAtSectionVo extends TaobaoObject {
-		private static final long serialVersionUID = 4466413913876445724L;
+		private static final long serialVersionUID = 6844514366761625929L;
 		/**
 		 * times
 		 */
@@ -204,7 +228,12 @@ public class OapiAttendanceShiftAddRequest extends BaseTaobaoRequest<OapiAttenda
 	 * @since 1.0, null
 	 */
 	public static class TopAtClassSettingVo extends TaobaoObject {
-		private static final long serialVersionUID = 6239146659394136146L;
+		private static final long serialVersionUID = 5146869349194396739L;
+		/**
+		 * 旷工迟到分钟数
+		 */
+		@ApiField("absenteeism_late_minutes")
+		private Long absenteeismLateMinutes;
 		/**
 		 * 班次id
 		 */
@@ -215,6 +244,16 @@ public class OapiAttendanceShiftAddRequest extends BaseTaobaoRequest<OapiAttenda
 		 */
 		@ApiField("corp_id")
 		private String corpId;
+		/**
+		 * 固定时长弹性班次设置的工作时长
+		 */
+		@ApiField("demand_work_time_minutes")
+		private Long demandWorkTimeMinutes;
+		/**
+		 * 班次设置扩展字段（非临时班次无需填写）
+		 */
+		@ApiField("extras")
+		private String extras;
 		/**
 		 * 是否删除
 		 */
@@ -235,7 +274,23 @@ public class OapiAttendanceShiftAddRequest extends BaseTaobaoRequest<OapiAttenda
 		 */
 		@ApiField("rest_end_time")
 		private TopAtTimeVo restEndTime;
+		/**
+		 * 严重迟到分钟数
+		 */
+		@ApiField("serious_late_minutes")
+		private Long seriousLateMinutes;
+		/**
+		 * 班次tags（非临时班次无需填写）
+		 */
+		@ApiField("tags")
+		private String tags;
 	
+		public Long getAbsenteeismLateMinutes() {
+			return this.absenteeismLateMinutes;
+		}
+		public void setAbsenteeismLateMinutes(Long absenteeismLateMinutes) {
+			this.absenteeismLateMinutes = absenteeismLateMinutes;
+		}
 		public Long getClassId() {
 			return this.classId;
 		}
@@ -248,6 +303,22 @@ public class OapiAttendanceShiftAddRequest extends BaseTaobaoRequest<OapiAttenda
 		public void setCorpId(String corpId) {
 			this.corpId = corpId;
 		}
+		public Long getDemandWorkTimeMinutes() {
+			return this.demandWorkTimeMinutes;
+		}
+		public void setDemandWorkTimeMinutes(Long demandWorkTimeMinutes) {
+			this.demandWorkTimeMinutes = demandWorkTimeMinutes;
+		}
+		public String getExtras() {
+			return this.extras;
+		}
+		public void setExtras(String extras) {
+			this.extras = extras;
+		}
+		public void setExtrasString(String extras) {
+			this.extras = extras;
+		}
+		
 		public String getIsDeleted() {
 			return this.isDeleted;
 		}
@@ -272,6 +343,18 @@ public class OapiAttendanceShiftAddRequest extends BaseTaobaoRequest<OapiAttenda
 		public void setRestEndTime(TopAtTimeVo restEndTime) {
 			this.restEndTime = restEndTime;
 		}
+		public Long getSeriousLateMinutes() {
+			return this.seriousLateMinutes;
+		}
+		public void setSeriousLateMinutes(Long seriousLateMinutes) {
+			this.seriousLateMinutes = seriousLateMinutes;
+		}
+		public String getTags() {
+			return this.tags;
+		}
+		public void setTags(String tags) {
+			this.tags = tags;
+		}
 	}
 	
 	/**
@@ -281,7 +364,7 @@ public class OapiAttendanceShiftAddRequest extends BaseTaobaoRequest<OapiAttenda
 	 * @since 1.0, null
 	 */
 	public static class TopAtClassVo extends TaobaoObject {
-		private static final long serialVersionUID = 7555541469775295485L;
+		private static final long serialVersionUID = 5648782182926752262L;
 		/**
 		 * 班次组名
 		 */
@@ -313,6 +396,11 @@ public class OapiAttendanceShiftAddRequest extends BaseTaobaoRequest<OapiAttenda
 		@ApiListField("sections")
 		@ApiField("top_at_section_vo")
 		private List<TopAtSectionVo> sections;
+		/**
+		 * 高级排班绑定服务id（非临时班次无需填写）
+		 */
+		@ApiField("service_id")
+		private Long serviceId;
 		/**
 		 * 设置
 		 */
@@ -354,6 +442,12 @@ public class OapiAttendanceShiftAddRequest extends BaseTaobaoRequest<OapiAttenda
 		}
 		public void setSections(List<TopAtSectionVo> sections) {
 			this.sections = sections;
+		}
+		public Long getServiceId() {
+			return this.serviceId;
+		}
+		public void setServiceId(Long serviceId) {
+			this.serviceId = serviceId;
 		}
 		public TopAtClassSettingVo getSetting() {
 			return this.setting;

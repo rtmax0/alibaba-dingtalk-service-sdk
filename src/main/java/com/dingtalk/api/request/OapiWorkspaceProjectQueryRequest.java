@@ -16,7 +16,7 @@ import com.dingtalk.api.response.OapiWorkspaceProjectQueryResponse;
  * TOP DingTalk-API: dingtalk.oapi.workspace.project.query request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.19
+ * @since 1.0, 2020.11.06
  */
 public class OapiWorkspaceProjectQueryRequest extends BaseTaobaoRequest<OapiWorkspaceProjectQueryResponse> {
 	

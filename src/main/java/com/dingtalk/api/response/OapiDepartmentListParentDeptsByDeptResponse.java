@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiDepartmentListParentDeptsByDeptResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7612259176788837639L;
+	private static final long serialVersionUID = 7683581691988791323L;
 
 	/** 
 	 * errcode

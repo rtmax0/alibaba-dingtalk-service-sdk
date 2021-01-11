@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEnterpriseFamilydrListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6727541243717996689L;
+	private static final long serialVersionUID = 6852438143652553511L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiEnterpriseFamilydrListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FamilyDoctorDataVo extends TaobaoObject {
-		private static final long serialVersionUID = 7315455748687677315L;
+		private static final long serialVersionUID = 5526691481763434511L;
 		/**
 		 * 企业ID
 		 */

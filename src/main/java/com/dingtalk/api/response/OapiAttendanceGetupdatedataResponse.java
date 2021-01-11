@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGetupdatedataResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5758316638886924791L;
+	private static final long serialVersionUID = 4476375624177413349L;
 
 	/** 
 	 * dingOpenErrcode
@@ -82,7 +82,7 @@ public class OapiAttendanceGetupdatedataResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtAttendanceResultForOpenVo extends TaobaoObject {
-		private static final long serialVersionUID = 3737925343193485486L;
+		private static final long serialVersionUID = 7269329173545472661L;
 		/**
 		 * 打卡类型 上班还是下班
 		 */
@@ -247,7 +247,7 @@ public class OapiAttendanceGetupdatedataResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtApproveForOpenVo extends TaobaoObject {
-		private static final long serialVersionUID = 2758686681384438991L;
+		private static final long serialVersionUID = 3684298795317431455L;
 		/**
 		 * 审批单开始时间
 		 */
@@ -357,7 +357,7 @@ public class OapiAttendanceGetupdatedataResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtAttendanceRecordForOpenVo extends TaobaoObject {
-		private static final long serialVersionUID = 5444591665962341551L;
+		private static final long serialVersionUID = 5135467234622457268L;
 		/**
 		 * 基本定位精度
 		 */
@@ -511,7 +511,7 @@ public class OapiAttendanceGetupdatedataResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtRestTimeVo extends TaobaoObject {
-		private static final long serialVersionUID = 6591565916667433178L;
+		private static final long serialVersionUID = 7254444525516797836L;
 		/**
 		 * 休息开始时间
 		 */
@@ -544,7 +544,7 @@ public class OapiAttendanceGetupdatedataResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtClassSettingInfoForOpenVo extends TaobaoObject {
-		private static final long serialVersionUID = 1686495922587952291L;
+		private static final long serialVersionUID = 3478685343471393317L;
 		/**
 		 * restTimeVOList
 		 */
@@ -567,7 +567,7 @@ public class OapiAttendanceGetupdatedataResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtCheckInfoForOpenVo extends TaobaoObject {
-		private static final long serialVersionUID = 2818867851626116545L;
+		private static final long serialVersionUID = 2528569215468488123L;
 		/**
 		 * 审批单列表
 		 */

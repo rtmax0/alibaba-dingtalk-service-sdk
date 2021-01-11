@@ -19,7 +19,7 @@ import com.dingtalk.api.response.OapiBlackboardListidsResponse;
  * TOP DingTalk-API: dingtalk.oapi.blackboard.listids request
  * 
  * @author top auto create
- * @since 1.0, 2019.11.04
+ * @since 1.0, 2020.07.29
  */
 public class OapiBlackboardListidsRequest extends BaseTaobaoRequest<OapiBlackboardListidsResponse> {
 	
@@ -97,7 +97,7 @@ public class OapiBlackboardListidsRequest extends BaseTaobaoRequest<OapiBlackboa
 	 * @since 1.0, null
 	 */
 	public static class OapiBlackboardQueryVo extends TaobaoObject {
-		private static final long serialVersionUID = 5768319652714691824L;
+		private static final long serialVersionUID = 2314522313831181427L;
 		/**
 		 * 分类id，可以通过https:oapi.dingtalk.comblackboardcategoryget获取有效值
 		 */

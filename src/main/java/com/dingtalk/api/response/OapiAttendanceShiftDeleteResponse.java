@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceShiftDeleteResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3286134625719294341L;
+	private static final long serialVersionUID = 4457492722632914987L;
 
 	/** 
 	 * 错误码

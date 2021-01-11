@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceIsopensmartreportResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5482695496623276192L;
+	private static final long serialVersionUID = 5481513565919833954L;
 
 	/** 
 	 * dingOpenErrcode
@@ -66,7 +66,7 @@ public class OapiAttendanceIsopensmartreportResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class IsOpenSmartReportForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 3622598982753427472L;
+		private static final long serialVersionUID = 1555892855176655973L;
 		/**
 		 * 判断企业是否开启了考勤智能报表，true表示开启
 		 */

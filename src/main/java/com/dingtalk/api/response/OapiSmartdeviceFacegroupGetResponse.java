@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartdeviceFacegroupGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1896256517429999555L;
+	private static final long serialVersionUID = 5655879128468851179L;
 
 	/** 
 	 * 错误代号
@@ -79,7 +79,7 @@ public class OapiSmartdeviceFacegroupGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FaceGroupDto extends TaobaoObject {
-		private static final long serialVersionUID = 3735554649817365436L;
+		private static final long serialVersionUID = 6547359216693332274L;
 		/**
 		 * M2上的定制UI
 		 */

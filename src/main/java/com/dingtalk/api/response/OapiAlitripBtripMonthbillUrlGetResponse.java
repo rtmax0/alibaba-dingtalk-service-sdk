@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripMonthbillUrlGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3541534884438174964L;
+	private static final long serialVersionUID = 3121994477373277939L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiAlitripBtripMonthbillUrlGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenAccountRs extends TaobaoObject {
-		private static final long serialVersionUID = 8582891649289125614L;
+		private static final long serialVersionUID = 6623435924974253717L;
 		/**
 		 * 账期结束时间
 		 */

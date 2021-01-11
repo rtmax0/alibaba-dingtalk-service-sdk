@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartworkHrmSmsSendforpayslipResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6853671354399517692L;
+	private static final long serialVersionUID = 2125978892155531951L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiSmartworkHrmSmsSendforpayslipResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class SendSmsMessageResult extends TaobaoObject {
-		private static final long serialVersionUID = 6825468447354245821L;
+		private static final long serialVersionUID = 2271823588132258469L;
 		/**
 		 * 失败的userids
 		 */

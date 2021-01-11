@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEduSubDataGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8518131348988543634L;
+	private static final long serialVersionUID = 5296393546394787653L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiEduSubDataGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenEduSchoolStatisticalDataResponse extends TaobaoObject {
-		private static final long serialVersionUID = 8742525281847685483L;
+		private static final long serialVersionUID = 2768374281473872842L;
 		/**
 		 * 最近1天活跃的班级圈数
 		 */

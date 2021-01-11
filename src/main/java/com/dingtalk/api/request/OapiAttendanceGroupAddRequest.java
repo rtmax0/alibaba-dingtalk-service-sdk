@@ -21,7 +21,7 @@ import com.dingtalk.api.response.OapiAttendanceGroupAddResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.group.add request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.29
+ * @since 1.0, 2020.12.31
  */
 public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttendanceGroupAddResponse> {
 	
@@ -114,7 +114,7 @@ public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttenda
 	 * @since 1.0, null
 	 */
 	public static class TopPositionVo extends TaobaoObject {
-		private static final long serialVersionUID = 4278682733259666687L;
+		private static final long serialVersionUID = 7784547659723818288L;
 		/**
 		 * 精度
 		 */
@@ -191,7 +191,7 @@ public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttenda
 	 * @since 1.0, null
 	 */
 	public static class TopShiftVo extends TaobaoObject {
-		private static final long serialVersionUID = 8452326745526699627L;
+		private static final long serialVersionUID = 3341221841779487124L;
 		/**
 		 * 班次id
 		 */
@@ -213,7 +213,7 @@ public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttenda
 	 * @since 1.0, null
 	 */
 	public static class TopMemberVo extends TaobaoObject {
-		private static final long serialVersionUID = 3885499485716219537L;
+		private static final long serialVersionUID = 2842958616269261888L;
 		/**
 		 * corpId
 		 */
@@ -262,13 +262,156 @@ public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttenda
 	}
 	
 	/**
+	 * 子管理员权限范围（w表示可管理，r表示可读）
+	 *
+	 * @author top auto create
+	 * @since 1.0, null
+	 */
+	public static class TopGroupManageRolePermissionVo extends TaobaoObject {
+		private static final long serialVersionUID = 7574571125994296612L;
+		/**
+		 * 设置拍照打卡规则
+		 */
+		@ApiField("camera_check")
+		private String cameraCheck;
+		/**
+		 * 设置打卡方式
+		 */
+		@ApiField("check_position_type")
+		private String checkPositionType;
+		/**
+		 * 设置考勤时间
+		 */
+		@ApiField("check_time")
+		private String checkTime;
+		/**
+		 * 设置参与考勤人员
+		 */
+		@ApiField("group_member")
+		private String groupMember;
+		/**
+		 * 设置考勤类型
+		 */
+		@ApiField("group_type")
+		private String groupType;
+		/**
+		 * 设置外勤打卡
+		 */
+		@ApiField("out_side_check")
+		private String outSideCheck;
+		/**
+		 * 设置加班规则
+		 */
+		@ApiField("over_time_rule")
+		private String overTimeRule;
+		/**
+		 * 员工排班
+		 */
+		@ApiField("schedule")
+		private String schedule;
+	
+		public String getCameraCheck() {
+			return this.cameraCheck;
+		}
+		public void setCameraCheck(String cameraCheck) {
+			this.cameraCheck = cameraCheck;
+		}
+		public String getCheckPositionType() {
+			return this.checkPositionType;
+		}
+		public void setCheckPositionType(String checkPositionType) {
+			this.checkPositionType = checkPositionType;
+		}
+		public String getCheckTime() {
+			return this.checkTime;
+		}
+		public void setCheckTime(String checkTime) {
+			this.checkTime = checkTime;
+		}
+		public String getGroupMember() {
+			return this.groupMember;
+		}
+		public void setGroupMember(String groupMember) {
+			this.groupMember = groupMember;
+		}
+		public String getGroupType() {
+			return this.groupType;
+		}
+		public void setGroupType(String groupType) {
+			this.groupType = groupType;
+		}
+		public String getOutSideCheck() {
+			return this.outSideCheck;
+		}
+		public void setOutSideCheck(String outSideCheck) {
+			this.outSideCheck = outSideCheck;
+		}
+		public String getOverTimeRule() {
+			return this.overTimeRule;
+		}
+		public void setOverTimeRule(String overTimeRule) {
+			this.overTimeRule = overTimeRule;
+		}
+		public String getSchedule() {
+			return this.schedule;
+		}
+		public void setSchedule(String schedule) {
+			this.schedule = schedule;
+		}
+	}
+	
+	/**
+	 * 考勤wifi打卡
+	 *
+	 * @author top auto create
+	 * @since 1.0, null
+	 */
+	public static class TopWifiVo extends TaobaoObject {
+		private static final long serialVersionUID = 3654433696885546954L;
+		/**
+		 * 企业corpid
+		 */
+		@ApiField("corp_id")
+		private String corpId;
+		/**
+		 * mac地址
+		 */
+		@ApiField("mac_addr")
+		private String macAddr;
+		/**
+		 * wifi的ssid
+		 */
+		@ApiField("ssid")
+		private String ssid;
+	
+		public String getCorpId() {
+			return this.corpId;
+		}
+		public void setCorpId(String corpId) {
+			this.corpId = corpId;
+		}
+		public String getMacAddr() {
+			return this.macAddr;
+		}
+		public void setMacAddr(String macAddr) {
+			this.macAddr = macAddr;
+		}
+		public String getSsid() {
+			return this.ssid;
+		}
+		public void setSsid(String ssid) {
+			this.ssid = ssid;
+		}
+	}
+	
+	/**
 	 * 考勤组信息
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class TopGroupVo extends TaobaoObject {
-		private static final long serialVersionUID = 3161478559829351761L;
+		private static final long serialVersionUID = 1161984133889295246L;
 		/**
 		 * 打卡是否需要健康码
 		 */
@@ -279,6 +422,16 @@ public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttenda
 		 */
 		@ApiField("corp_id")
 		private String corpId;
+		/**
+		 * 默认班次id（固定班制必填）
+		 */
+		@ApiField("default_class_id")
+		private Long defaultClassId;
+		/**
+		 * 未排班时是否禁止员工打卡
+		 */
+		@ApiField("disable_check_without_schedule")
+		private Boolean disableCheckWithoutSchedule;
 		/**
 		 * 是否开启拍照打卡
 		 */
@@ -310,10 +463,27 @@ public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttenda
 		@ApiField("enable_outside_check")
 		private Boolean enableOutsideCheck;
 		/**
+		 * 自由工时考勤组考勤开始时间与当天0点偏移分钟数（如：240表示4:00）
+		 */
+		@ApiField("freecheck_day_start_min_offset")
+		private Long freecheckDayStartMinOffset;
+		/**
+		 * 自由工时考勤组工作日（1表示周一，0表示周日）
+		 */
+		@ApiListField("freecheck_work_days")
+		@ApiField("number")
+		private List<Long> freecheckWorkDays;
+		/**
 		 * 考勤组id
 		 */
 		@ApiField("id")
 		private Long id;
+		/**
+		 * 考勤组子管理员userid列表
+		 */
+		@ApiListField("manager_list")
+		@ApiField("string")
+		private List<String> managerList;
 		/**
 		 * 考勤组成员
 		 */
@@ -331,6 +501,11 @@ public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttenda
 		@ApiField("name")
 		private String name;
 		/**
+		 * 考勤范围
+		 */
+		@ApiField("offset")
+		private Long offset;
+		/**
 		 * 考勤组owner
 		 */
 		@ApiField("owner")
@@ -341,6 +516,11 @@ public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttenda
 		@ApiListField("positions")
 		@ApiField("top_position_vo")
 		private List<TopPositionVo> positions;
+		/**
+		 * 子管理员权限范围（w表示可管理，r表示可读）
+		 */
+		@ApiField("resource_permission_map")
+		private TopGroupManageRolePermissionVo resourcePermissionMap;
 		/**
 		 * 班次信息
 		 */
@@ -362,6 +542,18 @@ public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttenda
 		 */
 		@ApiField("type")
 		private String type;
+		/**
+		 * 考勤wifi打卡
+		 */
+		@ApiListField("wifis")
+		@ApiField("top_wifi_vo")
+		private List<TopWifiVo> wifis;
+		/**
+		 * 周班次列表（固定班制必填，0表示休息）
+		 */
+		@ApiListField("workday_class_list")
+		@ApiField("number")
+		private List<Long> workdayClassList;
 	
 		public Boolean getCheckNeedHealthyCode() {
 			return this.checkNeedHealthyCode;
@@ -374,6 +566,18 @@ public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttenda
 		}
 		public void setCorpId(String corpId) {
 			this.corpId = corpId;
+		}
+		public Long getDefaultClassId() {
+			return this.defaultClassId;
+		}
+		public void setDefaultClassId(Long defaultClassId) {
+			this.defaultClassId = defaultClassId;
+		}
+		public Boolean getDisableCheckWithoutSchedule() {
+			return this.disableCheckWithoutSchedule;
+		}
+		public void setDisableCheckWithoutSchedule(Boolean disableCheckWithoutSchedule) {
+			this.disableCheckWithoutSchedule = disableCheckWithoutSchedule;
 		}
 		public Boolean getEnableCameraCheck() {
 			return this.enableCameraCheck;
@@ -411,11 +615,29 @@ public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttenda
 		public void setEnableOutsideCheck(Boolean enableOutsideCheck) {
 			this.enableOutsideCheck = enableOutsideCheck;
 		}
+		public Long getFreecheckDayStartMinOffset() {
+			return this.freecheckDayStartMinOffset;
+		}
+		public void setFreecheckDayStartMinOffset(Long freecheckDayStartMinOffset) {
+			this.freecheckDayStartMinOffset = freecheckDayStartMinOffset;
+		}
+		public List<Long> getFreecheckWorkDays() {
+			return this.freecheckWorkDays;
+		}
+		public void setFreecheckWorkDays(List<Long> freecheckWorkDays) {
+			this.freecheckWorkDays = freecheckWorkDays;
+		}
 		public Long getId() {
 			return this.id;
 		}
 		public void setId(Long id) {
 			this.id = id;
+		}
+		public List<String> getManagerList() {
+			return this.managerList;
+		}
+		public void setManagerList(List<String> managerList) {
+			this.managerList = managerList;
 		}
 		public List<TopMemberVo> getMembers() {
 			return this.members;
@@ -435,6 +657,12 @@ public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttenda
 		public void setName(String name) {
 			this.name = name;
 		}
+		public Long getOffset() {
+			return this.offset;
+		}
+		public void setOffset(Long offset) {
+			this.offset = offset;
+		}
 		public String getOwner() {
 			return this.owner;
 		}
@@ -446,6 +674,12 @@ public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttenda
 		}
 		public void setPositions(List<TopPositionVo> positions) {
 			this.positions = positions;
+		}
+		public TopGroupManageRolePermissionVo getResourcePermissionMap() {
+			return this.resourcePermissionMap;
+		}
+		public void setResourcePermissionMap(TopGroupManageRolePermissionVo resourcePermissionMap) {
+			this.resourcePermissionMap = resourcePermissionMap;
 		}
 		public List<TopShiftVo> getShiftVoList() {
 			return this.shiftVoList;
@@ -470,6 +704,18 @@ public class OapiAttendanceGroupAddRequest extends BaseTaobaoRequest<OapiAttenda
 		}
 		public void setType(String type) {
 			this.type = type;
+		}
+		public List<TopWifiVo> getWifis() {
+			return this.wifis;
+		}
+		public void setWifis(List<TopWifiVo> wifis) {
+			this.wifis = wifis;
+		}
+		public List<Long> getWorkdayClassList() {
+			return this.workdayClassList;
+		}
+		public void setWorkdayClassList(List<Long> workdayClassList) {
+			this.workdayClassList = workdayClassList;
 		}
 	}
 	

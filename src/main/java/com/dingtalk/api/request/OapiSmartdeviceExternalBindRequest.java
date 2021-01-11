@@ -96,7 +96,7 @@ public class OapiSmartdeviceExternalBindRequest extends BaseTaobaoRequest<OapiSm
 	 * @since 1.0, null
 	 */
 	public static class DeviceBindReqVo extends TaobaoObject {
-		private static final long serialVersionUID = 4574323825584832623L;
+		private static final long serialVersionUID = 2857185776393413285L;
 		/**
 		 * 设备名称
 		 */

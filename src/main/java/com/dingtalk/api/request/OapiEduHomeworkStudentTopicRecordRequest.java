@@ -99,7 +99,7 @@ public class OapiEduHomeworkStudentTopicRecordRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class StudentAnswerDetail extends TaobaoObject {
-		private static final long serialVersionUID = 5737435744635894294L;
+		private static final long serialVersionUID = 7581269162445656298L;
 		/**
 		 * 扩展属性
 		 */

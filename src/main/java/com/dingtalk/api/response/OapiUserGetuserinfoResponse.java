@@ -12,13 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiUserGetuserinfoResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2487956656415843993L;
-
-	/** 
-	 * associatedUnionId
-	 */
-	@ApiField("associatedUnionId")
-	private String associatedUnionId;
+	private static final long serialVersionUID = 7734376693964517118L;
 
 	/** 
 	 * deviceId
@@ -56,13 +50,6 @@ public class OapiUserGetuserinfoResponse extends TaobaoResponse {
 	@ApiField("userid")
 	private String userid;
 
-
-	public void setAssociatedUnionId(String associatedUnionId) {
-		this.associatedUnionId = associatedUnionId;
-	}
-	public String getAssociatedUnionId( ) {
-		return this.associatedUnionId;
-	}
 
 	public void setDeviceId(String deviceId) {
 		this.deviceId = deviceId;

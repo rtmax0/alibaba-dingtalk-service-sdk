@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCrmObjectmetaCustomerDescribeResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5552382984396332538L;
+	private static final long serialVersionUID = 4835729615291352693L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiCrmObjectmetaCustomerDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class SelectOptions extends TaobaoObject {
-		private static final long serialVersionUID = 6575819894493898869L;
+		private static final long serialVersionUID = 8861118385548563143L;
 		/**
 		 * 选项key
 		 */
@@ -101,7 +101,7 @@ public class OapiCrmObjectmetaCustomerDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ReferenceFields extends TaobaoObject {
-		private static final long serialVersionUID = 6226618574851895629L;
+		private static final long serialVersionUID = 8119565173929925976L;
 		/**
 		 * 引用的关联对象字段格式
 		 */
@@ -190,7 +190,7 @@ public class OapiCrmObjectmetaCustomerDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class RollUpSummaryFields extends TaobaoObject {
-		private static final long serialVersionUID = 3482653797855142647L;
+		private static final long serialVersionUID = 7429315613422864388L;
 		/**
 		 * 汇总方法
 		 */
@@ -223,7 +223,7 @@ public class OapiCrmObjectmetaCustomerDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Fields extends TaobaoObject {
-		private static final long serialVersionUID = 3846338597628315881L;
+		private static final long serialVersionUID = 5884186685363842779L;
 		/**
 		 * 是否自定义字段
 		 */
@@ -369,7 +369,7 @@ public class OapiCrmObjectmetaCustomerDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DObject extends TaobaoObject {
-		private static final long serialVersionUID = 6583443445635352796L;
+		private static final long serialVersionUID = 2767819831488448491L;
 		/**
 		 * 是否自定义对象
 		 */

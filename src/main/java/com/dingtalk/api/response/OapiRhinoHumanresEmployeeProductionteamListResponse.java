@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoHumanresEmployeeProductionteamListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1844517422388954839L;
+	private static final long serialVersionUID = 4644975828363488853L;
 
 	/** 
 	 * 员工信息
@@ -109,7 +109,7 @@ public class OapiRhinoHumanresEmployeeProductionteamListResponse extends TaobaoR
 	 * @since 1.0, null
 	 */
 	public static class ProductionTeamList extends TaobaoObject {
-		private static final long serialVersionUID = 8581155582478711689L;
+		private static final long serialVersionUID = 4389485884817366819L;
 		/**
 		 * 生产组业务ID
 		 */
@@ -219,7 +219,7 @@ public class OapiRhinoHumanresEmployeeProductionteamListResponse extends TaobaoR
 	 * @since 1.0, null
 	 */
 	public static class Model extends TaobaoObject {
-		private static final long serialVersionUID = 8892598713248767157L;
+		private static final long serialVersionUID = 7388234739782428641L;
 		/**
 		 * 部门邮箱
 		 */

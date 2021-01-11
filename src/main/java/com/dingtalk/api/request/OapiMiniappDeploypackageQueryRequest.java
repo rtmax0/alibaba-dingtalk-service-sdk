@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiMiniappDeploypackageQueryResponse;
  * TOP DingTalk-API: dingtalk.oapi.miniapp.deploypackage.query request
  * 
  * @author top auto create
- * @since 1.0, 2020.02.22
+ * @since 1.0, 2020.07.28
  */
 public class OapiMiniappDeploypackageQueryRequest extends BaseTaobaoRequest<OapiMiniappDeploypackageQueryResponse> {
 	

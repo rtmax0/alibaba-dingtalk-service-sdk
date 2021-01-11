@@ -98,7 +98,7 @@ public class OapiProcessApproversForecastRequest extends BaseTaobaoRequest<OapiP
 	 * @since 1.0, null
 	 */
 	public static class FormComponentValueVo extends TaobaoObject {
-		private static final long serialVersionUID = 4411729974858877177L;
+		private static final long serialVersionUID = 2274463173513677286L;
 		/**
 		 * 组件名称
 		 */
@@ -131,7 +131,7 @@ public class OapiProcessApproversForecastRequest extends BaseTaobaoRequest<OapiP
 	 * @since 1.0, null
 	 */
 	public static class ProcessForecastRequest extends TaobaoObject {
-		private static final long serialVersionUID = 6838211275582974757L;
+		private static final long serialVersionUID = 2769141293316527213L;
 		/**
 		 * 应用id
 		 */

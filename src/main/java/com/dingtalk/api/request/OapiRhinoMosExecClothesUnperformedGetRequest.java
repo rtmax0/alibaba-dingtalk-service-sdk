@@ -98,7 +98,7 @@ public class OapiRhinoMosExecClothesUnperformedGetRequest extends BaseTaobaoRequ
 	 * @since 1.0, null
 	 */
 	public static class Page extends TaobaoObject {
-		private static final long serialVersionUID = 6844219632339682765L;
+		private static final long serialVersionUID = 3418522547622426886L;
 		/**
 		 * 页大小
 		 */
@@ -131,7 +131,7 @@ public class OapiRhinoMosExecClothesUnperformedGetRequest extends BaseTaobaoRequ
 	 * @since 1.0, null
 	 */
 	public static class GetUnPerformedClothesByOperationReq extends TaobaoObject {
-		private static final long serialVersionUID = 2689873586921694836L;
+		private static final long serialVersionUID = 7329684842636187932L;
 		/**
 		 * 业务类型
 		 */

@@ -1,6 +1,7 @@
 package com.dingtalk.api;
 
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -66,9 +67,16 @@ public class DefaultDingTalkClient extends DefaultTaobaoClient implements DingTa
 				} catch (Exception xe) {
 					throw new ApiException(xe);
 				}
-				localResponse.setErrorCode(e.getErrCode());
-				localResponse.setMsg(e.getErrMsg());
-				return localResponse;
+				try {
+					Class clazz = localResponse.getClass();
+					Method errcodeMethod = clazz.getDeclaredMethod("setErrcode", Long.class);
+					Method errmsgMethod = clazz.getDeclaredMethod("setErrmsg", String.class);
+					errcodeMethod.invoke(localResponse, Long.parseLong(e.getErrCode()));
+					errmsgMethod.invoke(localResponse, e.getErrMsg());
+					return localResponse;
+				}catch (Exception e2){
+					throw new ApiException(e2);
+				}
 			}
 		}
 

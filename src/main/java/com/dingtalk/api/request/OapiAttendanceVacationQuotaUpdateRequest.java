@@ -114,7 +114,7 @@ public class OapiAttendanceVacationQuotaUpdateRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class LeaveQuotas extends TaobaoObject {
-		private static final long serialVersionUID = 8161256112321262649L;
+		private static final long serialVersionUID = 1263199774455591294L;
 		/**
 		 * 额度有效期结束时间(毫秒级时间戳)
 		 */

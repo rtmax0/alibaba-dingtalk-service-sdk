@@ -16,7 +16,7 @@ import com.dingtalk.api.response.OapiXiaoxuanPreTest1Response;
  * TOP DingTalk-API: dingtalk.oapi.xiaoxuan.pre.test1 request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.19
+ * @since 1.0, 2020.11.26
  */
 public class OapiXiaoxuanPreTest1Request extends BaseTaobaoRequest<OapiXiaoxuanPreTest1Response> {
 	

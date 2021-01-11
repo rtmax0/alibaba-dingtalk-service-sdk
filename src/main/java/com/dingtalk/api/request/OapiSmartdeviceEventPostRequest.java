@@ -96,7 +96,7 @@ public class OapiSmartdeviceEventPostRequest extends BaseTaobaoRequest<OapiSmart
 	 * @since 1.0, null
 	 */
 	public static class DeviceEventVo extends TaobaoObject {
-		private static final long serialVersionUID = 2318224996865835369L;
+		private static final long serialVersionUID = 2697964353921742265L;
 		/**
 		 * json格式的数据体
 		 */

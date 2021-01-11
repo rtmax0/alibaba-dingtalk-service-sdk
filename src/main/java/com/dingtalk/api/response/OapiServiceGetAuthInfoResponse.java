@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiServiceGetAuthInfoResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3298779743156518252L;
+	private static final long serialVersionUID = 1392854372276321565L;
 
 	/** 
 	 * auth_corp_info
@@ -107,7 +107,7 @@ public class OapiServiceGetAuthInfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Agent extends TaobaoObject {
-		private static final long serialVersionUID = 5857894883781772818L;
+		private static final long serialVersionUID = 3424368637173511627L;
 		/**
 		 * admin_list
 		 */
@@ -174,7 +174,7 @@ public class OapiServiceGetAuthInfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AuthInfo extends TaobaoObject {
-		private static final long serialVersionUID = 6692747593717891697L;
+		private static final long serialVersionUID = 3368684226986539394L;
 		/**
 		 * agent
 		 */
@@ -197,7 +197,7 @@ public class OapiServiceGetAuthInfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AuthUserInfo extends TaobaoObject {
-		private static final long serialVersionUID = 5712663225459325553L;
+		private static final long serialVersionUID = 7194134189261348177L;
 		/**
 		 * userId
 		 */
@@ -219,7 +219,7 @@ public class OapiServiceGetAuthInfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AuthCorpInfo extends TaobaoObject {
-		private static final long serialVersionUID = 5634421795147419242L;
+		private static final long serialVersionUID = 6637491625595769145L;
 		/**
 		 * auth_channel
 		 */
@@ -373,7 +373,7 @@ public class OapiServiceGetAuthInfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Channelagent extends TaobaoObject {
-		private static final long serialVersionUID = 7564586664216578974L;
+		private static final long serialVersionUID = 6226622373334446559L;
 		/**
 		 * agent_name
 		 */
@@ -428,7 +428,7 @@ public class OapiServiceGetAuthInfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ChannelAuthInfo extends TaobaoObject {
-		private static final long serialVersionUID = 5834398995753617827L;
+		private static final long serialVersionUID = 3616953525175248993L;
 		/**
 		 * channelAgent
 		 */

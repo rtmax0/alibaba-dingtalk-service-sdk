@@ -187,7 +187,7 @@ public class OapiRhinoMosExecPerformConditionalStartRequest extends BaseTaobaoRe
 	 * @since 1.0, null
 	 */
 	public static class Source extends TaobaoObject {
-		private static final long serialVersionUID = 7886243538297755532L;
+		private static final long serialVersionUID = 5828121615552832337L;
 		/**
 		 * 实体来源ID
 		 */
@@ -220,7 +220,7 @@ public class OapiRhinoMosExecPerformConditionalStartRequest extends BaseTaobaoRe
 	 * @since 1.0, null
 	 */
 	public static class EntityCondition extends TaobaoObject {
-		private static final long serialVersionUID = 3424575278328423157L;
+		private static final long serialVersionUID = 3119673788961745814L;
 		/**
 		 * 实体ID列表
 		 */

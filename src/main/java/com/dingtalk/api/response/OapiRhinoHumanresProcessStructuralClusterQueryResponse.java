@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoHumanresProcessStructuralClusterQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4816944536211424547L;
+	private static final long serialVersionUID = 8668175234898593476L;
 
 	/** 
 	 * 1
@@ -108,7 +108,7 @@ public class OapiRhinoHumanresProcessStructuralClusterQueryResponse extends Taob
 	 * @since 1.0, null
 	 */
 	public static class ProcessStructuralClusterDto extends TaobaoObject {
-		private static final long serialVersionUID = 2531698245396693827L;
+		private static final long serialVersionUID = 5448849729111578145L;
 		/**
 		 * 辅料
 		 */
@@ -185,7 +185,7 @@ public class OapiRhinoHumanresProcessStructuralClusterQueryResponse extends Taob
 	 * @since 1.0, null
 	 */
 	public static class Model extends TaobaoObject {
-		private static final long serialVersionUID = 2898662591236134814L;
+		private static final long serialVersionUID = 2823444223363873491L;
 		/**
 		 * 工序id
 		 */

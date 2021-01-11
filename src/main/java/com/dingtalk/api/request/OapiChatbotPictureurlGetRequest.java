@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiChatbotPictureurlGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.chatbot.pictureurl.get request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.21
+ * @since 1.0, 2020.09.25
  */
 public class OapiChatbotPictureurlGetRequest extends BaseTaobaoRequest<OapiChatbotPictureurlGetResponse> {
 	

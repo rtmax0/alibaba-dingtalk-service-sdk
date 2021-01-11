@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripCostCenterEntityDeleteResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3241116463963282427L;
+	private static final long serialVersionUID = 4757845121252585661L;
 
 	/** 
 	 * 错误码
@@ -79,7 +79,7 @@ public class OapiAlitripBtripCostCenterEntityDeleteResponse extends TaobaoRespon
 	 * @since 1.0, null
 	 */
 	public static class OpenCostCenterDeleteEntityRs extends TaobaoObject {
-		private static final long serialVersionUID = 4836438692449364441L;
+		private static final long serialVersionUID = 2531868433982273319L;
 		/**
 		 * 删除的人员信息条数
 		 */

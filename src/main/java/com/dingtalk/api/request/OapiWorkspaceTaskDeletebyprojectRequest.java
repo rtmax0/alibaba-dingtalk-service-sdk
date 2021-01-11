@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiWorkspaceTaskDeletebyprojectResponse;
  * TOP DingTalk-API: dingtalk.oapi.workspace.task.deletebyproject request
  * 
  * @author top auto create
- * @since 1.0, 2020.02.28
+ * @since 1.0, 2020.08.28
  */
 public class OapiWorkspaceTaskDeletebyprojectRequest extends BaseTaobaoRequest<OapiWorkspaceTaskDeletebyprojectResponse> {
 	

@@ -113,7 +113,7 @@ public class OapiHrmEmployeeDelandhandoverRequest extends BaseTaobaoRequest<Oapi
 	 * @since 1.0, null
 	 */
 	public static class EmpDismissionInfoWithHandOverVo extends TaobaoObject {
-		private static final long serialVersionUID = 2223962525854365177L;
+		private static final long serialVersionUID = 2142121695694168369L;
 		/**
 		 * 离职描述
 		 */

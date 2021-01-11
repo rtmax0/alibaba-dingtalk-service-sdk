@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiUserCorpinfoListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8236927413188997598L;
+	private static final long serialVersionUID = 4379398552424365164L;
 
 	/** 
 	 * 企业列表
@@ -69,7 +69,7 @@ public class OapiUserCorpinfoListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class CorpInfoVo extends TaobaoObject {
-		private static final long serialVersionUID = 3177893872877278153L;
+		private static final long serialVersionUID = 7577139973892254512L;
 		/**
 		 * 是否认证，0表示未认证，1表示认证
 		 */

@@ -98,7 +98,7 @@ public class OapiRhinoMosExecClothesUnperformedFilterRequest extends BaseTaobaoR
 	 * @since 1.0, null
 	 */
 	public static class FilterUnPerformedClothesReq extends TaobaoObject {
-		private static final long serialVersionUID = 8528169863184734484L;
+		private static final long serialVersionUID = 1511575994828987932L;
 		/**
 		 * 实体ID列表
 		 */

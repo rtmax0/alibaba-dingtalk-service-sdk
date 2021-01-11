@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceShiftSearchResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1473661874459983634L;
+	private static final long serialVersionUID = 3187811167864583715L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiAttendanceShiftSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopMinimalismShiftVO extends TaobaoObject {
-		private static final long serialVersionUID = 6334992482572572971L;
+		private static final long serialVersionUID = 4688688165862452983L;
 		/**
 		 * id
 		 */

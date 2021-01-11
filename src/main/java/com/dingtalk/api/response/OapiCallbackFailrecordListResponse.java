@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCallbackFailrecordListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6619766196157888885L;
+	private static final long serialVersionUID = 2818252621275452896L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiCallbackFailrecordListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FailedList extends TaobaoObject {
-		private static final long serialVersionUID = 5742386769196526926L;
+		private static final long serialVersionUID = 5624781171356558773L;
 		/**
 		 * 回调数据。不同事件类型不同，通常为JSON String
 		 */

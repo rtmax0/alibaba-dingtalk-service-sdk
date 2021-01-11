@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpExtcontactListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1292426679971686422L;
+	private static final long serialVersionUID = 8147452273775536282L;
 
 	/** 
 	 * result
@@ -40,7 +40,7 @@ public class CorpExtcontactListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenExtContact extends TaobaoObject {
-		private static final long serialVersionUID = 4565112596183437482L;
+		private static final long serialVersionUID = 8886278775271744934L;
 		/**
 		 * 地址
 		 */
@@ -186,7 +186,7 @@ public class CorpExtcontactListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 5161667215953578166L;
+		private static final long serialVersionUID = 1377445868855831493L;
 		/**
 		 * dingOpenErrcode
 		 */

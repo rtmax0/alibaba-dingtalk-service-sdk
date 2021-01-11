@@ -96,7 +96,7 @@ public class CorpChatbotCreateorgbotRequest extends BaseTaobaoRequest<CorpChatbo
 	 * @since 1.0, null
 	 */
 	public static class CreateChatBotModel extends TaobaoObject {
-		private static final long serialVersionUID = 6673889145472531586L;
+		private static final long serialVersionUID = 6337245247139819593L;
 		/**
 		 * 2-企业对内机器人，3-企业对外机器人
 		 */

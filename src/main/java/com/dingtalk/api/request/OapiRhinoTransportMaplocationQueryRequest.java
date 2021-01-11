@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiRhinoTransportMaplocationQueryResponse;
  * TOP DingTalk-API: dingtalk.oapi.rhino.transport.maplocation.query request
  * 
  * @author top auto create
- * @since 1.0, 2020.02.27
+ * @since 1.0, 2020.11.30
  */
 public class OapiRhinoTransportMaplocationQueryRequest extends BaseTaobaoRequest<OapiRhinoTransportMaplocationQueryResponse> {
 	

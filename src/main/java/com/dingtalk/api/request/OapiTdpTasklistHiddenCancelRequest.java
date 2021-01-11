@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiTdpTasklistHiddenCancelResponse;
  * TOP DingTalk-API: dingtalk.oapi.tdp.tasklist.hidden.cancel request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.07
+ * @since 1.0, 2020.12.23
  */
 public class OapiTdpTasklistHiddenCancelRequest extends BaseTaobaoRequest<OapiTdpTasklistHiddenCancelResponse> {
 	

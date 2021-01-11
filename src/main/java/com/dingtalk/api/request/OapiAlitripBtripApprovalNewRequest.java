@@ -99,7 +99,7 @@ public class OapiAlitripBtripApprovalNewRequest extends BaseTaobaoRequest<OapiAl
 	 * @since 1.0, null
 	 */
 	public static class OpenItineraryInfo extends TaobaoObject {
-		private static final long serialVersionUID = 3823487136724898465L;
+		private static final long serialVersionUID = 8527696358122281857L;
 		/**
 		 * 到达城市
 		 */
@@ -264,7 +264,7 @@ public class OapiAlitripBtripApprovalNewRequest extends BaseTaobaoRequest<OapiAl
 	 * @since 1.0, null
 	 */
 	public static class OpenUserInfo extends TaobaoObject {
-		private static final long serialVersionUID = 1738459867161839127L;
+		private static final long serialVersionUID = 4414952898743759156L;
 		/**
 		 * 出行人名称
 		 */
@@ -297,7 +297,7 @@ public class OapiAlitripBtripApprovalNewRequest extends BaseTaobaoRequest<OapiAl
 	 * @since 1.0, null
 	 */
 	public static class OpenApiNewApplyRq extends TaobaoObject {
-		private static final long serialVersionUID = 8859781726615839962L;
+		private static final long serialVersionUID = 7573468833164446269L;
 		/**
 		 * 企业名称
 		 */

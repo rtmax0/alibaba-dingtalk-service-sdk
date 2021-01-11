@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class IsvCallRemoveuserlistResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4139554995363385484L;
+	private static final long serialVersionUID = 7754371886254913755L;
 
 	/** 
 	 * result
@@ -38,7 +38,7 @@ public class IsvCallRemoveuserlistResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 6523615199299996161L;
+		private static final long serialVersionUID = 1477764775927681335L;
 		/**
 		 * dingOpenErrcode
 		 */

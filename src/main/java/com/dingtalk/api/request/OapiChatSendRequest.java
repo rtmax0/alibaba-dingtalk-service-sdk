@@ -270,7 +270,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class BtnJson extends TaobaoObject {
-		private static final long serialVersionUID = 7572694165965517723L;
+		private static final long serialVersionUID = 5699621314169214977L;
 		/**
 		 * 使用独立跳转ActionCard样式时的按钮的链接url
 		 */
@@ -303,7 +303,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class ActionCard extends TaobaoObject {
-		private static final long serialVersionUID = 7662242997884792886L;
+		private static final long serialVersionUID = 2119183424865961791L;
 		/**
 		 * 可选，微应用agentid。默认在角标处显示企业的名称和图标，如果传入agentid则在角标处显示微应用的名称和图标
 		 */
@@ -403,7 +403,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class Head extends TaobaoObject {
-		private static final long serialVersionUID = 5635297998547184491L;
+		private static final long serialVersionUID = 7765337474117654743L;
 		/**
 		 * 消息头部背景颜色
 		 */
@@ -436,7 +436,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class Rich extends TaobaoObject {
-		private static final long serialVersionUID = 3469375325831118143L;
+		private static final long serialVersionUID = 8255548674567778987L;
 		/**
 		 * 单行富文本信息的单位
 		 */
@@ -469,7 +469,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class Form extends TaobaoObject {
-		private static final long serialVersionUID = 8774639881163142985L;
+		private static final long serialVersionUID = 2257716242185825558L;
 		/**
 		 * 消息体的关键字
 		 */
@@ -502,7 +502,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class Body extends TaobaoObject {
-		private static final long serialVersionUID = 5123961618651788614L;
+		private static final long serialVersionUID = 3112944683699897593L;
 		/**
 		 * 自定义的作者名字
 		 */
@@ -591,7 +591,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class Oa extends TaobaoObject {
-		private static final long serialVersionUID = 1468429171146213636L;
+		private static final long serialVersionUID = 6815344517938639622L;
 		/**
 		 * 消息体
 		 */
@@ -646,7 +646,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class Voice extends TaobaoObject {
-		private static final long serialVersionUID = 1564457237338328234L;
+		private static final long serialVersionUID = 5282852729659672743L;
 		/**
 		 * 语音正整数，小于60，表示音频时长长
 		 */
@@ -679,7 +679,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class File extends TaobaoObject {
-		private static final long serialVersionUID = 2257177922168721282L;
+		private static final long serialVersionUID = 3546981896157411562L;
 		/**
 		 * 文件mediaId
 		 */
@@ -701,7 +701,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class Image extends TaobaoObject {
-		private static final long serialVersionUID = 1889722147181947297L;
+		private static final long serialVersionUID = 5755179535545214765L;
 		/**
 		 * 图片mediaId
 		 */
@@ -723,7 +723,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class Link extends TaobaoObject {
-		private static final long serialVersionUID = 7222365484931435717L;
+		private static final long serialVersionUID = 3384494215914559934L;
 		/**
 		 * 消息点击链接地址
 		 */
@@ -778,7 +778,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class Text extends TaobaoObject {
-		private static final long serialVersionUID = 6759688992631957349L;
+		private static final long serialVersionUID = 6368974196483448772L;
 		/**
 		 * 文本消息内容
 		 */
@@ -800,7 +800,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class Markdown extends TaobaoObject {
-		private static final long serialVersionUID = 6855829587262728193L;
+		private static final long serialVersionUID = 1127884151882949942L;
 		/**
 		 * markdown格式的消息
 		 */
@@ -833,7 +833,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class BtnJsonList extends TaobaoObject {
-		private static final long serialVersionUID = 2173576585515448357L;
+		private static final long serialVersionUID = 1266821261148119397L;
 		/**
 		 * 使用独立跳转ActionCard样式时的按钮的标题，最长20个字符
 		 */
@@ -866,7 +866,7 @@ public class OapiChatSendRequest extends BaseTaobaoRequest<OapiChatSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class Msg extends TaobaoObject {
-		private static final long serialVersionUID = 8235156866263379742L;
+		private static final long serialVersionUID = 6597411188587661843L;
 		/**
 		 * action_card卡片消息
 		 */

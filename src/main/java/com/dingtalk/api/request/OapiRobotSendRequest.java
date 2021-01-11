@@ -204,7 +204,7 @@ public class OapiRobotSendRequest extends BaseTaobaoRequest<OapiRobotSendRespons
 	 * @since 1.0, null
 	 */
 	public static class Text extends TaobaoObject {
-		private static final long serialVersionUID = 2321535988963798236L;
+		private static final long serialVersionUID = 1697884665431981785L;
 		/**
 		 * text类型
 		 */
@@ -226,7 +226,7 @@ public class OapiRobotSendRequest extends BaseTaobaoRequest<OapiRobotSendRespons
 	 * @since 1.0, null
 	 */
 	public static class At extends TaobaoObject {
-		private static final long serialVersionUID = 2337681671698293257L;
+		private static final long serialVersionUID = 2761266928445549871L;
 		/**
 		 * 被@人的手机号
 		 */
@@ -260,7 +260,7 @@ public class OapiRobotSendRequest extends BaseTaobaoRequest<OapiRobotSendRespons
 	 * @since 1.0, null
 	 */
 	public static class Link extends TaobaoObject {
-		private static final long serialVersionUID = 8174227413946785172L;
+		private static final long serialVersionUID = 8466527833324658524L;
 		/**
 		 * 点击消息跳转的URL
 		 */
@@ -315,7 +315,7 @@ public class OapiRobotSendRequest extends BaseTaobaoRequest<OapiRobotSendRespons
 	 * @since 1.0, null
 	 */
 	public static class Markdown extends TaobaoObject {
-		private static final long serialVersionUID = 2745822811418684237L;
+		private static final long serialVersionUID = 6765996118252863771L;
 		/**
 		 * markdown格式的消息
 		 */
@@ -348,7 +348,7 @@ public class OapiRobotSendRequest extends BaseTaobaoRequest<OapiRobotSendRespons
 	 * @since 1.0, null
 	 */
 	public static class Btns extends TaobaoObject {
-		private static final long serialVersionUID = 7266788722698969169L;
+		private static final long serialVersionUID = 5556429512688371846L;
 		/**
 		 * 按钮方案，
 		 */
@@ -381,7 +381,7 @@ public class OapiRobotSendRequest extends BaseTaobaoRequest<OapiRobotSendRespons
 	 * @since 1.0, null
 	 */
 	public static class Actioncard extends TaobaoObject {
-		private static final long serialVersionUID = 7686195773623675237L;
+		private static final long serialVersionUID = 4121487389565199174L;
 		/**
 		 * 0-按钮竖直排列，1-按钮横向排列
 		 */
@@ -470,7 +470,7 @@ public class OapiRobotSendRequest extends BaseTaobaoRequest<OapiRobotSendRespons
 	 * @since 1.0, null
 	 */
 	public static class Links extends TaobaoObject {
-		private static final long serialVersionUID = 5548995959572914666L;
+		private static final long serialVersionUID = 4132337255781482839L;
 		/**
 		 * 点击单条信息到跳转链接
 		 */
@@ -514,7 +514,7 @@ public class OapiRobotSendRequest extends BaseTaobaoRequest<OapiRobotSendRespons
 	 * @since 1.0, null
 	 */
 	public static class Feedcard extends TaobaoObject {
-		private static final long serialVersionUID = 8699748237761367767L;
+		private static final long serialVersionUID = 3417515833794948536L;
 		/**
 		 * links
 		 */

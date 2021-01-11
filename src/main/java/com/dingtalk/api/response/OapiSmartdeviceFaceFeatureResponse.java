@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartdeviceFaceFeatureResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8649415229154875745L;
+	private static final long serialVersionUID = 3852283214975976979L;
 
 	/** 
 	 * dingOpenErrcode
@@ -69,7 +69,7 @@ public class OapiSmartdeviceFaceFeatureResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DidoFeatureVo extends TaobaoObject {
-		private static final long serialVersionUID = 7264887332285969925L;
+		private static final long serialVersionUID = 7643198262189636417L;
 		/**
 		 * 特征值
 		 */

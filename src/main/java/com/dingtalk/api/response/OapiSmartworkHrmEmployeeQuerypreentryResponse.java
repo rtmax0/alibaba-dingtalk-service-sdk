@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartworkHrmEmployeeQuerypreentryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5831563769621683895L;
+	private static final long serialVersionUID = 5546918338728884236L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiSmartworkHrmEmployeeQuerypreentryResponse extends TaobaoRespons
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 8364593842316545869L;
+		private static final long serialVersionUID = 5835952957194976581L;
 		/**
 		 * 数据结果列表
 		 */

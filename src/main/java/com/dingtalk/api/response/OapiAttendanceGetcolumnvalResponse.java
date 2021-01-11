@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGetcolumnvalResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1478582473749527965L;
+	private static final long serialVersionUID = 2132229191393768399L;
 
 	/** 
 	 * dingOpenErrcode
@@ -69,7 +69,7 @@ public class OapiAttendanceGetcolumnvalResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ColumnDayAndVal extends TaobaoObject {
-		private static final long serialVersionUID = 4829843282279232957L;
+		private static final long serialVersionUID = 5212463154942414238L;
 		/**
 		 * 时间
 		 */
@@ -102,7 +102,7 @@ public class OapiAttendanceGetcolumnvalResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ColumnForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 5747426248761837195L;
+		private static final long serialVersionUID = 2668568878587188499L;
 		/**
 		 * 列id
 		 */
@@ -124,7 +124,7 @@ public class OapiAttendanceGetcolumnvalResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ColumnValForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 4371584997865638466L;
+		private static final long serialVersionUID = 4499266511843473438L;
 		/**
 		 * 列值数据
 		 */
@@ -169,7 +169,7 @@ public class OapiAttendanceGetcolumnvalResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ColumnValListForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 5195188516665438333L;
+		private static final long serialVersionUID = 8847192328954257393L;
 		/**
 		 * 列信息与列值数据
 		 */

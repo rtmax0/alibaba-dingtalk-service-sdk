@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCrmAuthGroupPermissionListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7431225891479652589L;
+	private static final long serialVersionUID = 5271695738776597177L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiCrmAuthGroupPermissionListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OperateScope extends TaobaoObject {
-		private static final long serialVersionUID = 6768249397125568786L;
+		private static final long serialVersionUID = 6859119333394491185L;
 		/**
 		 * 是否有权限
 		 */
@@ -112,7 +112,7 @@ public class OapiCrmAuthGroupPermissionListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DeptInfo extends TaobaoObject {
-		private static final long serialVersionUID = 4188662153638739746L;
+		private static final long serialVersionUID = 8323767448668994446L;
 		/**
 		 * 部门id
 		 */
@@ -145,7 +145,7 @@ public class OapiCrmAuthGroupPermissionListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class StaffInfo extends TaobaoObject {
-		private static final long serialVersionUID = 2775762954655282168L;
+		private static final long serialVersionUID = 2818169346784845577L;
 		/**
 		 * 员工名称
 		 */
@@ -178,7 +178,7 @@ public class OapiCrmAuthGroupPermissionListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Ext extends TaobaoObject {
-		private static final long serialVersionUID = 8388313663323874142L;
+		private static final long serialVersionUID = 3889485569467885783L;
 		/**
 		 * 管理部门信息
 		 */
@@ -213,7 +213,7 @@ public class OapiCrmAuthGroupPermissionListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ManageScope extends TaobaoObject {
-		private static final long serialVersionUID = 8276822177725655345L;
+		private static final long serialVersionUID = 7534327923443775851L;
 		/**
 		 * 扩展内容
 		 */
@@ -268,7 +268,7 @@ public class OapiCrmAuthGroupPermissionListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AuthObjects extends TaobaoObject {
-		private static final long serialVersionUID = 1562454264217643263L;
+		private static final long serialVersionUID = 6164646532168639398L;
 		/**
 		 * 表单名称
 		 */
@@ -325,7 +325,7 @@ public class OapiCrmAuthGroupPermissionListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 3374812318783393261L;
+		private static final long serialVersionUID = 1495749629651458359L;
 		/**
 		 * 权限内容
 		 */

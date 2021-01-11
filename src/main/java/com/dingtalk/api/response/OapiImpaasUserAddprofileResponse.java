@@ -13,28 +13,28 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImpaasUserAddprofileResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2776577387548388419L;
+	private static final long serialVersionUID = 3847364713227294778L;
 
 	/** 
-	 * 错误码  -1 系统异常 40035 参数错误
+	 * dingOpenErrcode
 	 */
 	@ApiField("errcode")
 	private Long errcode;
 
 	/** 
-	 * 错误信息
+	 * errorMsg
 	 */
 	@ApiField("errmsg")
 	private String errmsg;
 
 	/** 
-	 * 添加账号出参
+	 * result
 	 */
 	@ApiField("result")
 	private AddProfileResp result;
 
 	/** 
-	 * 接口是否调用成功
+	 * success
 	 */
 	@ApiField("success")
 	private Boolean success;
@@ -73,15 +73,15 @@ public class OapiImpaasUserAddprofileResponse extends TaobaoResponse {
     }
 	
 	/**
-	 * 添加账号出参
+	 * result
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class AddProfileResp extends TaobaoObject {
-		private static final long serialVersionUID = 3275575235358417192L;
+		private static final long serialVersionUID = 8194565815349572223L;
 		/**
-		 * im的唯一id
+		 * imOpenId
 		 */
 		@ApiField("im_openid")
 		private String imOpenid;

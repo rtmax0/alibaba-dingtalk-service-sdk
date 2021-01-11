@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartdeviceAtmachineGetByDeptidResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4794999242242116621L;
+	private static final long serialVersionUID = 4332358356556628185L;
 
 	/** 
 	 * 服务调用结果码
@@ -68,7 +68,7 @@ public class OapiSmartdeviceAtmachineGetByDeptidResponse extends TaobaoResponse 
 	 * @since 1.0, null
 	 */
 	public static class MachineVo extends TaobaoObject {
-		private static final long serialVersionUID = 3192896724223312463L;
+		private static final long serialVersionUID = 1438825888727499471L;
 		/**
 		 * 考勤机名称
 		 */
@@ -123,7 +123,7 @@ public class OapiSmartdeviceAtmachineGetByDeptidResponse extends TaobaoResponse 
 	 * @since 1.0, null
 	 */
 	public static class MachineInfoResultVo extends TaobaoObject {
-		private static final long serialVersionUID = 4393718412737365633L;
+		private static final long serialVersionUID = 7425259289564457639L;
 		/**
 		 * 分页查询中，后页是否还有数据
 		 */

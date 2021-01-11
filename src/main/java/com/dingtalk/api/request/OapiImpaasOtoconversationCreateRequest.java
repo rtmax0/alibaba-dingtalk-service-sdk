@@ -98,7 +98,7 @@ public class OapiImpaasOtoconversationCreateRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class AccountInfo extends TaobaoObject {
-		private static final long serialVersionUID = 3291473838811554835L;
+		private static final long serialVersionUID = 2763269541676364363L;
 		/**
 		 * channel名称
 		 */
@@ -142,7 +142,7 @@ public class OapiImpaasOtoconversationCreateRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class CreateO2OSubConversationRequest extends TaobaoObject {
-		private static final long serialVersionUID = 4241217362577359433L;
+		private static final long serialVersionUID = 3865753514297572872L;
 		/**
 		 * 账号列表，size=2。第一个表示自己，第二个表示对方
 		 */

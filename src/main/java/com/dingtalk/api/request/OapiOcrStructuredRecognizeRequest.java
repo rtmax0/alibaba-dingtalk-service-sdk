@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiOcrStructuredRecognizeResponse;
  * TOP DingTalk-API: dingtalk.oapi.ocr.structured.recognize request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.06
+ * @since 1.0, 2020.02.07
  */
 public class OapiOcrStructuredRecognizeRequest extends BaseTaobaoRequest<OapiOcrStructuredRecognizeResponse> {
 	

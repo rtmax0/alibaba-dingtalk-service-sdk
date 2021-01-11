@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpConversationCorpconversionGetconversationResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7345157181639726771L;
+	private static final long serialVersionUID = 7444751217994548832L;
 
 	/** 
 	 * result
@@ -39,7 +39,7 @@ public class CorpConversationCorpconversionGetconversationResponse extends Taoba
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 7282434912722171684L;
+		private static final long serialVersionUID = 1833192349939591919L;
 		/**
 		 * dingOpenErrcode
 		 */

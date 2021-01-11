@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripInvoiceSearchResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2332586357165454194L;
+	private static final long serialVersionUID = 2173512171197525178L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiAlitripBtripInvoiceSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenInvoiceDo extends TaobaoObject {
-		private static final long serialVersionUID = 5699347586743269456L;
+		private static final long serialVersionUID = 8551456421297546595L;
 		/**
 		 * 商旅发票id
 		 */

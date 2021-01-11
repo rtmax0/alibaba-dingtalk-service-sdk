@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiMicroappRuleGetUserTotalResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3195837873493968223L;
+	private static final long serialVersionUID = 7571735686294614777L;
 
 	/** 
 	 * 返回码
@@ -69,7 +69,7 @@ public class OapiMicroappRuleGetUserTotalResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 3241744598826595711L;
+		private static final long serialVersionUID = 6864279487123219193L;
 		/**
 		 * ruleId
 		 */

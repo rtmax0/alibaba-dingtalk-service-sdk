@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiExtcontactDeleteResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7785987522228799156L;
+	private static final long serialVersionUID = 2283485487238791721L;
 
 	/** 
 	 * errcode

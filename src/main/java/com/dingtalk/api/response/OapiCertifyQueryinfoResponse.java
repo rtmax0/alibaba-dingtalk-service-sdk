@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCertifyQueryinfoResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3574148932689499759L;
+	private static final long serialVersionUID = 6591518345887741631L;
 
 	/** 
 	 * dingOpenErrcode
@@ -66,7 +66,7 @@ public class OapiCertifyQueryinfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class YunQi2018CertifyVO extends TaobaoObject {
-		private static final long serialVersionUID = 1461818546694129166L;
+		private static final long serialVersionUID = 6655477284178956439L;
 		/**
 		 * 实名时的脸图
 		 */

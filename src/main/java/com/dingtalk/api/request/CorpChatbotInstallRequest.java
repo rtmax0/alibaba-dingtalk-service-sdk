@@ -18,7 +18,7 @@ import com.dingtalk.api.response.CorpChatbotInstallResponse;
  * TOP DingTalk-API: dingtalk.corp.chatbot.install request
  * 
  * @author top auto create
- * @since 1.0, 2019.07.03
+ * @since 1.0, 2020.08.17
  */
 public class CorpChatbotInstallRequest extends BaseTaobaoRequest<CorpChatbotInstallResponse> {
 	
@@ -96,7 +96,7 @@ public class CorpChatbotInstallRequest extends BaseTaobaoRequest<CorpChatbotInst
 	 * @since 1.0, null
 	 */
 	public static class ChatbotVo extends TaobaoObject {
-		private static final long serialVersionUID = 8311341314213998312L;
+		private static final long serialVersionUID = 4191396541811729998L;
 		/**
 		 * 0-正常，1-只服务端可管理
 		 */
@@ -137,11 +137,6 @@ public class CorpChatbotInstallRequest extends BaseTaobaoRequest<CorpChatbotInst
 		 */
 		@ApiField("icon_mdify")
 		private Long iconMdify;
-		/**
-		 * 机器人在群里可以添加的最大个数
-		 */
-		@ApiField("instance_cnt")
-		private Long instanceCnt;
 		/**
 		 * 手机端是否能添加机器人：0-移动端不能加，1-移动端能添加
 		 */
@@ -225,12 +220,6 @@ public class CorpChatbotInstallRequest extends BaseTaobaoRequest<CorpChatbotInst
 		}
 		public void setIconMdify(Long iconMdify) {
 			this.iconMdify = iconMdify;
-		}
-		public Long getInstanceCnt() {
-			return this.instanceCnt;
-		}
-		public void setInstanceCnt(Long instanceCnt) {
-			this.instanceCnt = instanceCnt;
 		}
 		public Long getMobileSwitch() {
 			return this.mobileSwitch;

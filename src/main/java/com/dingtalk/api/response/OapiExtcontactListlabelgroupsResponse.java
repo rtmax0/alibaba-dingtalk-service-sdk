@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiExtcontactListlabelgroupsResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4472557743442288465L;
+	private static final long serialVersionUID = 2848689691665346725L;
 
 	/** 
 	 * errcode
@@ -69,7 +69,7 @@ public class OapiExtcontactListlabelgroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenLabel extends TaobaoObject {
-		private static final long serialVersionUID = 7854353275628868978L;
+		private static final long serialVersionUID = 5845576975249823229L;
 		/**
 		 * 标签id
 		 */
@@ -102,7 +102,7 @@ public class OapiExtcontactListlabelgroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenLabelGroup extends TaobaoObject {
-		private static final long serialVersionUID = 8413753694488827471L;
+		private static final long serialVersionUID = 2896192876468797496L;
 		/**
 		 * 标签组颜色
 		 */

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImChatbotGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7183336885125955218L;
+	private static final long serialVersionUID = 1747388364783822665L;
 
 	/** 
 	 * 错误代码
@@ -69,7 +69,7 @@ public class OapiImChatbotGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ChatbotInstanceVO extends TaobaoObject {
-		private static final long serialVersionUID = 4894312264358866325L;
+		private static final long serialVersionUID = 2395158675727426156L;
 		/**
 		 * 机器人userId
 		 */

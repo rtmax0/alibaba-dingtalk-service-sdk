@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiWorkbenchShortcutUpdateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2347588117893437957L;
+	private static final long serialVersionUID = 5213826626255341726L;
 
 	/** 
 	 * 服务结果码
@@ -66,7 +66,7 @@ public class OapiWorkbenchShortcutUpdateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class IsvOrgShortcutDto extends TaobaoObject {
-		private static final long serialVersionUID = 3832992627498779469L;
+		private static final long serialVersionUID = 6364465748813586382L;
 		/**
 		 * 系统交互唯一流水号
 		 */

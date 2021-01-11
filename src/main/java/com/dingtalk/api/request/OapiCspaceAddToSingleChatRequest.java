@@ -16,14 +16,14 @@ import com.dingtalk.api.response.OapiCspaceAddToSingleChatResponse;
  * TOP DingTalk-API: dingtalk.oapi.cspace.add_to_single_chat request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.06
+ * @since 1.0, 2018.07.25
  */
 public class OapiCspaceAddToSingleChatRequest extends BaseTaobaoRequest<OapiCspaceAddToSingleChatResponse> {
 	
 	
 
 	/** 
-	* 文件发送者微应用的agentId
+	* 文件接收人的userid
 	 */
 	private String agentId;
 
@@ -38,7 +38,7 @@ public class OapiCspaceAddToSingleChatRequest extends BaseTaobaoRequest<OapiCspa
 	private String mediaId;
 
 	/** 
-	* 文件接收人的userid
+	* 文件发送者微应用的agentId
 	 */
 	private String userid;
 

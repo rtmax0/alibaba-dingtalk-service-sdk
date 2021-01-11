@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiProcessWorkrecordCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.process.workrecord.create request
  * 
  * @author top auto create
- * @since 1.0, 2019.10.21
+ * @since 1.0, 2020.11.23
  */
 public class OapiProcessWorkrecordCreateRequest extends BaseTaobaoRequest<OapiProcessWorkrecordCreateResponse> {
 	
@@ -98,7 +98,7 @@ public class OapiProcessWorkrecordCreateRequest extends BaseTaobaoRequest<OapiPr
 	 * @since 1.0, null
 	 */
 	public static class FormComponentValueVo extends TaobaoObject {
-		private static final long serialVersionUID = 4862331962494977371L;
+		private static final long serialVersionUID = 2347325278176281418L;
 		/**
 		 * 扩展字段
 		 */
@@ -142,18 +142,33 @@ public class OapiProcessWorkrecordCreateRequest extends BaseTaobaoRequest<OapiPr
 	 * @since 1.0, null
 	 */
 	public static class SaveFakeProcessInstanceRequest extends TaobaoObject {
-		private static final long serialVersionUID = 2433114749931343856L;
+		private static final long serialVersionUID = 2299113614133985731L;
 		/**
 		 * 应用id
 		 */
 		@ApiField("agentid")
 		private Long agentid;
 		/**
+		 * 流程实例业务动作
+		 */
+		@ApiField("biz_action")
+		private String bizAction;
+		/**
+		 * 审批自定义数据
+		 */
+		@ApiField("custom_data")
+		private String customData;
+		/**
 		 * 表单参数列表
 		 */
 		@ApiListField("form_component_values")
 		@ApiField("form_component_value_vo")
 		private List<FormComponentValueVo> formComponentValues;
+		/**
+		 * 流程实例主单instId
+		 */
+		@ApiField("main_instance_id")
+		private String mainInstanceId;
 		/**
 		 * 审批发起人
 		 */
@@ -164,6 +179,11 @@ public class OapiProcessWorkrecordCreateRequest extends BaseTaobaoRequest<OapiPr
 		 */
 		@ApiField("process_code")
 		private String processCode;
+		/**
+		 * 审批单评论
+		 */
+		@ApiField("remark")
+		private String remark;
 		/**
 		 * 实例标题
 		 */
@@ -181,11 +201,29 @@ public class OapiProcessWorkrecordCreateRequest extends BaseTaobaoRequest<OapiPr
 		public void setAgentid(Long agentid) {
 			this.agentid = agentid;
 		}
+		public String getBizAction() {
+			return this.bizAction;
+		}
+		public void setBizAction(String bizAction) {
+			this.bizAction = bizAction;
+		}
+		public String getCustomData() {
+			return this.customData;
+		}
+		public void setCustomData(String customData) {
+			this.customData = customData;
+		}
 		public List<FormComponentValueVo> getFormComponentValues() {
 			return this.formComponentValues;
 		}
 		public void setFormComponentValues(List<FormComponentValueVo> formComponentValues) {
 			this.formComponentValues = formComponentValues;
+		}
+		public String getMainInstanceId() {
+			return this.mainInstanceId;
+		}
+		public void setMainInstanceId(String mainInstanceId) {
+			this.mainInstanceId = mainInstanceId;
 		}
 		public String getOriginatorUserId() {
 			return this.originatorUserId;
@@ -198,6 +236,12 @@ public class OapiProcessWorkrecordCreateRequest extends BaseTaobaoRequest<OapiPr
 		}
 		public void setProcessCode(String processCode) {
 			this.processCode = processCode;
+		}
+		public String getRemark() {
+			return this.remark;
+		}
+		public void setRemark(String remark) {
+			this.remark = remark;
 		}
 		public String getTitle() {
 			return this.title;

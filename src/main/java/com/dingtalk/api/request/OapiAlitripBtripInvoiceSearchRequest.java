@@ -96,7 +96,7 @@ public class OapiAlitripBtripInvoiceSearchRequest extends BaseTaobaoRequest<Oapi
 	 * @since 1.0, null
 	 */
 	public static class OpenInvoiceRq extends TaobaoObject {
-		private static final long serialVersionUID = 8655189743374863643L;
+		private static final long serialVersionUID = 4318343694857238445L;
 		/**
 		 * 企业id
 		 */

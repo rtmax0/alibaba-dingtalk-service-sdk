@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceApproveDurationCalculateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2565514116875216391L;
+	private static final long serialVersionUID = 4554986623691861732L;
 
 	/** 
 	 * 0代表成功，其他代表失败
@@ -68,7 +68,7 @@ public class OapiAttendanceApproveDurationCalculateResponse extends TaobaoRespon
 	 * @since 1.0, null
 	 */
 	public static class TopDayDurationVo extends TaobaoObject {
-		private static final long serialVersionUID = 2524433241892819764L;
+		private static final long serialVersionUID = 5323775314496818134L;
 		/**
 		 * 日期
 		 */
@@ -101,7 +101,7 @@ public class OapiAttendanceApproveDurationCalculateResponse extends TaobaoRespon
 	 * @since 1.0, null
 	 */
 	public static class TopDurationVo extends TaobaoObject {
-		private static final long serialVersionUID = 3846864312293511196L;
+		private static final long serialVersionUID = 6356128131568397882L;
 		/**
 		 * 总时长
 		 */

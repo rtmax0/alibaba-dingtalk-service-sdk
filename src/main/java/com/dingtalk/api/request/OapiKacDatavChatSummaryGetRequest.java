@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiKacDatavChatSummaryGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.kac.datav.chat.summary.get request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.26
+ * @since 1.0, 2020.11.17
  */
 public class OapiKacDatavChatSummaryGetRequest extends BaseTaobaoRequest<OapiKacDatavChatSummaryGetResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiKacDatavChatSummaryGetRequest extends BaseTaobaoRequest<OapiKac
 	 * @since 1.0, null
 	 */
 	public static class ImSummaryRequest extends TaobaoObject {
-		private static final long serialVersionUID = 5743229111348442335L;
+		private static final long serialVersionUID = 5435279661943956944L;
 		/**
 		 * 日期标识
 		 */

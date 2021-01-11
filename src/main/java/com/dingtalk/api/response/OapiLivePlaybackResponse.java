@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiLivePlaybackResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7824976168513915514L;
+	private static final long serialVersionUID = 3321348664976763719L;
 
 	/** 
 	 * 错误码
@@ -69,7 +69,7 @@ public class OapiLivePlaybackResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PlayBackModel extends TaobaoObject {
-		private static final long serialVersionUID = 4492517326793921355L;
+		private static final long serialVersionUID = 7212555526567289746L;
 		/**
 		 * 封面图
 		 */
@@ -234,7 +234,7 @@ public class OapiLivePlaybackResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PlayBackRespModel extends TaobaoObject {
-		private static final long serialVersionUID = 6544841426935419643L;
+		private static final long serialVersionUID = 1662159741762331876L;
 		/**
 		 * 结果总数
 		 */

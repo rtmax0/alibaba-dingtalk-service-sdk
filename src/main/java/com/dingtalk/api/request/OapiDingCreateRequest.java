@@ -174,7 +174,7 @@ public class OapiDingCreateRequest extends BaseTaobaoRequest<OapiDingCreateRespo
 	 * @since 1.0, null
 	 */
 	public static class AttachmentVO extends TaobaoObject {
-		private static final long serialVersionUID = 7463131917272829641L;
+		private static final long serialVersionUID = 2526469783747196235L;
 		/**
 		 * 文件后缀, 用于展示文件对应图标
 		 */

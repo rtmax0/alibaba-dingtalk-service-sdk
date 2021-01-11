@@ -21,7 +21,7 @@ import com.dingtalk.api.response.OapiCollectionFormCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.collection.form.create request
  * 
  * @author top auto create
- * @since 1.0, 2020.07.06
+ * @since 1.0, 2020.08.25
  */
 public class OapiCollectionFormCreateRequest extends BaseTaobaoRequest<OapiCollectionFormCreateResponse> {
 	
@@ -99,7 +99,7 @@ public class OapiCollectionFormCreateRequest extends BaseTaobaoRequest<OapiColle
 	 * @since 1.0, null
 	 */
 	public static class ProcessVisibleValueVo extends TaobaoObject {
-		private static final long serialVersionUID = 5761292279467156618L;
+		private static final long serialVersionUID = 2228152272357992386L;
 		/**
 		 * 类型
 		 */
@@ -132,12 +132,17 @@ public class OapiCollectionFormCreateRequest extends BaseTaobaoRequest<OapiColle
 	 * @since 1.0, null
 	 */
 	public static class FormSchemaSettingVo extends TaobaoObject {
-		private static final long serialVersionUID = 7214152365496281784L;
+		private static final long serialVersionUID = 4874317275271544789L;
 		/**
 		 * 业务类型
 		 */
 		@ApiField("biz_type")
 		private Long bizType;
+		/**
+		 * 收集类型，是表格收集还是表单收集
+		 */
+		@ApiField("collection_type")
+		private Long collectionType;
 		/**
 		 * 填写结束时间循环表单的循环结束时间
 		 */
@@ -167,7 +172,7 @@ public class OapiCollectionFormCreateRequest extends BaseTaobaoRequest<OapiColle
 		/**
 		 * 子来源
 		 */
-		@ApiField("subSource")
+		@ApiField("sub_source")
 		private Long subSource;
 	
 		public Long getBizType() {
@@ -175,6 +180,12 @@ public class OapiCollectionFormCreateRequest extends BaseTaobaoRequest<OapiColle
 		}
 		public void setBizType(Long bizType) {
 			this.bizType = bizType;
+		}
+		public Long getCollectionType() {
+			return this.collectionType;
+		}
+		public void setCollectionType(Long collectionType) {
+			this.collectionType = collectionType;
 		}
 		public Date getEndTime() {
 			return this.endTime;
@@ -221,7 +232,7 @@ public class OapiCollectionFormCreateRequest extends BaseTaobaoRequest<OapiColle
 	 * @since 1.0, null
 	 */
 	public static class BehaviorTarget extends TaobaoObject {
-		private static final long serialVersionUID = 8674539315685824393L;
+		private static final long serialVersionUID = 2892471538788854876L;
 		/**
 		 * 行为
 		 */
@@ -254,7 +265,7 @@ public class OapiCollectionFormCreateRequest extends BaseTaobaoRequest<OapiColle
 	 * @since 1.0, null
 	 */
 	public static class BehaviorLinkageVo extends TaobaoObject {
-		private static final long serialVersionUID = 5578183741156281616L;
+		private static final long serialVersionUID = 2741422193555776714L;
 		/**
 		 * 选项级联目标
 		 */
@@ -288,7 +299,7 @@ public class OapiCollectionFormCreateRequest extends BaseTaobaoRequest<OapiColle
 	 * @since 1.0, null
 	 */
 	public static class ComponentPropOptionVo extends TaobaoObject {
-		private static final long serialVersionUID = 3375355453549331115L;
+		private static final long serialVersionUID = 8818785871651539835L;
 		/**
 		 * 名称
 		 */
@@ -321,7 +332,7 @@ public class OapiCollectionFormCreateRequest extends BaseTaobaoRequest<OapiColle
 	 * @since 1.0, null
 	 */
 	public static class ComponentMatrixDefVo extends TaobaoObject {
-		private static final long serialVersionUID = 6841336459911581385L;
+		private static final long serialVersionUID = 3481967249191861781L;
 		/**
 		 * 别名
 		 */
@@ -365,7 +376,7 @@ public class OapiCollectionFormCreateRequest extends BaseTaobaoRequest<OapiColle
 	 * @since 1.0, null
 	 */
 	public static class ComponentPropVo extends TaobaoObject {
-		private static final long serialVersionUID = 1729825562753668297L;
+		private static final long serialVersionUID = 1138676133736712696L;
 		/**
 		 * 选项级联属性
 		 */
@@ -479,7 +490,7 @@ public class OapiCollectionFormCreateRequest extends BaseTaobaoRequest<OapiColle
 	 * @since 1.0, null
 	 */
 	public static class FormComponentVo extends TaobaoObject {
-		private static final long serialVersionUID = 1331616733137134336L;
+		private static final long serialVersionUID = 1844127772138698148L;
 		/**
 		 * 控件名称
 		 */
@@ -512,7 +523,7 @@ public class OapiCollectionFormCreateRequest extends BaseTaobaoRequest<OapiColle
 	 * @since 1.0, null
 	 */
 	public static class FormContentVo extends TaobaoObject {
-		private static final long serialVersionUID = 6686144459834847842L;
+		private static final long serialVersionUID = 8798975132494424757L;
 		/**
 		 * 控件数组
 		 */
@@ -535,7 +546,7 @@ public class OapiCollectionFormCreateRequest extends BaseTaobaoRequest<OapiColle
 	 * @since 1.0, null
 	 */
 	public static class SwFormVisibleValueVo extends TaobaoObject {
-		private static final long serialVersionUID = 1247949623638391181L;
+		private static final long serialVersionUID = 3699824191431162656L;
 		/**
 		 * cid是否加密
 		 */
@@ -579,7 +590,7 @@ public class OapiCollectionFormCreateRequest extends BaseTaobaoRequest<OapiColle
 	 * @since 1.0, null
 	 */
 	public static class SaveFormSchemaRequest extends TaobaoObject {
-		private static final long serialVersionUID = 1585852547669762171L;
+		private static final long serialVersionUID = 8215218572344281924L;
 		/**
 		 * 控件字符串
 		 */

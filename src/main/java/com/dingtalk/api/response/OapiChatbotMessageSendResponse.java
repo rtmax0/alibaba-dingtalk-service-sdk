@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiChatbotMessageSendResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1852784967713518468L;
+	private static final long serialVersionUID = 7516525886355912457L;
 
 	/** 
 	 * 错误码
@@ -79,7 +79,7 @@ public class OapiChatbotMessageSendResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OtoMessageResponeModel extends TaobaoObject {
-		private static final long serialVersionUID = 8673825622889914443L;
+		private static final long serialVersionUID = 1425869239382445453L;
 		/**
 		 * 加密的消息id
 		 */

@@ -96,7 +96,7 @@ public class CorpDingTaskCreateRequest extends BaseTaobaoRequest<CorpDingTaskCre
 	 * @since 1.0, null
 	 */
 	public static class TaskSendVo extends TaobaoObject {
-		private static final long serialVersionUID = 6289268885314767567L;
+		private static final long serialVersionUID = 2691981782918152674L;
 		/**
 		 * 任务内容
 		 */

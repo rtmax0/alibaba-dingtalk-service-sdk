@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripHotelOrderSearchResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6677797199318165383L;
+	private static final long serialVersionUID = 8827146684725563967L;
 
 	/** 
 	 * 错误码
@@ -83,7 +83,7 @@ public class OapiAlitripBtripHotelOrderSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenCostCenterDo extends TaobaoObject {
-		private static final long serialVersionUID = 6196545855871852865L;
+		private static final long serialVersionUID = 1756782839315432145L;
 		/**
 		 * 企业id
 		 */
@@ -138,7 +138,7 @@ public class OapiAlitripBtripHotelOrderSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenInvoiceDo extends TaobaoObject {
-		private static final long serialVersionUID = 8178113126929971389L;
+		private static final long serialVersionUID = 6498385975388833634L;
 		/**
 		 * 商旅发票id
 		 */
@@ -171,7 +171,7 @@ public class OapiAlitripBtripHotelOrderSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenPriceInfo extends TaobaoObject {
-		private static final long serialVersionUID = 3631274718786929869L;
+		private static final long serialVersionUID = 1768975381415138173L;
 		/**
 		 * 交易类型
 		 */
@@ -248,7 +248,7 @@ public class OapiAlitripBtripHotelOrderSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenUserAffiliateDo extends TaobaoObject {
-		private static final long serialVersionUID = 3297973981632271351L;
+		private static final long serialVersionUID = 3813659415561579731L;
 		/**
 		 * 入住人名称
 		 */
@@ -281,12 +281,17 @@ public class OapiAlitripBtripHotelOrderSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenHotelOrderRs extends TaobaoObject {
-		private static final long serialVersionUID = 3572327484233797934L;
+		private static final long serialVersionUID = 7285528953647357277L;
 		/**
 		 * 商旅申请单id
 		 */
 		@ApiField("apply_id")
 		private Long applyId;
+		/**
+		 * 申请单名称
+		 */
+		@ApiField("btrip_title")
+		private String btripTitle;
 		/**
 		 * 入住时间
 		 */
@@ -404,6 +409,11 @@ public class OapiAlitripBtripHotelOrderSearchResponse extends TaobaoResponse {
 		@ApiField("room_type")
 		private String roomType;
 		/**
+		 * 第三方申请单ID
+		 */
+		@ApiField("thirdpart_apply_id")
+		private String thirdpartApplyId;
+		/**
 		 * 第三方行程id
 		 */
 		@ApiField("thirdpart_itinerary_id")
@@ -430,6 +440,12 @@ public class OapiAlitripBtripHotelOrderSearchResponse extends TaobaoResponse {
 		}
 		public void setApplyId(Long applyId) {
 			this.applyId = applyId;
+		}
+		public String getBtripTitle() {
+			return this.btripTitle;
+		}
+		public void setBtripTitle(String btripTitle) {
+			this.btripTitle = btripTitle;
 		}
 		public Date getCheckIn() {
 			return this.checkIn;
@@ -568,6 +584,12 @@ public class OapiAlitripBtripHotelOrderSearchResponse extends TaobaoResponse {
 		}
 		public void setRoomType(String roomType) {
 			this.roomType = roomType;
+		}
+		public String getThirdpartApplyId() {
+			return this.thirdpartApplyId;
+		}
+		public void setThirdpartApplyId(String thirdpartApplyId) {
+			this.thirdpartApplyId = thirdpartApplyId;
 		}
 		public String getThirdpartItineraryId() {
 			return this.thirdpartItineraryId;

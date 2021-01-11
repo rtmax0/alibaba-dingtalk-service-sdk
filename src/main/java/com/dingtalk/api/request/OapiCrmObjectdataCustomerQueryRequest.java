@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiCrmObjectdataCustomerQueryResponse;
  * TOP DingTalk-API: dingtalk.oapi.crm.objectdata.customer.query request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.23
+ * @since 1.0, 2020.09.27
  */
 public class OapiCrmObjectdataCustomerQueryRequest extends BaseTaobaoRequest<OapiCrmObjectdataCustomerQueryResponse> {
 	
@@ -37,6 +37,11 @@ public class OapiCrmObjectdataCustomerQueryRequest extends BaseTaobaoRequest<Oap
 	* 分页大小
 	 */
 	private Long pageSize;
+
+	/** 
+	* 查询条件
+	 */
+	private String queryDsl;
 
 	public void setCurrentOperatorUserid(String currentOperatorUserid) {
 		this.currentOperatorUserid = currentOperatorUserid;
@@ -60,6 +65,14 @@ public class OapiCrmObjectdataCustomerQueryRequest extends BaseTaobaoRequest<Oap
 
 	public Long getPageSize() {
 		return this.pageSize;
+	}
+
+	public void setQueryDsl(String queryDsl) {
+		this.queryDsl = queryDsl;
+	}
+
+	public String getQueryDsl() {
+		return this.queryDsl;
 	}
 
 	public String getApiMethodName() {
@@ -99,6 +112,7 @@ public class OapiCrmObjectdataCustomerQueryRequest extends BaseTaobaoRequest<Oap
 		txtParams.put("current_operator_userid", this.currentOperatorUserid);
 		txtParams.put("cursor", this.cursor);
 		txtParams.put("page_size", this.pageSize);
+		txtParams.put("query_dsl", this.queryDsl);
 		if(this.udfParams != null) {
 			txtParams.putAll(this.udfParams);
 		}

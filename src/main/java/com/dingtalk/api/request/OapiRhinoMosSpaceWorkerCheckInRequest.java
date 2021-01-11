@@ -96,7 +96,7 @@ public class OapiRhinoMosSpaceWorkerCheckInRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class ProdWorkstationWorkerCheckReq extends TaobaoObject {
-		private static final long serialVersionUID = 1852823932843245297L;
+		private static final long serialVersionUID = 3174273324711259356L;
 		/**
 		 * 站位code
 		 */

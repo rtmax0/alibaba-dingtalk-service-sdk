@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiDingpayBillBatchquerycountResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5274948746699179654L;
+	private static final long serialVersionUID = 2764432763854261269L;
 
 	/** 
 	 * 错误代码

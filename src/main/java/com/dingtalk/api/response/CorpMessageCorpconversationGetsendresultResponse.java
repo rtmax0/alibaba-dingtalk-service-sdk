@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpMessageCorpconversationGetsendresultResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6113265917119324232L;
+	private static final long serialVersionUID = 4132629229394652986L;
 
 	/** 
 	 * result
@@ -40,7 +40,7 @@ public class CorpMessageCorpconversationGetsendresultResponse extends TaobaoResp
 	 * @since 1.0, null
 	 */
 	public static class AsyncSendResult extends TaobaoObject {
-		private static final long serialVersionUID = 1475681388652913272L;
+		private static final long serialVersionUID = 2111823549452938984L;
 		/**
 		 * 发送失败的用户id
 		 */
@@ -123,7 +123,7 @@ public class CorpMessageCorpconversationGetsendresultResponse extends TaobaoResp
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 7338252539853749195L;
+		private static final long serialVersionUID = 2784199697478961932L;
 		/**
 		 * dingOpenErrcode
 		 */

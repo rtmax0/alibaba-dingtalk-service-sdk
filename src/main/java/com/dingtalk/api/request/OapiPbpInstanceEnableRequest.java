@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiPbpInstanceEnableResponse;
  * TOP DingTalk-API: dingtalk.oapi.pbp.instance.enable request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.23
+ * @since 1.0, 2020.01.19
  */
 public class OapiPbpInstanceEnableRequest extends BaseTaobaoRequest<OapiPbpInstanceEnableResponse> {
 	

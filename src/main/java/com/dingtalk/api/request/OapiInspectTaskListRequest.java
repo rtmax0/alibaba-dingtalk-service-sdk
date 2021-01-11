@@ -98,7 +98,7 @@ public class OapiInspectTaskListRequest extends BaseTaobaoRequest<OapiInspectTas
 	 * @since 1.0, null
 	 */
 	public static class TopInspectTaskDeptQueryPram extends TaobaoObject {
-		private static final long serialVersionUID = 5751874187658538218L;
+		private static final long serialVersionUID = 5233767526111393535L;
 		/**
 		 * 游标，从返回结果中获取，第一次请求可为空
 		 */

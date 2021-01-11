@@ -96,7 +96,7 @@ public class OapiIsvOpenencryptAuthappcloseRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class TopAuthMicroAppClose extends TaobaoObject {
-		private static final long serialVersionUID = 2298423849477882723L;
+		private static final long serialVersionUID = 8551154343974813589L;
 		/**
 		 * 微应用id
 		 */

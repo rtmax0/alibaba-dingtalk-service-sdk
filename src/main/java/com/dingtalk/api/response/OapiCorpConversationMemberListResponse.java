@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCorpConversationMemberListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1788616767116341329L;
+	private static final long serialVersionUID = 3196538538377511717L;
 
 	/** 
 	 * 服务出参
@@ -40,7 +40,7 @@ public class OapiCorpConversationMemberListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenMemberModel extends TaobaoObject {
-		private static final long serialVersionUID = 5672894773488843697L;
+		private static final long serialVersionUID = 1298789192619959589L;
 		/**
 		 * 员工ID
 		 */
@@ -62,7 +62,7 @@ public class OapiCorpConversationMemberListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenMemberListModel extends TaobaoObject {
-		private static final long serialVersionUID = 5324225326989391961L;
+		private static final long serialVersionUID = 2895547896661897727L;
 		/**
 		 * 成员信息
 		 */
@@ -85,7 +85,7 @@ public class OapiCorpConversationMemberListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 3572227566992321929L;
+		private static final long serialVersionUID = 3275594748718654414L;
 		/**
 		 * 错误码
 		 */

@@ -25,7 +25,7 @@ public class OapiImpaasRelationAddRequest extends BaseTaobaoRequest<OapiImpaasRe
 	
 
 	/** 
-	* 添加关系入参
+	* 关系
 	 */
 	private String request;
 
@@ -90,20 +90,20 @@ public class OapiImpaasRelationAddRequest extends BaseTaobaoRequest<OapiImpaasRe
 	}
 	
 	/**
-	 * 添加关系入参
+	 * 关系
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class AddRelationReq extends TaobaoObject {
-		private static final long serialVersionUID = 1198432851954997937L;
+		private static final long serialVersionUID = 7275362973943241271L;
 		/**
 		 * 时间戳精确到毫秒
 		 */
 		@ApiField("begin_time")
 		private Long beginTime;
 		/**
-		 * 接收者im的唯一id
+		 * 接收者钉钉的openid
 		 */
 		@ApiField("dst_im_openid")
 		private String dstImOpenid;
@@ -118,7 +118,7 @@ public class OapiImpaasRelationAddRequest extends BaseTaobaoRequest<OapiImpaasRe
 		@ApiField("is_double_way")
 		private Boolean isDoubleWay;
 		/**
-		 * 发送者im的唯一id
+		 * 发送者钉钉的openid
 		 */
 		@ApiField("src_im_openid")
 		private String srcImOpenid;

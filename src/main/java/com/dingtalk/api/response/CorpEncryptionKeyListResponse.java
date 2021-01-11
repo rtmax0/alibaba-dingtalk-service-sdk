@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpEncryptionKeyListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2771442192844492275L;
+	private static final long serialVersionUID = 5664952672685847694L;
 
 	/** 
 	 * result
@@ -39,7 +39,7 @@ public class CorpEncryptionKeyListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 4829589947367769841L;
+		private static final long serialVersionUID = 5683973649811476132L;
 		/**
 		 * dingOpenErrcode
 		 */

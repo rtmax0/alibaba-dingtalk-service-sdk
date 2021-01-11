@@ -25,7 +25,7 @@ public class OapiImpaasGroupmemberModifymemberinfoRequest extends BaseTaobaoRequ
 	
 
 	/** 
-	* 请求信息
+	* 请求
 	 */
 	private String request;
 
@@ -96,14 +96,14 @@ public class OapiImpaasGroupmemberModifymemberinfoRequest extends BaseTaobaoRequ
 	 * @since 1.0, null
 	 */
 	public static class GroupMemberInfo extends TaobaoObject {
-		private static final long serialVersionUID = 8277138767193711459L;
+		private static final long serialVersionUID = 1825612387295843914L;
 		/**
-		 * 成员扩展属性，业务可以自定义，目前最大支持256B
+		 * 扩展属性
 		 */
 		@ApiField("ext")
 		private String ext;
 		/**
-		 * 账号ID，类型由type字段决定
+		 * 用户id
 		 */
 		@ApiField("id")
 		private String id;
@@ -113,7 +113,7 @@ public class OapiImpaasGroupmemberModifymemberinfoRequest extends BaseTaobaoRequ
 		@ApiField("nick")
 		private String nick;
 		/**
-		 * 账号ID类型，当type=staff时，id填写staffid，当type=channelUser时，id字段填写channelUserId
+		 * 类型
 		 */
 		@ApiField("type")
 		private String type;
@@ -145,13 +145,13 @@ public class OapiImpaasGroupmemberModifymemberinfoRequest extends BaseTaobaoRequ
 	}
 	
 	/**
-	 * 请求信息
+	 * 请求
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class ModifyGroupMemberInfoRequest extends TaobaoObject {
-		private static final long serialVersionUID = 2789916478345748551L;
+		private static final long serialVersionUID = 8373114944927238455L;
 		/**
 		 * 群ID
 		 */

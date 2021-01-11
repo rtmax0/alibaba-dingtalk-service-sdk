@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiDingCreateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3823625598944527663L;
+	private static final long serialVersionUID = 8271635613557533996L;
 
 	/** 
 	 * 错码码
@@ -68,7 +68,7 @@ public class OapiDingCreateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class CorpDingCreateResult extends TaobaoObject {
-		private static final long serialVersionUID = 3127461862347328292L;
+		private static final long serialVersionUID = 1379735343342429978L;
 		/**
 		 * invalidUser
 		 */

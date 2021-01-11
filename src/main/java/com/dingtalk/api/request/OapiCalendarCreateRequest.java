@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiCalendarCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.calendar.create request
  * 
  * @author top auto create
- * @since 1.0, 2019.03.01
+ * @since 1.0, 2018.07.25
  */
 public class OapiCalendarCreateRequest extends BaseTaobaoRequest<OapiCalendarCreateResponse> {
 	
@@ -98,7 +98,7 @@ public class OapiCalendarCreateRequest extends BaseTaobaoRequest<OapiCalendarCre
 	 * @since 1.0, null
 	 */
 	public static class OpenCalendarReminderVo extends TaobaoObject {
-		private static final long serialVersionUID = 7149317575714856325L;
+		private static final long serialVersionUID = 2525985514526994932L;
 		/**
 		 * 距开始时多久进行提醒(单位:分钟)
 		 */
@@ -131,7 +131,7 @@ public class OapiCalendarCreateRequest extends BaseTaobaoRequest<OapiCalendarCre
 	 * @since 1.0, null
 	 */
 	public static class DatetimeVo extends TaobaoObject {
-		private static final long serialVersionUID = 4222549763655318954L;
+		private static final long serialVersionUID = 6387761536294247383L;
 		/**
 		 * 时区
 		 */
@@ -164,7 +164,7 @@ public class OapiCalendarCreateRequest extends BaseTaobaoRequest<OapiCalendarCre
 	 * @since 1.0, null
 	 */
 	public static class OpenCalendarSourceVo extends TaobaoObject {
-		private static final long serialVersionUID = 3781558249323969767L;
+		private static final long serialVersionUID = 4359126398246362422L;
 		/**
 		 * 日程来源
 		 */
@@ -197,7 +197,7 @@ public class OapiCalendarCreateRequest extends BaseTaobaoRequest<OapiCalendarCre
 	 * @since 1.0, null
 	 */
 	public static class OpenCalendarCreateVo extends TaobaoObject {
-		private static final long serialVersionUID = 8719438279613274787L;
+		private static final long serialVersionUID = 7372111253927779311L;
 		/**
 		 * 业务方自己的主键
 		 */

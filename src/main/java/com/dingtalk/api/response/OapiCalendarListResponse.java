@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCalendarListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7331287239932535354L;
+	private static final long serialVersionUID = 4648523639847289924L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiCalendarListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Attendees extends TaobaoObject {
-		private static final long serialVersionUID = 1363116285576819216L;
+		private static final long serialVersionUID = 3471718193717525833L;
 		/**
 		 * 展示姓名
 		 */
@@ -147,7 +147,7 @@ public class OapiCalendarListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class User extends TaobaoObject {
-		private static final long serialVersionUID = 6592785529996291948L;
+		private static final long serialVersionUID = 8817997989114216266L;
 		/**
 		 * 展示姓名
 		 */
@@ -191,7 +191,7 @@ public class OapiCalendarListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DateTime extends TaobaoObject {
-		private static final long serialVersionUID = 6195591266856831544L;
+		private static final long serialVersionUID = 2786345243554692218L;
 		/**
 		 * 全天事件的时候使用 yyyy-MM-dd（date_time和date不可以同时出现）
 		 */
@@ -235,7 +235,7 @@ public class OapiCalendarListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Items extends TaobaoObject {
-		private static final long serialVersionUID = 1667662341422256416L;
+		private static final long serialVersionUID = 3869959644769436655L;
 		/**
 		 * 参与者,考虑性能问题，该字段不向外透出
 		 */
@@ -402,7 +402,7 @@ public class OapiCalendarListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenCalendarListResponse extends TaobaoObject {
-		private static final long serialVersionUID = 3475946515826747512L;
+		private static final long serialVersionUID = 6839298342799584864L;
 		/**
 		 * 日程的实体
 		 */

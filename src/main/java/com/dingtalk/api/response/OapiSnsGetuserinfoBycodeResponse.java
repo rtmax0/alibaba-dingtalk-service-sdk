@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSnsGetuserinfoBycodeResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7322626145364618293L;
+	private static final long serialVersionUID = 2498788884582384422L;
 
 	/** 
 	 * errcode
@@ -66,12 +66,7 @@ public class OapiSnsGetuserinfoBycodeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class UserInfo extends TaobaoObject {
-		private static final long serialVersionUID = 3893818892699544197L;
-		/**
-		 * 跨组织统一ID
-		 */
-		@ApiField("associatedUnionId")
-		private String associatedUnionId;
+		private static final long serialVersionUID = 8599243777656581339L;
 		/**
 		 * 用户主企业是否达到高级认证级别
 		 */
@@ -93,12 +88,6 @@ public class OapiSnsGetuserinfoBycodeResponse extends TaobaoResponse {
 		@ApiField("unionid")
 		private String unionid;
 	
-		public String getAssociatedUnionId() {
-			return this.associatedUnionId;
-		}
-		public void setAssociatedUnionId(String associatedUnionId) {
-			this.associatedUnionId = associatedUnionId;
-		}
 		public Boolean getMainOrgAuthHighLevel() {
 			return this.mainOrgAuthHighLevel;
 		}

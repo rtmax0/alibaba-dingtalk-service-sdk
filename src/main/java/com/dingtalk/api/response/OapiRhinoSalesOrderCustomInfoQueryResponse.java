@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoSalesOrderCustomInfoQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1856872969988273953L;
+	private static final long serialVersionUID = 5732353197482886687L;
 
 	/** 
 	 * 响应码
@@ -69,7 +69,7 @@ public class OapiRhinoSalesOrderCustomInfoQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenApiSalesOrderCustomInfoDto extends TaobaoObject {
-		private static final long serialVersionUID = 1165971615718722152L;
+		private static final long serialVersionUID = 1794253275563792762L;
 		/**
 		 * 局定需求id
 		 */
@@ -101,6 +101,11 @@ public class OapiRhinoSalesOrderCustomInfoQueryResponse extends TaobaoResponse {
 		@ApiField("product_order_id")
 		private Long productOrderId;
 		/**
+		 * 开始生产时间
+		 */
+		@ApiField("production_time")
+		private Date productionTime;
+		/**
 		 * 数量
 		 */
 		@ApiField("quantity")
@@ -120,6 +125,11 @@ public class OapiRhinoSalesOrderCustomInfoQueryResponse extends TaobaoResponse {
 		 */
 		@ApiField("skip_customized")
 		private Boolean skipCustomized;
+		/**
+		 * 状态，WAIT_PRODUCTION - 待生产，PRODUCING - 生产中， CLOSED - 已关单， CANCELLED - 已取消
+		 */
+		@ApiField("status")
+		private String status;
 	
 		public String getBizIdCustomerOrder() {
 			return this.bizIdCustomerOrder;
@@ -157,6 +167,12 @@ public class OapiRhinoSalesOrderCustomInfoQueryResponse extends TaobaoResponse {
 		public void setProductOrderId(Long productOrderId) {
 			this.productOrderId = productOrderId;
 		}
+		public Date getProductionTime() {
+			return this.productionTime;
+		}
+		public void setProductionTime(Date productionTime) {
+			this.productionTime = productionTime;
+		}
 		public Long getQuantity() {
 			return this.quantity;
 		}
@@ -181,6 +197,12 @@ public class OapiRhinoSalesOrderCustomInfoQueryResponse extends TaobaoResponse {
 		public void setSkipCustomized(Boolean skipCustomized) {
 			this.skipCustomized = skipCustomized;
 		}
+		public String getStatus() {
+			return this.status;
+		}
+		public void setStatus(String status) {
+			this.status = status;
+		}
 	}
 	
 	/**
@@ -190,7 +212,7 @@ public class OapiRhinoSalesOrderCustomInfoQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenApiSalesOrderQueryCustomInfoResult extends TaobaoObject {
-		private static final long serialVersionUID = 7284925127669648523L;
+		private static final long serialVersionUID = 5851995988254887759L;
 		/**
 		 * 2C订单列表
 		 */

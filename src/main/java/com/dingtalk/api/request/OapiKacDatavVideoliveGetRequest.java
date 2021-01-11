@@ -96,7 +96,7 @@ public class OapiKacDatavVideoliveGetRequest extends BaseTaobaoRequest<OapiKacDa
 	 * @since 1.0, null
 	 */
 	public static class VideoLiveSummaryRequest extends TaobaoObject {
-		private static final long serialVersionUID = 3399517238545447874L;
+		private static final long serialVersionUID = 5625742867793594776L;
 		/**
 		 * 日期标识
 		 */

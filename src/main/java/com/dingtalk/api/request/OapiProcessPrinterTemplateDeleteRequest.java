@@ -96,7 +96,7 @@ public class OapiProcessPrinterTemplateDeleteRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class PrintVmClearRequest extends TaobaoObject {
-		private static final long serialVersionUID = 1345959717535747169L;
+		private static final long serialVersionUID = 2546532714391425786L;
 		/**
 		 * 微应用agentId，ISV必填
 		 */

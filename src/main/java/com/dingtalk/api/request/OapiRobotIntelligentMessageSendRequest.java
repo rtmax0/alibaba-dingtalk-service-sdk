@@ -17,11 +17,16 @@ import com.dingtalk.api.response.OapiRobotIntelligentMessageSendResponse;
  * TOP DingTalk-API: dingtalk.oapi.robot.intelligent.message.send request
  * 
  * @author top auto create
- * @since 1.0, 2020.07.03
+ * @since 1.0, 2020.11.09
  */
 public class OapiRobotIntelligentMessageSendRequest extends BaseTaobaoRequest<OapiRobotIntelligentMessageSendResponse> {
 	
 	
+
+	/** 
+	* at人的unionId列表
+	 */
+	private String atUnionIds;
 
 	/** 
 	* 申请到的消息模板唯一标识符
@@ -42,6 +47,14 @@ public class OapiRobotIntelligentMessageSendRequest extends BaseTaobaoRequest<Oa
 	* 消息接收者的unionId列表，如果不传则表示群全员可见
 	 */
 	private String receiverUnionIds;
+
+	public void setAtUnionIds(String atUnionIds) {
+		this.atUnionIds = atUnionIds;
+	}
+
+	public String getAtUnionIds() {
+		return this.atUnionIds;
+	}
 
 	public void setMsgKey(String msgKey) {
 		this.msgKey = msgKey;
@@ -109,6 +122,7 @@ public class OapiRobotIntelligentMessageSendRequest extends BaseTaobaoRequest<Oa
 
 	public Map<String, String> getTextParams() {		
 		TaobaoHashMap txtParams = new TaobaoHashMap();
+		txtParams.put("at_union_ids", this.atUnionIds);
 		txtParams.put("msg_key", this.msgKey);
 		txtParams.put("msg_param", this.msgParam);
 		txtParams.put("open_conversation_id", this.openConversationId);
@@ -124,6 +138,7 @@ public class OapiRobotIntelligentMessageSendRequest extends BaseTaobaoRequest<Oa
 	}
 
 	public void check() throws ApiRuleException {
+		RequestCheckUtils.checkMaxListSize(atUnionIds, 999, "atUnionIds");
 		RequestCheckUtils.checkNotEmpty(msgKey, "msgKey");
 		RequestCheckUtils.checkNotEmpty(msgParam, "msgParam");
 		RequestCheckUtils.checkNotEmpty(openConversationId, "openConversationId");

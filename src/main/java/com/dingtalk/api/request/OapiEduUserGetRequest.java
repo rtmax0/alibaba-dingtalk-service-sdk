@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiEduUserGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.edu.user.get request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.23
+ * @since 1.0, 2020.11.19
  */
 public class OapiEduUserGetRequest extends BaseTaobaoRequest<OapiEduUserGetResponse> {
 	

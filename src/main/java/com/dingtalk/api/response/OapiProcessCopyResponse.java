@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProcessCopyResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2248527175651573422L;
+	private static final long serialVersionUID = 8895791633794154614L;
 
 	/** 
 	 * errcode
@@ -66,7 +66,7 @@ public class OapiProcessCopyResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ProcessVo extends TaobaoObject {
-		private static final long serialVersionUID = 4715179638399644729L;
+		private static final long serialVersionUID = 2678511312185288827L;
 		/**
 		 * bizCategoryId
 		 */

@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiRhinoMosLayoutOperationdefGetflowResponse;
  * TOP DingTalk-API: dingtalk.oapi.rhino.mos.layout.operationdef.getflow request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.10
+ * @since 1.0, 2020.08.26
  */
 public class OapiRhinoMosLayoutOperationdefGetflowRequest extends BaseTaobaoRequest<OapiRhinoMosLayoutOperationdefGetflowResponse> {
 	

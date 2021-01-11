@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartdeviceFacegroupDeviceListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8863474716828528517L;
+	private static final long serialVersionUID = 5788412231559733564L;
 
 	/** 
 	 * 错误代号
@@ -81,7 +81,7 @@ public class OapiSmartdeviceFacegroupDeviceListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DeviceDto extends TaobaoObject {
-		private static final long serialVersionUID = 6189181126661839717L;
+		private static final long serialVersionUID = 7228887672914498377L;
 		/**
 		 * 设备id
 		 */
@@ -158,7 +158,7 @@ public class OapiSmartdeviceFacegroupDeviceListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PagedList extends TaobaoObject {
-		private static final long serialVersionUID = 1331947565847333361L;
+		private static final long serialVersionUID = 1869261334176985262L;
 		/**
 		 * 游标，下一次请求需要传入的下一次请求时需传入的游标值
 		 */

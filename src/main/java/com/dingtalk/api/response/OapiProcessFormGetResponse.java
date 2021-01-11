@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProcessFormGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4525766341676543672L;
+	private static final long serialVersionUID = 8534658262796955129L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiProcessFormGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormComponentStatVo extends TaobaoObject {
-		private static final long serialVersionUID = 8794248384876867216L;
+		private static final long serialVersionUID = 2189845277564462726L;
 		/**
 		 * 组件id
 		 */
@@ -137,7 +137,7 @@ public class OapiProcessFormGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class LinkageTargetVo extends TaobaoObject {
-		private static final long serialVersionUID = 2695939416914932166L;
+		private static final long serialVersionUID = 8131153442911193665L;
 		/**
 		 * 对应目标的行为
 		 */
@@ -170,7 +170,7 @@ public class OapiProcessFormGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class BehaviorLinkageVo extends TaobaoObject {
-		private static final long serialVersionUID = 2582817856271954199L;
+		private static final long serialVersionUID = 7248347287553489397L;
 		/**
 		 * 联动对应的目标
 		 */
@@ -204,7 +204,7 @@ public class OapiProcessFormGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormComponentPropVo extends TaobaoObject {
-		private static final long serialVersionUID = 4384312495378756456L;
+		private static final long serialVersionUID = 1422674684862111769L;
 		/**
 		 * 考勤类型文案
 		 */
@@ -247,6 +247,11 @@ public class OapiProcessFormGetResponse extends TaobaoResponse {
 		@ApiField("duration_label")
 		private String durationLabel;
 		/**
+		 * 时间格式
+		 */
+		@ApiField("format")
+		private String format;
+		/**
 		 * id
 		 */
 		@ApiField("id")
@@ -271,6 +276,12 @@ public class OapiProcessFormGetResponse extends TaobaoResponse {
 		 */
 		@ApiField("not_upper")
 		private String notUpper;
+		/**
+		 * 选项列表
+		 */
+		@ApiListField("options")
+		@ApiField("string")
+		private List<String> options;
 		/**
 		 * 必填
 		 */
@@ -335,6 +346,12 @@ public class OapiProcessFormGetResponse extends TaobaoResponse {
 		public void setDurationLabel(String durationLabel) {
 			this.durationLabel = durationLabel;
 		}
+		public String getFormat() {
+			return this.format;
+		}
+		public void setFormat(String format) {
+			this.format = format;
+		}
 		public String getId() {
 			return this.id;
 		}
@@ -365,6 +382,12 @@ public class OapiProcessFormGetResponse extends TaobaoResponse {
 		public void setNotUpper(String notUpper) {
 			this.notUpper = notUpper;
 		}
+		public List<String> getOptions() {
+			return this.options;
+		}
+		public void setOptions(List<String> options) {
+			this.options = options;
+		}
 		public Boolean getRequired() {
 			return this.required;
 		}
@@ -386,7 +409,7 @@ public class OapiProcessFormGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormComponent2Vo extends TaobaoObject {
-		private static final long serialVersionUID = 5157841991393295617L;
+		private static final long serialVersionUID = 2291857873965147669L;
 		/**
 		 * 控件类型
 		 */
@@ -419,7 +442,7 @@ public class OapiProcessFormGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormComponent1Vo extends TaobaoObject {
-		private static final long serialVersionUID = 1715159249977314335L;
+		private static final long serialVersionUID = 3518294853223424967L;
 		/**
 		 * 子组件
 		 */
@@ -464,7 +487,7 @@ public class OapiProcessFormGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormComponentVo extends TaobaoObject {
-		private static final long serialVersionUID = 6663788872266637128L;
+		private static final long serialVersionUID = 7683957545643392667L;
 		/**
 		 * 子组件
 		 */
@@ -520,7 +543,7 @@ public class OapiProcessFormGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ProcessTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 8365276313356348929L;
+		private static final long serialVersionUID = 2822262841831568993L;
 		/**
 		 * 表单列表
 		 */

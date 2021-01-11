@@ -93,13 +93,13 @@ public class OapiImpaasMessageAsyncsendRequest extends BaseTaobaoRequest<OapiImp
 	}
 	
 	/**
-	 * 发送者
+	 * 发送者，暂不支持，可不填
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class AccountInfo extends TaobaoObject {
-		private static final long serialVersionUID = 8551536879989164837L;
+		private static final long serialVersionUID = 2348971195492958234L;
 		/**
 		 * 账号通道:eleme,hema等
 		 */
@@ -143,7 +143,7 @@ public class OapiImpaasMessageAsyncsendRequest extends BaseTaobaoRequest<OapiImp
 	 * @since 1.0, null
 	 */
 	public static class XpnContentModel extends TaobaoObject {
-		private static final long serialVersionUID = 5214616879571894334L;
+		private static final long serialVersionUID = 4489919495873589625L;
 		/**
 		 * 推送文案
 		 */
@@ -180,7 +180,7 @@ public class OapiImpaasMessageAsyncsendRequest extends BaseTaobaoRequest<OapiImp
 	 * @since 1.0, null
 	 */
 	public static class AsyncSendMessageRequest extends TaobaoObject {
-		private static final long serialVersionUID = 6529283943661139456L;
+		private static final long serialVersionUID = 4257225529744521367L;
 		/**
 		 * 群ID
 		 */
@@ -207,13 +207,13 @@ public class OapiImpaasMessageAsyncsendRequest extends BaseTaobaoRequest<OapiImp
 		@ApiField("msg_type")
 		private String msgType;
 		/**
-		 * 接受者
+		 * 接受者，暂不支持，可不填
 		 */
 		@ApiListField("receiverid_list")
 		@ApiField("json")
 		private List<String> receiveridList;
 		/**
-		 * 发送者
+		 * 发送者，暂不支持，可不填
 		 */
 		@ApiField("senderid")
 		private AccountInfo senderid;

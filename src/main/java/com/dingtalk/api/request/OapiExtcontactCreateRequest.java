@@ -98,7 +98,7 @@ public class OapiExtcontactCreateRequest extends BaseTaobaoRequest<OapiExtcontac
 	 * @since 1.0, null
 	 */
 	public static class OpenExtContact extends TaobaoObject {
-		private static final long serialVersionUID = 2567187623665875218L;
+		private static final long serialVersionUID = 7594964131354677242L;
 		/**
 		 * 地址
 		 */

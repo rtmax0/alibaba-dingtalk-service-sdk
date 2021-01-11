@@ -96,7 +96,7 @@ public class OapiCircleEnworkUpdateRequest extends BaseTaobaoRequest<OapiCircleE
 	 * @since 1.0, null
 	 */
 	public static class OpenUpdateWorkPostDTO extends TaobaoObject {
-		private static final long serialVersionUID = 7532164861173739371L;
+		private static final long serialVersionUID = 2431962258852426176L;
 		/**
 		 * 用户id
 		 */

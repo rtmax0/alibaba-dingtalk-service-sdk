@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiBlackboardCategoryListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4883413969468227121L;
+	private static final long serialVersionUID = 7388544537551297858L;
 
 	/** 
 	 * 请求失败返回错误码
@@ -30,14 +30,14 @@ public class OapiBlackboardCategoryListResponse extends TaobaoResponse {
 	private String errmsg;
 
 	/** 
-	 * 出参
+	 * 出参，success为true时，该值不为空，否则值为空
 	 */
 	@ApiListField("result")
 	@ApiField("blackboard_category_vo")
 	private List<BlackboardCategoryVo> result;
 
 	/** 
-	 * 请求成功
+	 * 本次调用是否成功，该值为false时，根据errcode和errMsg排查失败原因
 	 */
 	@ApiField("success")
 	private Boolean success;
@@ -76,13 +76,13 @@ public class OapiBlackboardCategoryListResponse extends TaobaoResponse {
     }
 	
 	/**
-	 * 出参
+	 * 出参，success为true时，该值不为空，否则值为空
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class BlackboardCategoryVo extends TaobaoObject {
-		private static final long serialVersionUID = 7317735449879114183L;
+		private static final long serialVersionUID = 2787668776634418726L;
 		/**
 		 * 分类id
 		 */

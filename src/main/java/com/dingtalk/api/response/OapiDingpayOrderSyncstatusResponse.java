@@ -17,7 +17,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiDingpayOrderSyncstatusResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3843654393567544417L;
+	private static final long serialVersionUID = 1684456339983921542L;
 
 	/** 
 	 * 钉钉错误代码
@@ -83,7 +83,7 @@ public class OapiDingpayOrderSyncstatusResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Orders extends TaobaoObject {
-		private static final long serialVersionUID = 3628519864755742268L;
+		private static final long serialVersionUID = 1822953299343574248L;
 		/**
 		 * 金额（单位：分）
 		 */
@@ -329,7 +329,7 @@ public class OapiDingpayOrderSyncstatusResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OrderSyncStatusOpenResponse extends TaobaoObject {
-		private static final long serialVersionUID = 6815851385272186847L;
+		private static final long serialVersionUID = 1485938369171527183L;
 		/**
 		 * orders
 		 */

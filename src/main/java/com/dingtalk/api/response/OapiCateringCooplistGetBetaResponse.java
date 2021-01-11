@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCateringCooplistGetBetaResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2565883848645519451L;
+	private static final long serialVersionUID = 3532348573456191129L;
 
 	/** 
 	 * 错误代码
@@ -81,7 +81,7 @@ public class OapiCateringCooplistGetBetaResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Mealitemlist extends TaobaoObject {
-		private static final long serialVersionUID = 1684273365123683983L;
+		private static final long serialVersionUID = 1617543941753276153L;
 		/**
 		 * 送达时间 HH:mm
 		 */
@@ -125,7 +125,7 @@ public class OapiCateringCooplistGetBetaResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class MealSettingList extends TaobaoObject {
-		private static final long serialVersionUID = 4672567786417617661L;
+		private static final long serialVersionUID = 7339613757919296257L;
 		/**
 		 * 缩略地址，可为空
 		 */
@@ -214,7 +214,7 @@ public class OapiCateringCooplistGetBetaResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 5626624521495911197L;
+		private static final long serialVersionUID = 6313626643257789157L;
 		/**
 		 * 是否有下一项数据
 		 */

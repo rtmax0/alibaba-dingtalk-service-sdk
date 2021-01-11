@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpHrmEmployeeGetdismissionlistResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1759474124647875399L;
+	private static final long serialVersionUID = 3442298264736611194L;
 
 	/** 
 	 * result
@@ -41,7 +41,7 @@ public class CorpHrmEmployeeGetdismissionlistResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class HrmApiDismissionModel extends TaobaoObject {
-		private static final long serialVersionUID = 6339564671389271962L;
+		private static final long serialVersionUID = 1338942731268589737L;
 		/**
 		 * 入职时间
 		 */
@@ -173,7 +173,7 @@ public class CorpHrmEmployeeGetdismissionlistResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class HrmApiPage extends TaobaoObject {
-		private static final long serialVersionUID = 2377794873365378591L;
+		private static final long serialVersionUID = 2655263971379352253L;
 		/**
 		 * 当前页
 		 */
@@ -240,7 +240,7 @@ public class CorpHrmEmployeeGetdismissionlistResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 3567726694561452878L;
+		private static final long serialVersionUID = 6162474193632944487L;
 		/**
 		 * 错误码
 		 */

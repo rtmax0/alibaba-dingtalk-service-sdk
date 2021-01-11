@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEduFaceGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6254259526589682965L;
+	private static final long serialVersionUID = 5876616372388883966L;
 
 	/** 
 	 * 错误码
@@ -79,7 +79,7 @@ public class OapiEduFaceGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopQueryFaceIdResponse extends TaobaoObject {
-		private static final long serialVersionUID = 5154978495825889321L;
+		private static final long serialVersionUID = 2686239395483376929L;
 		/**
 		 * 是否录入过人脸
 		 */

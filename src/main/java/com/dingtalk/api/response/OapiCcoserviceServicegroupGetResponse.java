@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCcoserviceServicegroupGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8675897656151222225L;
+	private static final long serialVersionUID = 5548531762578819352L;
 
 	/** 
 	 * dingOpenErrcode
@@ -66,7 +66,7 @@ public class OapiCcoserviceServicegroupGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ServiceConversationModel extends TaobaoObject {
-		private static final long serialVersionUID = 6821153268744854861L;
+		private static final long serialVersionUID = 4435841113647871458L;
 		/**
 		 * conversationType
 		 */

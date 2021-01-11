@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiChatGetReadListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1662171283415349197L;
+	private static final long serialVersionUID = 1682686373932112241L;
 
 	/** 
 	 * errcode

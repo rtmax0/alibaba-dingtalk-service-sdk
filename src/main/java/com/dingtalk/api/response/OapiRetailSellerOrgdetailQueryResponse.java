@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRetailSellerOrgdetailQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8459142395191989517L;
+	private static final long serialVersionUID = 8758645335511758661L;
 
 	/** 
 	 * 错误代码
@@ -83,7 +83,7 @@ public class OapiRetailSellerOrgdetailQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ShopEmpDto extends TaobaoObject {
-		private static final long serialVersionUID = 2183975918498813192L;
+		private static final long serialVersionUID = 7756431546244381541L;
 		/**
 		 * 主子账号
 		 */
@@ -160,7 +160,7 @@ public class OapiRetailSellerOrgdetailQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class SellerDto extends TaobaoObject {
-		private static final long serialVersionUID = 3216275564146498862L;
+		private static final long serialVersionUID = 1548734519667245818L;
 		/**
 		 * 卖家ID
 		 */
@@ -227,7 +227,7 @@ public class OapiRetailSellerOrgdetailQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OrgDto extends TaobaoObject {
-		private static final long serialVersionUID = 7781745545493498162L;
+		private static final long serialVersionUID = 4666595396987155121L;
 		/**
 		 * 组织绑定卖家List
 		 */

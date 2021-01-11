@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoMosLayoutOperationdefGetflowResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6365925128545799159L;
+	private static final long serialVersionUID = 3256943692358925855L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiRhinoMosLayoutOperationdefGetflowResponse extends TaobaoRespons
 	 * @since 1.0, null
 	 */
 	public static class OperationExecutorAssignDto extends TaobaoObject {
-		private static final long serialVersionUID = 3515218157389298774L;
+		private static final long serialVersionUID = 5158466244898615891L;
 		/**
 		 * 工序执行器ID
 		 */
@@ -101,7 +101,7 @@ public class OapiRhinoMosLayoutOperationdefGetflowResponse extends TaobaoRespons
 	 * @since 1.0, null
 	 */
 	public static class DeviceAssignDto extends TaobaoObject {
-		private static final long serialVersionUID = 2599972959846923683L;
+		private static final long serialVersionUID = 1743371394293547967L;
 		/**
 		 * 设备ID
 		 */
@@ -156,7 +156,7 @@ public class OapiRhinoMosLayoutOperationdefGetflowResponse extends TaobaoRespons
 	 * @since 1.0, null
 	 */
 	public static class WorkerAssignDto extends TaobaoObject {
-		private static final long serialVersionUID = 7573842441187789835L;
+		private static final long serialVersionUID = 5483842899668217238L;
 		/**
 		 * 姓名
 		 */
@@ -189,7 +189,7 @@ public class OapiRhinoMosLayoutOperationdefGetflowResponse extends TaobaoRespons
 	 * @since 1.0, null
 	 */
 	public static class WorkstationAssignDto extends TaobaoObject {
-		private static final long serialVersionUID = 6466456384142532912L;
+		private static final long serialVersionUID = 7653952631637715258L;
 		/**
 		 * 站位编码
 		 */
@@ -211,13 +211,18 @@ public class OapiRhinoMosLayoutOperationdefGetflowResponse extends TaobaoRespons
 	 * @since 1.0, null
 	 */
 	public static class WorkUnitDto extends TaobaoObject {
-		private static final long serialVersionUID = 4536938328145318249L;
+		private static final long serialVersionUID = 8542728985446543934L;
 		/**
 		 * 设备分配列表
 		 */
 		@ApiListField("device_assigns")
 		@ApiField("device_assign_dto")
 		private List<DeviceAssignDto> deviceAssigns;
+		/**
+		 * 扩展属性
+		 */
+		@ApiField("ext")
+		private String ext;
 		/**
 		 * 人员分配列表
 		 */
@@ -236,6 +241,12 @@ public class OapiRhinoMosLayoutOperationdefGetflowResponse extends TaobaoRespons
 		}
 		public void setDeviceAssigns(List<DeviceAssignDto> deviceAssigns) {
 			this.deviceAssigns = deviceAssigns;
+		}
+		public String getExt() {
+			return this.ext;
+		}
+		public void setExt(String ext) {
+			this.ext = ext;
 		}
 		public List<WorkerAssignDto> getWorkerAssigns() {
 			return this.workerAssigns;
@@ -258,7 +269,7 @@ public class OapiRhinoMosLayoutOperationdefGetflowResponse extends TaobaoRespons
 	 * @since 1.0, null
 	 */
 	public static class OperationDefDto extends TaobaoObject {
-		private static final long serialVersionUID = 3125662697557846565L;
+		private static final long serialVersionUID = 2737796691384335842L;
 		/**
 		 * 适用尺码
 		 */
@@ -504,7 +515,7 @@ public class OapiRhinoMosLayoutOperationdefGetflowResponse extends TaobaoRespons
 	 * @since 1.0, null
 	 */
 	public static class OperationDefFlowDto extends TaobaoObject {
-		private static final long serialVersionUID = 3599833243672293816L;
+		private static final long serialVersionUID = 8891856681333435756L;
 		/**
 		 * 是否激活最大版本
 		 */

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEduGuardianListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2566348946253697239L;
+	private static final long serialVersionUID = 2627546356242294858L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiEduGuardianListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class GuardianRespone extends TaobaoObject {
-		private static final long serialVersionUID = 8197498576218759778L;
+		private static final long serialVersionUID = 8317953677631346688L;
 		/**
 		 * 家长ID
 		 */
@@ -136,7 +136,7 @@ public class OapiEduGuardianListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 8231797722622367241L;
+		private static final long serialVersionUID = 5749395455181563735L;
 		/**
 		 * 是否存在下一页
 		 */

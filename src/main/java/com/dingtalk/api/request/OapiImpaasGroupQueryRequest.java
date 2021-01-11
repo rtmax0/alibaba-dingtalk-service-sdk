@@ -96,7 +96,7 @@ public class OapiImpaasGroupQueryRequest extends BaseTaobaoRequest<OapiImpaasGro
 	 * @since 1.0, null
 	 */
 	public static class GetGroupInfoRequest extends TaobaoObject {
-		private static final long serialVersionUID = 2493618825159497624L;
+		private static final long serialVersionUID = 4162231619113397414L;
 		/**
 		 * 群ID
 		 */

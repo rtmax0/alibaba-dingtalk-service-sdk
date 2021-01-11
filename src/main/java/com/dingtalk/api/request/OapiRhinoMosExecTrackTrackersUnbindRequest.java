@@ -98,7 +98,7 @@ public class OapiRhinoMosExecTrackTrackersUnbindRequest extends BaseTaobaoReques
 	 * @since 1.0, null
 	 */
 	public static class SpecificEntityTypeWithTrackInfoReq extends TaobaoObject {
-		private static final long serialVersionUID = 1616739254427582156L;
+		private static final long serialVersionUID = 6271843133363913161L;
 		/**
 		 * 实体类型
 		 */

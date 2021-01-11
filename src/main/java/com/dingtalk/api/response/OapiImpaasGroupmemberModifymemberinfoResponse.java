@@ -12,16 +12,16 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImpaasGroupmemberModifymemberinfoResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5112475291652446953L;
+	private static final long serialVersionUID = 6879239893836734664L;
 
 	/** 
-	 * 错误码
+	 * dingOpenErrcode
 	 */
 	@ApiField("errcode")
 	private Long errcode;
 
 	/** 
-	 * 错误信息描述
+	 * errorMsg
 	 */
 	@ApiField("errmsg")
 	private String errmsg;

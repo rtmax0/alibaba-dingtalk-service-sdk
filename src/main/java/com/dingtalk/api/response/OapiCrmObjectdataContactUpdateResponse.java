@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCrmObjectdataContactUpdateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3169675914613144533L;
+	private static final long serialVersionUID = 7197122633333125875L;
 
 	/** 
 	 * 错误码
@@ -79,7 +79,7 @@ public class OapiCrmObjectdataContactUpdateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ObjectDataCreateDto extends TaobaoObject {
-		private static final long serialVersionUID = 7839989229255175181L;
+		private static final long serialVersionUID = 5199367263156881126L;
 		/**
 		 * 联系人数据id
 		 */

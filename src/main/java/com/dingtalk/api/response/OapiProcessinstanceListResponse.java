@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProcessinstanceListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3499356466652197752L;
+	private static final long serialVersionUID = 6374576955345673859L;
 
 	/** 
 	 * errcode
@@ -69,7 +69,7 @@ public class OapiProcessinstanceListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormComponentValueVo extends TaobaoObject {
-		private static final long serialVersionUID = 1582542532828537164L;
+		private static final long serialVersionUID = 1551637442334386441L;
 		/**
 		 * 组件类型
 		 */
@@ -135,7 +135,7 @@ public class OapiProcessinstanceListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ProcessInstanceTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 2734113786845624984L;
+		private static final long serialVersionUID = 2177416768875949493L;
 		/**
 		 * 审批人列表
 		 */
@@ -281,7 +281,7 @@ public class OapiProcessinstanceListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 1464612884227568636L;
+		private static final long serialVersionUID = 3826391278836577278L;
 		/**
 		 * list
 		 */

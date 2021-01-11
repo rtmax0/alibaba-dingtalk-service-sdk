@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiRhinoMosExecPerformContextAddResponse;
  * TOP DingTalk-API: dingtalk.oapi.rhino.mos.exec.perform.context.add request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.22
+ * @since 1.0, 2020.07.22
  */
 public class OapiRhinoMosExecPerformContextAddRequest extends BaseTaobaoRequest<OapiRhinoMosExecPerformContextAddResponse> {
 	

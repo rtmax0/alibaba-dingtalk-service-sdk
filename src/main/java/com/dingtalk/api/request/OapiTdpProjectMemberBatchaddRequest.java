@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiTdpProjectMemberBatchaddResponse;
  * TOP DingTalk-API: dingtalk.oapi.tdp.project.member.batchadd request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.31
+ * @since 1.0, 2020.12.23
  */
 public class OapiTdpProjectMemberBatchaddRequest extends BaseTaobaoRequest<OapiTdpProjectMemberBatchaddResponse> {
 	

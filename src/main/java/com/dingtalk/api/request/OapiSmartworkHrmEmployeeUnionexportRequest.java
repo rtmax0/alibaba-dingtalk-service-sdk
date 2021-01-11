@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiSmartworkHrmEmployeeUnionexportResponse;
  * TOP DingTalk-API: dingtalk.oapi.smartwork.hrm.employee.unionexport request
  * 
  * @author top auto create
- * @since 1.0, 2019.12.04
+ * @since 1.0, 2019.07.01
  */
 public class OapiSmartworkHrmEmployeeUnionexportRequest extends BaseTaobaoRequest<OapiSmartworkHrmEmployeeUnionexportResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiSmartworkHrmEmployeeUnionexportRequest extends BaseTaobaoReques
 	 * @since 1.0, null
 	 */
 	public static class UnionExportParam extends TaobaoObject {
-		private static final long serialVersionUID = 8894569389664619977L;
+		private static final long serialVersionUID = 5891199965248975491L;
 		/**
 		 * 业务唯一id，用于唯一标记一次导出，该参数多次请求幂等处理
 		 */

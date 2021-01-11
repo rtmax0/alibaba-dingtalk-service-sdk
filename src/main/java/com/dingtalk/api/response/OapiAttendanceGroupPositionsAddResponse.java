@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGroupPositionsAddResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5578265885673821114L;
+	private static final long serialVersionUID = 2812289997883339356L;
 
 	/** 
 	 * 出参
@@ -40,7 +40,7 @@ public class OapiAttendanceGroupPositionsAddResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Position extends TaobaoObject {
-		private static final long serialVersionUID = 8849553657628157478L;
+		private static final long serialVersionUID = 3691481339631259876L;
 		/**
 		 * 地址描述
 		 */
@@ -106,7 +106,7 @@ public class OapiAttendanceGroupPositionsAddResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ErrorInfo extends TaobaoObject {
-		private static final long serialVersionUID = 1136493554397764458L;
+		private static final long serialVersionUID = 6649149526136191246L;
 		/**
 		 * 错误码
 		 */
@@ -151,7 +151,7 @@ public class OapiAttendanceGroupPositionsAddResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 7735377736911298763L;
+		private static final long serialVersionUID = 2213111193625414273L;
 		/**
 		 * 错误列表
 		 */
@@ -186,7 +186,7 @@ public class OapiAttendanceGroupPositionsAddResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 7571182697241745597L;
+		private static final long serialVersionUID = 3696586194352695139L;
 		/**
 		 * 错误码
 		 */

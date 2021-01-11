@@ -96,7 +96,7 @@ public class OapiProcessFormConditionListRequest extends BaseTaobaoRequest<OapiP
 	 * @since 1.0, null
 	 */
 	public static class QureyProcessRequest extends TaobaoObject {
-		private static final long serialVersionUID = 2736392435512142522L;
+		private static final long serialVersionUID = 1286793897179573295L;
 		/**
 		 * 应用id
 		 */

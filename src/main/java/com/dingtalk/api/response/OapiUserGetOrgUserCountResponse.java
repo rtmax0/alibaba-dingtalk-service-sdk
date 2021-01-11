@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiUserGetOrgUserCountResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7784383859511722889L;
+	private static final long serialVersionUID = 1299711784368239628L;
 
 	/** 
 	 * 企业员工数量

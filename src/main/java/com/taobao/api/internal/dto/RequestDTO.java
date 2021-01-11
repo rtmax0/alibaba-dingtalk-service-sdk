@@ -6,7 +6,7 @@ import java.io.Serializable;
 import java.util.Map;
 
 /**
- * è¯·æ±‚ä¼ è¾“ç±»
+ * ÇëÇó´«ÊäÀà
  */
 public class RequestDTO implements Serializable {
 

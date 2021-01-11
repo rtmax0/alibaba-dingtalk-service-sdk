@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCrmObjectmetaContactDescribeResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8659966627951288627L;
+	private static final long serialVersionUID = 7568465485912998148L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiCrmObjectmetaContactDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class SelectOptions extends TaobaoObject {
-		private static final long serialVersionUID = 8427412624876923543L;
+		private static final long serialVersionUID = 7113982789397217899L;
 		/**
 		 * 选项key
 		 */
@@ -101,7 +101,7 @@ public class OapiCrmObjectmetaContactDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ReferenceFields extends TaobaoObject {
-		private static final long serialVersionUID = 7431334478949114994L;
+		private static final long serialVersionUID = 3759749591248271688L;
 		/**
 		 * 引用的关联对象字段格式
 		 */
@@ -190,7 +190,7 @@ public class OapiCrmObjectmetaContactDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class RollUpSummaryFields extends TaobaoObject {
-		private static final long serialVersionUID = 4757343431314121486L;
+		private static final long serialVersionUID = 6342829282577978483L;
 		/**
 		 * 汇总方法
 		 */
@@ -223,7 +223,7 @@ public class OapiCrmObjectmetaContactDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Fields extends TaobaoObject {
-		private static final long serialVersionUID = 3874845575442182399L;
+		private static final long serialVersionUID = 2282476153464456629L;
 		/**
 		 * 是否自定义字段
 		 */
@@ -369,7 +369,7 @@ public class OapiCrmObjectmetaContactDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DObject extends TaobaoObject {
-		private static final long serialVersionUID = 3234926654982987227L;
+		private static final long serialVersionUID = 1173595476318675493L;
 		/**
 		 * 是否自定义对象
 		 */

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpExtcontactListlabelgroupsResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1461895297276436434L;
+	private static final long serialVersionUID = 3713682284687248556L;
 
 	/** 
 	 * result
@@ -40,7 +40,7 @@ public class CorpExtcontactListlabelgroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenLabel extends TaobaoObject {
-		private static final long serialVersionUID = 4749527247488545641L;
+		private static final long serialVersionUID = 3831272655326281972L;
 		/**
 		 * 标签id
 		 */
@@ -73,7 +73,7 @@ public class CorpExtcontactListlabelgroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenLabelGroup extends TaobaoObject {
-		private static final long serialVersionUID = 2146182234851139656L;
+		private static final long serialVersionUID = 7319392667137958149L;
 		/**
 		 * 标签组颜色
 		 */
@@ -118,7 +118,7 @@ public class CorpExtcontactListlabelgroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 3488147637535171857L;
+		private static final long serialVersionUID = 6889758871839145313L;
 		/**
 		 * dingOpenErrcode
 		 */

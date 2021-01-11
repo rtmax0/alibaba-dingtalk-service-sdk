@@ -21,7 +21,7 @@ import com.dingtalk.api.response.OapiMessageCorpconversationAsyncsendV2Response;
  * TOP DingTalk-API: dingtalk.oapi.message.corpconversation.asyncsend_v2 request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.22
+ * @since 1.0, 2019.12.16
  */
 public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoRequest<OapiMessageCorpconversationAsyncsendV2Response> {
 	
@@ -158,7 +158,7 @@ public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class Text extends TaobaoObject {
-		private static final long serialVersionUID = 5292199218783824395L;
+		private static final long serialVersionUID = 4336589439756322794L;
 		/**
 		 * 文本消息
 		 */
@@ -180,7 +180,7 @@ public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class Image extends TaobaoObject {
-		private static final long serialVersionUID = 1429292457849636878L;
+		private static final long serialVersionUID = 6466553124667456628L;
 		/**
 		 * 图片消息
 		 */
@@ -202,7 +202,7 @@ public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class Link extends TaobaoObject {
-		private static final long serialVersionUID = 6889583996271416461L;
+		private static final long serialVersionUID = 7187891962317517398L;
 		/**
 		 * 图片地址
 		 */
@@ -257,7 +257,7 @@ public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class File extends TaobaoObject {
-		private static final long serialVersionUID = 4294562331364627218L;
+		private static final long serialVersionUID = 2548193521316936196L;
 		/**
 		 * 媒体文件id。引用的媒体文件最大10MB
 		 */
@@ -279,7 +279,7 @@ public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class Voice extends TaobaoObject {
-		private static final long serialVersionUID = 7649498512459325891L;
+		private static final long serialVersionUID = 3219368722299843911L;
 		/**
 		 * 正整数，小于60，表示音频时长
 		 */
@@ -312,7 +312,7 @@ public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class Rich extends TaobaoObject {
-		private static final long serialVersionUID = 7525387494274772379L;
+		private static final long serialVersionUID = 5337687557317612755L;
 		/**
 		 * 单行富文本信息的数目
 		 */
@@ -345,7 +345,7 @@ public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class Form extends TaobaoObject {
-		private static final long serialVersionUID = 7359914826466994664L;
+		private static final long serialVersionUID = 7239713399328852991L;
 		/**
 		 * 消息体的关键字
 		 */
@@ -378,7 +378,7 @@ public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class Body extends TaobaoObject {
-		private static final long serialVersionUID = 6297194291735871539L;
+		private static final long serialVersionUID = 7859447467991691513L;
 		/**
 		 * 自定义的作者名字
 		 */
@@ -467,7 +467,7 @@ public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class Head extends TaobaoObject {
-		private static final long serialVersionUID = 6168927155945945996L;
+		private static final long serialVersionUID = 6293742422424828629L;
 		/**
 		 * 消息头部的背景颜色。长度限制为8个英文字符，其中前2为表示透明度，后6位表示颜色值。不要添加0x
 		 */
@@ -500,7 +500,7 @@ public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class OA extends TaobaoObject {
-		private static final long serialVersionUID = 5154651894645736347L;
+		private static final long serialVersionUID = 6839273793675417478L;
 		/**
 		 * 消息体
 		 */
@@ -555,7 +555,7 @@ public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class Markdown extends TaobaoObject {
-		private static final long serialVersionUID = 4459343539279411278L;
+		private static final long serialVersionUID = 3635984354469216616L;
 		/**
 		 * markdown格式的消息，建议500字符以内
 		 */
@@ -588,7 +588,7 @@ public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class BtnJsonList extends TaobaoObject {
-		private static final long serialVersionUID = 4633667378854462131L;
+		private static final long serialVersionUID = 4277121888363855822L;
 		/**
 		 * 消息点击链接地址，当发送消息为小程序时支持小程序跳转链接，最长500个字符
 		 */
@@ -621,7 +621,7 @@ public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class ActionCard extends TaobaoObject {
-		private static final long serialVersionUID = 3766842344151639336L;
+		private static final long serialVersionUID = 7731399314461534633L;
 		/**
 		 * 使用独立跳转ActionCard样式时的按钮列表；必须与btn_orientation同时设置
 		 */
@@ -699,7 +699,7 @@ public class OapiMessageCorpconversationAsyncsendV2Request extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class Msg extends TaobaoObject {
-		private static final long serialVersionUID = 3263892561694624889L;
+		private static final long serialVersionUID = 8152498381511599383L;
 		/**
 		 * 卡片消息
 		 */

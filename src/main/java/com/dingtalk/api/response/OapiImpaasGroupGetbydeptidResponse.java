@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImpaasGroupGetbydeptidResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8167291458441658426L;
+	private static final long serialVersionUID = 7689242216378328348L;
 
 	/** 
 	 * dingOpenErrcode
@@ -79,7 +79,7 @@ public class OapiImpaasGroupGetbydeptidResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class BaseGroupInfo extends TaobaoObject {
-		private static final long serialVersionUID = 5499628597453168648L;
+		private static final long serialVersionUID = 4437563749483142628L;
 		/**
 		 * conversation_id
 		 */

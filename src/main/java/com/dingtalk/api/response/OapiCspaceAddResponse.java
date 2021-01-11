@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCspaceAddResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8295611817837452667L;
+	private static final long serialVersionUID = 2495877336617525297L;
 
 	/** 
 	 * dentry

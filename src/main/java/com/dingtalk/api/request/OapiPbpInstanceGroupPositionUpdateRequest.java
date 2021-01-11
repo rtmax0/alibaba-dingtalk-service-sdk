@@ -98,7 +98,7 @@ public class OapiPbpInstanceGroupPositionUpdateRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class PunchGroupPositionParam extends TaobaoObject {
-		private static final long serialVersionUID = 5398368725153493862L;
+		private static final long serialVersionUID = 4143154937211649327L;
 		/**
 		 * 位置唯一标识
 		 */
@@ -142,7 +142,7 @@ public class OapiPbpInstanceGroupPositionUpdateRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class PunchGroupSyncPositionParam extends TaobaoObject {
-		private static final long serialVersionUID = 3811236242975412594L;
+		private static final long serialVersionUID = 8197247782853954644L;
 		/**
 		 * 新增位置列表
 		 */

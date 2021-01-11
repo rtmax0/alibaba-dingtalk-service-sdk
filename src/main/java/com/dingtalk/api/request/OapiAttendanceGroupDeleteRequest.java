@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiAttendanceGroupDeleteResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.group.delete request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.09
+ * @since 1.0, 2020.08.26
  */
 public class OapiAttendanceGroupDeleteRequest extends BaseTaobaoRequest<OapiAttendanceGroupDeleteResponse> {
 	

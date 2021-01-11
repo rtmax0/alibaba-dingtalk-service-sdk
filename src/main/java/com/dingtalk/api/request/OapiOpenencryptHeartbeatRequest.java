@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiOpenencryptHeartbeatResponse;
  * TOP DingTalk-API: dingtalk.oapi.openencrypt.heartbeat request
  * 
  * @author top auto create
- * @since 1.0, 2019.09.23
+ * @since 1.0, 2019.09.03
  */
 public class OapiOpenencryptHeartbeatRequest extends BaseTaobaoRequest<OapiOpenencryptHeartbeatResponse> {
 	

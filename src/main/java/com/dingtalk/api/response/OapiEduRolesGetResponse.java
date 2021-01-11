@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEduRolesGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4529265626446833189L;
+	private static final long serialVersionUID = 3159795356692269462L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiEduRolesGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class QueryUserRolesResponse extends TaobaoObject {
-		private static final long serialVersionUID = 4814466536354869947L;
+		private static final long serialVersionUID = 2142896965159158948L;
 		/**
 		 * 非NULL列表;此员工在当前家校通讯录中的是班主任角色的班级列表
 		 */

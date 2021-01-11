@@ -22,7 +22,7 @@ import com.dingtalk.api.response.OapiRhinoMosExecPerformBatchCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.rhino.mos.exec.perform.batch.create request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.18
+ * @since 1.0, 2020.07.14
  */
 public class OapiRhinoMosExecPerformBatchCreateRequest extends BaseTaobaoRequest<OapiRhinoMosExecPerformBatchCreateResponse> {
 	
@@ -100,7 +100,7 @@ public class OapiRhinoMosExecPerformBatchCreateRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class Source extends TaobaoObject {
-		private static final long serialVersionUID = 3456725912178151796L;
+		private static final long serialVersionUID = 3367456362221587336L;
 		/**
 		 * sourceId
 		 */
@@ -133,7 +133,7 @@ public class OapiRhinoMosExecPerformBatchCreateRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class EntityCondition extends TaobaoObject {
-		private static final long serialVersionUID = 6685518916859316546L;
+		private static final long serialVersionUID = 8782251211547317439L;
 		/**
 		 * 实体ids
 		 */
@@ -178,7 +178,7 @@ public class OapiRhinoMosExecPerformBatchCreateRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class PerformOperationReq extends TaobaoObject {
-		private static final long serialVersionUID = 5317525987284531252L;
+		private static final long serialVersionUID = 4785148438986472367L;
 		/**
 		 * 上下文
 		 */
@@ -349,7 +349,7 @@ public class OapiRhinoMosExecPerformBatchCreateRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class BatchCreateOperationWithEntityReq extends TaobaoObject {
-		private static final long serialVersionUID = 4219763544284716527L;
+		private static final long serialVersionUID = 5881423356167131272L;
 		/**
 		 * 实体条件
 		 */

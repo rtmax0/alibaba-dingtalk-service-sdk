@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiDingpayVirtualaccountQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3489485731674811192L;
+	private static final long serialVersionUID = 1479185467655214572L;
 
 	/** 
 	 * 钉钉错误代码
@@ -82,7 +82,7 @@ public class OapiDingpayVirtualaccountQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingPayAccountOpenBo extends TaobaoObject {
-		private static final long serialVersionUID = 5228333871174526866L;
+		private static final long serialVersionUID = 3845119577126744737L;
 		/**
 		 * 支付宝托管账户
 		 */
@@ -153,7 +153,7 @@ public class OapiDingpayVirtualaccountQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AccountQueryOpenResponse extends TaobaoObject {
-		private static final long serialVersionUID = 1784952224815557765L;
+		private static final long serialVersionUID = 8881316633885456471L;
 		/**
 		 * accountOpenBO
 		 */

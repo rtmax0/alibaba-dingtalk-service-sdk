@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGroupsQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1868191855797785814L;
+	private static final long serialVersionUID = 4687881596651959849L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiAttendanceGroupsQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Group extends TaobaoObject {
-		private static final long serialVersionUID = 1847746698876967946L;
+		private static final long serialVersionUID = 5788693663369778287L;
 		/**
 		 * 是否开启拍照打卡，默认false
 		 */
@@ -169,7 +169,7 @@ public class OapiAttendanceGroupsQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 3324193982993819364L;
+		private static final long serialVersionUID = 1624579443257958476L;
 		/**
 		 * 考勤组
 		 */

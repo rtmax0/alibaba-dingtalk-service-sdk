@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProcessApproversForecastResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6261357333253775922L;
+	private static final long serialVersionUID = 1792351928795123193L;
 
 	/** 
 	 * 错误码
@@ -69,7 +69,7 @@ public class OapiProcessApproversForecastResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class UserProfileVo extends TaobaoObject {
-		private static final long serialVersionUID = 3665713352657687222L;
+		private static final long serialVersionUID = 3886398155572126583L;
 		/**
 		 * 审批人姓名
 		 */
@@ -102,7 +102,7 @@ public class OapiProcessApproversForecastResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ProcessForecastResponse extends TaobaoObject {
-		private static final long serialVersionUID = 3664673519459351271L;
+		private static final long serialVersionUID = 4238318611356733176L;
 		/**
 		 * 审批人列表
 		 */

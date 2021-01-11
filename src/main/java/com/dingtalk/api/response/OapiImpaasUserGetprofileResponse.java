@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImpaasUserGetprofileResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4187198921654258889L;
+	private static final long serialVersionUID = 8269794912783845741L;
 
 	/** 
 	 * 错误码  -1 系统异常 40035 参数错误 400023 用户不存在
@@ -79,7 +79,7 @@ public class OapiImpaasUserGetprofileResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class GetProfileResp extends TaobaoObject {
-		private static final long serialVersionUID = 5221195648978553877L;
+		private static final long serialVersionUID = 1694754652384257873L;
 		/**
 		 * 业务方的唯一id
 		 */

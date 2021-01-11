@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoMosLayoutOperationdefsListsimpleResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8644558364948263255L;
+	private static final long serialVersionUID = 5516396712471157188L;
 
 	/** 
 	 * 错误码
@@ -69,7 +69,7 @@ public class OapiRhinoMosLayoutOperationdefsListsimpleResponse extends TaobaoRes
 	 * @since 1.0, null
 	 */
 	public static class OperationDefDto extends TaobaoObject {
-		private static final long serialVersionUID = 7818427527191343976L;
+		private static final long serialVersionUID = 4192734881831122612L;
 		/**
 		 * 适用尺码
 		 */

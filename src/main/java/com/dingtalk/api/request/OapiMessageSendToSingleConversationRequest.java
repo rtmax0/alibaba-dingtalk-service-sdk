@@ -127,7 +127,7 @@ public class OapiMessageSendToSingleConversationRequest extends BaseTaobaoReques
 	 * @since 1.0, null
 	 */
 	public static class Markdown extends TaobaoObject {
-		private static final long serialVersionUID = 3124569917621474444L;
+		private static final long serialVersionUID = 2212962463873967264L;
 		/**
 		 * markdown消息内容
 		 */
@@ -149,7 +149,7 @@ public class OapiMessageSendToSingleConversationRequest extends BaseTaobaoReques
 	 * @since 1.0, null
 	 */
 	public static class Msg extends TaobaoObject {
-		private static final long serialVersionUID = 6247918947914958764L;
+		private static final long serialVersionUID = 7558817637155973285L;
 		/**
 		 * markdown消息内容
 		 */

@@ -18,14 +18,14 @@ import com.dingtalk.api.response.OapiImpaasUserGetlogintokenResponse;
  * TOP DingTalk-API: dingtalk.oapi.impaas.user.getlogintoken request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.09
+ * @since 1.0, 2019.07.01
  */
 public class OapiImpaasUserGetlogintokenRequest extends BaseTaobaoRequest<OapiImpaasUserGetlogintokenResponse> {
 	
 	
 
 	/** 
-	* 获取logintoken入参
+	* 获取免登token请求
 	 */
 	private String request;
 
@@ -90,20 +90,20 @@ public class OapiImpaasUserGetlogintokenRequest extends BaseTaobaoRequest<OapiIm
 	}
 	
 	/**
-	 * 获取logintoken入参
+	 * 获取免登token请求
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class GetLoginTokenReq extends TaobaoObject {
-		private static final long serialVersionUID = 7871485912922585598L;
+		private static final long serialVersionUID = 4779267532292183752L;
 		/**
-		 * type为channelUser时有效。接入方channel信息，该值由接入方接入IMPaaS平台时，向IMPaaS平台申请，例如“hema”“eleme”等。
+		 * 渠道类型
 		 */
 		@ApiField("channel")
 		private String channel;
 		/**
-		 * channelUserId
+		 * 二方账号
 		 */
 		@ApiField("id")
 		private String id;

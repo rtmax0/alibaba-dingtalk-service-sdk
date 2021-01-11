@@ -96,7 +96,7 @@ public class OapiWorkspaceStatusUpdateRequest extends BaseTaobaoRequest<OapiWork
 	 * @since 1.0, null
 	 */
 	public static class OpenWorkspaceUpdateStatusDto extends TaobaoObject {
-		private static final long serialVersionUID = 5873899244823984473L;
+		private static final long serialVersionUID = 1632273843233377239L;
 		/**
 		 * 对于项目有如下状态： WORKING进行中 DISBANDED解散 CLOSE归档 RECYCLE回收站状态 新建项目后状态是WORKING，WORKINGCLOSERECYCLE回收站状态可以切换，但是一旦成为DISBANDED则说明项目已销毁无法变更状态
 		 */

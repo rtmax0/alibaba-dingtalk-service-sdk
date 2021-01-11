@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpReportListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2313168983714339149L;
+	private static final long serialVersionUID = 5871899355688324788L;
 
 	/** 
 	 * result
@@ -40,7 +40,7 @@ public class CorpReportListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class JsonObject extends TaobaoObject {
-		private static final long serialVersionUID = 8662748462996968495L;
+		private static final long serialVersionUID = 8752951177595597154L;
 		/**
 		 * 模板内容
 		 */
@@ -95,7 +95,7 @@ public class CorpReportListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ReportOapiVo extends TaobaoObject {
-		private static final long serialVersionUID = 2189896227859682455L;
+		private static final long serialVersionUID = 6642848717872453952L;
 		/**
 		 * 日志内容
 		 */
@@ -195,7 +195,7 @@ public class CorpReportListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageVo extends TaobaoObject {
-		private static final long serialVersionUID = 7146714414671274951L;
+		private static final long serialVersionUID = 8735551244282484764L;
 		/**
 		 * 日志列表
 		 */
@@ -251,7 +251,7 @@ public class CorpReportListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 6141671885663141763L;
+		private static final long serialVersionUID = 7637421873147776935L;
 		/**
 		 * dingOpenErrcode
 		 */

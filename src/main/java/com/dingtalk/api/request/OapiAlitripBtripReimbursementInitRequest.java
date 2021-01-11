@@ -3,6 +3,7 @@ package com.dingtalk.api.request;
 import java.util.List;
 import com.taobao.api.internal.mapping.ApiField;
 import com.taobao.api.internal.mapping.ApiListField;
+import com.taobao.api.internal.util.json.JSONValidatingReader;
 import com.taobao.api.TaobaoObject;
 import java.util.Date;
 import java.util.Map;
@@ -21,7 +22,7 @@ import com.dingtalk.api.response.OapiAlitripBtripReimbursementInitResponse;
  * TOP DingTalk-API: dingtalk.oapi.alitrip.btrip.reimbursement.init request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.22
+ * @since 1.0, 2020.09.11
  */
 public class OapiAlitripBtripReimbursementInitRequest extends BaseTaobaoRequest<OapiAlitripBtripReimbursementInitResponse> {
 	
@@ -99,7 +100,7 @@ public class OapiAlitripBtripReimbursementInitRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class OpenUserInfo extends TaobaoObject {
-		private static final long serialVersionUID = 6862193757294389463L;
+		private static final long serialVersionUID = 2741646511342311428L;
 		/**
 		 * 报销人id
 		 */
@@ -121,7 +122,7 @@ public class OapiAlitripBtripReimbursementInitRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class ApproverNode extends TaobaoObject {
-		private static final long serialVersionUID = 4435896683217218194L;
+		private static final long serialVersionUID = 3384166771992727372L;
 		/**
 		 * 备注
 		 */
@@ -176,7 +177,7 @@ public class OapiAlitripBtripReimbursementInitRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class OpenApiNewReimbursementRq extends TaobaoObject {
-		private static final long serialVersionUID = 2668346496191685945L;
+		private static final long serialVersionUID = 8777387131548149831L;
 		/**
 		 * 申请单编号
 		 */
@@ -218,6 +219,11 @@ public class OapiAlitripBtripReimbursementInitRequest extends BaseTaobaoRequest<
 		 */
 		@ApiField("operator")
 		private OpenUserInfo operator;
+		/**
+		 * 关联的报销订单id列表,<订单id:类型(机、酒、火、用车)>
+		 */
+		@ApiField("order_ids")
+		private String orderIds;
 		/**
 		 * 报销金额
 		 */
@@ -287,6 +293,16 @@ public class OapiAlitripBtripReimbursementInitRequest extends BaseTaobaoRequest<
 		public void setOperator(OpenUserInfo operator) {
 			this.operator = operator;
 		}
+		public String getOrderIds() {
+			return this.orderIds;
+		}
+		public void setOrderIds(String orderIds) {
+			this.orderIds = orderIds;
+		}
+		public void setOrderIdsString(String orderIds) {
+			this.orderIds = orderIds;
+		}
+		
 		public Long getPayAmount() {
 			return this.payAmount;
 		}

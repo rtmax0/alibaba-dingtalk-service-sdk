@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiAttendanceClassGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.class.get request
  * 
  * @author top auto create
- * @since 1.0, 2019.07.01
+ * @since 1.0, 2020.12.25
  */
 public class OapiAttendanceClassGetRequest extends BaseTaobaoRequest<OapiAttendanceClassGetResponse> {
 	

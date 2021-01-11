@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiAttendanceGroupScheduleAsyncResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.group.schedule.async request
  * 
  * @author top auto create
- * @since 1.0, 2019.12.05
+ * @since 1.0, 2020.11.17
  */
 public class OapiAttendanceGroupScheduleAsyncRequest extends BaseTaobaoRequest<OapiAttendanceGroupScheduleAsyncResponse> {
 	
@@ -119,7 +119,7 @@ public class OapiAttendanceGroupScheduleAsyncRequest extends BaseTaobaoRequest<O
 	public void check() throws ApiRuleException {
 		RequestCheckUtils.checkNotEmpty(groupId, "groupId");
 		RequestCheckUtils.checkNotEmpty(opUserId, "opUserId");
-		RequestCheckUtils.checkObjectMaxListSize(schedules, 20, "schedules");
+		RequestCheckUtils.checkObjectMaxListSize(schedules, 201, "schedules");
 	}
 	
 	/**
@@ -129,7 +129,7 @@ public class OapiAttendanceGroupScheduleAsyncRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class TopScheduleParam extends TaobaoObject {
-		private static final long serialVersionUID = 4158936725511741162L;
+		private static final long serialVersionUID = 5245388865936751642L;
 		/**
 		 * 是否休息（true表示休息，shift_id传1）
 		 */

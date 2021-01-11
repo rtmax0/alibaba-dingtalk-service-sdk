@@ -21,7 +21,7 @@ import com.dingtalk.api.response.OapiProcessinstanceCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.processinstance.create request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.19
+ * @since 1.0, 2020.12.09
  */
 public class OapiProcessinstanceCreateRequest extends BaseTaobaoRequest<OapiProcessinstanceCreateResponse> {
 	
@@ -222,7 +222,7 @@ public class OapiProcessinstanceCreateRequest extends BaseTaobaoRequest<OapiProc
 	 * @since 1.0, null
 	 */
 	public static class FormComponentValueVo extends TaobaoObject {
-		private static final long serialVersionUID = 4315945541956941229L;
+		private static final long serialVersionUID = 6476614954871452843L;
 		/**
 		 * 扩展值
 		 */
@@ -266,7 +266,7 @@ public class OapiProcessinstanceCreateRequest extends BaseTaobaoRequest<OapiProc
 	 * @since 1.0, null
 	 */
 	public static class ProcessInstanceApproverVo extends TaobaoObject {
-		private static final long serialVersionUID = 7264365528946378186L;
+		private static final long serialVersionUID = 5361447745713529124L;
 		/**
 		 * 审批类型，会签：AND；或签：OR；单人：NONE
 		 */

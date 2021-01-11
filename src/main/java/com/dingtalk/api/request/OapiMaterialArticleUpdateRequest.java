@@ -19,7 +19,7 @@ import com.dingtalk.api.response.OapiMaterialArticleUpdateResponse;
  * TOP DingTalk-API: dingtalk.oapi.material.article.update request
  * 
  * @author top auto create
- * @since 1.0, 2019.06.30
+ * @since 1.0, 2019.06.28
  */
 public class OapiMaterialArticleUpdateRequest extends BaseTaobaoRequest<OapiMaterialArticleUpdateResponse> {
 	
@@ -112,7 +112,7 @@ public class OapiMaterialArticleUpdateRequest extends BaseTaobaoRequest<OapiMate
 	 * @since 1.0, null
 	 */
 	public static class ArticleCreateDTO extends TaobaoObject {
-		private static final long serialVersionUID = 2581165645673851246L;
+		private static final long serialVersionUID = 3691179439345738264L;
 		/**
 		 * 文章id
 		 */

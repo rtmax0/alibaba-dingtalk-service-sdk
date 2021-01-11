@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiExtcontactGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5737318211977273344L;
+	private static final long serialVersionUID = 3335974945142785699L;
 
 	/** 
 	 * errcode
@@ -68,7 +68,7 @@ public class OapiExtcontactGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenExtContact extends TaobaoObject {
-		private static final long serialVersionUID = 2842347781641828824L;
+		private static final long serialVersionUID = 7393591779145535172L;
 		/**
 		 * 地址
 		 */

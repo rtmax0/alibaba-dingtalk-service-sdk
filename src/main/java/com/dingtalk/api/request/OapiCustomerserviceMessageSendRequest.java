@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiCustomerserviceMessageSendResponse;
  * TOP DingTalk-API: dingtalk.oapi.customerservice.message.send request
  * 
  * @author top auto create
- * @since 1.0, 2020.02.12
+ * @since 1.0, 2020.11.17
  */
 public class OapiCustomerserviceMessageSendRequest extends BaseTaobaoRequest<OapiCustomerserviceMessageSendResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiCustomerserviceMessageSendRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class MessageDTO extends TaobaoObject {
-		private static final long serialVersionUID = 3616563546787226777L;
+		private static final long serialVersionUID = 8754124359452357391L;
 		/**
 		 * 会员所属组织
 		 */
@@ -127,6 +127,16 @@ public class OapiCustomerserviceMessageSendRequest extends BaseTaobaoRequest<Oap
 		 */
 		@ApiField("message_id")
 		private String messageId;
+		/**
+		 * 小二serviceId，或者会员的cmsId
+		 */
+		@ApiField("sender_id")
+		private String senderId;
+		/**
+		 * 4，小二；1，会员
+		 */
+		@ApiField("sender_type")
+		private String senderType;
 		/**
 		 * 会话来源
 		 */
@@ -173,6 +183,18 @@ public class OapiCustomerserviceMessageSendRequest extends BaseTaobaoRequest<Oap
 		}
 		public void setMessageId(String messageId) {
 			this.messageId = messageId;
+		}
+		public String getSenderId() {
+			return this.senderId;
+		}
+		public void setSenderId(String senderId) {
+			this.senderId = senderId;
+		}
+		public String getSenderType() {
+			return this.senderType;
+		}
+		public void setSenderType(String senderType) {
+			this.senderType = senderType;
 		}
 		public String getSessionSource() {
 			return this.sessionSource;

@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCrmMenuGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2694442845992343821L;
+	private static final long serialVersionUID = 8651265781466984446L;
 
 	/** 
 	 * 错误码
@@ -79,7 +79,7 @@ public class OapiCrmMenuGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OnlineNavigationModel extends TaobaoObject {
-		private static final long serialVersionUID = 6859343778821489992L;
+		private static final long serialVersionUID = 3588667821653588672L;
 		/**
 		 * 表单id 如果非表单类菜单，可为空
 		 */

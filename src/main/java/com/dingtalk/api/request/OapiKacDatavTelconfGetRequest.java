@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiKacDatavTelconfGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.kac.datav.telconf.get request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.25
+ * @since 1.0, 2020.07.13
  */
 public class OapiKacDatavTelconfGetRequest extends BaseTaobaoRequest<OapiKacDatavTelconfGetResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiKacDatavTelconfGetRequest extends BaseTaobaoRequest<OapiKacData
 	 * @since 1.0, null
 	 */
 	public static class TelConferenceSummaryRequest extends TaobaoObject {
-		private static final long serialVersionUID = 7655772342723292865L;
+		private static final long serialVersionUID = 4869118896117332814L;
 		/**
 		 * 日期标识
 		 */

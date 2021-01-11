@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoMosSpaceWorkerCheckInListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5315936225816774664L;
+	private static final long serialVersionUID = 2238251655793835276L;
 
 	/** 
 	 * 错误码
@@ -70,7 +70,7 @@ public class OapiRhinoMosSpaceWorkerCheckInListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ProdWorkstationWorkerCheckDto extends TaobaoObject {
-		private static final long serialVersionUID = 5314968222585276854L;
+		private static final long serialVersionUID = 4431916327349376433L;
 		/**
 		 * 登入时间
 		 */

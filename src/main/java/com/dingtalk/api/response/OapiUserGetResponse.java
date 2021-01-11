@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiUserGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2627389571268899544L;
+	private static final long serialVersionUID = 5156471617655811883L;
 
 	/** 
 	 * active
@@ -513,7 +513,7 @@ public class OapiUserGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Roles extends TaobaoObject {
-		private static final long serialVersionUID = 2178882649577377373L;
+		private static final long serialVersionUID = 4166817873434594614L;
 		/**
 		 * groupName
 		 */

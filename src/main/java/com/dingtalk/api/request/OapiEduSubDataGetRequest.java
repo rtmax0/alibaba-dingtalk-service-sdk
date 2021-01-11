@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiEduSubDataGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.edu.sub.data.get request
  * 
  * @author top auto create
- * @since 1.0, 2019.12.30
+ * @since 1.0, 2020.12.22
  */
 public class OapiEduSubDataGetRequest extends BaseTaobaoRequest<OapiEduSubDataGetResponse> {
 	
@@ -144,7 +144,7 @@ public class OapiEduSubDataGetRequest extends BaseTaobaoRequest<OapiEduSubDataGe
 	 * @since 1.0, null
 	 */
 	public static class OpenOrderDataRequest extends TaobaoObject {
-		private static final long serialVersionUID = 3529764661415556366L;
+		private static final long serialVersionUID = 6719383865332977986L;
 		/**
 		 * 排序字段名；字段名详见返回字段
 		 */

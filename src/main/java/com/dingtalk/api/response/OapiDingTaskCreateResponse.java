@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiDingTaskCreateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6852564237962649628L;
+	private static final long serialVersionUID = 4521917122636541819L;
 
 	/** 
 	 * dingOpenErrcode
@@ -66,7 +66,7 @@ public class OapiDingTaskCreateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TaskSendResult extends TaobaoObject {
-		private static final long serialVersionUID = 7462416831448265383L;
+		private static final long serialVersionUID = 2748458421247422814L;
 		/**
 		 * dingId
 		 */

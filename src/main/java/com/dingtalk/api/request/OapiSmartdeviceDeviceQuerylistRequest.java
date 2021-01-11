@@ -96,7 +96,7 @@ public class OapiSmartdeviceDeviceQuerylistRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class PageQueryVo extends TaobaoObject {
-		private static final long serialVersionUID = 1657463672227172656L;
+		private static final long serialVersionUID = 5726268986941378872L;
 		/**
 		 * 游标地址,第一页填0
 		 */

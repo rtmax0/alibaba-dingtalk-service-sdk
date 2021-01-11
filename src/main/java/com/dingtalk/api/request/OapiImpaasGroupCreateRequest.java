@@ -98,7 +98,7 @@ public class OapiImpaasGroupCreateRequest extends BaseTaobaoRequest<OapiImpaasGr
 	 * @since 1.0, null
 	 */
 	public static class BaseGroupMemberInfo extends TaobaoObject {
-		private static final long serialVersionUID = 5168553336954566139L;
+		private static final long serialVersionUID = 7278362885445848171L;
 		/**
 		 * 创建者账号ID，类型由type字段决定
 		 */
@@ -131,7 +131,7 @@ public class OapiImpaasGroupCreateRequest extends BaseTaobaoRequest<OapiImpaasGr
 	 * @since 1.0, null
 	 */
 	public static class CreateGroupRequest extends TaobaoObject {
-		private static final long serialVersionUID = 3468817596871813314L;
+		private static final long serialVersionUID = 7116439122939322595L;
 		/**
 		 * 接入方channel信息，该值由接入方接入IMPaaS平台时，向IMPaaS平台申请，例如“hema”“eleme”等。
 		 */

@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpDeviceManageGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5787545355854247947L;
+	private static final long serialVersionUID = 6251314328167498686L;
 
 	/** 
 	 * result
@@ -38,7 +38,7 @@ public class CorpDeviceManageGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenDeviceDetailVo extends TaobaoObject {
-		private static final long serialVersionUID = 5141179683591596422L;
+		private static final long serialVersionUID = 5476171491144839698L;
 		/**
 		 * 设备ID
 		 */
@@ -104,7 +104,7 @@ public class CorpDeviceManageGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 7729275475732831384L;
+		private static final long serialVersionUID = 3728329379835398861L;
 		/**
 		 * 错误码
 		 */

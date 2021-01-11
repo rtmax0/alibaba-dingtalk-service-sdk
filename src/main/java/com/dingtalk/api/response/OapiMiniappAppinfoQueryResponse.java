@@ -13,13 +13,13 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiMiniappAppinfoQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2618452942763159233L;
+	private static final long serialVersionUID = 4536352571337272668L;
 
 	/** 
 	 * 返回的数据实体
 	 */
 	@ApiField("data")
-	private MiniAppVersionDoModel data;
+	private AppInfoDoModel data;
 
 	/** 
 	 * errcode
@@ -34,10 +34,10 @@ public class OapiMiniappAppinfoQueryResponse extends TaobaoResponse {
 	private String errmsg;
 
 
-	public void setData(MiniAppVersionDoModel data) {
+	public void setData(AppInfoDoModel data) {
 		this.data = data;
 	}
-	public MiniAppVersionDoModel getData( ) {
+	public AppInfoDoModel getData( ) {
 		return this.data;
 	}
 
@@ -65,8 +65,13 @@ public class OapiMiniappAppinfoQueryResponse extends TaobaoResponse {
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
-	public static class MiniAppVersionDoModel extends TaobaoObject {
-		private static final long serialVersionUID = 6538289781341661935L;
+	public static class AppInfoDoModel extends TaobaoObject {
+		private static final long serialVersionUID = 3519472396288216457L;
+		/**
+		 * alias
+		 */
+		@ApiField("alias")
+		private String alias;
 		/**
 		 * 应用通道
 		 */
@@ -198,6 +203,12 @@ public class OapiMiniappAppinfoQueryResponse extends TaobaoResponse {
 		@ApiField("v_host")
 		private String vHost;
 	
+		public String getAlias() {
+			return this.alias;
+		}
+		public void setAlias(String alias) {
+			this.alias = alias;
+		}
 		public Long getAppChannel() {
 			return this.appChannel;
 		}

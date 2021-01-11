@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceScheduleResultListbyidsResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6721696869196796693L;
+	private static final long serialVersionUID = 5567816319668762297L;
 
 	/** 
 	 * 错误码
@@ -83,22 +83,7 @@ public class OapiAttendanceScheduleResultListbyidsResponse extends TaobaoRespons
 	 * @since 1.0, null
 	 */
 	public static class TopScheduleResultVo extends TaobaoObject {
-		private static final long serialVersionUID = 4122512314168187285L;
-		/**
-		 * 审批业务类型
-		 */
-		@ApiField("approve_biz_type")
-		private Long approveBizType;
-		/**
-		 * 关联的审批id
-		 */
-		@ApiField("approve_id")
-		private Long approveId;
-		/**
-		 * 关联的审批标签
-		 */
-		@ApiField("approve_tag_name")
-		private String approveTagName;
+		private static final long serialVersionUID = 4786472547873489624L;
 		/**
 		 * 迟到早退线
 		 */
@@ -180,24 +165,6 @@ public class OapiAttendanceScheduleResultListbyidsResponse extends TaobaoRespons
 		@ApiField("work_date")
 		private Date workDate;
 	
-		public Long getApproveBizType() {
-			return this.approveBizType;
-		}
-		public void setApproveBizType(Long approveBizType) {
-			this.approveBizType = approveBizType;
-		}
-		public Long getApproveId() {
-			return this.approveId;
-		}
-		public void setApproveId(Long approveId) {
-			this.approveId = approveId;
-		}
-		public String getApproveTagName() {
-			return this.approveTagName;
-		}
-		public void setApproveTagName(String approveTagName) {
-			this.approveTagName = approveTagName;
-		}
 		public Date getBaseCheckTime() {
 			return this.baseCheckTime;
 		}

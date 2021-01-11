@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiEduGroupMsgSendResponse;
  * TOP DingTalk-API: dingtalk.oapi.edu.group.msg.send request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.02
+ * @since 1.0, 2020.12.22
  */
 public class OapiEduGroupMsgSendRequest extends BaseTaobaoRequest<OapiEduGroupMsgSendResponse> {
 	

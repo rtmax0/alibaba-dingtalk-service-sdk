@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiWorkspaceTasklistHidebyorgResponse;
  * TOP DingTalk-API: dingtalk.oapi.workspace.tasklist.hidebyorg request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.31
+ * @since 1.0, 2021.01.04
  */
 public class OapiWorkspaceTasklistHidebyorgRequest extends BaseTaobaoRequest<OapiWorkspaceTasklistHidebyorgResponse> {
 	

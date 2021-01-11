@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class IsvBlazersGeneratecodeResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8356167662375699448L;
+	private static final long serialVersionUID = 7871938684213782696L;
 
 	/** 
 	 * result
@@ -38,7 +38,7 @@ public class IsvBlazersGeneratecodeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 2465483241759931126L;
+		private static final long serialVersionUID = 2444333296129617556L;
 		/**
 		 * dingOpenErrcode
 		 */

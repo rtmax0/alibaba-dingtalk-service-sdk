@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGroupUsersQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4516834684587534787L;
+	private static final long serialVersionUID = 4886151984586161474L;
 
 	/** 
 	 * 出参
@@ -40,7 +40,7 @@ public class OapiAttendanceGroupUsersQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 2791454421629163823L;
+		private static final long serialVersionUID = 2266464273979637535L;
 		/**
 		 * 是否更多
 		 */
@@ -74,7 +74,7 @@ public class OapiAttendanceGroupUsersQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 6733349449767535937L;
+		private static final long serialVersionUID = 6334824972355963681L;
 		/**
 		 * 错误码
 		 */

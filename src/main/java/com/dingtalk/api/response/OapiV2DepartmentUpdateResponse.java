@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiV2DepartmentUpdateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7687441327357321533L;
+	private static final long serialVersionUID = 3344926246688692485L;
 
 	/** 
 	 * 返回码
@@ -21,16 +21,10 @@ public class OapiV2DepartmentUpdateResponse extends TaobaoResponse {
 	private Long errcode;
 
 	/** 
-	 * 对返回码的文本描述内容
+	 * 错误信息
 	 */
 	@ApiField("errmsg")
 	private String errmsg;
-
-	/** 
-	 * 已经更新的部门id
-	 */
-	@ApiField("id")
-	private Long id;
 
 
 	public void setErrcode(Long errcode) {
@@ -45,13 +39,6 @@ public class OapiV2DepartmentUpdateResponse extends TaobaoResponse {
 	}
 	public String getErrmsg( ) {
 		return this.errmsg;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-	public Long getId( ) {
-		return this.id;
 	}
 
 	public boolean isSuccess() {

@@ -96,7 +96,7 @@ public class CorpSmartdeviceAddfaceRequest extends BaseTaobaoRequest<CorpSmartde
 	 * @since 1.0, null
 	 */
 	public static class DidoFaceVO extends TaobaoObject {
-		private static final long serialVersionUID = 3379693918613123612L;
+		private static final long serialVersionUID = 6587664168427996386L;
 		/**
 		 * 终端识别有效期截止时间 timestamp(毫秒)
 		 */

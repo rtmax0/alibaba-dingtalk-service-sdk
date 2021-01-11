@@ -19,7 +19,7 @@ import com.dingtalk.api.response.OapiRhinoSalesOrderCustomInfoQueryResponse;
  * TOP DingTalk-API: dingtalk.oapi.rhino.sales.order.custom.info.query request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.20
+ * @since 1.0, 2020.08.04
  */
 public class OapiRhinoSalesOrderCustomInfoQueryRequest extends BaseTaobaoRequest<OapiRhinoSalesOrderCustomInfoQueryResponse> {
 	
@@ -97,7 +97,7 @@ public class OapiRhinoSalesOrderCustomInfoQueryRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class OpenApiSalesOrderCustomInfoQueryReq extends TaobaoObject {
-		private static final long serialVersionUID = 1563916649492296283L;
+		private static final long serialVersionUID = 5241161595865339892L;
 		/**
 		 * 同步的2C订单批次id
 		 */

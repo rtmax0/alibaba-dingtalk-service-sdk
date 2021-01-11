@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiKacDatavDeptDauListResponse;
  * TOP DingTalk-API: dingtalk.oapi.kac.datav.dept.dau.list request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.26
+ * @since 1.0, 2020.11.17
  */
 public class OapiKacDatavDeptDauListRequest extends BaseTaobaoRequest<OapiKacDatavDeptDauListResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiKacDatavDeptDauListRequest extends BaseTaobaoRequest<OapiKacDat
 	 * @since 1.0, null
 	 */
 	public static class DeptDauSummaryRequest extends TaobaoObject {
-		private static final long serialVersionUID = 7511314383491192925L;
+		private static final long serialVersionUID = 4281722136592847918L;
 		/**
 		 * 分页游标；首页请使用0，之后直接使用返回结果中的next_cursor
 		 */

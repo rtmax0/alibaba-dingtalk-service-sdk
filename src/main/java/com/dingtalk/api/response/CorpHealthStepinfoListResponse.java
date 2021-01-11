@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpHealthStepinfoListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3428198941262596227L;
+	private static final long serialVersionUID = 1686335819689187388L;
 
 	/** 
 	 * result
@@ -40,7 +40,7 @@ public class CorpHealthStepinfoListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class BasicStepInfoVo extends TaobaoObject {
-		private static final long serialVersionUID = 3233569375239531197L;
+		private static final long serialVersionUID = 5757539133173583162L;
 		/**
 		 * 统计的时间
 		 */
@@ -73,7 +73,7 @@ public class CorpHealthStepinfoListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 4877146413888685575L;
+		private static final long serialVersionUID = 5899777531396765843L;
 		/**
 		 * dingOpenErrcode
 		 */

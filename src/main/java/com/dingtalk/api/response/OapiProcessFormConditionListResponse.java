@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProcessFormConditionListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3497346926351656833L;
+	private static final long serialVersionUID = 2851857653682887773L;
 
 	/** 
 	 * 0
@@ -69,7 +69,7 @@ public class OapiProcessFormConditionListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class SimpleFormComponentVo extends TaobaoObject {
-		private static final long serialVersionUID = 5564528316146471433L;
+		private static final long serialVersionUID = 6574998245444825444L;
 		/**
 		 * 表单id
 		 */

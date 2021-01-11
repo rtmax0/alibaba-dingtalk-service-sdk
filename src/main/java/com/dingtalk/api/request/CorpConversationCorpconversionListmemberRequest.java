@@ -17,7 +17,7 @@ import com.dingtalk.api.response.CorpConversationCorpconversionListmemberRespons
  * TOP DingTalk-API: dingtalk.corp.conversation.corpconversion.listmember request
  * 
  * @author top auto create
- * @since 1.0, 2019.07.03
+ * @since 1.0, 2020.09.21
  */
 public class CorpConversationCorpconversionListmemberRequest extends BaseTaobaoRequest<CorpConversationCorpconversionListmemberResponse> {
 	

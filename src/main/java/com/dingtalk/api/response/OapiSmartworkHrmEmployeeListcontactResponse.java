@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartworkHrmEmployeeListcontactResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8357399646678162298L;
+	private static final long serialVersionUID = 7249949781323137426L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiSmartworkHrmEmployeeListcontactResponse extends TaobaoResponse 
 	 * @since 1.0, null
 	 */
 	public static class EmpFieldVo extends TaobaoObject {
-		private static final long serialVersionUID = 8126478733716352148L;
+		private static final long serialVersionUID = 4369323396833431921L;
 		/**
 		 * 字段编码
 		 */
@@ -148,7 +148,7 @@ public class OapiSmartworkHrmEmployeeListcontactResponse extends TaobaoResponse 
 	 * @since 1.0, null
 	 */
 	public static class EmpFieldInfoVo extends TaobaoObject {
-		private static final long serialVersionUID = 4662996867468171131L;
+		private static final long serialVersionUID = 5676449375979373186L;
 		/**
 		 * 字段信息列表
 		 */

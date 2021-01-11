@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGroupMemberListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4491853635784896816L;
+	private static final long serialVersionUID = 2547655259115319494L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiAttendanceGroupMemberListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopGroupMemberVo extends TaobaoObject {
-		private static final long serialVersionUID = 2868776756412127234L;
+		private static final long serialVersionUID = 3329434252212635182L;
 		/**
 		 * 0表示需要考勤，1表示无需考勤人员
 		 */
@@ -125,7 +125,7 @@ public class OapiAttendanceGroupMemberListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 1437175324217316542L;
+		private static final long serialVersionUID = 3474896642124734737L;
 		/**
 		 * 游标
 		 */

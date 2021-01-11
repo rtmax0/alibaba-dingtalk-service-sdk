@@ -16,7 +16,7 @@ import com.dingtalk.api.response.OapiEduCardTaskTodayListResponse;
  * TOP DingTalk-API: dingtalk.oapi.edu.card.task.today.list request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.29
+ * @since 1.0, 2019.08.23
  */
 public class OapiEduCardTaskTodayListRequest extends BaseTaobaoRequest<OapiEduCardTaskTodayListResponse> {
 	

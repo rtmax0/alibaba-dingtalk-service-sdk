@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpSearchCorpcontactBaseinfoResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3528498892817337615L;
+	private static final long serialVersionUID = 5812913881933371196L;
 
 	/** 
 	 * result
@@ -40,7 +40,7 @@ public class CorpSearchCorpcontactBaseinfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class GroupContactResult extends TaobaoObject {
-		private static final long serialVersionUID = 7852727669752367369L;
+		private static final long serialVersionUID = 1739541729846471238L;
 		/**
 		 * aliTmpDept
 		 */
@@ -128,7 +128,7 @@ public class CorpSearchCorpcontactBaseinfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 8317584489275979515L;
+		private static final long serialVersionUID = 8194882419294528454L;
 		/**
 		 * 是否还有更多数据
 		 */
@@ -184,7 +184,7 @@ public class CorpSearchCorpcontactBaseinfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 4143367438285322383L;
+		private static final long serialVersionUID = 7238761469565546485L;
 		/**
 		 * dingOpenErrcode
 		 */

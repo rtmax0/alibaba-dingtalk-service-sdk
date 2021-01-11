@@ -96,7 +96,7 @@ public class OapiLiveQueryRequest extends BaseTaobaoRequest<OapiLiveQueryRespons
 	 * @since 1.0, null
 	 */
 	public static class GetDetailReqModel extends TaobaoObject {
-		private static final long serialVersionUID = 2119989265117774363L;
+		private static final long serialVersionUID = 2652979537493559983L;
 		/**
 		 * 直播UUID,必填
 		 */

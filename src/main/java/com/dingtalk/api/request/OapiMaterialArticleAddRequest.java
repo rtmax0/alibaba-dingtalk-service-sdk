@@ -112,7 +112,7 @@ public class OapiMaterialArticleAddRequest extends BaseTaobaoRequest<OapiMateria
 	 * @since 1.0, null
 	 */
 	public static class ArticleCreateDTO extends TaobaoObject {
-		private static final long serialVersionUID = 6845231529649744728L;
+		private static final long serialVersionUID = 1422662691518627492L;
 		/**
 		 * 文章内容（html码）
 		 */

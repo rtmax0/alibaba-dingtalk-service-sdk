@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProcessListbyuseridResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3765968146268179142L;
+	private static final long serialVersionUID = 1382647542893961437L;
 
 	/** 
 	 * dingOpenErrcode
@@ -68,7 +68,7 @@ public class OapiProcessListbyuseridResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ProcessTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 5646629672781817576L;
+		private static final long serialVersionUID = 4453931963326742297L;
 		/**
 		 * 图标url
 		 */
@@ -123,7 +123,7 @@ public class OapiProcessListbyuseridResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class HomePageProcessTemplateVo extends TaobaoObject {
-		private static final long serialVersionUID = 5229332671576756521L;
+		private static final long serialVersionUID = 4285714449591175524L;
 		/**
 		 * 下一次分页调用的offset值，当返回结果里没有nextCursor时，表示分页结束
 		 */

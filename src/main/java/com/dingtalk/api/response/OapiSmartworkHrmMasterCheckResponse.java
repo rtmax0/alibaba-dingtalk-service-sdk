@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartworkHrmMasterCheckResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8555176696119677116L;
+	private static final long serialVersionUID = 3742425386477244688L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiSmartworkHrmMasterCheckResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Failresult extends TaobaoObject {
-		private static final long serialVersionUID = 3337788245553671755L;
+		private static final long serialVersionUID = 6625254491897762529L;
 		/**
 		 * 业务UK唯一确定一条流水
 		 */
@@ -123,7 +123,7 @@ public class OapiSmartworkHrmMasterCheckResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class IntegrateBatchResultVo extends TaobaoObject {
-		private static final long serialVersionUID = 6369528682168282965L;
+		private static final long serialVersionUID = 2324966561496772167L;
 		/**
 		 * 是否全部处理成功
 		 */

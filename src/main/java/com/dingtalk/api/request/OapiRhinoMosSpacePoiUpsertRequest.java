@@ -96,7 +96,7 @@ public class OapiRhinoMosSpacePoiUpsertRequest extends BaseTaobaoRequest<OapiRhi
 	 * @since 1.0, null
 	 */
 	public static class SpacePoiUpsertReq extends TaobaoObject {
-		private static final long serialVersionUID = 2613776876235739629L;
+		private static final long serialVersionUID = 7118854874524217323L;
 		/**
 		 * 类目code
 		 */

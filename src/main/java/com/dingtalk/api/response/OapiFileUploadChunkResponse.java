@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiFileUploadChunkResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8217546419675562579L;
+	private static final long serialVersionUID = 8781785677898125196L;
 
 	/** 
 	 * errcode

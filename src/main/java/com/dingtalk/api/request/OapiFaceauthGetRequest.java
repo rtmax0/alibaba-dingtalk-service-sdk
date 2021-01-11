@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiFaceauthGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.faceauth.get request
  * 
  * @author top auto create
- * @since 1.0, 2019.09.19
+ * @since 1.0, 2019.07.01
  */
 public class OapiFaceauthGetRequest extends BaseTaobaoRequest<OapiFaceauthGetResponse> {
 	

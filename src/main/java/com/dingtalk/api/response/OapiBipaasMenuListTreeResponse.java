@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiBipaasMenuListTreeResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1286792336435741963L;
+	private static final long serialVersionUID = 6159165348455865975L;
 
 	/** 
 	 * 错误码

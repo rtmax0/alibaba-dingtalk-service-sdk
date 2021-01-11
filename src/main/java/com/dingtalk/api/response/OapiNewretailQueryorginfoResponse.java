@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiNewretailQueryorginfoResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2746628456382271483L;
+	private static final long serialVersionUID = 6894757563968628221L;
 
 	/** 
 	 * dingOpenErrcode
@@ -66,7 +66,7 @@ public class OapiNewretailQueryorginfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Org extends TaobaoObject {
-		private static final long serialVersionUID = 6469447198761469967L;
+		private static final long serialVersionUID = 4255873461343962311L;
 		/**
 		 * licenseMediaId
 		 */

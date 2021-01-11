@@ -12,16 +12,16 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImpaasGroupDismissResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8591211534289141199L;
+	private static final long serialVersionUID = 8532812668385866162L;
 
 	/** 
-	 * 错误码
+	 * dingOpenErrcode
 	 */
 	@ApiField("errcode")
 	private Long errcode;
 
 	/** 
-	 * 错误信息描述
+	 * errorMsg
 	 */
 	@ApiField("errmsg")
 	private String errmsg;

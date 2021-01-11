@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiServiceSetCorpIpwhitelistResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1783291791715142327L;
+	private static final long serialVersionUID = 4857126662614315748L;
 
 	/** 
 	 * errcode

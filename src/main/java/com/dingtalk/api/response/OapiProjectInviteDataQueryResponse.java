@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProjectInviteDataQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1863733354675343516L;
+	private static final long serialVersionUID = 6429526826961292893L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiProjectInviteDataQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class InviteDataModel extends TaobaoObject {
-		private static final long serialVersionUID = 1879398544112121569L;
+		private static final long serialVersionUID = 2362238414694117583L;
 		/**
 		 * 渠道，"MARKET"表示通过营销的数据，其他是通过系统的方式进入
 		 */
@@ -180,7 +180,7 @@ public class OapiProjectInviteDataQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 2469344168784895939L;
+		private static final long serialVersionUID = 2212812261957177459L;
 		/**
 		 * 结果集数据
 		 */
@@ -188,7 +188,7 @@ public class OapiProjectInviteDataQueryResponse extends TaobaoResponse {
 		@ApiField("invite_data_model")
 		private List<InviteDataModel> data;
 		/**
-		 * 是否有更多数据
+		 * 是否有更多数据，如果为false，这表示本次查询没有更多的数据了。
 		 */
 		@ApiField("has_more")
 		private String hasMore;

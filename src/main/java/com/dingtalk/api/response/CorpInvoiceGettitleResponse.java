@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpInvoiceGettitleResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7239263866221637268L;
+	private static final long serialVersionUID = 1481253397657378147L;
 
 	/** 
 	 * result
@@ -38,7 +38,7 @@ public class CorpInvoiceGettitleResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class InvoiceVo extends TaobaoObject {
-		private static final long serialVersionUID = 1441198723435961682L;
+		private static final long serialVersionUID = 8395674644687752454L;
 		/**
 		 * 银行账户
 		 */
@@ -126,7 +126,7 @@ public class CorpInvoiceGettitleResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 4456228238529753356L;
+		private static final long serialVersionUID = 4178356789655196955L;
 		/**
 		 * dingOpenErrcode
 		 */

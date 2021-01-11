@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImIntelligentCardSendResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7623197291524657256L;
+	private static final long serialVersionUID = 2179115591483614621L;
 
 	/** 
 	 * dingOpenErrcode
@@ -79,7 +79,7 @@ public class OapiImIntelligentCardSendResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class SendInteractiveCardResultVo extends TaobaoObject {
-		private static final long serialVersionUID = 6799956347552527817L;
+		private static final long serialVersionUID = 2543294831629417172L;
 		/**
 		 * 卡片发送结果
 		 */

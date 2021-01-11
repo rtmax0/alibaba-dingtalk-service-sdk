@@ -16,7 +16,7 @@ import com.dingtalk.api.response.OapiEduCardTaskSubmitResponse;
  * TOP DingTalk-API: dingtalk.oapi.edu.card.task.submit request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.26
+ * @since 1.0, 2019.08.23
  */
 public class OapiEduCardTaskSubmitRequest extends BaseTaobaoRequest<OapiEduCardTaskSubmitResponse> {
 	

@@ -96,7 +96,7 @@ public class OapiWorkspaceUpdateRequest extends BaseTaobaoRequest<OapiWorkspaceU
 	 * @since 1.0, null
 	 */
 	public static class OpenUpdateWorkspaceDto extends TaobaoObject {
-		private static final long serialVersionUID = 2542713862465944796L;
+		private static final long serialVersionUID = 2327289947221946557L;
 		/**
 		 * 非必填。描述，长度256字符以内
 		 */

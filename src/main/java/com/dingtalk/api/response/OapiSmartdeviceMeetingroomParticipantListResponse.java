@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartdeviceMeetingroomParticipantListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7269921821668588383L;
+	private static final long serialVersionUID = 4234893724177244737L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiSmartdeviceMeetingroomParticipantListResponse extends TaobaoRes
 	 * @since 1.0, null
 	 */
 	public static class MemeberOpenInfo extends TaobaoObject {
-		private static final long serialVersionUID = 5663256111641713153L;
+		private static final long serialVersionUID = 4758762385277591231L;
 		/**
 		 * 参会人userid
 		 */
@@ -90,7 +90,7 @@ public class OapiSmartdeviceMeetingroomParticipantListResponse extends TaobaoRes
 	 * @since 1.0, null
 	 */
 	public static class OpenPageResult extends TaobaoObject {
-		private static final long serialVersionUID = 5886337644485732975L;
+		private static final long serialVersionUID = 8716979869145312871L;
 		/**
 		 * 是否有下一页
 		 */

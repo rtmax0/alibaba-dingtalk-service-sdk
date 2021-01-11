@@ -98,7 +98,7 @@ public class OapiProcessWorkrecordTaskCreateRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class TaskTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 1253886344469222864L;
+		private static final long serialVersionUID = 8475853715548243436L;
 		/**
 		 * 跳转url
 		 */
@@ -131,7 +131,7 @@ public class OapiProcessWorkrecordTaskCreateRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class SaveTaskRequest extends TaobaoObject {
-		private static final long serialVersionUID = 4495781755581317885L;
+		private static final long serialVersionUID = 4481111992498257323L;
 		/**
 		 * 节点id
 		 */

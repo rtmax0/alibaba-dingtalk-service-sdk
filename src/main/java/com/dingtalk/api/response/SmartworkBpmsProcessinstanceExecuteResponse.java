@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class SmartworkBpmsProcessinstanceExecuteResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6629942766639574777L;
+	private static final long serialVersionUID = 1266993723961972875L;
 
 	/** 
 	 * result
@@ -38,7 +38,7 @@ public class SmartworkBpmsProcessinstanceExecuteResponse extends TaobaoResponse 
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 7846984952231355585L;
+		private static final long serialVersionUID = 7133779979397345532L;
 		/**
 		 * dingOpenErrcode
 		 */

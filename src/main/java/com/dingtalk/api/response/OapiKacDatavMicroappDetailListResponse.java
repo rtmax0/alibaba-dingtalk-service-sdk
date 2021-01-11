@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiKacDatavMicroappDetailListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2346442145329481594L;
+	private static final long serialVersionUID = 5578191496147358185L;
 
 	/** 
 	 * 结果码
@@ -68,7 +68,7 @@ public class OapiKacDatavMicroappDetailListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class MicroAppSummaryVo extends TaobaoObject {
-		private static final long serialVersionUID = 8787837555976747583L;
+		private static final long serialVersionUID = 2531271173711789511L;
 		/**
 		 * 微应用名
 		 */
@@ -112,7 +112,7 @@ public class OapiKacDatavMicroappDetailListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class MicroAppSummaryResponse extends TaobaoObject {
-		private static final long serialVersionUID = 8732123982716261435L;
+		private static final long serialVersionUID = 8835255535219259912L;
 		/**
 		 * 数据列表
 		 */

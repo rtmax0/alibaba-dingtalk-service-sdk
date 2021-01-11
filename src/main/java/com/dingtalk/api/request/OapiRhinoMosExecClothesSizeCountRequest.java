@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiRhinoMosExecClothesSizeCountResponse;
  * TOP DingTalk-API: dingtalk.oapi.rhino.mos.exec.clothes.size.count request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.22
+ * @since 1.0, 2020.04.16
  */
 public class OapiRhinoMosExecClothesSizeCountRequest extends BaseTaobaoRequest<OapiRhinoMosExecClothesSizeCountResponse> {
 	
@@ -98,7 +98,7 @@ public class OapiRhinoMosExecClothesSizeCountRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class ClothesGroupBySizeConditionReq extends TaobaoObject {
-		private static final long serialVersionUID = 2128935138376316289L;
+		private static final long serialVersionUID = 7186396995391952289L;
 		/**
 		 * 衣服状态列表
 		 */

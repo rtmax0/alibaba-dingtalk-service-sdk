@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCspaceAuthUpdateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7878743263552898432L;
+	private static final long serialVersionUID = 2648495995182853424L;
 
 	/** 
 	 * 错误码
@@ -80,7 +80,7 @@ public class OapiCspaceAuthUpdateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class IsvAuthCodeResult extends TaobaoObject {
-		private static final long serialVersionUID = 8748334658688551923L;
+		private static final long serialVersionUID = 8862172132544943381L;
 		/**
 		 * 授权码有效期，unix时间戳，单位ms
 		 */

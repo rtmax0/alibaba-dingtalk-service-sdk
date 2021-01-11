@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiPbpEventDeleteResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4867683581486112934L;
+	private static final long serialVersionUID = 8647911775786177514L;
 
 	/** 
 	 * 错误码

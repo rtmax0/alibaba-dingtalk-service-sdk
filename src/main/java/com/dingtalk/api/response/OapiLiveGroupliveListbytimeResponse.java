@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiLiveGroupliveListbytimeResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1291954583333974973L;
+	private static final long serialVersionUID = 6762512498456468335L;
 
 	/** 
 	 * 错误码
@@ -69,7 +69,7 @@ public class OapiLiveGroupliveListbytimeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class GroupLiveListResult extends TaobaoObject {
-		private static final long serialVersionUID = 6789762895195257558L;
+		private static final long serialVersionUID = 4713291132641683482L;
 		/**
 		 * 直播时长
 		 */
@@ -80,6 +80,11 @@ public class OapiLiveGroupliveListbytimeResponse extends TaobaoResponse {
 		 */
 		@ApiField("live_uuid")
 		private String liveUuid;
+		/**
+		 * true为被联播群，false为主群
+		 */
+		@ApiField("share_from")
+		private Boolean shareFrom;
 		/**
 		 * 直播开始时间
 		 */
@@ -107,6 +112,12 @@ public class OapiLiveGroupliveListbytimeResponse extends TaobaoResponse {
 		}
 		public void setLiveUuid(String liveUuid) {
 			this.liveUuid = liveUuid;
+		}
+		public Boolean getShareFrom() {
+			return this.shareFrom;
+		}
+		public void setShareFrom(Boolean shareFrom) {
+			this.shareFrom = shareFrom;
 		}
 		public Long getStartTime() {
 			return this.startTime;

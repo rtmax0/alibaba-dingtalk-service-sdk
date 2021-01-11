@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiHealthStepinfoListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2453592747397698122L;
+	private static final long serialVersionUID = 3616287787857988841L;
 
 	/** 
 	 * errcode
@@ -69,7 +69,7 @@ public class OapiHealthStepinfoListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class BasicStepInfoVo extends TaobaoObject {
-		private static final long serialVersionUID = 2623753843976269665L;
+		private static final long serialVersionUID = 5435756245673133799L;
 		/**
 		 * 统计的时间
 		 */

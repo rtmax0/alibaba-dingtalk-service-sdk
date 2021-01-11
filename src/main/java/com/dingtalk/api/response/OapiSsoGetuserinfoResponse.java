@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSsoGetuserinfoResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8146151898498574366L;
+	private static final long serialVersionUID = 7893476876867879685L;
 
 	/** 
 	 * corp_info
@@ -92,7 +92,7 @@ public class OapiSsoGetuserinfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class UserInfo extends TaobaoObject {
-		private static final long serialVersionUID = 1817517233646286278L;
+		private static final long serialVersionUID = 6258941274672413318L;
 		/**
 		 * avatar
 		 */
@@ -147,7 +147,7 @@ public class OapiSsoGetuserinfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class CorpInfo extends TaobaoObject {
-		private static final long serialVersionUID = 8196314744668331951L;
+		private static final long serialVersionUID = 3123254447813748459L;
 		/**
 		 * 公司名字
 		 */

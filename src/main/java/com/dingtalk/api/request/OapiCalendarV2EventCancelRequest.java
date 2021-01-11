@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiCalendarV2EventCancelResponse;
  * TOP DingTalk-API: dingtalk.oapi.calendar.v2.event.cancel request
  * 
  * @author top auto create
- * @since 1.0, 2019.10.30
+ * @since 1.0, 2020.07.16
  */
 public class OapiCalendarV2EventCancelRequest extends BaseTaobaoRequest<OapiCalendarV2EventCancelResponse> {
 	

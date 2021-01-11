@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class SmartworkBpmsProcessGetvisibleResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7536668996924233647L;
+	private static final long serialVersionUID = 7736327545993232634L;
 
 	/** 
 	 * 返回数据
@@ -40,7 +40,7 @@ public class SmartworkBpmsProcessGetvisibleResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ProcessTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 2759417685899685684L;
+		private static final long serialVersionUID = 8229986559431265548L;
 		/**
 		 * 可见的流程模板唯一标识，最多20条
 		 */
@@ -62,7 +62,7 @@ public class SmartworkBpmsProcessGetvisibleResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 6184189738934413159L;
+		private static final long serialVersionUID = 4688131625448581688L;
 		/**
 		 * 错误码
 		 */

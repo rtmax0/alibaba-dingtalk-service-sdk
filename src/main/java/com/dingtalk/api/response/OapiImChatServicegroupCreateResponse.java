@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImChatServicegroupCreateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5262824945468984246L;
+	private static final long serialVersionUID = 2433817262441861769L;
 
 	/** 
 	 * 错误代码
@@ -79,7 +79,7 @@ public class OapiImChatServicegroupCreateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ServiceGroupCreateResponse extends TaobaoObject {
-		private static final long serialVersionUID = 7727191271552349795L;
+		private static final long serialVersionUID = 8775789873287588912L;
 		/**
 		 * 开放的会话chatId
 		 */

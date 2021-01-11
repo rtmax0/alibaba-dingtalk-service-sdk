@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCollectionInstanceGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1444449857657152866L;
+	private static final long serialVersionUID = 3498416911218521256L;
 
 	/** 
 	 * 错误码
@@ -69,7 +69,7 @@ public class OapiCollectionInstanceGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormData extends TaobaoObject {
-		private static final long serialVersionUID = 1155121653559436418L;
+		private static final long serialVersionUID = 8863432672376332213L;
 		/**
 		 * 控件名
 		 */
@@ -113,7 +113,7 @@ public class OapiCollectionInstanceGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormInstanceVo extends TaobaoObject {
-		private static final long serialVersionUID = 7679334365588362726L;
+		private static final long serialVersionUID = 8348977317413579313L;
 		/**
 		 * 创建时间
 		 */

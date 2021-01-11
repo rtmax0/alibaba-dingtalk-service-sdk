@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoHumanresCorpemployeeGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7544144432663439459L;
+	private static final long serialVersionUID = 2528194449555254342L;
 
 	/** 
 	 * 员工详情
@@ -106,7 +106,7 @@ public class OapiRhinoHumanresCorpemployeeGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Model extends TaobaoObject {
-		private static final long serialVersionUID = 2837959189696247796L;
+		private static final long serialVersionUID = 6728642354541676674L;
 		/**
 		 * 部门邮箱
 		 */

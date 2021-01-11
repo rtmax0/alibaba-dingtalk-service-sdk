@@ -32,7 +32,7 @@ public class OapiAttendanceShiftUpdatepunchesRequest extends BaseTaobaoRequest<O
 	private String opUserId;
 
 	/** 
-	* 卡点设置列表
+	* 系统自动生成
 	 */
 	private String punches;
 
@@ -123,13 +123,13 @@ public class OapiAttendanceShiftUpdatepunchesRequest extends BaseTaobaoRequest<O
 	}
 	
 	/**
-	 * 卡点设置列表
+	 * 系统自动生成
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class TopPunchVO extends TaobaoObject {
-		private static final long serialVersionUID = 8299521293238974328L;
+		private static final long serialVersionUID = 1633444184495177354L;
 		/**
 		 * 是否无需打卡 true：开启无需打卡，false：关闭无需打卡
 		 */

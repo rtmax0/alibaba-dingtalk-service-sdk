@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripFlightCitySuggestResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8365682981892382677L;
+	private static final long serialVersionUID = 2268868134925786124L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiAlitripBtripFlightCitySuggestResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class CityVo extends TaobaoObject {
-		private static final long serialVersionUID = 7537939583665336459L;
+		private static final long serialVersionUID = 6742534726548266446L;
 		/**
 		 * 三字码
 		 */
@@ -136,7 +136,7 @@ public class OapiAlitripBtripFlightCitySuggestResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class SuggestRs extends TaobaoObject {
-		private static final long serialVersionUID = 5298228827321874715L;
+		private static final long serialVersionUID = 5489969271734248196L;
 		/**
 		 * 城市列表
 		 */

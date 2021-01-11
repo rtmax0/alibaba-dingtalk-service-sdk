@@ -98,7 +98,7 @@ public class OapiRhinoMosExecClothesIdListbypageRequest extends BaseTaobaoReques
 	 * @since 1.0, null
 	 */
 	public static class Page extends TaobaoObject {
-		private static final long serialVersionUID = 2675986739647163115L;
+		private static final long serialVersionUID = 7385712795182115979L;
 		/**
 		 * 每页大小
 		 */
@@ -131,7 +131,7 @@ public class OapiRhinoMosExecClothesIdListbypageRequest extends BaseTaobaoReques
 	 * @since 1.0, null
 	 */
 	public static class Source extends TaobaoObject {
-		private static final long serialVersionUID = 2839669741539849585L;
+		private static final long serialVersionUID = 3723327898582517936L;
 		/**
 		 * 来源ID，创建该实体的来源业务ID，会用来源ID和来源类型一起做幂等
 		 */
@@ -164,7 +164,7 @@ public class OapiRhinoMosExecClothesIdListbypageRequest extends BaseTaobaoReques
 	 * @since 1.0, null
 	 */
 	public static class PageQueryClothesReq extends TaobaoObject {
-		private static final long serialVersionUID = 8248829997243639622L;
+		private static final long serialVersionUID = 1397145149212397795L;
 		/**
 		 * 业务类型
 		 */

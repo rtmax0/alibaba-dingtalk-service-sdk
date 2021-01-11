@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiTdpProjectBasicCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.tdp.project.basic.create request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.31
+ * @since 1.0, 2020.12.23
  */
 public class OapiTdpProjectBasicCreateRequest extends BaseTaobaoRequest<OapiTdpProjectBasicCreateResponse> {
 	
@@ -127,7 +127,7 @@ public class OapiTdpProjectBasicCreateRequest extends BaseTaobaoRequest<OapiTdpP
 	 * @since 1.0, null
 	 */
 	public static class ProjectCreate extends TaobaoObject {
-		private static final long serialVersionUID = 5889867569117996192L;
+		private static final long serialVersionUID = 7253955654212712286L;
 		/**
 		 * 创建者id, 传staffId（工号）
 		 */

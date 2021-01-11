@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class SmartworkAttendsGetleaveapprovedurationResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8752834565427728727L;
+	private static final long serialVersionUID = 2655666811727967138L;
 
 	/** 
 	 * result
@@ -38,7 +38,7 @@ public class SmartworkAttendsGetleaveapprovedurationResponse extends TaobaoRespo
 	 * @since 1.0, null
 	 */
 	public static class ApproveDurationForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 7428647269119716245L;
+		private static final long serialVersionUID = 1648333489927282714L;
 		/**
 		 * 请假时长（单位分钟）
 		 */
@@ -60,7 +60,7 @@ public class SmartworkAttendsGetleaveapprovedurationResponse extends TaobaoRespo
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 3787898262733484533L;
+		private static final long serialVersionUID = 1211953837253476295L;
 		/**
 		 * dingOpenErrcode
 		 */

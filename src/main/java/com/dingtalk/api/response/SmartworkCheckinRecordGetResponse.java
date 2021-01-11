@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class SmartworkCheckinRecordGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4318372629318435111L;
+	private static final long serialVersionUID = 4518894737375914976L;
 
 	/** 
 	 * result
@@ -40,7 +40,7 @@ public class SmartworkCheckinRecordGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class CheckinRecordVo extends TaobaoObject {
-		private static final long serialVersionUID = 8832221728235632558L;
+		private static final long serialVersionUID = 4541889219135389448L;
 		/**
 		 * 签到时间,单位毫秒
 		 */
@@ -151,7 +151,7 @@ public class SmartworkCheckinRecordGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 4538167388688636658L;
+		private static final long serialVersionUID = 3895258274992982945L;
 		/**
 		 * 表示下次查询的游标，为null代表没有更多的数据了
 		 */
@@ -185,7 +185,7 @@ public class SmartworkCheckinRecordGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 7299555691727491585L;
+		private static final long serialVersionUID = 7597263182755125233L;
 		/**
 		 * dingOpenErrcode
 		 */

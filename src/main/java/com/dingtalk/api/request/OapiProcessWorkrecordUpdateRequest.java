@@ -96,7 +96,7 @@ public class OapiProcessWorkrecordUpdateRequest extends BaseTaobaoRequest<OapiPr
 	 * @since 1.0, null
 	 */
 	public static class UpdateProcessInstanceRequest extends TaobaoObject {
-		private static final long serialVersionUID = 5623689815113314974L;
+		private static final long serialVersionUID = 1163562496974959518L;
 		/**
 		 * 应用id
 		 */

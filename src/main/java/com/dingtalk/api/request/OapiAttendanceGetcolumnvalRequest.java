@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiAttendanceGetcolumnvalResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.getcolumnval request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.13
+ * @since 1.0, 2019.11.25
  */
 public class OapiAttendanceGetcolumnvalRequest extends BaseTaobaoRequest<OapiAttendanceGetcolumnvalResponse> {
 	

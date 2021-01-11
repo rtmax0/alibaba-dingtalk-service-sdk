@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiMaterialNewsAddResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3762181864567254993L;
+	private static final long serialVersionUID = 8171845236779852233L;
 
 	/** 
 	 * 错误码
@@ -27,7 +27,7 @@ public class OapiMaterialNewsAddResponse extends TaobaoResponse {
 	private String errmsg;
 
 	/** 
-	 * 消息卡片id
+	 * 卡片素材id
 	 */
 	@ApiField("media_id")
 	private String mediaId;

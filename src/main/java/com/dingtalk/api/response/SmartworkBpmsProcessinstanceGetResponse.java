@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class SmartworkBpmsProcessinstanceGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2219218599922224429L;
+	private static final long serialVersionUID = 2381266835327593175L;
 
 	/** 
 	 * result
@@ -41,7 +41,7 @@ public class SmartworkBpmsProcessinstanceGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OperationRecordsVo extends TaobaoObject {
-		private static final long serialVersionUID = 6611798386427277898L;
+		private static final long serialVersionUID = 5418951394562748459L;
 		/**
 		 * 时间
 		 */
@@ -107,7 +107,7 @@ public class SmartworkBpmsProcessinstanceGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TaskTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 5515487365982521244L;
+		private static final long serialVersionUID = 7682921964643255583L;
 		/**
 		 * 开始时间
 		 */
@@ -184,7 +184,7 @@ public class SmartworkBpmsProcessinstanceGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormComponentValueVo extends TaobaoObject {
-		private static final long serialVersionUID = 8722852325146981378L;
+		private static final long serialVersionUID = 5214566217543476694L;
 		/**
 		 * 组件类型
 		 */
@@ -250,7 +250,7 @@ public class SmartworkBpmsProcessinstanceGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ProcessInstanceTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 7616988178879738725L;
+		private static final long serialVersionUID = 6638599755253912173L;
 		/**
 		 * 审批人
 		 */
@@ -443,7 +443,7 @@ public class SmartworkBpmsProcessinstanceGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 6824322521571212988L;
+		private static final long serialVersionUID = 8463925416274694648L;
 		/**
 		 * dingOpenErrcode
 		 */

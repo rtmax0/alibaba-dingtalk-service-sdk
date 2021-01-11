@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class SmartworkAttendsGetusergroupResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7387987245516172859L;
+	private static final long serialVersionUID = 7585924566711886217L;
 
 	/** 
 	 * result
@@ -41,7 +41,7 @@ public class SmartworkAttendsGetusergroupResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtTimeVo extends TaobaoObject {
-		private static final long serialVersionUID = 3864622586691926698L;
+		private static final long serialVersionUID = 3395797381614272864L;
 		/**
 		 * 打卡时间跨几天
 		 */
@@ -107,7 +107,7 @@ public class SmartworkAttendsGetusergroupResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtSectionVo extends TaobaoObject {
-		private static final long serialVersionUID = 6838269254818187556L;
+		private static final long serialVersionUID = 1788992418758979921L;
 		/**
 		 * 班次中上下班详情列表
 		 */
@@ -130,7 +130,7 @@ public class SmartworkAttendsGetusergroupResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ClassSettingVo extends TaobaoObject {
-		private static final long serialVersionUID = 1858614847165555452L;
+		private static final long serialVersionUID = 2614447492182174853L;
 		/**
 		 * 休息开始时间
 		 */
@@ -163,7 +163,7 @@ public class SmartworkAttendsGetusergroupResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtClassVo extends TaobaoObject {
-		private static final long serialVersionUID = 8233414816291622453L;
+		private static final long serialVersionUID = 2158933267682231345L;
 		/**
 		 * 班次id
 		 */
@@ -219,7 +219,7 @@ public class SmartworkAttendsGetusergroupResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtGroupFullForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 2225351862335189531L;
+		private static final long serialVersionUID = 2817667854163572692L;
 		/**
 		 * 考勤组中的班次列表
 		 */
@@ -275,7 +275,7 @@ public class SmartworkAttendsGetusergroupResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 4214436979621185495L;
+		private static final long serialVersionUID = 1359232388873181593L;
 		/**
 		 * dingOpenErrcode
 		 */

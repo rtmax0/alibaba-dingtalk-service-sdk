@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiAlitripBtripReimbursementAppstatusSyncRespo
  * TOP DingTalk-API: dingtalk.oapi.alitrip.btrip.reimbursement.appstatus.sync request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.22
+ * @since 1.0, 2020.06.15
  */
 public class OapiAlitripBtripReimbursementAppstatusSyncRequest extends BaseTaobaoRequest<OapiAlitripBtripReimbursementAppstatusSyncResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiAlitripBtripReimbursementAppstatusSyncRequest extends BaseTaoba
 	 * @since 1.0, null
 	 */
 	public static class OpenApiUpdateAppStatusRq extends TaobaoObject {
-		private static final long serialVersionUID = 4544577252989874967L;
+		private static final long serialVersionUID = 4373991113762618721L;
 		/**
 		 * corp id
 		 */

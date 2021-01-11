@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartworkHrmEmployeeFieldGrouplistResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5142354976737274881L;
+	private static final long serialVersionUID = 1648382685822726567L;
 
 	/** 
 	 * 错误码
@@ -33,8 +33,8 @@ public class OapiSmartworkHrmEmployeeFieldGrouplistResponse extends TaobaoRespon
 	 * 结果集
 	 */
 	@ApiListField("result")
-	@ApiField("field_meta_info")
-	private List<FieldMetaInfo> result;
+	@ApiField("group_meta_info")
+	private List<GroupMetaInfo> result;
 
 	/** 
 	 * 成功标记
@@ -57,10 +57,10 @@ public class OapiSmartworkHrmEmployeeFieldGrouplistResponse extends TaobaoRespon
 		return this.errmsg;
 	}
 
-	public void setResult(List<FieldMetaInfo> result) {
+	public void setResult(List<GroupMetaInfo> result) {
 		this.result = result;
 	}
-	public List<FieldMetaInfo> getResult( ) {
+	public List<GroupMetaInfo> getResult( ) {
 		return this.result;
 	}
 
@@ -82,7 +82,7 @@ public class OapiSmartworkHrmEmployeeFieldGrouplistResponse extends TaobaoRespon
 	 * @since 1.0, null
 	 */
 	public static class FieldMetaInfo extends TaobaoObject {
-		private static final long serialVersionUID = 2565887345629947411L;
+		private static final long serialVersionUID = 2174917543473128718L;
 		/**
 		 * 字段code
 		 */
@@ -127,6 +127,51 @@ public class OapiSmartworkHrmEmployeeFieldGrouplistResponse extends TaobaoRespon
 		}
 		public void setOptionText(String optionText) {
 			this.optionText = optionText;
+		}
+	}
+	
+	/**
+	 * 结果集
+	 *
+	 * @author top auto create
+	 * @since 1.0, null
+	 */
+	public static class GroupMetaInfo extends TaobaoObject {
+		private static final long serialVersionUID = 5318136947191593225L;
+		/**
+		 * 组里面的字段集合
+		 */
+		@ApiListField("field_list")
+		@ApiField("field_meta_info")
+		private List<FieldMetaInfo> fieldList;
+		/**
+		 * 字段组ID
+		 */
+		@ApiField("group_id")
+		private String groupId;
+		/**
+		 * 是否支持明细
+		 */
+		@ApiField("has_detail")
+		private Boolean hasDetail;
+	
+		public List<FieldMetaInfo> getFieldList() {
+			return this.fieldList;
+		}
+		public void setFieldList(List<FieldMetaInfo> fieldList) {
+			this.fieldList = fieldList;
+		}
+		public String getGroupId() {
+			return this.groupId;
+		}
+		public void setGroupId(String groupId) {
+			this.groupId = groupId;
+		}
+		public Boolean getHasDetail() {
+			return this.hasDetail;
+		}
+		public void setHasDetail(Boolean hasDetail) {
+			this.hasDetail = hasDetail;
 		}
 	}
 	

@@ -1,6 +1,7 @@
 package com.dingtalk.api.request;
 
 import com.taobao.api.internal.util.RequestCheckUtils;
+import com.taobao.api.internal.util.json.JSONValidatingReader;
 import java.util.Map;
 import java.util.List;
 
@@ -17,7 +18,7 @@ import com.dingtalk.api.response.OapiV2DepartmentUpdateResponse;
  * TOP DingTalk-API: dingtalk.oapi.v2.department.update request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.03
+ * @since 1.0, 2020.10.19
  */
 public class OapiV2DepartmentUpdateRequest extends BaseTaobaoRequest<OapiV2DepartmentUpdateResponse> {
 	
@@ -29,19 +30,14 @@ public class OapiV2DepartmentUpdateRequest extends BaseTaobaoRequest<OapiV2Depar
 	private Boolean autoAddUser;
 
 	/** 
-	* 是否自动更新排序, 设置主管会自动把主管排序靠前, 设置为false关闭这个自动排序 未公开字段
-	 */
-	private Boolean autoReorderManager;
-
-	/** 
 	* 是否创建一个关联此部门的企业群，默认为false
 	 */
 	private Boolean createDeptGroup;
 
 	/** 
-	* 是否隐藏部门, true表示隐藏, false表示显示
+	* 部门ID
 	 */
-	private Boolean deptHiding;
+	private Long deptId;
 
 	/** 
 	* 部门的主管列表，主管的userid列表
@@ -56,7 +52,7 @@ public class OapiV2DepartmentUpdateRequest extends BaseTaobaoRequest<OapiV2Depar
 	/** 
 	* 扩展字段，JSON格式
 	 */
-	private String ext;
+	private String extension;
 
 	/** 
 	* 部门群是否包含隐藏部门
@@ -69,32 +65,37 @@ public class OapiV2DepartmentUpdateRequest extends BaseTaobaoRequest<OapiV2Depar
 	private Boolean groupContainOuterDept;
 
 	/** 
-	* 本门群是否包含子部门
+	* 部门群是否包含子部门
 	 */
 	private Boolean groupContainSubDept;
 
 	/** 
-	* 要修改的部门ID
+	* 是否隐藏部门， true表示隐藏 false表示显示
 	 */
-	private Long id;
+	private Boolean hideDept;
 
 	/** 
-	* 部门名称。长度限制为1~64个字符。不允许包含字符‘-’‘，’以及‘,’
+	* 通讯录语言
+	 */
+	private String language;
+
+	/** 
+	* 部门名称，长度限制为1~64个字符，不允许包含字符‘-’‘，’以及‘,’
 	 */
 	private String name;
 
 	/** 
-	* 在父部门中的次序值。order值小的排序靠前
+	* 在父部门中的排序值，order值小的排序靠前
 	 */
 	private Long order;
 
 	/** 
-	* 指定部门owner的userid
+	* 企业群群主的userid
 	 */
 	private String orgDeptOwner;
 
 	/** 
-	* 是否本部门的员工仅可见员工自己, 为true时，本部门员工默认只能看到员工自己
+	* 限制本部门成员查看通讯录，限制开启后，本部门成员只能看到限定范围内的通讯录。true表示限制开启
 	 */
 	private Boolean outerDept;
 
@@ -109,24 +110,14 @@ public class OapiV2DepartmentUpdateRequest extends BaseTaobaoRequest<OapiV2Depar
 	private String outerPermitDepts;
 
 	/** 
-	* 本门群是否包含子部门
+	* 本部门的员工仅可见员工自己为true时，可以配置额外可见人员，userid列表，总数不能超过200。
 	 */
 	private String outerPermitUsers;
 
 	/** 
-	* 是否优先使用父部门的预算
-	 */
-	private Boolean parentBalanceFirst;
-
-	/** 
-	* 本门群是否包含子部门
+	* 父部门id，根部门id为1
 	 */
 	private Long parentId;
-
-	/** 
-	* 是否共享预算
-	 */
-	private Boolean shareBalance;
 
 	/** 
 	* 部门标识字段，开发者可用该字段来唯一标识一个部门，并与钉钉外部通讯录里的部门做映射
@@ -146,14 +137,6 @@ public class OapiV2DepartmentUpdateRequest extends BaseTaobaoRequest<OapiV2Depar
 		return this.autoAddUser;
 	}
 
-	public void setAutoReorderManager(Boolean autoReorderManager) {
-		this.autoReorderManager = autoReorderManager;
-	}
-
-	public Boolean getAutoReorderManager() {
-		return this.autoReorderManager;
-	}
-
 	public void setCreateDeptGroup(Boolean createDeptGroup) {
 		this.createDeptGroup = createDeptGroup;
 	}
@@ -162,12 +145,12 @@ public class OapiV2DepartmentUpdateRequest extends BaseTaobaoRequest<OapiV2Depar
 		return this.createDeptGroup;
 	}
 
-	public void setDeptHiding(Boolean deptHiding) {
-		this.deptHiding = deptHiding;
+	public void setDeptId(Long deptId) {
+		this.deptId = deptId;
 	}
 
-	public Boolean getDeptHiding() {
-		return this.deptHiding;
+	public Long getDeptId() {
+		return this.deptId;
 	}
 
 	public void setDeptManagerUseridList(String deptManagerUseridList) {
@@ -186,12 +169,15 @@ public class OapiV2DepartmentUpdateRequest extends BaseTaobaoRequest<OapiV2Depar
 		return this.deptPermits;
 	}
 
-	public void setExt(String ext) {
-		this.ext = ext;
+	public void setExtension(String extension) {
+		this.extension = extension;
+	}
+	public void setExtensionString(String extension) {
+		this.extension = extension;
 	}
 
-	public String getExt() {
-		return this.ext;
+	public String getExtension() {
+		return this.extension;
 	}
 
 	public void setGroupContainHiddenDept(Boolean groupContainHiddenDept) {
@@ -218,12 +204,20 @@ public class OapiV2DepartmentUpdateRequest extends BaseTaobaoRequest<OapiV2Depar
 		return this.groupContainSubDept;
 	}
 
-	public void setId(Long id) {
-		this.id = id;
+	public void setHideDept(Boolean hideDept) {
+		this.hideDept = hideDept;
 	}
 
-	public Long getId() {
-		return this.id;
+	public Boolean getHideDept() {
+		return this.hideDept;
+	}
+
+	public void setLanguage(String language) {
+		this.language = language;
+	}
+
+	public String getLanguage() {
+		return this.language;
 	}
 
 	public void setName(String name) {
@@ -282,28 +276,12 @@ public class OapiV2DepartmentUpdateRequest extends BaseTaobaoRequest<OapiV2Depar
 		return this.outerPermitUsers;
 	}
 
-	public void setParentBalanceFirst(Boolean parentBalanceFirst) {
-		this.parentBalanceFirst = parentBalanceFirst;
-	}
-
-	public Boolean getParentBalanceFirst() {
-		return this.parentBalanceFirst;
-	}
-
 	public void setParentId(Long parentId) {
 		this.parentId = parentId;
 	}
 
 	public Long getParentId() {
 		return this.parentId;
-	}
-
-	public void setShareBalance(Boolean shareBalance) {
-		this.shareBalance = shareBalance;
-	}
-
-	public Boolean getShareBalance() {
-		return this.shareBalance;
 	}
 
 	public void setSourceIdentifier(String sourceIdentifier) {
@@ -357,16 +335,16 @@ public class OapiV2DepartmentUpdateRequest extends BaseTaobaoRequest<OapiV2Depar
 	public Map<String, String> getTextParams() {		
 		TaobaoHashMap txtParams = new TaobaoHashMap();
 		txtParams.put("auto_add_user", this.autoAddUser);
-		txtParams.put("auto_reorder_manager", this.autoReorderManager);
 		txtParams.put("create_dept_group", this.createDeptGroup);
-		txtParams.put("dept_hiding", this.deptHiding);
+		txtParams.put("dept_id", this.deptId);
 		txtParams.put("dept_manager_userid_list", this.deptManagerUseridList);
 		txtParams.put("dept_permits", this.deptPermits);
-		txtParams.put("ext", this.ext);
+		txtParams.put("extension", this.extension);
 		txtParams.put("group_contain_hidden_dept", this.groupContainHiddenDept);
 		txtParams.put("group_contain_outer_dept", this.groupContainOuterDept);
 		txtParams.put("group_contain_sub_dept", this.groupContainSubDept);
-		txtParams.put("id", this.id);
+		txtParams.put("hide_dept", this.hideDept);
+		txtParams.put("language", this.language);
 		txtParams.put("name", this.name);
 		txtParams.put("order", this.order);
 		txtParams.put("org_dept_owner", this.orgDeptOwner);
@@ -374,9 +352,7 @@ public class OapiV2DepartmentUpdateRequest extends BaseTaobaoRequest<OapiV2Depar
 		txtParams.put("outer_dept_only_self", this.outerDeptOnlySelf);
 		txtParams.put("outer_permit_depts", this.outerPermitDepts);
 		txtParams.put("outer_permit_users", this.outerPermitUsers);
-		txtParams.put("parent_balance_first", this.parentBalanceFirst);
 		txtParams.put("parent_id", this.parentId);
-		txtParams.put("share_balance", this.shareBalance);
 		txtParams.put("source_identifier", this.sourceIdentifier);
 		txtParams.put("user_permits", this.userPermits);
 		if(this.udfParams != null) {
@@ -390,11 +366,13 @@ public class OapiV2DepartmentUpdateRequest extends BaseTaobaoRequest<OapiV2Depar
 	}
 
 	public void check() throws ApiRuleException {
-		RequestCheckUtils.checkMaxListSize(deptManagerUseridList, 20, "deptManagerUseridList");
-		RequestCheckUtils.checkMaxListSize(deptPermits, 20, "deptPermits");
-		RequestCheckUtils.checkMaxListSize(outerPermitDepts, 20, "outerPermitDepts");
-		RequestCheckUtils.checkMaxListSize(outerPermitUsers, 20, "outerPermitUsers");
-		RequestCheckUtils.checkMaxListSize(userPermits, 20, "userPermits");
+		RequestCheckUtils.checkNotEmpty(deptId, "deptId");
+		RequestCheckUtils.checkMaxListSize(deptManagerUseridList, 999, "deptManagerUseridList");
+		RequestCheckUtils.checkMaxListSize(deptPermits, 200, "deptPermits");
+		RequestCheckUtils.checkMaxLength(name, 64, "name");
+		RequestCheckUtils.checkMaxListSize(outerPermitDepts, 200, "outerPermitDepts");
+		RequestCheckUtils.checkMaxListSize(outerPermitUsers, 200, "outerPermitUsers");
+		RequestCheckUtils.checkMaxListSize(userPermits, 200, "userPermits");
 	}
 	
 

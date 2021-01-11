@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCateringPredeductResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8373921195483852343L;
+	private static final long serialVersionUID = 1668394936189636842L;
 
 	/** 
 	 * errcode
@@ -66,7 +66,7 @@ public class OapiCateringPredeductResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class CateringOpenPreDeductResponse extends TaobaoObject {
-		private static final long serialVersionUID = 4132922327238146741L;
+		private static final long serialVersionUID = 2123665274627395746L;
 		/**
 		 * 已经预抵扣的金额
 		 */

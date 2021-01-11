@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiKacDatavChatSummaryGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1689671226195773581L;
+	private static final long serialVersionUID = 7451498423351378814L;
 
 	/** 
 	 * 结果码
@@ -66,7 +66,7 @@ public class OapiKacDatavChatSummaryGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ImSummaryResponse extends TaobaoObject {
-		private static final long serialVersionUID = 6853573298663327515L;
+		private static final long serialVersionUID = 6354768819117551138L;
 		/**
 		 * 活跃群数（当日）
 		 */
@@ -88,6 +88,16 @@ public class OapiKacDatavChatSummaryGetResponse extends TaobaoResponse {
 		@ApiField("group_count")
 		private Long groupCount;
 		/**
+		 * 群聊消息数
+		 */
+		@ApiField("group_message_count")
+		private Long groupMessageCount;
+		/**
+		 * 人均发送消息数
+		 */
+		@ApiField("message_avg_count")
+		private String messageAvgCount;
+		/**
 		 * 消息数
 		 */
 		@ApiField("message_total_count")
@@ -102,6 +112,11 @@ public class OapiKacDatavChatSummaryGetResponse extends TaobaoResponse {
 		 */
 		@ApiField("new_group_count")
 		private Long newGroupCount;
+		/**
+		 * 单聊消息数
+		 */
+		@ApiField("single_message_count")
+		private Long singleMessageCount;
 	
 		public Long getActiveGroupCount() {
 			return this.activeGroupCount;
@@ -127,6 +142,18 @@ public class OapiKacDatavChatSummaryGetResponse extends TaobaoResponse {
 		public void setGroupCount(Long groupCount) {
 			this.groupCount = groupCount;
 		}
+		public Long getGroupMessageCount() {
+			return this.groupMessageCount;
+		}
+		public void setGroupMessageCount(Long groupMessageCount) {
+			this.groupMessageCount = groupMessageCount;
+		}
+		public String getMessageAvgCount() {
+			return this.messageAvgCount;
+		}
+		public void setMessageAvgCount(String messageAvgCount) {
+			this.messageAvgCount = messageAvgCount;
+		}
 		public Long getMessageTotalCount() {
 			return this.messageTotalCount;
 		}
@@ -144,6 +171,12 @@ public class OapiKacDatavChatSummaryGetResponse extends TaobaoResponse {
 		}
 		public void setNewGroupCount(Long newGroupCount) {
 			this.newGroupCount = newGroupCount;
+		}
+		public Long getSingleMessageCount() {
+			return this.singleMessageCount;
+		}
+		public void setSingleMessageCount(Long singleMessageCount) {
+			this.singleMessageCount = singleMessageCount;
 		}
 	}
 	

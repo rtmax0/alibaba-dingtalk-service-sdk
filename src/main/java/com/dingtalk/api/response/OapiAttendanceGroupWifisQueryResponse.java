@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGroupWifisQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3425646117945652475L;
+	private static final long serialVersionUID = 7258835657286443635L;
 
 	/** 
 	 * 出参
@@ -40,7 +40,7 @@ public class OapiAttendanceGroupWifisQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Wifi extends TaobaoObject {
-		private static final long serialVersionUID = 5349437388439527178L;
+		private static final long serialVersionUID = 8544866819978865636L;
 		/**
 		 * mac地址
 		 */
@@ -84,7 +84,7 @@ public class OapiAttendanceGroupWifisQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 7757431744875895943L;
+		private static final long serialVersionUID = 2162639485383716914L;
 		/**
 		 * 是否更多
 		 */
@@ -118,7 +118,7 @@ public class OapiAttendanceGroupWifisQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 1215917322883122783L;
+		private static final long serialVersionUID = 1756892492871398568L;
 		/**
 		 * 错误码
 		 */

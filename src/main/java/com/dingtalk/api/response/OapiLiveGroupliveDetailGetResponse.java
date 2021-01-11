@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiLiveGroupliveDetailGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4625365168248934865L;
+	private static final long serialVersionUID = 5717566254153536494L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiLiveGroupliveDetailGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Groupliveviewers extends TaobaoObject {
-		private static final long serialVersionUID = 5142952676939263289L;
+		private static final long serialVersionUID = 6427817348111347459L;
 		/**
 		 * 直播观看时长
 		 */
@@ -112,7 +112,7 @@ public class OapiLiveGroupliveDetailGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class GroupLiveStatistics extends TaobaoObject {
-		private static final long serialVersionUID = 2468683511717726556L;
+		private static final long serialVersionUID = 5688251785572567523L;
 		/**
 		 * 查看人员列表
 		 */

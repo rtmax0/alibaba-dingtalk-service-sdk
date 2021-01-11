@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiReportGetunreadcountResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8625136571823855894L;
+	private static final long serialVersionUID = 8385568432948186616L;
 
 	/** 
 	 * 员工日志未读数

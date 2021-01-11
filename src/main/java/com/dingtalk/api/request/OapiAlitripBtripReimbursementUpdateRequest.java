@@ -3,6 +3,7 @@ package com.dingtalk.api.request;
 import java.util.List;
 import com.taobao.api.internal.mapping.ApiField;
 import com.taobao.api.internal.mapping.ApiListField;
+import com.taobao.api.internal.util.json.JSONValidatingReader;
 import com.taobao.api.TaobaoObject;
 import java.util.Date;
 import java.util.Map;
@@ -21,7 +22,7 @@ import com.dingtalk.api.response.OapiAlitripBtripReimbursementUpdateResponse;
  * TOP DingTalk-API: dingtalk.oapi.alitrip.btrip.reimbursement.update request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.23
+ * @since 1.0, 2020.10.15
  */
 public class OapiAlitripBtripReimbursementUpdateRequest extends BaseTaobaoRequest<OapiAlitripBtripReimbursementUpdateResponse> {
 	
@@ -99,7 +100,7 @@ public class OapiAlitripBtripReimbursementUpdateRequest extends BaseTaobaoReques
 	 * @since 1.0, null
 	 */
 	public static class Auditlist extends TaobaoObject {
-		private static final long serialVersionUID = 1826843736385393468L;
+		private static final long serialVersionUID = 2772888418178183342L;
 		/**
 		 * 备注
 		 */
@@ -154,7 +155,12 @@ public class OapiAlitripBtripReimbursementUpdateRequest extends BaseTaobaoReques
 	 * @since 1.0, null
 	 */
 	public static class OpenApiUpdateReimbursementRq extends TaobaoObject {
-		private static final long serialVersionUID = 7427787877963411456L;
+		private static final long serialVersionUID = 8837424651819571542L;
+		/**
+		 * 申请单编号,如不做变更，请与创建报销单时保持一致
+		 */
+		@ApiField("apply_flow_no")
+		private Long applyFlowNo;
 		/**
 		 * 审批人列表
 		 */
@@ -177,6 +183,11 @@ public class OapiAlitripBtripReimbursementUpdateRequest extends BaseTaobaoReques
 		@ApiField("operate_time")
 		private Date operateTime;
 		/**
+		 * 关联的报销订单id列表,<订单id:类型(机、酒、火、用车)>如不做变更，请与创建报销单时保持一致
+		 */
+		@ApiField("order_ids")
+		private String orderIds;
+		/**
 		 * 审批状态
 		 */
 		@ApiField("status")
@@ -187,6 +198,12 @@ public class OapiAlitripBtripReimbursementUpdateRequest extends BaseTaobaoReques
 		@ApiField("thirdparty_flow_id")
 		private String thirdpartyFlowId;
 	
+		public Long getApplyFlowNo() {
+			return this.applyFlowNo;
+		}
+		public void setApplyFlowNo(Long applyFlowNo) {
+			this.applyFlowNo = applyFlowNo;
+		}
 		public List<Auditlist> getAuditList() {
 			return this.auditList;
 		}
@@ -211,6 +228,16 @@ public class OapiAlitripBtripReimbursementUpdateRequest extends BaseTaobaoReques
 		public void setOperateTime(Date operateTime) {
 			this.operateTime = operateTime;
 		}
+		public String getOrderIds() {
+			return this.orderIds;
+		}
+		public void setOrderIds(String orderIds) {
+			this.orderIds = orderIds;
+		}
+		public void setOrderIdsString(String orderIds) {
+			this.orderIds = orderIds;
+		}
+		
 		public Long getStatus() {
 			return this.status;
 		}

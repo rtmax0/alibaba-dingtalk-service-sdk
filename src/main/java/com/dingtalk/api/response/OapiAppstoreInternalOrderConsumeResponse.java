@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAppstoreInternalOrderConsumeResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6172193646675637711L;
+	private static final long serialVersionUID = 2436142488416887311L;
 
 	/** 
 	 * 服务结果码

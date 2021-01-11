@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGetattcolumnsResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8261274975718779461L;
+	private static final long serialVersionUID = 3466368446832832936L;
 
 	/** 
 	 * dingOpenErrcode
@@ -68,7 +68,7 @@ public class OapiAttendanceGetattcolumnsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ColumnForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 6893196343879642377L;
+		private static final long serialVersionUID = 3147226631943477779L;
 		/**
 		 * 列别名
 		 */
@@ -167,7 +167,7 @@ public class OapiAttendanceGetattcolumnsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AttColumnsForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 4513972411515475876L;
+		private static final long serialVersionUID = 6399799779345134818L;
 		/**
 		 * 列信息
 		 */

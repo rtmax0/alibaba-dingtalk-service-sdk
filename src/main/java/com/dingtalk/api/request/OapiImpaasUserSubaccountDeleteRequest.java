@@ -96,7 +96,7 @@ public class OapiImpaasUserSubaccountDeleteRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class DelSubAccountReq extends TaobaoObject {
-		private static final long serialVersionUID = 5831584888571646326L;
+		private static final long serialVersionUID = 1193155173341195435L;
 		/**
 		 * 主账号id
 		 */

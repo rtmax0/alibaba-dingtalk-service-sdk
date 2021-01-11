@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGetleaveapprovedurationResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8678641889187324827L;
+	private static final long serialVersionUID = 1412192495763338686L;
 
 	/** 
 	 * errcode
@@ -66,7 +66,7 @@ public class OapiAttendanceGetleaveapprovedurationResponse extends TaobaoRespons
 	 * @since 1.0, null
 	 */
 	public static class ApproveDurationForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 8862324217122451491L;
+		private static final long serialVersionUID = 3716793997374437445L;
 		/**
 		 * 请假时长（单位分钟）
 		 */

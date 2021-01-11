@@ -22,7 +22,7 @@ import com.dingtalk.api.response.OapiWorkspaceTaskUpdateResponse;
  * TOP DingTalk-API: dingtalk.oapi.workspace.task.update request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.23
+ * @since 1.0, 2020.12.23
  */
 public class OapiWorkspaceTaskUpdateRequest extends BaseTaobaoRequest<OapiWorkspaceTaskUpdateResponse> {
 	
@@ -143,7 +143,7 @@ public class OapiWorkspaceTaskUpdateRequest extends BaseTaobaoRequest<OapiWorksp
 	 * @since 1.0, null
 	 */
 	public static class TaskExtension extends TaobaoObject {
-		private static final long serialVersionUID = 2623762429611199864L;
+		private static final long serialVersionUID = 7652743637451283343L;
 		/**
 		 * 评论数
 		 */
@@ -187,7 +187,7 @@ public class OapiWorkspaceTaskUpdateRequest extends BaseTaobaoRequest<OapiWorksp
 	 * @since 1.0, null
 	 */
 	public static class TaskUpdate extends TaobaoObject {
-		private static final long serialVersionUID = 8376529959891556583L;
+		private static final long serialVersionUID = 7868712393469858357L;
 		/**
 		 * 任务所属项目(虚拟企业），基于项目空间的项目
 		 */

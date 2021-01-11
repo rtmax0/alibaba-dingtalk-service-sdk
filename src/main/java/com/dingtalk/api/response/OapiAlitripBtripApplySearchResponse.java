@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripApplySearchResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7542236763269531184L;
+	private static final long serialVersionUID = 6667578742454953613L;
 
 	/** 
 	 * 错误码
@@ -83,7 +83,7 @@ public class OapiAlitripBtripApplySearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenItineraryInfo extends TaobaoObject {
-		private static final long serialVersionUID = 5681662245586578311L;
+		private static final long serialVersionUID = 2222496257211588568L;
 		/**
 		 * 到达城市
 		 */
@@ -215,7 +215,7 @@ public class OapiAlitripBtripApplySearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenUserInfo extends TaobaoObject {
-		private static final long serialVersionUID = 7536456396349229824L;
+		private static final long serialVersionUID = 6251685764994545728L;
 		/**
 		 * 用户名称
 		 */
@@ -248,7 +248,7 @@ public class OapiAlitripBtripApplySearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenApproverInfo extends TaobaoObject {
-		private static final long serialVersionUID = 4893984398729235315L;
+		private static final long serialVersionUID = 4517822617519659239L;
 		/**
 		 * 审批意见
 		 */
@@ -336,7 +336,7 @@ public class OapiAlitripBtripApplySearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenApplyRs extends TaobaoObject {
-		private static final long serialVersionUID = 4158841545718665298L;
+		private static final long serialVersionUID = 5195981144666575271L;
 		/**
 		 * 商旅审批展示id
 		 */
@@ -368,6 +368,11 @@ public class OapiAlitripBtripApplySearchResponse extends TaobaoResponse {
 		 */
 		@ApiField("deptid")
 		private String deptid;
+		/**
+		 * 流程编码
+		 */
+		@ApiField("flow_code")
+		private String flowCode;
 		/**
 		 * 创建时间
 		 */
@@ -471,6 +476,12 @@ public class OapiAlitripBtripApplySearchResponse extends TaobaoResponse {
 		}
 		public void setDeptid(String deptid) {
 			this.deptid = deptid;
+		}
+		public String getFlowCode() {
+			return this.flowCode;
+		}
+		public void setFlowCode(String flowCode) {
+			this.flowCode = flowCode;
 		}
 		public Date getGmtCreate() {
 			return this.gmtCreate;

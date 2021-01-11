@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiOrgListshortcutResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3298118355439284197L;
+	private static final long serialVersionUID = 4766737453291696263L;
 
 	/** 
 	 * result
@@ -40,7 +40,7 @@ public class OapiOrgListshortcutResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OrgShortcutVO extends TaobaoObject {
-		private static final long serialVersionUID = 3411851388796841351L;
+		private static final long serialVersionUID = 8835921224363849267L;
 		/**
 		 * 类型，1表示工作台微应用
 		 */
@@ -73,7 +73,7 @@ public class OapiOrgListshortcutResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 1664775662195192797L;
+		private static final long serialVersionUID = 6347266899631433274L;
 		/**
 		 * dingOpenErrcode
 		 */

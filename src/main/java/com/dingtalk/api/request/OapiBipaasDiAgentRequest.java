@@ -97,7 +97,7 @@ public class OapiBipaasDiAgentRequest extends BaseTaobaoRequest<OapiBipaasDiAgen
 	 * @since 1.0, null
 	 */
 	public static class BaseAgentRequest extends TaobaoObject {
-		private static final long serialVersionUID = 8516175938923672411L;
+		private static final long serialVersionUID = 7145326549272738514L;
 		/**
 		 * 参数
 		 */

@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiWorkspaceProjectNoticeSendResponse;
  * TOP DingTalk-API: dingtalk.oapi.workspace.project.notice.send request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.19
+ * @since 1.0, 2020.08.03
  */
 public class OapiWorkspaceProjectNoticeSendRequest extends BaseTaobaoRequest<OapiWorkspaceProjectNoticeSendResponse> {
 	
@@ -98,7 +98,7 @@ public class OapiWorkspaceProjectNoticeSendRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class OpenSendNoticeRequestDto extends TaobaoObject {
-		private static final long serialVersionUID = 2749971662525759386L;
+		private static final long serialVersionUID = 5435326393113933238L;
 		/**
 		 * 圈子corpId+secret方式调用接口，没有agentId可以不传此时透出给用户是以圈子名字发通知。如果是isv方式的圈子应用，在圈子开通时会推送给isv agentID，必须传入agentId，会以圈子内应用的身份发通知
 		 */
@@ -109,6 +109,11 @@ public class OapiWorkspaceProjectNoticeSendRequest extends BaseTaobaoRequest<Oap
 		 */
 		@ApiField("mobile_url")
 		private String mobileUrl;
+		/**
+		 * 通知的下方按钮文案
+		 */
+		@ApiField("msg_button")
+		private String msgButton;
 		/**
 		 * 通知文本内容 1-512字符
 		 */
@@ -147,6 +152,12 @@ public class OapiWorkspaceProjectNoticeSendRequest extends BaseTaobaoRequest<Oap
 		}
 		public void setMobileUrl(String mobileUrl) {
 			this.mobileUrl = mobileUrl;
+		}
+		public String getMsgButton() {
+			return this.msgButton;
+		}
+		public void setMsgButton(String msgButton) {
+			this.msgButton = msgButton;
 		}
 		public String getMsgContent() {
 			return this.msgContent;

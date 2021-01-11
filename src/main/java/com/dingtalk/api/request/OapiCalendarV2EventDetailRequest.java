@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiCalendarV2EventDetailResponse;
  * TOP DingTalk-API: dingtalk.oapi.calendar.v2.event.detail request
  * 
  * @author top auto create
- * @since 1.0, 2020.07.03
+ * @since 1.0, 2020.07.16
  */
 public class OapiCalendarV2EventDetailRequest extends BaseTaobaoRequest<OapiCalendarV2EventDetailResponse> {
 	

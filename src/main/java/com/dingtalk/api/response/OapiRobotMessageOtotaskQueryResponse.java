@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRobotMessageOtotaskQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2514273358448834343L;
+	private static final long serialVersionUID = 2571118492574697149L;
 
 	/** 
 	 * 错误代码
@@ -79,12 +79,17 @@ public class OapiRobotMessageOtotaskQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OtoMessageSendTopResponse extends TaobaoObject {
-		private static final long serialVersionUID = 3554131264112649617L;
+		private static final long serialVersionUID = 6394163251879931393L;
 		/**
 		 * READ 已读，UNREAD 未读
 		 */
 		@ApiField("read_status")
 		private String readStatus;
+		/**
+		 * 消息已读时间戳，单位：秒
+		 */
+		@ApiField("read_timestamp")
+		private Long readTimestamp;
 		/**
 		 * 发送结果码，只有SUCCESS为成功
 		 */
@@ -96,6 +101,12 @@ public class OapiRobotMessageOtotaskQueryResponse extends TaobaoResponse {
 		}
 		public void setReadStatus(String readStatus) {
 			this.readStatus = readStatus;
+		}
+		public Long getReadTimestamp() {
+			return this.readTimestamp;
+		}
+		public void setReadTimestamp(Long readTimestamp) {
+			this.readTimestamp = readTimestamp;
 		}
 		public String getSendStatus() {
 			return this.sendStatus;

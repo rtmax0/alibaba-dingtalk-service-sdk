@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiAttendanceGetleavetimebynamesResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.getleavetimebynames request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.04
+ * @since 1.0, 2019.09.24
  */
 public class OapiAttendanceGetleavetimebynamesRequest extends BaseTaobaoRequest<OapiAttendanceGetleavetimebynamesResponse> {
 	

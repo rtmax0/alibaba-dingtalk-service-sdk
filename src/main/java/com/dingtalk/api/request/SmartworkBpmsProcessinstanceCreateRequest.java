@@ -203,7 +203,7 @@ public class SmartworkBpmsProcessinstanceCreateRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class FormComponentValueVo extends TaobaoObject {
-		private static final long serialVersionUID = 4591577359999127154L;
+		private static final long serialVersionUID = 7188289721123814873L;
 		/**
 		 * 扩展值
 		 */

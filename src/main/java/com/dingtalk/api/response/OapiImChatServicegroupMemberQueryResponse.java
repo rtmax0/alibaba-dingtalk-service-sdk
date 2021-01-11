@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImChatServicegroupMemberQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4686227179819433869L;
+	private static final long serialVersionUID = 2277289925197974674L;
 
 	/** 
 	 * 错误代码
@@ -81,7 +81,7 @@ public class OapiImChatServicegroupMemberQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Members extends TaobaoObject {
-		private static final long serialVersionUID = 2724824345441292822L;
+		private static final long serialVersionUID = 2266834667777182637L;
 		/**
 		 * 成员的ID
 		 */
@@ -147,7 +147,7 @@ public class OapiImChatServicegroupMemberQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ServiceGroupMemberQueryResponse extends TaobaoObject {
-		private static final long serialVersionUID = 3484919387355769495L;
+		private static final long serialVersionUID = 4235244629131443437L;
 		/**
 		 * 成员列表
 		 */

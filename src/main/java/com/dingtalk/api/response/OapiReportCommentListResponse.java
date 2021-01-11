@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiReportCommentListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3895539522191253279L;
+	private static final long serialVersionUID = 5592746324794222829L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiReportCommentListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ReportCommentVo extends TaobaoObject {
-		private static final long serialVersionUID = 4262353323871281713L;
+		private static final long serialVersionUID = 8768335399679146819L;
 		/**
 		 * 评论内容
 		 */
@@ -126,7 +126,7 @@ public class OapiReportCommentListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ReportPageVo extends TaobaoObject {
-		private static final long serialVersionUID = 8234922569454677953L;
+		private static final long serialVersionUID = 1898375438258852959L;
 		/**
 		 * 日志评论详情
 		 */

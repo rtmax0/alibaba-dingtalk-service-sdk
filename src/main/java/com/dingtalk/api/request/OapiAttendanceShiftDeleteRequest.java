@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiAttendanceShiftDeleteResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.shift.delete request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.18
+ * @since 1.0, 2020.08.26
  */
 public class OapiAttendanceShiftDeleteRequest extends BaseTaobaoRequest<OapiAttendanceShiftDeleteResponse> {
 	

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRobotMessageOrggrouptaskQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7742194173379533852L;
+	private static final long serialVersionUID = 1741628347998464135L;
 
 	/** 
 	 * 错误代码
@@ -81,7 +81,7 @@ public class OapiRobotMessageOrggrouptaskQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class GroupMessageTaskQueryTopResponse extends TaobaoObject {
-		private static final long serialVersionUID = 1631753898832364774L;
+		private static final long serialVersionUID = 8696664859872437532L;
 		/**
 		 * 已读员工的userids
 		 */

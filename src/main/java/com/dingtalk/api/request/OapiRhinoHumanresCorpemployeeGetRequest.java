@@ -96,7 +96,7 @@ public class OapiRhinoHumanresCorpemployeeGetRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class QueryCorpEmployeeDto extends TaobaoObject {
-		private static final long serialVersionUID = 6548326588591744829L;
+		private static final long serialVersionUID = 6236393899717315516L;
 		/**
 		 * 资产ID
 		 */

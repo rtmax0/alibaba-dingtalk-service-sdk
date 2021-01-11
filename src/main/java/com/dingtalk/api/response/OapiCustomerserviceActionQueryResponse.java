@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCustomerserviceActionQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6542237354873569415L;
+	private static final long serialVersionUID = 5542562136356817572L;
 
 	/** 
 	 * 返回值
@@ -40,7 +40,7 @@ public class OapiCustomerserviceActionQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TicketFieldDto extends TaobaoObject {
-		private static final long serialVersionUID = 7349288161313433525L;
+		private static final long serialVersionUID = 3599449112217993841L;
 		/**
 		 * 标签名
 		 */
@@ -106,7 +106,7 @@ public class OapiCustomerserviceActionQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TicketActionDto extends TaobaoObject {
-		private static final long serialVersionUID = 8613494164252914372L;
+		private static final long serialVersionUID = 7151781866297675389L;
 		/**
 		 * 动作表单字段列表
 		 */
@@ -151,7 +151,7 @@ public class OapiCustomerserviceActionQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageQueryCursorResult extends TaobaoObject {
-		private static final long serialVersionUID = 4234289672746614183L;
+		private static final long serialVersionUID = 2661351613557433445L;
 		/**
 		 * 动作列表
 		 */
@@ -207,7 +207,7 @@ public class OapiCustomerserviceActionQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 7899349337493769517L;
+		private static final long serialVersionUID = 7368419158174285461L;
 		/**
 		 * 错误码
 		 */

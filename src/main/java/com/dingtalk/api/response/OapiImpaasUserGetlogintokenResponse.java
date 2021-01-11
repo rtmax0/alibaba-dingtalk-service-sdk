@@ -13,28 +13,28 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImpaasUserGetlogintokenResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4846944884899551463L;
+	private static final long serialVersionUID = 8841649779568992147L;
 
 	/** 
-	 * 错误码  -1 系统异常 40035 参数错误
+	 * dingOpenErrcode
 	 */
 	@ApiField("errcode")
 	private Long errcode;
 
 	/** 
-	 * 错误信息
+	 * errorMsg
 	 */
 	@ApiField("errmsg")
 	private String errmsg;
 
 	/** 
-	 * 获取logintoken出参
+	 * result
 	 */
 	@ApiField("result")
 	private GetLoginTokenResp result;
 
 	/** 
-	 * 接口是否调用成功
+	 * success
 	 */
 	@ApiField("success")
 	private Boolean success;
@@ -73,15 +73,15 @@ public class OapiImpaasUserGetlogintokenResponse extends TaobaoResponse {
     }
 	
 	/**
-	 * 获取logintoken出参
+	 * result
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class GetLoginTokenResp extends TaobaoObject {
-		private static final long serialVersionUID = 3822218573111639362L;
+		private static final long serialVersionUID = 2616252374178299187L;
 		/**
-		 * 过期时长
+		 * expire
 		 */
 		@ApiField("expire")
 		private Long expire;

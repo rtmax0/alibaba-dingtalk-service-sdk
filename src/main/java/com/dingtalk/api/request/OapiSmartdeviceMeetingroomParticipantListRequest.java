@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiSmartdeviceMeetingroomParticipantListRespon
  * TOP DingTalk-API: dingtalk.oapi.smartdevice.meetingroom.participant.list request
  * 
  * @author top auto create
- * @since 1.0, 2020.01.10
+ * @since 1.0, 2020.11.03
  */
 public class OapiSmartdeviceMeetingroomParticipantListRequest extends BaseTaobaoRequest<OapiSmartdeviceMeetingroomParticipantListResponse> {
 	

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceVacationQuotaListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5571888125743864983L;
+	private static final long serialVersionUID = 4586224918438319725L;
 
 	/** 
 	 * dingOpenErrcode
@@ -81,7 +81,7 @@ public class OapiAttendanceVacationQuotaListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Leavequotas extends TaobaoObject {
-		private static final long serialVersionUID = 3311756452795881113L;
+		private static final long serialVersionUID = 8528798258947294565L;
 		/**
 		 * 额度有效期结束时间(毫秒级时间戳)
 		 */
@@ -202,7 +202,7 @@ public class OapiAttendanceVacationQuotaListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OapiLeaveQuotaUserListVo extends TaobaoObject {
-		private static final long serialVersionUID = 4682241816132694556L;
+		private static final long serialVersionUID = 8517741725943238226L;
 		/**
 		 * 是否存在更多记录
 		 */

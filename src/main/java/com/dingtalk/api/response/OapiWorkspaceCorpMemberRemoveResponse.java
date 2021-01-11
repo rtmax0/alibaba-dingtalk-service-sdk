@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiWorkspaceCorpMemberRemoveResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1451348893515855381L;
+	private static final long serialVersionUID = 7429391338867262739L;
 
 	/** 
 	 * 错误码

@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiMaterialArticlePublishResponse;
  * TOP DingTalk-API: dingtalk.oapi.material.article.publish request
  * 
  * @author top auto create
- * @since 1.0, 2019.07.10
+ * @since 1.0, 2019.06.28
  */
 public class OapiMaterialArticlePublishRequest extends BaseTaobaoRequest<OapiMaterialArticlePublishResponse> {
 	

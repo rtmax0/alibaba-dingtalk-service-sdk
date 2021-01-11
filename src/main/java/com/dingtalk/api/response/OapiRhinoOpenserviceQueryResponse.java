@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoOpenserviceQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3379298513394959933L;
+	private static final long serialVersionUID = 4685283287127366639L;
 
 	/** 
 	 * 接口返回model
@@ -41,7 +41,7 @@ public class OapiRhinoOpenserviceQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Model extends TaobaoObject {
-		private static final long serialVersionUID = 8765771612318332214L;
+		private static final long serialVersionUID = 3782378752851837359L;
 		/**
 		 * 应用
 		 */
@@ -173,7 +173,7 @@ public class OapiRhinoOpenserviceQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 8445865968122147149L;
+		private static final long serialVersionUID = 7517755895157336329L;
 		/**
 		 * code
 		 */

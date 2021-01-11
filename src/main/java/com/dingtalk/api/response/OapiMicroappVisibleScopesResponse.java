@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiMicroappVisibleScopesResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8283224322211767133L;
+	private static final long serialVersionUID = 7575524274199269771L;
 
 	/** 
 	 * 微应用的可见部门id列表，格式为JSON数组

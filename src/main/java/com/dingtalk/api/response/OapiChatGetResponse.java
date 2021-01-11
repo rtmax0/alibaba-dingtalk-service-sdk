@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiChatGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5175449466997192938L;
+	private static final long serialVersionUID = 6355782637265796395L;
 
 	/** 
 	 * chat_info
@@ -68,7 +68,7 @@ public class OapiChatGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ChatInfo extends TaobaoObject {
-		private static final long serialVersionUID = 6899375573741985292L;
+		private static final long serialVersionUID = 2497593544669554881L;
 		/**
 		 * agentidlist
 		 */
@@ -126,6 +126,11 @@ public class OapiChatGetResponse extends TaobaoResponse {
 		 */
 		@ApiField("showHistoryType")
 		private Long showHistoryType;
+		/**
+		 * 群状态 1-正常 2-已解散
+		 */
+		@ApiField("status")
+		private Long status;
 		/**
 		 * useridlist
 		 */
@@ -203,6 +208,12 @@ public class OapiChatGetResponse extends TaobaoResponse {
 		}
 		public void setShowHistoryType(Long showHistoryType) {
 			this.showHistoryType = showHistoryType;
+		}
+		public Long getStatus() {
+			return this.status;
+		}
+		public void setStatus(Long status) {
+			this.status = status;
 		}
 		public List<String> getUseridlist() {
 			return this.useridlist;

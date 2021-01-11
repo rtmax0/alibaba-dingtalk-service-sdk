@@ -96,7 +96,7 @@ public class OapiImpaasUserSubaccountAddRequest extends BaseTaobaoRequest<OapiIm
 	 * @since 1.0, null
 	 */
 	public static class AddSubAccountReq extends TaobaoObject {
-		private static final long serialVersionUID = 5689167713353116467L;
+		private static final long serialVersionUID = 2445744434584583382L;
 		/**
 		 * 主账号id
 		 */

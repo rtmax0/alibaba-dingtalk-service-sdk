@@ -96,7 +96,7 @@ public class OapiImpaasMessageGetmessagestatusRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class AccountInfo extends TaobaoObject {
-		private static final long serialVersionUID = 4248297369777195195L;
+		private static final long serialVersionUID = 7469594143289918588L;
 		/**
 		 * 账号的通道
 		 */
@@ -140,7 +140,7 @@ public class OapiImpaasMessageGetmessagestatusRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class GetMessageStatusRequest extends TaobaoObject {
-		private static final long serialVersionUID = 2256147164379397518L;
+		private static final long serialVersionUID = 2276463134588786225L;
 		/**
 		 * 账号信息
 		 */

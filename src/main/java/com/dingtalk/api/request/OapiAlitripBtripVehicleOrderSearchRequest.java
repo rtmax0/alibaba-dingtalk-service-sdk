@@ -19,7 +19,7 @@ import com.dingtalk.api.response.OapiAlitripBtripVehicleOrderSearchResponse;
  * TOP DingTalk-API: dingtalk.oapi.alitrip.btrip.vehicle.order.search request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.24
+ * @since 1.0, 2020.11.26
  */
 public class OapiAlitripBtripVehicleOrderSearchRequest extends BaseTaobaoRequest<OapiAlitripBtripVehicleOrderSearchResponse> {
 	
@@ -97,7 +97,12 @@ public class OapiAlitripBtripVehicleOrderSearchRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class OpenSearchRq extends TaobaoObject {
-		private static final long serialVersionUID = 3536349488966668521L;
+		private static final long serialVersionUID = 3469868735847942536L;
+		/**
+		 * false:仅搜索未报销订单
+		 */
+		@ApiField("all_apply")
+		private Boolean allApply;
 		/**
 		 * 商旅审批单id
 		 */
@@ -134,6 +139,11 @@ public class OapiAlitripBtripVehicleOrderSearchRequest extends BaseTaobaoRequest
 		@ApiField("start_time")
 		private Date startTime;
 		/**
+		 * 第三方申请单ID
+		 */
+		@ApiField("thirdpart_apply_id")
+		private String thirdpartApplyId;
+		/**
 		 * 更新结束时间
 		 */
 		@ApiField("update_end_time")
@@ -149,6 +159,12 @@ public class OapiAlitripBtripVehicleOrderSearchRequest extends BaseTaobaoRequest
 		@ApiField("userid")
 		private String userid;
 	
+		public Boolean getAllApply() {
+			return this.allApply;
+		}
+		public void setAllApply(Boolean allApply) {
+			this.allApply = allApply;
+		}
 		public Long getApplyId() {
 			return this.applyId;
 		}
@@ -190,6 +206,12 @@ public class OapiAlitripBtripVehicleOrderSearchRequest extends BaseTaobaoRequest
 		}
 		public void setStartTime(Date startTime) {
 			this.startTime = startTime;
+		}
+		public String getThirdpartApplyId() {
+			return this.thirdpartApplyId;
+		}
+		public void setThirdpartApplyId(String thirdpartApplyId) {
+			this.thirdpartApplyId = thirdpartApplyId;
 		}
 		public Date getUpdateEndTime() {
 			return this.updateEndTime;

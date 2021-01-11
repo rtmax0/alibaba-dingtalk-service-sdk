@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripCategoryAddressGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6736536721279649274L;
+	private static final long serialVersionUID = 4268188411754399493L;
 
 	/** 
 	 * 错误码
@@ -79,7 +79,7 @@ public class OapiAlitripBtripCategoryAddressGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenJumpInfoRs extends TaobaoObject {
-		private static final long serialVersionUID = 1832675268957383766L;
+		private static final long serialVersionUID = 6167452256661161669L;
 		/**
 		 * 跳转url
 		 */

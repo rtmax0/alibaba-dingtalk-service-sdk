@@ -112,7 +112,7 @@ public class CorpHrmEmployeeSetuserworkdataRequest extends BaseTaobaoRequest<Cor
 	 * @since 1.0, null
 	 */
 	public static class HrmApiUserDataModel extends TaobaoObject {
-		private static final long serialVersionUID = 5312688579828395327L;
+		private static final long serialVersionUID = 5262235382664962878L;
 		/**
 		 * 数据项描述信息
 		 */

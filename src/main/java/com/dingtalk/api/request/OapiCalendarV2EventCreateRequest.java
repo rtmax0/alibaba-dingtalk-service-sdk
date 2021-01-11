@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiCalendarV2EventCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.calendar.v2.event.create request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.25
+ * @since 1.0, 2020.12.11
  */
 public class OapiCalendarV2EventCreateRequest extends BaseTaobaoRequest<OapiCalendarV2EventCreateResponse> {
 	
@@ -112,7 +112,7 @@ public class OapiCalendarV2EventCreateRequest extends BaseTaobaoRequest<OapiCale
 	 * @since 1.0, null
 	 */
 	public static class Attendee extends TaobaoObject {
-		private static final long serialVersionUID = 4682486793472396283L;
+		private static final long serialVersionUID = 4576483231733766462L;
 		/**
 		 * 员工工号
 		 */
@@ -134,7 +134,7 @@ public class OapiCalendarV2EventCreateRequest extends BaseTaobaoRequest<OapiCale
 	 * @since 1.0, null
 	 */
 	public static class DateTime extends TaobaoObject {
-		private static final long serialVersionUID = 1894828957218449866L;
+		private static final long serialVersionUID = 5224574254364115497L;
 		/**
 		 * 日期，全天日程使用，格式必须为'yyyy-mm-dd',和timestamp字段互斥，该字段有值时，则忽略timestamp字段
 		 */
@@ -178,7 +178,7 @@ public class OapiCalendarV2EventCreateRequest extends BaseTaobaoRequest<OapiCale
 	 * @since 1.0, null
 	 */
 	public static class OpenCalendarReminderVo extends TaobaoObject {
-		private static final long serialVersionUID = 3453756752644133973L;
+		private static final long serialVersionUID = 3349254511158765694L;
 		/**
 		 * 提醒方式.app表示应用内提醒
 		 */
@@ -211,7 +211,7 @@ public class OapiCalendarV2EventCreateRequest extends BaseTaobaoRequest<OapiCale
 	 * @since 1.0, null
 	 */
 	public static class LocationVo extends TaobaoObject {
-		private static final long serialVersionUID = 1634597284345588399L;
+		private static final long serialVersionUID = 2119548645954917555L;
 		/**
 		 * 纬度
 		 */
@@ -255,7 +255,7 @@ public class OapiCalendarV2EventCreateRequest extends BaseTaobaoRequest<OapiCale
 	 * @since 1.0, null
 	 */
 	public static class Event extends TaobaoObject {
-		private static final long serialVersionUID = 4491643692419581425L;
+		private static final long serialVersionUID = 1569739566573224182L;
 		/**
 		 * 日程参与者，参与者最大人数为100(包括组织者)
 		 */

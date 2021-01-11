@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiProcessFormGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.process.form.get request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.19
+ * @since 1.0, 2020.08.19
  */
 public class OapiProcessFormGetRequest extends BaseTaobaoRequest<OapiProcessFormGetResponse> {
 	

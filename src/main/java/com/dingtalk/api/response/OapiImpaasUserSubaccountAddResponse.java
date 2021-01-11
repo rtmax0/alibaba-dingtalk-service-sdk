@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImpaasUserSubaccountAddResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8595741445152598557L;
+	private static final long serialVersionUID = 1178288763297952681L;
 
 	/** 
 	 * 错误码  -1 系统异常 40035 参数错误
@@ -79,7 +79,7 @@ public class OapiImpaasUserSubaccountAddResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AddSubAccountResp extends TaobaoObject {
-		private static final long serialVersionUID = 5773965519151896762L;
+		private static final long serialVersionUID = 4192118714773748881L;
 		/**
 		 * im的唯一id
 		 */

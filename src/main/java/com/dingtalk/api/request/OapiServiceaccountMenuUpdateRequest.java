@@ -21,7 +21,7 @@ import com.dingtalk.api.response.OapiServiceaccountMenuUpdateResponse;
  * TOP DingTalk-API: dingtalk.oapi.serviceaccount.menu.update request
  * 
  * @author top auto create
- * @since 1.0, 2019.07.26
+ * @since 1.0, 2019.07.05
  */
 public class OapiServiceaccountMenuUpdateRequest extends BaseTaobaoRequest<OapiServiceaccountMenuUpdateResponse> {
 	
@@ -114,7 +114,7 @@ public class OapiServiceaccountMenuUpdateRequest extends BaseTaobaoRequest<OapiS
 	 * @since 1.0, null
 	 */
 	public static class MenuSubButtonDTO extends TaobaoObject {
-		private static final long serialVersionUID = 5588327318678851853L;
+		private static final long serialVersionUID = 6464426745431791928L;
 		/**
 		 * 菜单绑定的key值
 		 */
@@ -180,7 +180,7 @@ public class OapiServiceaccountMenuUpdateRequest extends BaseTaobaoRequest<OapiS
 	 * @since 1.0, null
 	 */
 	public static class MenuButtonDTO extends TaobaoObject {
-		private static final long serialVersionUID = 4627286171989241598L;
+		private static final long serialVersionUID = 7648954562183841912L;
 		/**
 		 * 菜单绑定的key值
 		 */
@@ -258,7 +258,7 @@ public class OapiServiceaccountMenuUpdateRequest extends BaseTaobaoRequest<OapiS
 	 * @since 1.0, null
 	 */
 	public static class MenuConfigDTO extends TaobaoObject {
-		private static final long serialVersionUID = 8742675472475978139L;
+		private static final long serialVersionUID = 2248359859192421597L;
 		/**
 		 * 菜单按钮列表
 		 */

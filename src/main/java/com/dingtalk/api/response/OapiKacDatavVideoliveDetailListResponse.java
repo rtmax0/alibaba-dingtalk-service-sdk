@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiKacDatavVideoliveDetailListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8148552647897673894L;
+	private static final long serialVersionUID = 8578952284566928825L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiKacDatavVideoliveDetailListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class VideoLiveDetailVo extends TaobaoObject {
-		private static final long serialVersionUID = 5477699484383586632L;
+		private static final long serialVersionUID = 4152677673932461714L;
 		/**
 		 * 直播群cid
 		 */
@@ -104,6 +104,11 @@ public class OapiKacDatavVideoliveDetailListResponse extends TaobaoResponse {
 		 */
 		@ApiField("live_watch_duration")
 		private String liveWatchDuration;
+		/**
+		 * 直播时长（分钟）
+		 */
+		@ApiField("live_watch_duration_min")
+		private String liveWatchDurationMin;
 		/**
 		 * 直播结束时间
 		 */
@@ -187,6 +192,12 @@ public class OapiKacDatavVideoliveDetailListResponse extends TaobaoResponse {
 		public void setLiveWatchDuration(String liveWatchDuration) {
 			this.liveWatchDuration = liveWatchDuration;
 		}
+		public String getLiveWatchDurationMin() {
+			return this.liveWatchDurationMin;
+		}
+		public void setLiveWatchDurationMin(String liveWatchDurationMin) {
+			this.liveWatchDurationMin = liveWatchDurationMin;
+		}
 		public String getLiveWatchEndTime() {
 			return this.liveWatchEndTime;
 		}
@@ -244,7 +255,7 @@ public class OapiKacDatavVideoliveDetailListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class VideoLiveDetailResponse extends TaobaoObject {
-		private static final long serialVersionUID = 7119864892845514983L;
+		private static final long serialVersionUID = 7761264151719449189L;
 		/**
 		 * 数据明细列表
 		 */

@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImChatbotDeleteResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5855582374661366437L;
+	private static final long serialVersionUID = 6619967786211641663L;
 
 	/** 
 	 * 错误代码

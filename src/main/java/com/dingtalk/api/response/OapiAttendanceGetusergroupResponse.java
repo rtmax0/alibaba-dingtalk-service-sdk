@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGetusergroupResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7255849512937695578L;
+	private static final long serialVersionUID = 8786698649778397183L;
 
 	/** 
 	 * errcode
@@ -69,7 +69,7 @@ public class OapiAttendanceGetusergroupResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtTimeVo extends TaobaoObject {
-		private static final long serialVersionUID = 5454777116982885899L;
+		private static final long serialVersionUID = 8718161215584526155L;
 		/**
 		 * 打卡时间跨几天
 		 */
@@ -135,7 +135,7 @@ public class OapiAttendanceGetusergroupResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtSectionVo extends TaobaoObject {
-		private static final long serialVersionUID = 6839589981619718448L;
+		private static final long serialVersionUID = 4455762358583537176L;
 		/**
 		 * 班次中上下班详情列表
 		 */
@@ -158,7 +158,7 @@ public class OapiAttendanceGetusergroupResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ClassSettingVo extends TaobaoObject {
-		private static final long serialVersionUID = 2486685243213278112L;
+		private static final long serialVersionUID = 6846843414244646571L;
 		/**
 		 * 休息开始时间
 		 */
@@ -191,7 +191,7 @@ public class OapiAttendanceGetusergroupResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtClassVo extends TaobaoObject {
-		private static final long serialVersionUID = 6314975925334645486L;
+		private static final long serialVersionUID = 3437779991173534366L;
 		/**
 		 * 班次id
 		 */
@@ -247,7 +247,7 @@ public class OapiAttendanceGetusergroupResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtGroupFullForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 6471713435579127759L;
+		private static final long serialVersionUID = 6161577859519829428L;
 		/**
 		 * 考勤组中的班次列表
 		 */

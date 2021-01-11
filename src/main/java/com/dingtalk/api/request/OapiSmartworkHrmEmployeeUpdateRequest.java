@@ -114,7 +114,7 @@ public class OapiSmartworkHrmEmployeeUpdateRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class EmpFieldVo extends TaobaoObject {
-		private static final long serialVersionUID = 3315988792317142353L;
+		private static final long serialVersionUID = 2534191993248436573L;
 		/**
 		 * 更新的字段code
 		 */
@@ -147,7 +147,7 @@ public class OapiSmartworkHrmEmployeeUpdateRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class EmpListFieldVO extends TaobaoObject {
-		private static final long serialVersionUID = 4547338826937925158L;
+		private static final long serialVersionUID = 4134275135827125684L;
 		/**
 		 * 单个组所有字段
 		 */
@@ -170,7 +170,7 @@ public class OapiSmartworkHrmEmployeeUpdateRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class GroupMetaInfo extends TaobaoObject {
-		private static final long serialVersionUID = 7399531813738882882L;
+		private static final long serialVersionUID = 5373432252835961758L;
 		/**
 		 * 需改的字段所在组ID
 		 */
@@ -204,7 +204,7 @@ public class OapiSmartworkHrmEmployeeUpdateRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class PreEntryEmployeeAddParam extends TaobaoObject {
-		private static final long serialVersionUID = 3698634912618138783L;
+		private static final long serialVersionUID = 2495511156668883139L;
 		/**
 		 * 所有组明细
 		 */

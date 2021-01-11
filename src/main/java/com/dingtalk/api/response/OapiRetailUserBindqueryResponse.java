@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRetailUserBindqueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6443452399657889629L;
+	private static final long serialVersionUID = 1526963938395367631L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiRetailUserBindqueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ApplyUserDto extends TaobaoObject {
-		private static final long serialVersionUID = 4748667669272596389L;
+		private static final long serialVersionUID = 7286489339818682869L;
 		/**
 		 * 业务渠道
 		 */
@@ -158,7 +158,7 @@ public class OapiRetailUserBindqueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class UserBindDto extends TaobaoObject {
-		private static final long serialVersionUID = 6836466434351331799L;
+		private static final long serialVersionUID = 7446337229389767799L;
 		/**
 		 * 中心组织唯一ID
 		 */

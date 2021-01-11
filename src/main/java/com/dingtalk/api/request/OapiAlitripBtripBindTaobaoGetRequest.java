@@ -96,7 +96,7 @@ public class OapiAlitripBtripBindTaobaoGetRequest extends BaseTaobaoRequest<Oapi
 	 * @since 1.0, null
 	 */
 	public static class UserBindInfoRq extends TaobaoObject {
-		private static final long serialVersionUID = 6178686635861574438L;
+		private static final long serialVersionUID = 3398298482188431662L;
 		/**
 		 * 企业id
 		 */

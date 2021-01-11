@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiUserListbypageResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8768669753216479721L;
+	private static final long serialVersionUID = 3215654268426448694L;
 
 	/** 
 	 * errcode
@@ -83,7 +83,7 @@ public class OapiUserListbypageResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Userlist extends TaobaoObject {
-		private static final long serialVersionUID = 7398259236243146454L;
+		private static final long serialVersionUID = 7132398166226136944L;
 		/**
 		 * active
 		 */

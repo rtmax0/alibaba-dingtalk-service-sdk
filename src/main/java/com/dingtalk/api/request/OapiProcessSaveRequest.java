@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiProcessSaveResponse;
  * TOP DingTalk-API: dingtalk.oapi.process.save request
  * 
  * @author top auto create
- * @since 1.0, 2020.01.17
+ * @since 1.0, 2020.11.23
  */
 public class OapiProcessSaveRequest extends BaseTaobaoRequest<OapiProcessSaveResponse> {
 	
@@ -98,7 +98,7 @@ public class OapiProcessSaveRequest extends BaseTaobaoRequest<OapiProcessSaveRes
 	 * @since 1.0, null
 	 */
 	public static class FormComponentStatVo extends TaobaoObject {
-		private static final long serialVersionUID = 5669561528868874278L;
+		private static final long serialVersionUID = 1355374794286172172L;
 		/**
 		 * 组件id
 		 */
@@ -153,12 +153,22 @@ public class OapiProcessSaveRequest extends BaseTaobaoRequest<OapiProcessSaveRes
 	 * @since 1.0, null
 	 */
 	public static class FormComponentPropVo extends TaobaoObject {
-		private static final long serialVersionUID = 1254377227376477381L;
+		private static final long serialVersionUID = 8174497161948328673L;
 		/**
 		 * 增加明细动作名称
 		 */
 		@ApiField("action_name")
 		private String actionName;
+		/**
+		 * 套件别名
+		 */
+		@ApiField("biz_alias")
+		private String bizAlias;
+		/**
+		 * 套件类型
+		 */
+		@ApiField("biz_type")
+		private String bizType;
 		/**
 		 * 内部联系人choice，1表示多选，0表示单选
 		 */
@@ -242,6 +252,18 @@ public class OapiProcessSaveRequest extends BaseTaobaoRequest<OapiProcessSaveRes
 		}
 		public void setActionName(String actionName) {
 			this.actionName = actionName;
+		}
+		public String getBizAlias() {
+			return this.bizAlias;
+		}
+		public void setBizAlias(String bizAlias) {
+			this.bizAlias = bizAlias;
+		}
+		public String getBizType() {
+			return this.bizType;
+		}
+		public void setBizType(String bizType) {
+			this.bizType = bizType;
 		}
 		public Long getChoice() {
 			return this.choice;
@@ -342,7 +364,7 @@ public class OapiProcessSaveRequest extends BaseTaobaoRequest<OapiProcessSaveRes
 	 * @since 1.0, null
 	 */
 	public static class FormComponentVo2 extends TaobaoObject {
-		private static final long serialVersionUID = 1639778352482156874L;
+		private static final long serialVersionUID = 3676958773833798922L;
 		/**
 		 * 表单名称
 		 */
@@ -375,7 +397,7 @@ public class OapiProcessSaveRequest extends BaseTaobaoRequest<OapiProcessSaveRes
 	 * @since 1.0, null
 	 */
 	public static class FormComponentVo extends TaobaoObject {
-		private static final long serialVersionUID = 3132142689248516999L;
+		private static final long serialVersionUID = 4884152465572827475L;
 		/**
 		 * 子表单列表
 		 */
@@ -420,7 +442,7 @@ public class OapiProcessSaveRequest extends BaseTaobaoRequest<OapiProcessSaveRes
 	 * @since 1.0, null
 	 */
 	public static class ProcessConfig extends TaobaoObject {
-		private static final long serialVersionUID = 6616957548191851548L;
+		private static final long serialVersionUID = 6487245632779711222L;
 		/**
 		 * 是否在审批后台禁用删除操作
 		 */
@@ -446,6 +468,11 @@ public class OapiProcessSaveRequest extends BaseTaobaoRequest<OapiProcessSaveRes
 		 */
 		@ApiField("disable_stop_process_button")
 		private Boolean disableStopProcessButton;
+		/**
+		 * 假流程模板编辑url
+		 */
+		@ApiField("fake_template_edit_url")
+		private String fakeTemplateEditUrl;
 		/**
 		 * 设置模板是否隐藏，true表示隐藏
 		 */
@@ -487,6 +514,12 @@ public class OapiProcessSaveRequest extends BaseTaobaoRequest<OapiProcessSaveRes
 		public void setDisableStopProcessButton(Boolean disableStopProcessButton) {
 			this.disableStopProcessButton = disableStopProcessButton;
 		}
+		public String getFakeTemplateEditUrl() {
+			return this.fakeTemplateEditUrl;
+		}
+		public void setFakeTemplateEditUrl(String fakeTemplateEditUrl) {
+			this.fakeTemplateEditUrl = fakeTemplateEditUrl;
+		}
 		public Boolean getHidden() {
 			return this.hidden;
 		}
@@ -508,17 +541,32 @@ public class OapiProcessSaveRequest extends BaseTaobaoRequest<OapiProcessSaveRes
 	 * @since 1.0, null
 	 */
 	public static class SaveProcessRequest extends TaobaoObject {
-		private static final long serialVersionUID = 2853462762637275348L;
+		private static final long serialVersionUID = 7679349146579715965L;
 		/**
 		 * 企业应用id
 		 */
 		@ApiField("agentid")
 		private Long agentid;
 		/**
+		 * 发起审批移动端链接
+		 */
+		@ApiField("create_instance_mobile_url")
+		private String createInstanceMobileUrl;
+		/**
+		 * 发起审批pc链接
+		 */
+		@ApiField("create_instance_pc_url")
+		private String createInstancePcUrl;
+		/**
 		 * 审批模板描述
 		 */
 		@ApiField("description")
 		private String description;
+		/**
+		 * 分组id
+		 */
+		@ApiField("dir_id")
+		private String dirId;
 		/**
 		 * 废弃，请使用process_config.disable_form_edit字段
 		 */
@@ -546,10 +594,20 @@ public class OapiProcessSaveRequest extends BaseTaobaoRequest<OapiProcessSaveRes
 		@ApiField("hidden")
 		private Boolean hidden;
 		/**
+		 * icon
+		 */
+		@ApiField("icon")
+		private String icon;
+		/**
 		 * 审批模板名称
 		 */
 		@ApiField("name")
 		private String name;
+		/**
+		 * 原分组id
+		 */
+		@ApiField("origin_dir_id")
+		private String originDirId;
 		/**
 		 * 审批模板唯一码
 		 */
@@ -572,11 +630,29 @@ public class OapiProcessSaveRequest extends BaseTaobaoRequest<OapiProcessSaveRes
 		public void setAgentid(Long agentid) {
 			this.agentid = agentid;
 		}
+		public String getCreateInstanceMobileUrl() {
+			return this.createInstanceMobileUrl;
+		}
+		public void setCreateInstanceMobileUrl(String createInstanceMobileUrl) {
+			this.createInstanceMobileUrl = createInstanceMobileUrl;
+		}
+		public String getCreateInstancePcUrl() {
+			return this.createInstancePcUrl;
+		}
+		public void setCreateInstancePcUrl(String createInstancePcUrl) {
+			this.createInstancePcUrl = createInstancePcUrl;
+		}
 		public String getDescription() {
 			return this.description;
 		}
 		public void setDescription(String description) {
 			this.description = description;
+		}
+		public String getDirId() {
+			return this.dirId;
+		}
+		public void setDirId(String dirId) {
+			this.dirId = dirId;
 		}
 		public Boolean getDisableFormEdit() {
 			return this.disableFormEdit;
@@ -608,11 +684,23 @@ public class OapiProcessSaveRequest extends BaseTaobaoRequest<OapiProcessSaveRes
 		public void setHidden(Boolean hidden) {
 			this.hidden = hidden;
 		}
+		public String getIcon() {
+			return this.icon;
+		}
+		public void setIcon(String icon) {
+			this.icon = icon;
+		}
 		public String getName() {
 			return this.name;
 		}
 		public void setName(String name) {
 			this.name = name;
+		}
+		public String getOriginDirId() {
+			return this.originDirId;
+		}
+		public void setOriginDirId(String originDirId) {
+			this.originDirId = originDirId;
 		}
 		public String getProcessCode() {
 			return this.processCode;

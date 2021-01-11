@@ -1,5 +1,6 @@
 package com.dingtalk.api.request;
 
+import com.taobao.api.internal.util.RequestCheckUtils;
 import java.util.Map;
 import java.util.List;
 
@@ -16,29 +17,29 @@ import com.dingtalk.api.response.OapiAttendanceListRecordResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.listRecord request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.10
+ * @since 1.0, 2020.07.28
  */
 public class OapiAttendanceListRecordRequest extends BaseTaobaoRequest<OapiAttendanceListRecordResponse> {
 	
 	
 
 	/** 
-	* 开始时间
+	* 查询考勤打卡记录的结束工作日。注意，起始与结束工作日最多相隔7天
 	 */
 	private String checkDateFrom;
 
 	/** 
-	* 结束时间
+	* 查询考勤打卡记录的结束工作日。注意，起始与结束工作日最多相隔7天
 	 */
 	private String checkDateTo;
 
 	/** 
-	* 是否为国际化
+	* 是否国际化
 	 */
 	private Boolean isI18n;
 
 	/** 
-	* 待查询的用户id列表
+	* 企业内的员工id列表，最多不能超过50个
 	 */
 	private List<String> userIds;
 
@@ -123,6 +124,8 @@ public class OapiAttendanceListRecordRequest extends BaseTaobaoRequest<OapiAtten
 	}
 
 	public void check() throws ApiRuleException {
+		RequestCheckUtils.checkNotEmpty(checkDateFrom, "checkDateFrom");
+		RequestCheckUtils.checkNotEmpty(checkDateTo, "checkDateTo");
 	}
 	
 

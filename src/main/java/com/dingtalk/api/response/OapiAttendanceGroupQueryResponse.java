@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGroupQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2154357773497545484L;
+	private static final long serialVersionUID = 5348336594566833251L;
 
 	/** 
 	 * 错误码
@@ -75,19 +75,125 @@ public class OapiAttendanceGroupQueryResponse extends TaobaoResponse {
     }
 	
 	/**
+	 * 每天的班次设置
+	 *
+	 * @author top auto create
+	 * @since 1.0, null
+	 */
+	public static class TopCycleScheduleItemVO extends TaobaoObject {
+		private static final long serialVersionUID = 6264575263245748748L;
+		/**
+		 * 班次id
+		 */
+		@ApiField("class_id")
+		private Long classId;
+		/**
+		 * 班次名称
+		 */
+		@ApiField("class_name")
+		private String className;
+		/**
+		 * 是否有效
+		 */
+		@ApiField("is_valid")
+		private String isValid;
+	
+		public Long getClassId() {
+			return this.classId;
+		}
+		public void setClassId(Long classId) {
+			this.classId = classId;
+		}
+		public String getClassName() {
+			return this.className;
+		}
+		public void setClassName(String className) {
+			this.className = className;
+		}
+		public String getIsValid() {
+			return this.isValid;
+		}
+		public void setIsValid(String isValid) {
+			this.isValid = isValid;
+		}
+	}
+	
+	/**
+	 * 排班周期设置
+	 *
+	 * @author top auto create
+	 * @since 1.0, null
+	 */
+	public static class TopCycleScheduleVO extends TaobaoObject {
+		private static final long serialVersionUID = 5379591578432366322L;
+		/**
+		 * 排班周期名称
+		 */
+		@ApiField("cycle_name")
+		private String cycleName;
+		/**
+		 * 是否删除
+		 */
+		@ApiField("is_deleted")
+		private String isDeleted;
+		/**
+		 * 是否有效
+		 */
+		@ApiField("is_valid")
+		private String isValid;
+		/**
+		 * 每天的班次设置
+		 */
+		@ApiListField("item_list")
+		@ApiField("top_cycle_schedule_item_v_o")
+		private List<TopCycleScheduleItemVO> itemList;
+	
+		public String getCycleName() {
+			return this.cycleName;
+		}
+		public void setCycleName(String cycleName) {
+			this.cycleName = cycleName;
+		}
+		public String getIsDeleted() {
+			return this.isDeleted;
+		}
+		public void setIsDeleted(String isDeleted) {
+			this.isDeleted = isDeleted;
+		}
+		public String getIsValid() {
+			return this.isValid;
+		}
+		public void setIsValid(String isValid) {
+			this.isValid = isValid;
+		}
+		public List<TopCycleScheduleItemVO> getItemList() {
+			return this.itemList;
+		}
+		public void setItemList(List<TopCycleScheduleItemVO> itemList) {
+			this.itemList = itemList;
+		}
+	}
+	
+	/**
 	 * demo
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class TopSimpleGroupVO extends TaobaoObject {
-		private static final long serialVersionUID = 6413282685997966399L;
+		private static final long serialVersionUID = 3538526728495483624L;
 		/**
 		 * 考勤地址
 		 */
 		@ApiListField("address_list")
 		@ApiField("string")
 		private List<String> addressList;
+		/**
+		 * 排班周期设置
+		 */
+		@ApiListField("cycle_schedules")
+		@ApiField("top_cycle_schedule_v_o")
+		private List<TopCycleScheduleVO> cycleSchedules;
 		/**
 		 * id
 		 */
@@ -113,6 +219,12 @@ public class OapiAttendanceGroupQueryResponse extends TaobaoResponse {
 		 */
 		@ApiField("owner_user_id")
 		private String ownerUserId;
+		/**
+		 * 考勤组关联的班次列表
+		 */
+		@ApiListField("shift_ids")
+		@ApiField("number")
+		private List<Long> shiftIds;
 		/**
 		 * 固定值，轮班制
 		 */
@@ -141,6 +253,12 @@ public class OapiAttendanceGroupQueryResponse extends TaobaoResponse {
 		}
 		public void setAddressList(List<String> addressList) {
 			this.addressList = addressList;
+		}
+		public List<TopCycleScheduleVO> getCycleSchedules() {
+			return this.cycleSchedules;
+		}
+		public void setCycleSchedules(List<TopCycleScheduleVO> cycleSchedules) {
+			this.cycleSchedules = cycleSchedules;
 		}
 		public Long getId() {
 			return this.id;
@@ -171,6 +289,12 @@ public class OapiAttendanceGroupQueryResponse extends TaobaoResponse {
 		}
 		public void setOwnerUserId(String ownerUserId) {
 			this.ownerUserId = ownerUserId;
+		}
+		public List<Long> getShiftIds() {
+			return this.shiftIds;
+		}
+		public void setShiftIds(List<Long> shiftIds) {
+			this.shiftIds = shiftIds;
 		}
 		public String getType() {
 			return this.type;

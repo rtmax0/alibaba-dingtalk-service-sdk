@@ -27,7 +27,7 @@ public class OapiImpaasRelationGetRequest extends BaseTaobaoRequest<OapiImpaasRe
 	
 
 	/** 
-	* 关系查询入参
+	* 系统自动生成
 	 */
 	private String request;
 
@@ -92,21 +92,21 @@ public class OapiImpaasRelationGetRequest extends BaseTaobaoRequest<OapiImpaasRe
 	}
 	
 	/**
-	 * 关系查询入参
+	 * 系统自动生成
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class GetRelationReq extends TaobaoObject {
-		private static final long serialVersionUID = 4649266891758426389L;
+		private static final long serialVersionUID = 2378215938794518311L;
 		/**
-		 * 接收者im的唯一id列表
+		 * 接收者钉钉的openid
 		 */
 		@ApiListField("dst_im_openids")
 		@ApiField("string")
 		private List<String> dstImOpenids;
 		/**
-		 * 发送者的im唯一id
+		 * 发送者钉钉的openid
 		 */
 		@ApiField("src_im_openid")
 		private String srcImOpenid;

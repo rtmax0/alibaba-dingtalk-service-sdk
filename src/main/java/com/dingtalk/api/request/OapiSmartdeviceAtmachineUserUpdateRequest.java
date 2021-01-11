@@ -98,7 +98,7 @@ public class OapiSmartdeviceAtmachineUserUpdateRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class MachineUsersUpdateRequestVo extends TaobaoObject {
-		private static final long serialVersionUID = 1542978981578319627L;
+		private static final long serialVersionUID = 5457789232861544934L;
 		/**
 		 * 新增的员工id列表
 		 */

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEduUserGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8214671288631933247L;
+	private static final long serialVersionUID = 3873788685885938679L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiEduUserGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Detail extends TaobaoObject {
-		private static final long serialVersionUID = 4263298795349296364L;
+		private static final long serialVersionUID = 7114631267943314583L;
 		/**
 		 * 班级id
 		 */
@@ -102,6 +102,11 @@ public class OapiEduUserGetResponse extends TaobaoResponse {
 		 */
 		@ApiField("role")
 		private String role;
+		/**
+		 * unionid
+		 */
+		@ApiField("unionid")
+		private String unionid;
 		/**
 		 * 人员id
 		 */
@@ -132,6 +137,12 @@ public class OapiEduUserGetResponse extends TaobaoResponse {
 		public void setRole(String role) {
 			this.role = role;
 		}
+		public String getUnionid() {
+			return this.unionid;
+		}
+		public void setUnionid(String unionid) {
+			this.unionid = unionid;
+		}
 		public String getUserid() {
 			return this.userid;
 		}
@@ -147,7 +158,7 @@ public class OapiEduUserGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 8162163135265413777L;
+		private static final long serialVersionUID = 7581832465764294927L;
 		/**
 		 * 人员身份详情列表
 		 */

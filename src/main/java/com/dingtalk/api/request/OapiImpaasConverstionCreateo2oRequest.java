@@ -96,7 +96,7 @@ public class OapiImpaasConverstionCreateo2oRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class ConversationAccountInfo extends TaobaoObject {
-		private static final long serialVersionUID = 6128518437158576817L;
+		private static final long serialVersionUID = 7161831213617913972L;
 		/**
 		 * 创建者账号ID，类型由type字段决定
 		 */
@@ -129,7 +129,7 @@ public class OapiImpaasConverstionCreateo2oRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class CreateConversationRequest extends TaobaoObject {
-		private static final long serialVersionUID = 2545499368828952387L;
+		private static final long serialVersionUID = 1261394798141491831L;
 		/**
 		 * 接入方channel信息，该值由接入方接入IMPaaS平台时，向IMPaaS平台申请，例如“hema”“eleme”等。
 		 */

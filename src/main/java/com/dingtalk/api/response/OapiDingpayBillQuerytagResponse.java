@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiDingpayBillQuerytagResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5331778388785741647L;
+	private static final long serialVersionUID = 1737952596185235117L;
 
 	/** 
 	 * 错误代码
@@ -68,7 +68,7 @@ public class OapiDingpayBillQuerytagResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class BillTagQueryOpenResponse extends TaobaoObject {
-		private static final long serialVersionUID = 5589674311361271715L;
+		private static final long serialVersionUID = 7424911219692961794L;
 		/**
 		 * 标签列表
 		 */

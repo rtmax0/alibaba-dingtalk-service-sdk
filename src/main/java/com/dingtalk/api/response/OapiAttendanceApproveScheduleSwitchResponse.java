@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceApproveScheduleSwitchResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8754627222166451256L;
+	private static final long serialVersionUID = 1179678472112343196L;
 
 	/** 
 	 * 0代表成功，其他代表失败

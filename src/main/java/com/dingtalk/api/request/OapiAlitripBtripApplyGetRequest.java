@@ -96,7 +96,7 @@ public class OapiAlitripBtripApplyGetRequest extends BaseTaobaoRequest<OapiAlitr
 	 * @since 1.0, null
 	 */
 	public static class OpenSearchRq extends TaobaoObject {
-		private static final long serialVersionUID = 4855143815413251222L;
+		private static final long serialVersionUID = 1149524848253734162L;
 		/**
 		 * 阿里商旅审批单id
 		 */

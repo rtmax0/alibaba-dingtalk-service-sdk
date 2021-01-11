@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiChatMemberFriendswitchUpdateResponse;
  * TOP DingTalk-API: dingtalk.oapi.chat.member.friendswitch.update request
  * 
  * @author top auto create
- * @since 1.0, 2019.09.24
+ * @since 1.0, 2020.07.15
  */
 public class OapiChatMemberFriendswitchUpdateRequest extends BaseTaobaoRequest<OapiChatMemberFriendswitchUpdateResponse> {
 	

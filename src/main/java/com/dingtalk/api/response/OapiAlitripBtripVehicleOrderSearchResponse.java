@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripVehicleOrderSearchResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3154715927342112585L;
+	private static final long serialVersionUID = 1379875565884148289L;
 
 	/** 
 	 * 返回码
@@ -83,7 +83,7 @@ public class OapiAlitripBtripVehicleOrderSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenPriceInfo extends TaobaoObject {
-		private static final long serialVersionUID = 4693123246531987242L;
+		private static final long serialVersionUID = 5179899544115351152L;
 		/**
 		 * 交易类型：用车支付, 服务费, 用车取消后收费, 用车退款, 用车赔付
 		 */
@@ -160,7 +160,7 @@ public class OapiAlitripBtripVehicleOrderSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenUserAffiliateDo extends TaobaoObject {
-		private static final long serialVersionUID = 7612382533455684621L;
+		private static final long serialVersionUID = 2334436172662294586L;
 		/**
 		 * 出行人名称
 		 */
@@ -193,7 +193,7 @@ public class OapiAlitripBtripVehicleOrderSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenVehicleOrderRs extends TaobaoObject {
-		private static final long serialVersionUID = 7486746455118361722L;
+		private static final long serialVersionUID = 8893869793722456155L;
 		/**
 		 * 商旅系统审批单id
 		 */
@@ -204,6 +204,11 @@ public class OapiAlitripBtripVehicleOrderSearchResponse extends TaobaoResponse {
 		 */
 		@ApiField("apply_show_id")
 		private String applyShowId;
+		/**
+		 * 申请单名称
+		 */
+		@ApiField("btrip_title")
+		private String btripTitle;
 		/**
 		 * 用车原因：TRAVEL: 差旅, TRAFFIC: 市内交通, WORK: 加班, OTHER: 其它
 		 */
@@ -351,10 +356,20 @@ public class OapiAlitripBtripVehicleOrderSearchResponse extends TaobaoResponse {
 		@ApiField("publish_time")
 		private Date publishTime;
 		/**
+		 * 真实出发地
+		 */
+		@ApiField("real_from_address")
+		private String realFromAddress;
+		/**
 		 * 实际出发城市
 		 */
 		@ApiField("real_from_city_name")
 		private String realFromCityName;
+		/**
+		 * 真实到达地
+		 */
+		@ApiField("real_to_address")
+		private String realToAddress;
 		/**
 		 * 实际到达城市
 		 */
@@ -370,6 +385,11 @@ public class OapiAlitripBtripVehicleOrderSearchResponse extends TaobaoResponse {
 		 */
 		@ApiField("taken_time")
 		private Date takenTime;
+		/**
+		 * 第三方申请单ID
+		 */
+		@ApiField("thirdpart_apply_id")
+		private String thirdpartApplyId;
 		/**
 		 * 第三方行程id
 		 */
@@ -423,6 +443,12 @@ public class OapiAlitripBtripVehicleOrderSearchResponse extends TaobaoResponse {
 		}
 		public void setApplyShowId(String applyShowId) {
 			this.applyShowId = applyShowId;
+		}
+		public String getBtripTitle() {
+			return this.btripTitle;
+		}
+		public void setBtripTitle(String btripTitle) {
+			this.btripTitle = btripTitle;
 		}
 		public String getBusinessCategory() {
 			return this.businessCategory;
@@ -598,11 +624,23 @@ public class OapiAlitripBtripVehicleOrderSearchResponse extends TaobaoResponse {
 		public void setPublishTime(Date publishTime) {
 			this.publishTime = publishTime;
 		}
+		public String getRealFromAddress() {
+			return this.realFromAddress;
+		}
+		public void setRealFromAddress(String realFromAddress) {
+			this.realFromAddress = realFromAddress;
+		}
 		public String getRealFromCityName() {
 			return this.realFromCityName;
 		}
 		public void setRealFromCityName(String realFromCityName) {
 			this.realFromCityName = realFromCityName;
+		}
+		public String getRealToAddress() {
+			return this.realToAddress;
+		}
+		public void setRealToAddress(String realToAddress) {
+			this.realToAddress = realToAddress;
 		}
 		public String getRealToCityName() {
 			return this.realToCityName;
@@ -621,6 +659,12 @@ public class OapiAlitripBtripVehicleOrderSearchResponse extends TaobaoResponse {
 		}
 		public void setTakenTime(Date takenTime) {
 			this.takenTime = takenTime;
+		}
+		public String getThirdpartApplyId() {
+			return this.thirdpartApplyId;
+		}
+		public void setThirdpartApplyId(String thirdpartApplyId) {
+			this.thirdpartApplyId = thirdpartApplyId;
 		}
 		public String getThirdpartItineraryId() {
 			return this.thirdpartItineraryId;

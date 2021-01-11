@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiMedalCorpmedalQueryResponse;
  * TOP DingTalk-API: dingtalk.oapi.medal.corpmedal.query request
  * 
  * @author top auto create
- * @since 1.0, 2019.11.20
+ * @since 1.0, 2020.12.27
  */
 public class OapiMedalCorpmedalQueryRequest extends BaseTaobaoRequest<OapiMedalCorpmedalQueryResponse> {
 	

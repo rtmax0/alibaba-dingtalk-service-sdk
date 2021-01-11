@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiDepartmentGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4378734316652372486L;
+	private static final long serialVersionUID = 6535832312624113765L;
 
 	/** 
 	 * 当群已经创建后，是否有新人加入部门会自动加入该群, true表示是, false表示不是

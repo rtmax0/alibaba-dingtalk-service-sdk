@@ -97,7 +97,7 @@ public class OapiRhinoHumanresProductionteamQueryRequest extends BaseTaobaoReque
 	 * @since 1.0, null
 	 */
 	public static class QueryProductionTeamDto extends TaobaoObject {
-		private static final long serialVersionUID = 4342199968827826768L;
+		private static final long serialVersionUID = 5873662685546537424L;
 		/**
 		 * 结束时间
 		 */

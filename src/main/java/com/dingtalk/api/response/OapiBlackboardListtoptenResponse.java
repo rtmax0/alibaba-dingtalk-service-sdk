@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiBlackboardListtoptenResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5125786339269599845L;
+	private static final long serialVersionUID = 4261731929123654481L;
 
 	/** 
 	 * result
@@ -70,7 +70,7 @@ public class OapiBlackboardListtoptenResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OapiBlackboardVo extends TaobaoObject {
-		private static final long serialVersionUID = 5492254428279796328L;
+		private static final long serialVersionUID = 6133955787479471657L;
 		/**
 		 * 创建时间
 		 */
@@ -82,7 +82,7 @@ public class OapiBlackboardListtoptenResponse extends TaobaoResponse {
 		@ApiField("title")
 		private String title;
 		/**
-		 * 跳转URL
+		 * 跳转URL。参数解释：{2}：公告来源；{4}：企业corpId；{5}：公告id
 		 */
 		@ApiField("url")
 		private String url;

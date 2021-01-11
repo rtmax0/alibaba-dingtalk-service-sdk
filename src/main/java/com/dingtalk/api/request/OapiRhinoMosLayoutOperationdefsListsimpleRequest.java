@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiRhinoMosLayoutOperationdefsListsimpleRespon
  * TOP DingTalk-API: dingtalk.oapi.rhino.mos.layout.operationdefs.listsimple request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.23
+ * @since 1.0, 2020.07.16
  */
 public class OapiRhinoMosLayoutOperationdefsListsimpleRequest extends BaseTaobaoRequest<OapiRhinoMosLayoutOperationdefsListsimpleResponse> {
 	
@@ -110,7 +110,7 @@ public class OapiRhinoMosLayoutOperationdefsListsimpleRequest extends BaseTaobao
 	public Map<String, String> getTextParams() {		
 		TaobaoHashMap txtParams = new TaobaoHashMap();
 		txtParams.put("operation_uids", this.operationUids);
-		txtParams.put("orderId", this.orderId);
+		txtParams.put("order_id", this.orderId);
 		txtParams.put("tenant_id", this.tenantId);
 		txtParams.put("userid", this.userid);
 		if(this.udfParams != null) {

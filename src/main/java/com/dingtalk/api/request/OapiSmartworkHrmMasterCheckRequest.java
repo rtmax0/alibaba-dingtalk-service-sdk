@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiSmartworkHrmMasterCheckResponse;
  * TOP DingTalk-API: dingtalk.oapi.smartwork.hrm.master.check request
  * 
  * @author top auto create
- * @since 1.0, 2019.12.17
+ * @since 1.0, 2019.12.04
  */
 public class OapiSmartworkHrmMasterCheckRequest extends BaseTaobaoRequest<OapiSmartworkHrmMasterCheckResponse> {
 	

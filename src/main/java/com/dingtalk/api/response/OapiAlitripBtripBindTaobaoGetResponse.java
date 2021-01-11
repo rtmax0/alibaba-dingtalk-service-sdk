@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripBindTaobaoGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8724224392651159775L;
+	private static final long serialVersionUID = 2174262439124156814L;
 
 	/** 
 	 * 错误码
@@ -79,7 +79,7 @@ public class OapiAlitripBtripBindTaobaoGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class UserTaoBaoInfo extends TaobaoObject {
-		private static final long serialVersionUID = 2814327185712476775L;
+		private static final long serialVersionUID = 7635427714457469294L;
 		/**
 		 * 关联的支付宝帐号
 		 */

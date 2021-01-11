@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProcessWorkrecordDeleteResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5673617734247755182L;
+	private static final long serialVersionUID = 6397261193866291479L;
 
 	/** 
 	 * 0

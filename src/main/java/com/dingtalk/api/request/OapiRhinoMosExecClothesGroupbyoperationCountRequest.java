@@ -98,7 +98,7 @@ public class OapiRhinoMosExecClothesGroupbyoperationCountRequest extends BaseTao
 	 * @since 1.0, null
 	 */
 	public static class ClothesGroupByOperationCondition extends TaobaoObject {
-		private static final long serialVersionUID = 6818742632919799753L;
+		private static final long serialVersionUID = 4858224363759266995L;
 		/**
 		 * 工序生效条件(ACTIVEINACTIVE)
 		 */

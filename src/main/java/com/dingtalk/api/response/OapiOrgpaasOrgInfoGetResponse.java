@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiOrgpaasOrgInfoGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8546575865115811531L;
+	private static final long serialVersionUID = 5253417725566356854L;
 
 	/** 
 	 * 错误码 -1 系统异常 40035 参数错误
@@ -79,7 +79,7 @@ public class OapiOrgpaasOrgInfoGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class GetOrgInfoResp extends TaobaoObject {
-		private static final long serialVersionUID = 4473433852861936147L;
+		private static final long serialVersionUID = 8266698858952942724L;
 		/**
 		 * 组织附件信息
 		 */

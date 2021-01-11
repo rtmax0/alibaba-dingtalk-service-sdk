@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRoleRemoverolesforempsResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6766467312452882858L;
+	private static final long serialVersionUID = 3658686564176683579L;
 
 	/** 
 	 * errcode

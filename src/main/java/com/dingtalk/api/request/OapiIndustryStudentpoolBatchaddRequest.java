@@ -115,7 +115,7 @@ public class OapiIndustryStudentpoolBatchaddRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class PatriarchDto extends TaobaoObject {
-		private static final long serialVersionUID = 4599829828434374797L;
+		private static final long serialVersionUID = 4725866662359916115L;
 		/**
 		 * 联系人手机号
 		 */
@@ -159,7 +159,7 @@ public class OapiIndustryStudentpoolBatchaddRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class TrainingStudentDto extends TaobaoObject {
-		private static final long serialVersionUID = 5635725568863688346L;
+		private static final long serialVersionUID = 4414515566359974987L;
 		/**
 		 * 学员手机号
 		 */

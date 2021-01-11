@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiWorkspaceProjectQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1525648779325491876L;
+	private static final long serialVersionUID = 5849923514774628112L;
 
 	/** 
 	 * dingOpenErrcode
@@ -81,7 +81,7 @@ public class OapiWorkspaceProjectQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenTagDto extends TaobaoObject {
-		private static final long serialVersionUID = 5819196539412156989L;
+		private static final long serialVersionUID = 1252528338481464321L;
 		/**
 		 * 角色的code
 		 */
@@ -114,7 +114,7 @@ public class OapiWorkspaceProjectQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenProjectMemberDto extends TaobaoObject {
-		private static final long serialVersionUID = 3643449463177244692L;
+		private static final long serialVersionUID = 8536577463584632126L;
 		/**
 		 * 组织id
 		 */
@@ -170,7 +170,7 @@ public class OapiWorkspaceProjectQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenProjectDto extends TaobaoObject {
-		private static final long serialVersionUID = 3176526357267348784L;
+		private static final long serialVersionUID = 7591732111812191628L;
 		/**
 		 * 组织id
 		 */
@@ -201,6 +201,16 @@ public class OapiWorkspaceProjectQueryResponse extends TaobaoResponse {
 		 */
 		@ApiField("logo")
 		private String logo;
+		/**
+		 * 成员数量
+		 */
+		@ApiField("member_count")
+		private Long memberCount;
+		/**
+		 * 成员数量上限
+		 */
+		@ApiField("member_limit")
+		private Long memberLimit;
 		/**
 		 * 组织名称
 		 */
@@ -257,6 +267,18 @@ public class OapiWorkspaceProjectQueryResponse extends TaobaoResponse {
 		}
 		public void setLogo(String logo) {
 			this.logo = logo;
+		}
+		public Long getMemberCount() {
+			return this.memberCount;
+		}
+		public void setMemberCount(Long memberCount) {
+			this.memberCount = memberCount;
+		}
+		public Long getMemberLimit() {
+			return this.memberLimit;
+		}
+		public void setMemberLimit(Long memberLimit) {
+			this.memberLimit = memberLimit;
 		}
 		public String getName() {
 			return this.name;

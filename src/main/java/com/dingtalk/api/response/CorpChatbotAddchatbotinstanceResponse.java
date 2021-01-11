@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpChatbotAddchatbotinstanceResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7716339736893178663L;
+	private static final long serialVersionUID = 4637797785575583712L;
 
 	/** 
 	 * result
@@ -38,7 +38,7 @@ public class CorpChatbotAddchatbotinstanceResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ChatbotInstanceVo extends TaobaoObject {
-		private static final long serialVersionUID = 3762687883479638674L;
+		private static final long serialVersionUID = 3353464628543831182L;
 		/**
 		 * 机器人实例userId
 		 */
@@ -71,7 +71,7 @@ public class CorpChatbotAddchatbotinstanceResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 8762648284561779787L;
+		private static final long serialVersionUID = 2331521935162278224L;
 		/**
 		 * dingOpenErrcode
 		 */

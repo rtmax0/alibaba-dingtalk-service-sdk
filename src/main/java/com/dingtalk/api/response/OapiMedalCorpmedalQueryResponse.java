@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiMedalCorpmedalQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2146844379299358972L;
+	private static final long serialVersionUID = 8364113638982534826L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiMedalCorpmedalQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class CorpMedalDTO extends TaobaoObject {
-		private static final long serialVersionUID = 2829876131234679441L;
+		private static final long serialVersionUID = 7467485377788814727L;
 		/**
 		 * 勋章授予时间
 		 */
@@ -126,7 +126,7 @@ public class OapiMedalCorpmedalQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class CorpMedalQueryResponse extends TaobaoObject {
-		private static final long serialVersionUID = 6144936588968139645L;
+		private static final long serialVersionUID = 4787429643852666685L;
 		/**
 		 * 勋章列表
 		 */

@@ -97,7 +97,7 @@ public class OapiLiveCreateRequest extends BaseTaobaoRequest<OapiLiveCreateRespo
 	 * @since 1.0, null
 	 */
 	public static class CreateLiveReqModel extends TaobaoObject {
-		private static final long serialVersionUID = 7716214755682775864L;
+		private static final long serialVersionUID = 4167363793263329437L;
 		/**
 		 * 直播计划开始时间,选填: 如果不填写, 则取当前时间
 		 */

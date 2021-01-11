@@ -19,7 +19,7 @@ import com.dingtalk.api.response.OapiAlitripBtripFlightOrderSearchResponse;
  * TOP DingTalk-API: dingtalk.oapi.alitrip.btrip.flight.order.search request
  * 
  * @author top auto create
- * @since 1.0, 2019.06.22
+ * @since 1.0, 2020.11.26
  */
 public class OapiAlitripBtripFlightOrderSearchRequest extends BaseTaobaoRequest<OapiAlitripBtripFlightOrderSearchResponse> {
 	
@@ -97,7 +97,12 @@ public class OapiAlitripBtripFlightOrderSearchRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class OpenSearchRq extends TaobaoObject {
-		private static final long serialVersionUID = 4618173756232962254L;
+		private static final long serialVersionUID = 5556779727336793117L;
+		/**
+		 * false：仅搜索未报销的申请单
+		 */
+		@ApiField("all_apply")
+		private Boolean allApply;
 		/**
 		 * 商旅申请单id
 		 */
@@ -134,6 +139,11 @@ public class OapiAlitripBtripFlightOrderSearchRequest extends BaseTaobaoRequest<
 		@ApiField("start_time")
 		private Date startTime;
 		/**
+		 * 第三方申请单ID
+		 */
+		@ApiField("thirdpart_apply_id")
+		private String thirdpartApplyId;
+		/**
 		 * 更新结束时间
 		 */
 		@ApiField("update_end_time")
@@ -149,6 +159,12 @@ public class OapiAlitripBtripFlightOrderSearchRequest extends BaseTaobaoRequest<
 		@ApiField("userid")
 		private String userid;
 	
+		public Boolean getAllApply() {
+			return this.allApply;
+		}
+		public void setAllApply(Boolean allApply) {
+			this.allApply = allApply;
+		}
 		public Long getApplyId() {
 			return this.applyId;
 		}
@@ -190,6 +206,12 @@ public class OapiAlitripBtripFlightOrderSearchRequest extends BaseTaobaoRequest<
 		}
 		public void setStartTime(Date startTime) {
 			this.startTime = startTime;
+		}
+		public String getThirdpartApplyId() {
+			return this.thirdpartApplyId;
+		}
+		public void setThirdpartApplyId(String thirdpartApplyId) {
+			this.thirdpartApplyId = thirdpartApplyId;
 		}
 		public Date getUpdateEndTime() {
 			return this.updateEndTime;

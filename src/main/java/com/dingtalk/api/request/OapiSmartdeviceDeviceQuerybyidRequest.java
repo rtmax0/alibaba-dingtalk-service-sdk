@@ -96,7 +96,7 @@ public class OapiSmartdeviceDeviceQuerybyidRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class DeviceQueryVo extends TaobaoObject {
-		private static final long serialVersionUID = 3383686712985521163L;
+		private static final long serialVersionUID = 6173691976577772399L;
 		/**
 		 * 设备id
 		 */

@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiFaceauthGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6594241288999329549L;
+	private static final long serialVersionUID = 1584254924693181875L;
 
 	/** 
 	 * 错误码 0表示验证成功
@@ -66,7 +66,7 @@ public class OapiFaceauthGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 3135649218469314786L;
+		private static final long serialVersionUID = 8322919886299994417L;
 		/**
 		 * 身份证号码,只有在用户输入的情况下才返回
 		 */

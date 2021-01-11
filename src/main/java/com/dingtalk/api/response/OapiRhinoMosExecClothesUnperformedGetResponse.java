@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoMosExecClothesUnperformedGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1523473565245638536L;
+	private static final long serialVersionUID = 8641513667959646926L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiRhinoMosExecClothesUnperformedGetResponse extends TaobaoRespons
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 3446722791847526663L;
+		private static final long serialVersionUID = 1812688157846522577L;
 		/**
 		 * 起始位置
 		 */

@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiSmartdeviceFacegroupMemberListResponse;
  * TOP DingTalk-API: dingtalk.oapi.smartdevice.facegroup.member.list request
  * 
  * @author top auto create
- * @since 1.0, 2019.06.04
+ * @since 1.0, 2019.07.01
  */
 public class OapiSmartdeviceFacegroupMemberListRequest extends BaseTaobaoRequest<OapiSmartdeviceFacegroupMemberListResponse> {
 	

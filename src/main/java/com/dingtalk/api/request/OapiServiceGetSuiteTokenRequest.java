@@ -16,7 +16,7 @@ import com.dingtalk.api.response.OapiServiceGetSuiteTokenResponse;
  * TOP DingTalk-API: dingtalk.oapi.service.get_suite_token request
  * 
  * @author top auto create
- * @since 1.0, 2018.07.25
+ * @since 1.0, 2020.07.07
  */
 public class OapiServiceGetSuiteTokenRequest extends BaseTaobaoRequest<OapiServiceGetSuiteTokenResponse> {
 	

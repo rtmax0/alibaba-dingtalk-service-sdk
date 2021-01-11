@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoOrderDetailGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7466285187932558548L;
+	private static final long serialVersionUID = 4521525286581199522L;
 
 	/** 
 	 * 钉钉响应码
@@ -68,7 +68,7 @@ public class OapiRhinoOrderDetailGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenApiProductOrderDetailDto extends TaobaoObject {
-		private static final long serialVersionUID = 2538858882817828166L;
+		private static final long serialVersionUID = 5721366569169812355L;
 		/**
 		 * 主键id
 		 */
@@ -94,11 +94,6 @@ public class OapiRhinoOrderDetailGetResponse extends TaobaoResponse {
 		 */
 		@ApiField("size_name")
 		private String sizeName;
-		/**
-		 * 供应链skuId
-		 */
-		@ApiField("sku_id")
-		private String skuId;
 		/**
 		 * 租户id
 		 */
@@ -135,12 +130,6 @@ public class OapiRhinoOrderDetailGetResponse extends TaobaoResponse {
 		public void setSizeName(String sizeName) {
 			this.sizeName = sizeName;
 		}
-		public String getSkuId() {
-			return this.skuId;
-		}
-		public void setSkuId(String skuId) {
-			this.skuId = skuId;
-		}
 		public String getTenantId() {
 			return this.tenantId;
 		}
@@ -156,7 +145,7 @@ public class OapiRhinoOrderDetailGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Model extends TaobaoObject {
-		private static final long serialVersionUID = 2642513368795698948L;
+		private static final long serialVersionUID = 8663362916969434336L;
 		/**
 		 * 细码列表
 		 */

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiPlanetomFeedsTaskinfoResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2714695811767577519L;
+	private static final long serialVersionUID = 5815246783613338937L;
 
 	/** 
 	 * 错误码
@@ -69,7 +69,7 @@ public class OapiPlanetomFeedsTaskinfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class UploadFeedRspModel extends TaobaoObject {
-		private static final long serialVersionUID = 6833197813831925435L;
+		private static final long serialVersionUID = 7182486457629381992L;
 		/**
 		 * 课程处理结果
 		 */

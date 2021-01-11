@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProjectInviteShareurlGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2314691397598832446L;
+	private static final long serialVersionUID = 6469559756886336149L;
 
 	/** 
 	 * 错误码
@@ -79,7 +79,7 @@ public class OapiProjectInviteShareurlGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 6758745997397264428L;
+		private static final long serialVersionUID = 2614748462125315933L;
 		/**
 		 * 该二维码有效时间，以秒为单位。 最大不超过2592000（即30天）。
 		 */

@@ -173,7 +173,7 @@ public class OapiEnterpriseMicroappUsedataStatRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class OrderBy extends TaobaoObject {
-		private static final long serialVersionUID = 1827823977326459267L;
+		private static final long serialVersionUID = 1856323773562896175L;
 		/**
 		 * 排查的key
 		 */

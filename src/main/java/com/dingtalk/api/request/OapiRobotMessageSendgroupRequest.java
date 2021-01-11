@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiRobotMessageSendgroupResponse;
  * TOP DingTalk-API: dingtalk.oapi.robot.message.sendgroup request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.28
+ * @since 1.0, 2020.03.03
  */
 public class OapiRobotMessageSendgroupRequest extends BaseTaobaoRequest<OapiRobotMessageSendgroupResponse> {
 	

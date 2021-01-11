@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiBlackboardUpdateResponse;
  * TOP DingTalk-API: dingtalk.oapi.blackboard.update request
  * 
  * @author top auto create
- * @since 1.0, 2019.11.04
+ * @since 1.0, 2020.07.29
  */
 public class OapiBlackboardUpdateRequest extends BaseTaobaoRequest<OapiBlackboardUpdateResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiBlackboardUpdateRequest extends BaseTaobaoRequest<OapiBlackboar
 	 * @since 1.0, null
 	 */
 	public static class OapiUpdateBlackboardVo extends TaobaoObject {
-		private static final long serialVersionUID = 8435865941859494242L;
+		private static final long serialVersionUID = 7398865695871724221L;
 		/**
 		 * 公告作者
 		 */

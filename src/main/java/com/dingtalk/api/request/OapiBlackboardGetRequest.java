@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiBlackboardGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.blackboard.get request
  * 
  * @author top auto create
- * @since 1.0, 2019.11.04
+ * @since 1.0, 2020.07.29
  */
 public class OapiBlackboardGetRequest extends BaseTaobaoRequest<OapiBlackboardGetResponse> {
 	

@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class SmartworkBpmsProcessinstanceGetwithformResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8149193557937711653L;
+	private static final long serialVersionUID = 7177544995125195585L;
 
 	/** 
 	 * result
@@ -41,7 +41,7 @@ public class SmartworkBpmsProcessinstanceGetwithformResponse extends TaobaoRespo
 	 * @since 1.0, null
 	 */
 	public static class OperationRecordsVo extends TaobaoObject {
-		private static final long serialVersionUID = 1251935945227613836L;
+		private static final long serialVersionUID = 8497828757683447735L;
 		/**
 		 * 时间
 		 */
@@ -107,7 +107,7 @@ public class SmartworkBpmsProcessinstanceGetwithformResponse extends TaobaoRespo
 	 * @since 1.0, null
 	 */
 	public static class TaskTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 3896992362498132232L;
+		private static final long serialVersionUID = 6656734175396175935L;
 		/**
 		 * 开始时间
 		 */
@@ -184,7 +184,7 @@ public class SmartworkBpmsProcessinstanceGetwithformResponse extends TaobaoRespo
 	 * @since 1.0, null
 	 */
 	public static class SubFormValueVo extends TaobaoObject {
-		private static final long serialVersionUID = 6396277436555481677L;
+		private static final long serialVersionUID = 6533133773615736924L;
 		/**
 		 * 组件类型
 		 */
@@ -261,7 +261,7 @@ public class SmartworkBpmsProcessinstanceGetwithformResponse extends TaobaoRespo
 	 * @since 1.0, null
 	 */
 	public static class FormDetailVo extends TaobaoObject {
-		private static final long serialVersionUID = 2782284951293233525L;
+		private static final long serialVersionUID = 5218291673882457669L;
 		/**
 		 * details
 		 */
@@ -284,7 +284,7 @@ public class SmartworkBpmsProcessinstanceGetwithformResponse extends TaobaoRespo
 	 * @since 1.0, null
 	 */
 	public static class FormValueVo extends TaobaoObject {
-		private static final long serialVersionUID = 3369476934455946813L;
+		private static final long serialVersionUID = 5132721882195966578L;
 		/**
 		 * 表单别名
 		 */
@@ -373,7 +373,7 @@ public class SmartworkBpmsProcessinstanceGetwithformResponse extends TaobaoRespo
 	 * @since 1.0, null
 	 */
 	public static class NewProcessInstanceTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 5375739271536737916L;
+		private static final long serialVersionUID = 6666111259968726799L;
 		/**
 		 * 审批人
 		 */
@@ -576,7 +576,7 @@ public class SmartworkBpmsProcessinstanceGetwithformResponse extends TaobaoRespo
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 5823997459677382487L;
+		private static final long serialVersionUID = 8231926985632244848L;
 		/**
 		 * dingOpenErrcode
 		 */

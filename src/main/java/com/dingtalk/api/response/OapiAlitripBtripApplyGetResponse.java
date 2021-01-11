@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripApplyGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7672222395711167326L;
+	private static final long serialVersionUID = 6197963519499945128L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiAlitripBtripApplyGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenItineraryInfo extends TaobaoObject {
-		private static final long serialVersionUID = 1744244616515686955L;
+		private static final long serialVersionUID = 8428541169484623489L;
 		/**
 		 * 到达城市
 		 */
@@ -214,7 +214,7 @@ public class OapiAlitripBtripApplyGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenUserInfo extends TaobaoObject {
-		private static final long serialVersionUID = 1236799695674528576L;
+		private static final long serialVersionUID = 5555288789915896849L;
 		/**
 		 * 出行人名称
 		 */
@@ -247,7 +247,7 @@ public class OapiAlitripBtripApplyGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenApproverInfo extends TaobaoObject {
-		private static final long serialVersionUID = 8351749772226239818L;
+		private static final long serialVersionUID = 5589893682611734346L;
 		/**
 		 * 审批意见
 		 */
@@ -335,7 +335,7 @@ public class OapiAlitripBtripApplyGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenApplyRs extends TaobaoObject {
-		private static final long serialVersionUID = 5127253934171377212L;
+		private static final long serialVersionUID = 3486576235259469721L;
 		/**
 		 * 商旅审批展示id
 		 */

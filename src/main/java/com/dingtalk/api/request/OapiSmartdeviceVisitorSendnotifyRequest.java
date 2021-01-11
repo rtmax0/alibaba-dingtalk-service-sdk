@@ -110,7 +110,7 @@ public class OapiSmartdeviceVisitorSendnotifyRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class VisitorNotifyVo extends TaobaoObject {
-		private static final long serialVersionUID = 1569561148897352848L;
+		private static final long serialVersionUID = 1834578218364413134L;
 		/**
 		 * 消息内容
 		 */

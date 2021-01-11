@@ -173,7 +173,7 @@ public class OapiEnterpriseFamilydrListRequest extends BaseTaobaoRequest<OapiEnt
 	 * @since 1.0, null
 	 */
 	public static class OrderBy extends TaobaoObject {
-		private static final long serialVersionUID = 2619554826588161565L;
+		private static final long serialVersionUID = 8859352612318478457L;
 		/**
 		 * 排查的key
 		 */

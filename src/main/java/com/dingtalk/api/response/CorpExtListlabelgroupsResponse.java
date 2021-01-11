@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpExtListlabelgroupsResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3874214158174964929L;
+	private static final long serialVersionUID = 5455924785181696624L;
 
 	/** 
 	 * result

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoMosExecClothesGroupbyoperationCountResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3327473842811535252L;
+	private static final long serialVersionUID = 8685356322473838221L;
 
 	/** 
 	 * 返回编码
@@ -69,7 +69,7 @@ public class OapiRhinoMosExecClothesGroupbyoperationCountResponse extends Taobao
 	 * @since 1.0, null
 	 */
 	public static class CountGroupByIdDto extends TaobaoObject {
-		private static final long serialVersionUID = 2587247853462788515L;
+		private static final long serialVersionUID = 2284699398296285213L;
 		/**
 		 * 完成数量
 		 */

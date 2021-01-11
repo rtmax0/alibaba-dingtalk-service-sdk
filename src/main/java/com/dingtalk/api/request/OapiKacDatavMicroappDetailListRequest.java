@@ -96,7 +96,7 @@ public class OapiKacDatavMicroappDetailListRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class MicroAppSummaryRequest extends TaobaoObject {
-		private static final long serialVersionUID = 8497287989216989238L;
+		private static final long serialVersionUID = 1336758183549125599L;
 		/**
 		 * 分页游标；首页请使用0，之后直接使用返回结果中的next_cursor
 		 */

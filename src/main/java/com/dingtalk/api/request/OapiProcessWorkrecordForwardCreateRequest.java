@@ -98,7 +98,7 @@ public class OapiProcessWorkrecordForwardCreateRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class AddForwardRequest extends TaobaoObject {
-		private static final long serialVersionUID = 4745191135565282825L;
+		private static final long serialVersionUID = 5269761439242335795L;
 		/**
 		 * 应用id
 		 */

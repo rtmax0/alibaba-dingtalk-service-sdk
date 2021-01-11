@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiAttendanceRecordUploadResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.record.upload request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.08
+ * @since 1.0, 2020.06.04
  */
 public class OapiAttendanceRecordUploadRequest extends BaseTaobaoRequest<OapiAttendanceRecordUploadResponse> {
 	

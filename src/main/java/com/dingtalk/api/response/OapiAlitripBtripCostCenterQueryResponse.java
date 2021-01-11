@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripCostCenterQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6694741729357437215L;
+	private static final long serialVersionUID = 4677179429274719819L;
 
 	/** 
 	 * 成本中心列表
@@ -82,7 +82,7 @@ public class OapiAlitripBtripCostCenterQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenOrgEntityDo extends TaobaoObject {
-		private static final long serialVersionUID = 5395133914338171437L;
+		private static final long serialVersionUID = 5298358896873976338L;
 		/**
 		 * 企业id
 		 */
@@ -148,7 +148,7 @@ public class OapiAlitripBtripCostCenterQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenCostCenterQueryRs extends TaobaoObject {
-		private static final long serialVersionUID = 8228563599827165428L;
+		private static final long serialVersionUID = 4215612427493369544L;
 		/**
 		 * 绑定支付宝账号
 		 */

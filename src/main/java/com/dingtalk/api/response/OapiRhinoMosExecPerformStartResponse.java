@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoMosExecPerformStartResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1384525774665678657L;
+	private static final long serialVersionUID = 2486324693555896139L;
 
 	/** 
 	 * 错误码

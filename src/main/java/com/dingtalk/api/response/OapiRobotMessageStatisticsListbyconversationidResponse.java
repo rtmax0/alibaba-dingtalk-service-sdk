@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRobotMessageStatisticsListbyconversationidResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1255365713642328541L;
+	private static final long serialVersionUID = 4555388129398183745L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiRobotMessageStatisticsListbyconversationidResponse extends Taob
 	 * @since 1.0, null
 	 */
 	public static class MsgStatByCIdResVo extends TaobaoObject {
-		private static final long serialVersionUID = 1643895322325811287L;
+		private static final long serialVersionUID = 8187628761579324596L;
 		/**
 		 * 群Id
 		 */
@@ -147,7 +147,7 @@ public class OapiRobotMessageStatisticsListbyconversationidResponse extends Taob
 	 * @since 1.0, null
 	 */
 	public static class PaginationVo extends TaobaoObject {
-		private static final long serialVersionUID = 8566353634214969123L;
+		private static final long serialVersionUID = 1513682385518476411L;
 		/**
 		 * 当前页数
 		 */
@@ -191,7 +191,7 @@ public class OapiRobotMessageStatisticsListbyconversationidResponse extends Taob
 	 * @since 1.0, null
 	 */
 	public static class RobotMsgStatPageResponse extends TaobaoObject {
-		private static final long serialVersionUID = 4529336589436679466L;
+		private static final long serialVersionUID = 7575583267443259874L;
 		/**
 		 * list
 		 */

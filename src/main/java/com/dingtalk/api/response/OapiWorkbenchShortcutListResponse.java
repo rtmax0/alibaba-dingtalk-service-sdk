@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiWorkbenchShortcutListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4648117488421795635L;
+	private static final long serialVersionUID = 7342771649431988845L;
 
 	/** 
 	 * 服务结果码
@@ -68,7 +68,7 @@ public class OapiWorkbenchShortcutListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class IsvOrgShortcutDTO extends TaobaoObject {
-		private static final long serialVersionUID = 1583496551169425679L;
+		private static final long serialVersionUID = 7229247671238555492L;
 		/**
 		 * 业务单号,系统间交互唯一流水号
 		 */
@@ -134,7 +134,7 @@ public class OapiWorkbenchShortcutListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class IsvOrgShortcutListDTO extends TaobaoObject {
-		private static final long serialVersionUID = 8226845887224752799L;
+		private static final long serialVersionUID = 6519624835452719842L;
 		/**
 		 * 企业下指定应用已添加快捷方式列表
 		 */

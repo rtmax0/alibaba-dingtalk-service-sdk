@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiImChatServicegroupMemberUpdateResponse;
  * TOP DingTalk-API: dingtalk.oapi.im.chat.servicegroup.member.update request
  * 
  * @author top auto create
- * @since 1.0, 2019.12.09
+ * @since 1.0, 2019.07.01
  */
 public class OapiImChatServicegroupMemberUpdateRequest extends BaseTaobaoRequest<OapiImChatServicegroupMemberUpdateResponse> {
 	

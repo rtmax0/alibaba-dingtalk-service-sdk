@@ -17,7 +17,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiDingpayBillBatchqueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7293727435334176595L;
+	private static final long serialVersionUID = 7342843759927367541L;
 
 	/** 
 	 * 错误代码
@@ -83,7 +83,7 @@ public class OapiDingpayBillBatchqueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingPayBillOpenBo extends TaobaoObject {
-		private static final long serialVersionUID = 2254636985733791353L;
+		private static final long serialVersionUID = 1719538593339322615L;
 		/**
 		 * 金额（单位：分）
 		 */
@@ -406,7 +406,7 @@ public class OapiDingpayBillBatchqueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class BillBatchQueryOpenResponse extends TaobaoObject {
-		private static final long serialVersionUID = 8225216136998665274L;
+		private static final long serialVersionUID = 5247243633631683585L;
 		/**
 		 * billList
 		 */

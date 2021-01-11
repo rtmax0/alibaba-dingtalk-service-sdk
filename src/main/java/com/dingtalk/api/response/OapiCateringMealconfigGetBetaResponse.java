@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCateringMealconfigGetBetaResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2314458294322145673L;
+	private static final long serialVersionUID = 7575294656392275117L;
 
 	/** 
 	 * 错误代码
@@ -81,7 +81,7 @@ public class OapiCateringMealconfigGetBetaResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Mealitemlist extends TaobaoObject {
-		private static final long serialVersionUID = 1334392857212386464L;
+		private static final long serialVersionUID = 5499954841186552849L;
 		/**
 		 * 送达时间 HH:mm
 		 */
@@ -125,7 +125,7 @@ public class OapiCateringMealconfigGetBetaResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Addressvos extends TaobaoObject {
-		private static final long serialVersionUID = 1193835784977386215L;
+		private static final long serialVersionUID = 3895647198558111573L;
 		/**
 		 * 缩略地址，可为空
 		 */
@@ -169,7 +169,7 @@ public class OapiCateringMealconfigGetBetaResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class GroupMealSettingVo extends TaobaoObject {
-		private static final long serialVersionUID = 5383486732552936858L;
+		private static final long serialVersionUID = 1439528653875297224L;
 		/**
 		 * 缩略地址，可为空
 		 */

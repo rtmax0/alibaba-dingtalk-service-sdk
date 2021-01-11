@@ -25,7 +25,7 @@ public class OapiImpaasUserAddprofileRequest extends BaseTaobaoRequest<OapiImpaa
 	
 
 	/** 
-	* 添加的账号入参
+	* 添加的账号信息
 	 */
 	private String request;
 
@@ -90,20 +90,20 @@ public class OapiImpaasUserAddprofileRequest extends BaseTaobaoRequest<OapiImpaa
 	}
 	
 	/**
-	 * 添加的账号入参
+	 * 添加的账号信息
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class AddProfileReq extends TaobaoObject {
-		private static final long serialVersionUID = 5363725856684692678L;
+		private static final long serialVersionUID = 2133398958363666679L;
 		/**
 		 * 头像mediaid
 		 */
 		@ApiField("avatar_mediaid")
 		private String avatarMediaid;
 		/**
-		 * 接入方channel信息，该值由接入方接入IMPaaS平台时，向IMPaaS平台申请，例如“hema”“eleme”等。
+		 * 渠道
 		 */
 		@ApiField("channel")
 		private String channel;
@@ -113,12 +113,12 @@ public class OapiImpaasUserAddprofileRequest extends BaseTaobaoRequest<OapiImpaa
 		@ApiField("extension")
 		private String extension;
 		/**
-		 * channelUserId
+		 * 账号id
 		 */
 		@ApiField("id")
 		private String id;
 		/**
-		 * 昵称
+		 * 账号nick
 		 */
 		@ApiField("nick")
 		private String nick;

@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoOrderTagGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3784455786495953791L;
+	private static final long serialVersionUID = 7141996441914555179L;
 
 	/** 
 	 * 响应码
@@ -66,7 +66,7 @@ public class OapiRhinoOrderTagGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OrderTagDto extends TaobaoObject {
-		private static final long serialVersionUID = 2266246728547239378L;
+		private static final long serialVersionUID = 7394971242443938587L;
 		/**
 		 * bom是否ready
 		 */

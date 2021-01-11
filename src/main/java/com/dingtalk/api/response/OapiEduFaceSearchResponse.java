@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEduFaceSearchResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3822242425634934293L;
+	private static final long serialVersionUID = 3752753725517727359L;
 
 	/** 
 	 * 系统错误
@@ -81,7 +81,7 @@ public class OapiEduFaceSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Faces extends TaobaoObject {
-		private static final long serialVersionUID = 4458438595375263989L;
+		private static final long serialVersionUID = 6337842954324267471L;
 		/**
 		 * 来自录入还是标记
 		 */
@@ -136,7 +136,7 @@ public class OapiEduFaceSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopSubmitFaceSearchResponse extends TaobaoObject {
-		private static final long serialVersionUID = 6321643737755226145L;
+		private static final long serialVersionUID = 3715261761622232565L;
 		/**
 		 * 人脸列表
 		 */

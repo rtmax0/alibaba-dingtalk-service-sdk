@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCspaceAuditlogListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7845264492214885456L;
+	private static final long serialVersionUID = 5814748227932128742L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiCspaceAuditlogListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AuditLogVO extends TaobaoObject {
-		private static final long serialVersionUID = 6695474248372647995L;
+		private static final long serialVersionUID = 3875889895376919182L;
 		/**
 		 * 操作类型
 		 */
@@ -108,6 +108,11 @@ public class OapiCspaceAuditlogListResponse extends TaobaoResponse {
 		@ApiField("gmt_modified")
 		private Long gmtModified;
 		/**
+		 * 操作机器ip
+		 */
+		@ApiField("ip_address")
+		private String ipAddress;
+		/**
 		 * 操作来源空间
 		 */
 		@ApiField("operate_module")
@@ -123,6 +128,11 @@ public class OapiCspaceAuditlogListResponse extends TaobaoResponse {
 		@ApiField("operator_name")
 		private String operatorName;
 		/**
+		 * 文件所属组织名称
+		 */
+		@ApiField("org_name")
+		private String orgName;
+		/**
 		 * 操作端
 		 */
 		@ApiField("platform")
@@ -133,10 +143,35 @@ public class OapiCspaceAuditlogListResponse extends TaobaoResponse {
 		@ApiField("platform_view")
 		private String platformView;
 		/**
+		 * 文件接收方名称
+		 */
+		@ApiField("receiver_name")
+		private String receiverName;
+		/**
+		 * 文件接收方类型
+		 */
+		@ApiField("receiver_type")
+		private Long receiverType;
+		/**
+		 * 接收方类型翻译值
+		 */
+		@ApiField("receiver_type_view")
+		private String receiverTypeView;
+		/**
 		 * 文件名
 		 */
 		@ApiField("resource")
 		private String resource;
+		/**
+		 * 文件类型
+		 */
+		@ApiField("resource_extension")
+		private String resourceExtension;
+		/**
+		 * 文件大小
+		 */
+		@ApiField("resource_size")
+		private Long resourceSize;
 		/**
 		 * 记录状态
 		 */
@@ -178,6 +213,12 @@ public class OapiCspaceAuditlogListResponse extends TaobaoResponse {
 		public void setGmtModified(Long gmtModified) {
 			this.gmtModified = gmtModified;
 		}
+		public String getIpAddress() {
+			return this.ipAddress;
+		}
+		public void setIpAddress(String ipAddress) {
+			this.ipAddress = ipAddress;
+		}
 		public Long getOperateModule() {
 			return this.operateModule;
 		}
@@ -196,6 +237,12 @@ public class OapiCspaceAuditlogListResponse extends TaobaoResponse {
 		public void setOperatorName(String operatorName) {
 			this.operatorName = operatorName;
 		}
+		public String getOrgName() {
+			return this.orgName;
+		}
+		public void setOrgName(String orgName) {
+			this.orgName = orgName;
+		}
 		public Long getPlatform() {
 			return this.platform;
 		}
@@ -208,11 +255,41 @@ public class OapiCspaceAuditlogListResponse extends TaobaoResponse {
 		public void setPlatformView(String platformView) {
 			this.platformView = platformView;
 		}
+		public String getReceiverName() {
+			return this.receiverName;
+		}
+		public void setReceiverName(String receiverName) {
+			this.receiverName = receiverName;
+		}
+		public Long getReceiverType() {
+			return this.receiverType;
+		}
+		public void setReceiverType(Long receiverType) {
+			this.receiverType = receiverType;
+		}
+		public String getReceiverTypeView() {
+			return this.receiverTypeView;
+		}
+		public void setReceiverTypeView(String receiverTypeView) {
+			this.receiverTypeView = receiverTypeView;
+		}
 		public String getResource() {
 			return this.resource;
 		}
 		public void setResource(String resource) {
 			this.resource = resource;
+		}
+		public String getResourceExtension() {
+			return this.resourceExtension;
+		}
+		public void setResourceExtension(String resourceExtension) {
+			this.resourceExtension = resourceExtension;
+		}
+		public Long getResourceSize() {
+			return this.resourceSize;
+		}
+		public void setResourceSize(Long resourceSize) {
+			this.resourceSize = resourceSize;
 		}
 		public Long getStatus() {
 			return this.status;
@@ -235,7 +312,7 @@ public class OapiCspaceAuditlogListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ListAuditLogResult extends TaobaoObject {
-		private static final long serialVersionUID = 3235212243922831793L;
+		private static final long serialVersionUID = 7522786594211661142L;
 		/**
 		 * 记录列表
 		 */

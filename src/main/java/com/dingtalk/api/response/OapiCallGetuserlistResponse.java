@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCallGetuserlistResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3279999139946216628L;
+	private static final long serialVersionUID = 3841415722988613887L;
 
 	/** 
 	 * dingOpenErrcode
@@ -68,7 +68,7 @@ public class OapiCallGetuserlistResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 1487496378647393264L;
+		private static final long serialVersionUID = 3818784573529612366L;
 		/**
 		 * hasMore
 		 */

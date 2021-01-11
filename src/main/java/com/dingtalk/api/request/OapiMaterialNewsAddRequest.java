@@ -103,7 +103,7 @@ public class OapiMaterialNewsAddRequest extends BaseTaobaoRequest<OapiMaterialNe
 	}
 
 	public void check() throws ApiRuleException {
-		RequestCheckUtils.checkObjectMaxListSize(articles, 20, "articles");
+		RequestCheckUtils.checkObjectMaxListSize(articles, 8, "articles");
 		RequestCheckUtils.checkNotEmpty(unionid, "unionid");
 	}
 	
@@ -114,7 +114,7 @@ public class OapiMaterialNewsAddRequest extends BaseTaobaoRequest<OapiMaterialNe
 	 * @since 1.0, null
 	 */
 	public static class ArticleDTO extends TaobaoObject {
-		private static final long serialVersionUID = 7535921298793433563L;
+		private static final long serialVersionUID = 7615163576768282137L;
 		/**
 		 * 文章id
 		 */

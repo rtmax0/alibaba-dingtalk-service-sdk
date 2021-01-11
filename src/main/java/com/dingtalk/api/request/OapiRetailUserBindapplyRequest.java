@@ -110,7 +110,7 @@ public class OapiRetailUserBindapplyRequest extends BaseTaobaoRequest<OapiRetail
 	 * @since 1.0, null
 	 */
 	public static class UserBindParam extends TaobaoObject {
-		private static final long serialVersionUID = 1672427356111113439L;
+		private static final long serialVersionUID = 4319293799535938236L;
 		/**
 		 * 扩展字段
 		 */

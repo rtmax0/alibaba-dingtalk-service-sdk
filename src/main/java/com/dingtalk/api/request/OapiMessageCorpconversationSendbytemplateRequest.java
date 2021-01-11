@@ -1,9 +1,7 @@
 package com.dingtalk.api.request;
 
-import java.util.List;
-import com.taobao.api.internal.mapping.ApiField;
 import com.taobao.api.internal.util.RequestCheckUtils;
-import com.taobao.api.TaobaoObject;
+import com.taobao.api.internal.util.json.JSONValidatingReader;
 import java.util.Map;
 import java.util.List;
 
@@ -13,48 +11,43 @@ import com.dingtalk.api.DingTalkConstants;
 import com.taobao.api.Constants;
 import com.taobao.api.internal.util.TaobaoHashMap;
 import com.taobao.api.internal.util.TaobaoUtils;
-import com.taobao.api.internal.util.json.JSONWriter;
+
 import com.dingtalk.api.response.OapiMessageCorpconversationSendbytemplateResponse;
 
 /**
  * TOP DingTalk-API: dingtalk.oapi.message.corpconversation.sendbytemplate request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.08
+ * @since 1.0, 2020.11.13
  */
 public class OapiMessageCorpconversationSendbytemplateRequest extends BaseTaobaoRequest<OapiMessageCorpconversationSendbytemplateResponse> {
 	
 	
 
 	/** 
-	* 微应用Id
+	* 微应用的id
 	 */
 	private Long agentId;
 
 	/** 
-	* 接收用户所属部门
+	* 消息模板动态参数赋值数据
+	 */
+	private String data;
+
+	/** 
+	* 接收者的部门id列表
 	 */
 	private String deptIdList;
 
 	/** 
-	* 模板code
+	* 消息模板id
 	 */
-	private String templateCode;
+	private String templateId;
 
 	/** 
-	* 全员
-	 */
-	private Boolean toAllUser;
-
-	/** 
-	* 接收用户
+	* 接收者的用户userid列表
 	 */
 	private String useridList;
-
-	/** 
-	* 模板变量
-	 */
-	private String vals;
 
 	public void setAgentId(Long agentId) {
 		this.agentId = agentId;
@@ -62,6 +55,17 @@ public class OapiMessageCorpconversationSendbytemplateRequest extends BaseTaobao
 
 	public Long getAgentId() {
 		return this.agentId;
+	}
+
+	public void setData(String data) {
+		this.data = data;
+	}
+	public void setDataString(String data) {
+		this.data = data;
+	}
+
+	public String getData() {
+		return this.data;
 	}
 
 	public void setDeptIdList(String deptIdList) {
@@ -72,20 +76,12 @@ public class OapiMessageCorpconversationSendbytemplateRequest extends BaseTaobao
 		return this.deptIdList;
 	}
 
-	public void setTemplateCode(String templateCode) {
-		this.templateCode = templateCode;
+	public void setTemplateId(String templateId) {
+		this.templateId = templateId;
 	}
 
-	public String getTemplateCode() {
-		return this.templateCode;
-	}
-
-	public void setToAllUser(Boolean toAllUser) {
-		this.toAllUser = toAllUser;
-	}
-
-	public Boolean getToAllUser() {
-		return this.toAllUser;
+	public String getTemplateId() {
+		return this.templateId;
 	}
 
 	public void setUseridList(String useridList) {
@@ -94,18 +90,6 @@ public class OapiMessageCorpconversationSendbytemplateRequest extends BaseTaobao
 
 	public String getUseridList() {
 		return this.useridList;
-	}
-
-	public void setVals(String vals) {
-		this.vals = vals;
-	}
-
-	public void setVals(List<OaMsgTemplateValList> vals) {
-		this.vals = new JSONWriter(false,false,true).write(vals);
-	}
-
-	public String getVals() {
-		return this.vals;
 	}
 
 	public String getApiMethodName() {
@@ -143,11 +127,10 @@ public class OapiMessageCorpconversationSendbytemplateRequest extends BaseTaobao
 	public Map<String, String> getTextParams() {		
 		TaobaoHashMap txtParams = new TaobaoHashMap();
 		txtParams.put("agent_id", this.agentId);
+		txtParams.put("data", this.data);
 		txtParams.put("dept_id_list", this.deptIdList);
-		txtParams.put("template_code", this.templateCode);
-		txtParams.put("to_all_user", this.toAllUser);
+		txtParams.put("template_id", this.templateId);
 		txtParams.put("userid_list", this.useridList);
-		txtParams.put("vals", this.vals);
 		if(this.udfParams != null) {
 			txtParams.putAll(this.udfParams);
 		}
@@ -159,42 +142,10 @@ public class OapiMessageCorpconversationSendbytemplateRequest extends BaseTaobao
 	}
 
 	public void check() throws ApiRuleException {
-		RequestCheckUtils.checkMaxListSize(deptIdList, 20, "deptIdList");
-		RequestCheckUtils.checkMaxListSize(useridList, 20, "useridList");
-		RequestCheckUtils.checkObjectMaxListSize(vals, 20, "vals");
-	}
-	
-	/**
-	 * 模板变量
-	 *
-	 * @author top auto create
-	 * @since 1.0, null
-	 */
-	public static class OaMsgTemplateValList extends TaobaoObject {
-		private static final long serialVersionUID = 8768425212876332452L;
-		/**
-		 * 变量名称
-		 */
-		@ApiField("name")
-		private String name;
-		/**
-		 * 变量值
-		 */
-		@ApiField("value")
-		private String value;
-	
-		public String getName() {
-			return this.name;
-		}
-		public void setName(String name) {
-			this.name = name;
-		}
-		public String getValue() {
-			return this.value;
-		}
-		public void setValue(String value) {
-			this.value = value;
-		}
+		RequestCheckUtils.checkNotEmpty(agentId, "agentId");
+		RequestCheckUtils.checkMaxListSize(deptIdList, 500, "deptIdList");
+		RequestCheckUtils.checkNotEmpty(templateId, "templateId");
+		RequestCheckUtils.checkMaxListSize(useridList, 5000, "useridList");
 	}
 	
 

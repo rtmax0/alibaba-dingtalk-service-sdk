@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiDingpayOrderTerminateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6649641171919853241L;
+	private static final long serialVersionUID = 2873218288475274654L;
 
 	/** 
 	 * 钉钉错误代码
@@ -81,7 +81,7 @@ public class OapiDingpayOrderTerminateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OrderTerminateResultItem extends TaobaoObject {
-		private static final long serialVersionUID = 1669435828358969528L;
+		private static final long serialVersionUID = 3166352622473816543L;
 		/**
 		 * 订单号
 		 */
@@ -114,7 +114,7 @@ public class OapiDingpayOrderTerminateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OrderTerminationOpenResponse extends TaobaoObject {
-		private static final long serialVersionUID = 2131953851225652211L;
+		private static final long serialVersionUID = 4479443455674125331L;
 		/**
 		 * 终止结果列表
 		 */

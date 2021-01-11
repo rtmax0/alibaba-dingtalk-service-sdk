@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEduHomeworkUserCourseQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6721131941313339461L;
+	private static final long serialVersionUID = 7647164678865483427L;
 
 	/** 
 	 * 错误编码
@@ -81,7 +81,7 @@ public class OapiEduHomeworkUserCourseQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TemplateContentDto extends TaobaoObject {
-		private static final long serialVersionUID = 5311316431276683244L;
+		private static final long serialVersionUID = 8421248231356725141L;
 		/**
 		 * 图片
 		 */
@@ -114,7 +114,7 @@ public class OapiEduHomeworkUserCourseQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 5752154916477468733L;
+		private static final long serialVersionUID = 4388822991362761759L;
 		/**
 		 * 科目内容详情
 		 */

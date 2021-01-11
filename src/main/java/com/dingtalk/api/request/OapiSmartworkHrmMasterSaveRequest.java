@@ -115,7 +115,7 @@ public class OapiSmartworkHrmMasterSaveRequest extends BaseTaobaoRequest<OapiSma
 	 * @since 1.0, null
 	 */
 	public static class ScopeVo extends TaobaoObject {
-		private static final long serialVersionUID = 4535989311676792661L;
+		private static final long serialVersionUID = 5374995231456733747L;
 		/**
 		 * 业务域code，如PERFORMANCE，系统分配，枚举见文档
 		 */
@@ -148,7 +148,7 @@ public class OapiSmartworkHrmMasterSaveRequest extends BaseTaobaoRequest<OapiSma
 	 * @since 1.0, null
 	 */
 	public static class Fieldlist extends TaobaoObject {
-		private static final long serialVersionUID = 5735213227739694843L;
+		private static final long serialVersionUID = 5686744782146918915L;
 		/**
 		 * 字段名
 		 */
@@ -181,7 +181,7 @@ public class OapiSmartworkHrmMasterSaveRequest extends BaseTaobaoRequest<OapiSma
 	 * @since 1.0, null
 	 */
 	public static class Bizdatavo extends TaobaoObject {
-		private static final long serialVersionUID = 6179523694546737718L;
+		private static final long serialVersionUID = 3748651242444468448L;
 		/**
 		 * 数据变更时间戳，用以保证更新操作的顺序性
 		 */

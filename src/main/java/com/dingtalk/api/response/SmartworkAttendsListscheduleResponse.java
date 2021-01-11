@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class SmartworkAttendsListscheduleResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6712136842372258657L;
+	private static final long serialVersionUID = 3125992243196469969L;
 
 	/** 
 	 * result
@@ -41,7 +41,7 @@ public class SmartworkAttendsListscheduleResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtScheduleForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 1364719819959319374L;
+		private static final long serialVersionUID = 6394526684241792454L;
 		/**
 		 * 审批id,结果集中没有的话表示没有审批单
 		 */
@@ -140,7 +140,7 @@ public class SmartworkAttendsListscheduleResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtScheduleListForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 3388333754786364727L;
+		private static final long serialVersionUID = 3577492295759493121L;
 		/**
 		 * 分页用，表示是否还有下一页
 		 */
@@ -174,7 +174,7 @@ public class SmartworkAttendsListscheduleResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 4642799551687382626L;
+		private static final long serialVersionUID = 3698599648967294577L;
 		/**
 		 * dingOpenErrcode
 		 */

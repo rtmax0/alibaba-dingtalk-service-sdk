@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiAlitripBtripReimbursementGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.alitrip.btrip.reimbursement.get request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.19
+ * @since 1.0, 2020.06.15
  */
 public class OapiAlitripBtripReimbursementGetRequest extends BaseTaobaoRequest<OapiAlitripBtripReimbursementGetResponse> {
 	

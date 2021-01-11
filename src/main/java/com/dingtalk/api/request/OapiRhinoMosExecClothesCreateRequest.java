@@ -225,7 +225,7 @@ public class OapiRhinoMosExecClothesCreateRequest extends BaseTaobaoRequest<Oapi
 	 * @since 1.0, null
 	 */
 	public static class AddtionalOperation extends TaobaoObject {
-		private static final long serialVersionUID = 8736967399239729246L;
+		private static final long serialVersionUID = 4299675894644185369L;
 		/**
 		 * 上下文
 		 */
@@ -385,7 +385,7 @@ public class OapiRhinoMosExecClothesCreateRequest extends BaseTaobaoRequest<Oapi
 	 * @since 1.0, null
 	 */
 	public static class Source extends TaobaoObject {
-		private static final long serialVersionUID = 4288812257516184252L;
+		private static final long serialVersionUID = 3486441114615377689L;
 		/**
 		 * 来源ID
 		 */
@@ -418,7 +418,7 @@ public class OapiRhinoMosExecClothesCreateRequest extends BaseTaobaoRequest<Oapi
 	 * @since 1.0, null
 	 */
 	public static class ClothesInfoReq extends TaobaoObject {
-		private static final long serialVersionUID = 3517875653569429777L;
+		private static final long serialVersionUID = 7299163655819683289L;
 		/**
 		 * 颜色code
 		 */

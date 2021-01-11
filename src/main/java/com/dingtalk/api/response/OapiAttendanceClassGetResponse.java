@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceClassGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2212646814926767444L;
+	private static final long serialVersionUID = 4656973667866827822L;
 
 	/** 
 	 * 异常错误码
@@ -69,7 +69,7 @@ public class OapiAttendanceClassGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtTimeVo extends TaobaoObject {
-		private static final long serialVersionUID = 8226377457396734172L;
+		private static final long serialVersionUID = 2277992531628921755L;
 		/**
 		 * 是否跨天
 		 */
@@ -135,7 +135,7 @@ public class OapiAttendanceClassGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtClassSettingForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 8819116321524192686L;
+		private static final long serialVersionUID = 7199483719761669656L;
 		/**
 		 * classId
 		 */
@@ -190,7 +190,7 @@ public class OapiAttendanceClassGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtSectionVo extends TaobaoObject {
-		private static final long serialVersionUID = 5865267219428391192L;
+		private static final long serialVersionUID = 5784134442777781916L;
 		/**
 		 * 时间段列表
 		 */
@@ -213,7 +213,7 @@ public class OapiAttendanceClassGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtClassForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 3655786142521777617L;
+		private static final long serialVersionUID = 8544316315687644394L;
 		/**
 		 * 考勤组班次配置
 		 */

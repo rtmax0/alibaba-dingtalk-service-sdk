@@ -12,10 +12,10 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImpaasRelationAddResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4687668685515482734L;
+	private static final long serialVersionUID = 1185952883376554494L;
 
 	/** 
-	 * 错误码  -1 系统异常 40035 参数错误
+	 * dingOpenErrcode
 	 */
 	@ApiField("errcode")
 	private Long errcode;
@@ -27,7 +27,7 @@ public class OapiImpaasRelationAddResponse extends TaobaoResponse {
 	private String errmsg;
 
 	/** 
-	 * 调用是否成功
+	 * success
 	 */
 	@ApiField("success")
 	private Boolean success;

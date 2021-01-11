@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceFaceRecognitionResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1481143673487554845L;
+	private static final long serialVersionUID = 7788443635237863127L;
 
 	/** 
 	 * 错误码，0代表成功
@@ -66,7 +66,7 @@ public class OapiAttendanceFaceRecognitionResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopUserInfoVO extends TaobaoObject {
-		private static final long serialVersionUID = 4548763646353883555L;
+		private static final long serialVersionUID = 3587936825759438865L;
 		/**
 		 * 识别出来的员工userId
 		 */

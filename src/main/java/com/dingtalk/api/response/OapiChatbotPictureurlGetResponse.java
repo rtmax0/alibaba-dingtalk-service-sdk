@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiChatbotPictureurlGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3698911816921813264L;
+	private static final long serialVersionUID = 7849153182643635675L;
 
 	/** 
 	 * 错误码

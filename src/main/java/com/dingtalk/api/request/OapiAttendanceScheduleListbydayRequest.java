@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiAttendanceScheduleListbydayResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.schedule.listbyday request
  * 
  * @author top auto create
- * @since 1.0, 2019.11.18
+ * @since 1.0, 2020.07.14
  */
 public class OapiAttendanceScheduleListbydayRequest extends BaseTaobaoRequest<OapiAttendanceScheduleListbydayResponse> {
 	

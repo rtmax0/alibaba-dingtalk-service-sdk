@@ -16,7 +16,7 @@ import com.dingtalk.api.response.OapiSmartworkHrmEmployeeFieldGrouplistResponse;
  * TOP DingTalk-API: dingtalk.oapi.smartwork.hrm.employee.field.grouplist request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.24
+ * @since 1.0, 2020.08.19
  */
 public class OapiSmartworkHrmEmployeeFieldGrouplistRequest extends BaseTaobaoRequest<OapiSmartworkHrmEmployeeFieldGrouplistResponse> {
 	

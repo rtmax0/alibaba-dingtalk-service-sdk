@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiOpenencryptRotateedkResponse;
  * TOP DingTalk-API: dingtalk.oapi.openencrypt.rotateedk request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.07
+ * @since 1.0, 2019.10.09
  */
 public class OapiOpenencryptRotateedkRequest extends BaseTaobaoRequest<OapiOpenencryptRotateedkResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiOpenencryptRotateedkRequest extends BaseTaobaoRequest<OapiOpene
 	 * @since 1.0, null
 	 */
 	public static class TopEdkRotateManual extends TaobaoObject {
-		private static final long serialVersionUID = 4888689341529629299L;
+		private static final long serialVersionUID = 3168398466149942679L;
 		/**
 		 * 企业内部应用id
 		 */

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCrmAuthGroupListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4291774446291332316L;
+	private static final long serialVersionUID = 8196149412372522252L;
 
 	/** 
 	 * 错误码
@@ -69,7 +69,7 @@ public class OapiCrmAuthGroupListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class RoleGroupVo extends TaobaoObject {
-		private static final long serialVersionUID = 5318843537166113396L;
+		private static final long serialVersionUID = 1825379697845778366L;
 		/**
 		 * 角色组名称
 		 */

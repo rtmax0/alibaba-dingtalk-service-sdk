@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiPlanetomFeedsUploadResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2616766117425474651L;
+	private static final long serialVersionUID = 6653483256752665375L;
 
 	/** 
 	 * 错误码

@@ -113,7 +113,7 @@ public class OapiHrmEmployeeModjobinfoRequest extends BaseTaobaoRequest<OapiHrmE
 	 * @since 1.0, null
 	 */
 	public static class HrmApiJobModel extends TaobaoObject {
-		private static final long serialVersionUID = 2425442254336492313L;
+		private static final long serialVersionUID = 3742231996592674527L;
 		/**
 		 * 生日日期
 		 */

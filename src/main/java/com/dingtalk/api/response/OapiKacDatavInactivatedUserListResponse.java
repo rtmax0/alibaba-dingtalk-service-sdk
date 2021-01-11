@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiKacDatavInactivatedUserListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8364267962537494286L;
+	private static final long serialVersionUID = 3737928219592157198L;
 
 	/** 
 	 * 结果码
@@ -68,7 +68,7 @@ public class OapiKacDatavInactivatedUserListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class UnactivatedUserVo extends TaobaoObject {
-		private static final long serialVersionUID = 8168978945929965846L;
+		private static final long serialVersionUID = 3348317726688846617L;
 		/**
 		 * 部门id
 		 */
@@ -134,7 +134,7 @@ public class OapiKacDatavInactivatedUserListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class UnactivatedUserResponse extends TaobaoObject {
-		private static final long serialVersionUID = 5327692295181122462L;
+		private static final long serialVersionUID = 5319464981426212276L;
 		/**
 		 * 人员列表
 		 */

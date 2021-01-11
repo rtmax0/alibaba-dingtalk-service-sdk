@@ -10,27 +10,27 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * è‡ªåŠ¨é‡è¯•ç‰¹æ€§
+ * ×Ô¶¯ÖØÊÔÌØĞÔ
  */
 public abstract class AutoRetryFeature {
 
     private static final Log log = LogFactory.getLog(AutoRetryFeature.class);
-    private static final ApiException RETRY_FAIL = new ApiException("sdk.retry-call-fail", "APIè°ƒç”¨é‡è¯•å¤±è´¥");
+    private static final ApiException RETRY_FAIL = new ApiException("sdk.retry-call-fail", "APIµ÷ÓÃÖØÊÔÊ§°Ü");
 
     /**
-     * å•æ¬¡è¯·æ±‚çš„æœ€å¤§é‡è¯•æ¬¡æ•°ï¼Œé»˜è®¤å€¼ä¸º3æ¬¡ã€‚
+     * µ¥´ÎÇëÇóµÄ×î´óÖØÊÔ´ÎÊı£¬Ä¬ÈÏÖµÎª3´Î¡£
      */
     private int maxRetryCount = 3;
     /**
-     * é‡è¯•ä¹‹å‰ä¼‘çœ æ—¶é—´ï¼Œé»˜è®¤å€¼ä¸º100æ¯«ç§’ã€‚
+     * ÖØÊÔÖ®Ç°ĞİÃßÊ±¼ä£¬Ä¬ÈÏÖµÎª100ºÁÃë¡£
      */
     private long retryWaitTime = 100L;
     /**
-     * è¶…è¿‡æœ€å¤§é‡è¯•æ¬¡æ•°æ—¶æ˜¯å¦æŠ›å‡ºå¼‚å¸¸ã€‚
+     * ³¬¹ı×î´óÖØÊÔ´ÎÊıÊ±ÊÇ·ñÅ×³öÒì³£¡£
      */
     private boolean throwIfOverMaxRetry = false;
     /**
-     * è‡ªå®šä¹‰é‡è¯•é”™è¯¯ç åˆ—è¡¨ã€‚
+     * ×Ô¶¨ÒåÖØÊÔ´íÎóÂëÁĞ±í¡£
      */
     private Set<String> retryErrorCodes;
 

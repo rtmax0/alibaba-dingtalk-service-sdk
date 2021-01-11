@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiChatbotInstallResponse;
  * TOP DingTalk-API: dingtalk.oapi.chatbot.install request
  * 
  * @author top auto create
- * @since 1.0, 2019.12.03
+ * @since 1.0, 2020.09.11
  */
 public class OapiChatbotInstallRequest extends BaseTaobaoRequest<OapiChatbotInstallResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiChatbotInstallRequest extends BaseTaobaoRequest<OapiChatbotInst
 	 * @since 1.0, null
 	 */
 	public static class ChatbotVo extends TaobaoObject {
-		private static final long serialVersionUID = 4655728278227231825L;
+		private static final long serialVersionUID = 8121837656319146538L;
 		/**
 		 * 0-正常，1-只服务端可管理
 		 */

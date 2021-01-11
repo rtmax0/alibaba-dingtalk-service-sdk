@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiAtsJobGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.ats.job.get request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.29
+ * @since 1.0, 2020.08.25
  */
 public class OapiAtsJobGetRequest extends BaseTaobaoRequest<OapiAtsJobGetResponse> {
 	

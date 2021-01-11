@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceScheduleListbydayResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4138873169464288479L;
+	private static final long serialVersionUID = 4765116439717911966L;
 
 	/** 
 	 * 错误码
@@ -83,7 +83,7 @@ public class OapiAttendanceScheduleListbydayResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopScheduleVo extends TaobaoObject {
-		private static final long serialVersionUID = 6168542483246145964L;
+		private static final long serialVersionUID = 6383486174192191652L;
 		/**
 		 * 审批类型
 		 */
@@ -189,6 +189,11 @@ public class OapiAttendanceScheduleListbydayResponse extends TaobaoResponse {
 		 */
 		@ApiField("plan_check_time")
 		private Date planCheckTime;
+		/**
+		 * 根据弹性、打卡结果等综合计算的卡点，与个人月历页保持一致
+		 */
+		@ApiField("real_plan_time")
+		private Date realPlanTime;
 		/**
 		 * 用户userId
 		 */
@@ -325,6 +330,12 @@ public class OapiAttendanceScheduleListbydayResponse extends TaobaoResponse {
 		}
 		public void setPlanCheckTime(Date planCheckTime) {
 			this.planCheckTime = planCheckTime;
+		}
+		public Date getRealPlanTime() {
+			return this.realPlanTime;
+		}
+		public void setRealPlanTime(Date realPlanTime) {
+			this.realPlanTime = realPlanTime;
 		}
 		public String getUserId() {
 			return this.userId;

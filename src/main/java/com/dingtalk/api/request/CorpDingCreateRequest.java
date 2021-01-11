@@ -174,7 +174,7 @@ public class CorpDingCreateRequest extends BaseTaobaoRequest<CorpDingCreateRespo
 	 * @since 1.0, null
 	 */
 	public static class AttachmentVO extends TaobaoObject {
-		private static final long serialVersionUID = 4887776343932356358L;
+		private static final long serialVersionUID = 1369357586343914945L;
 		/**
 		 * 文件后缀, 用于展示文件对应图标
 		 */

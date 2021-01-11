@@ -98,7 +98,7 @@ public class OapiProcessinstanceCspacePreviewRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class GrantCspaceRequest extends TaobaoObject {
-		private static final long serialVersionUID = 2285474699616751471L;
+		private static final long serialVersionUID = 7517928564871125862L;
 		/**
 		 * 应用id
 		 */

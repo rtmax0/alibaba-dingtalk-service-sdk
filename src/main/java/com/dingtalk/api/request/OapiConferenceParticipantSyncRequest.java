@@ -156,7 +156,7 @@ public class OapiConferenceParticipantSyncRequest extends BaseTaobaoRequest<Oapi
 		RequestCheckUtils.checkNotEmpty(conferenceId, "conferenceId");
 		RequestCheckUtils.checkNotEmpty(isFinished, "isFinished");
 		RequestCheckUtils.checkNotEmpty(participantUseridList, "participantUseridList");
-		RequestCheckUtils.checkMaxListSize(participantUseridList, 2000, "participantUseridList");
+		RequestCheckUtils.checkMaxListSize(participantUseridList, 1000, "participantUseridList");
 		RequestCheckUtils.checkNotEmpty(userid, "userid");
 	}
 	

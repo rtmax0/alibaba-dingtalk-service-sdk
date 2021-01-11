@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartdeviceFocusdetailGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1648658429138477995L;
+	private static final long serialVersionUID = 7632236471657551116L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiSmartdeviceFocusdetailGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FocusDetailVO extends TaobaoObject {
-		private static final long serialVersionUID = 6137431835188266394L;
+		private static final long serialVersionUID = 5645447213743983596L;
 		/**
 		 * 投屏时间，单位毫秒
 		 */
@@ -148,7 +148,7 @@ public class OapiSmartdeviceFocusdetailGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageVO extends TaobaoObject {
-		private static final long serialVersionUID = 3632897669914176881L;
+		private static final long serialVersionUID = 4712827415291678877L;
 		/**
 		 * 是否有更多记录
 		 */

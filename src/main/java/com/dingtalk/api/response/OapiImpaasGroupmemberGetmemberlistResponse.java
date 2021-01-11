@@ -15,22 +15,22 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImpaasGroupmemberGetmemberlistResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3539249152159817888L;
+	private static final long serialVersionUID = 8185417558716599917L;
 
 	/** 
-	 * 错误码
+	 * dingOpenErrcode
 	 */
 	@ApiField("errcode")
 	private Long errcode;
 
 	/** 
-	 * 错误描述
+	 * errorMsg
 	 */
 	@ApiField("errmsg")
 	private String errmsg;
 
 	/** 
-	 * 群成员列表
+	 * result
 	 */
 	@ApiListField("member_list")
 	@ApiField("group_member_info")
@@ -63,35 +63,35 @@ public class OapiImpaasGroupmemberGetmemberlistResponse extends TaobaoResponse {
     }
 	
 	/**
-	 * 群成员列表
+	 * result
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class GroupMemberInfo extends TaobaoObject {
-		private static final long serialVersionUID = 5312748814569288441L;
+		private static final long serialVersionUID = 6171948178619198856L;
 		/**
-		 * 群成员扩展字段，业务自定义
+		 * ext
 		 */
 		@ApiField("ext")
 		private String ext;
 		/**
-		 * 群成员账号ID，类型由type字段决定
+		 * id
 		 */
 		@ApiField("id")
 		private String id;
 		/**
-		 * 群成员昵称
+		 * nick
 		 */
 		@ApiField("nick")
 		private String nick;
 		/**
-		 * 群成员角色
+		 * role
 		 */
 		@ApiField("role")
 		private Long role;
 		/**
-		 * 账号ID类型，当type=staff时，id填写staffid，当type=channelUser时，id字段填写channelUserId
+		 * type
 		 */
 		@ApiField("type")
 		private String type;

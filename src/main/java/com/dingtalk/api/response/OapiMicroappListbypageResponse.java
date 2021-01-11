@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiMicroappListbypageResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8352799589429237188L;
+	private static final long serialVersionUID = 3573951594336111248L;
 
 	/** 
 	 * dingOpenErrcode
@@ -68,7 +68,7 @@ public class OapiMicroappListbypageResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 5117596717453836438L;
+		private static final long serialVersionUID = 2311473959273141544L;
 		/**
 		 * hasMore
 		 */

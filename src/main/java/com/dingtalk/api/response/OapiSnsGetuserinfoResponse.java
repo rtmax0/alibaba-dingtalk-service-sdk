@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSnsGetuserinfoResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4616424655659536329L;
+	private static final long serialVersionUID = 7442838925926415255L;
 
 	/** 
 	 * errcode
@@ -66,12 +66,7 @@ public class OapiSnsGetuserinfoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class UserInfo extends TaobaoObject {
-		private static final long serialVersionUID = 6466841875697941389L;
-		/**
-		 * 跨组织统一ID
-		 */
-		@ApiField("associatedUnionId")
-		private String associatedUnionId;
+		private static final long serialVersionUID = 1218724772857843787L;
 		/**
 		 * 钉钉Id
 		 */
@@ -98,12 +93,6 @@ public class OapiSnsGetuserinfoResponse extends TaobaoResponse {
 		@ApiField("unionid")
 		private String unionid;
 	
-		public String getAssociatedUnionId() {
-			return this.associatedUnionId;
-		}
-		public void setAssociatedUnionId(String associatedUnionId) {
-			this.associatedUnionId = associatedUnionId;
-		}
 		public String getDingId() {
 			return this.dingId;
 		}

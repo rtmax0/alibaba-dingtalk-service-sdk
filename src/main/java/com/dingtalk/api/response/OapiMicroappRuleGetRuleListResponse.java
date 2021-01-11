@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiMicroappRuleGetRuleListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7732622483123567561L;
+	private static final long serialVersionUID = 5817326976652942186L;
 
 	/** 
 	 * 返回码

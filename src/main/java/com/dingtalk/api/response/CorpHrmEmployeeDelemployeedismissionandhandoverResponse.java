@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpHrmEmployeeDelemployeedismissionandhandoverResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7299936384521277855L;
+	private static final long serialVersionUID = 7478225712977349174L;
 
 	/** 
 	 * 返回对象
@@ -38,7 +38,7 @@ public class CorpHrmEmployeeDelemployeedismissionandhandoverResponse extends Tao
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 2457536613568516257L;
+		private static final long serialVersionUID = 7754838113971339984L;
 		/**
 		 * 错误码
 		 */

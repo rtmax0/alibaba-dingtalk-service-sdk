@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiRobotMessageOtotaskQueryResponse;
  * TOP DingTalk-API: dingtalk.oapi.robot.message.ototask.query request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.25
+ * @since 1.0, 2020.11.20
  */
 public class OapiRobotMessageOtotaskQueryRequest extends BaseTaobaoRequest<OapiRobotMessageOtotaskQueryResponse> {
 	

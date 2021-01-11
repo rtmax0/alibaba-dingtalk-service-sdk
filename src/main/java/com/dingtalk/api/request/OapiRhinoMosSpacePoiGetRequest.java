@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiRhinoMosSpacePoiGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.rhino.mos.space.poi.get request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.31
+ * @since 1.0, 2020.03.07
  */
 public class OapiRhinoMosSpacePoiGetRequest extends BaseTaobaoRequest<OapiRhinoMosSpacePoiGetResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiRhinoMosSpacePoiGetRequest extends BaseTaobaoRequest<OapiRhinoM
 	 * @since 1.0, null
 	 */
 	public static class SpacePoiConditionReq extends TaobaoObject {
-		private static final long serialVersionUID = 2478716749353327321L;
+		private static final long serialVersionUID = 6359559182364525543L;
 		/**
 		 * 类目code
 		 */

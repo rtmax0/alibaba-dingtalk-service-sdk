@@ -1,6 +1,7 @@
 package com.dingtalk.api.request;
 
 import com.taobao.api.internal.util.RequestCheckUtils;
+import com.taobao.api.internal.util.json.JSONValidatingReader;
 import java.util.Map;
 import java.util.List;
 
@@ -17,7 +18,7 @@ import com.dingtalk.api.response.OapiV2DepartmentCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.v2.department.create request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.02
+ * @since 1.0, 2020.10.19
  */
 public class OapiV2DepartmentCreateRequest extends BaseTaobaoRequest<OapiV2DepartmentCreateResponse> {
 	
@@ -29,24 +30,19 @@ public class OapiV2DepartmentCreateRequest extends BaseTaobaoRequest<OapiV2Depar
 	private Boolean createDeptGroup;
 
 	/** 
-	* 是否隐藏部门，true表示隐藏，false表示展示
-	 */
-	private Boolean deptHiding;
-
-	/** 
-	* 可以查看指定隐藏部门的其他部门id列表，如果部门隐藏，则此值生效。总数不能超过200
+	* 可以查看指定隐藏部门的其他部门列表，如果部门隐藏，则此值生效。总数不能超过200。
 	 */
 	private String deptPermits;
 
 	/** 
-	* 部门自定义字段，格式为文本类型的Json格式
+	* 扩展字段，JSON格式
 	 */
-	private String ext;
+	private String extension;
 
 	/** 
-	* 自定义部门ID，必须大于1且小于Long.MAX_VALUE，未对外公开字段
+	* 是否隐藏部门， true表示隐藏 false表示显示
 	 */
-	private Long id;
+	private Boolean hideDept;
 
 	/** 
 	* 部门名称，长度限制为1~64个字符，不允许包含字符‘-’‘，’以及‘,’
@@ -64,24 +60,19 @@ public class OapiV2DepartmentCreateRequest extends BaseTaobaoRequest<OapiV2Depar
 	private Boolean outerDept;
 
 	/** 
-	* outerDept为true时，可以配置该字段，为true时，表示只能看到所在部门及下级部门通讯录
+	* 是否只能看到所在部门及下级部门通讯录
 	 */
 	private Boolean outerDeptOnlySelf;
 
 	/** 
-	* outerDept为true时，可以配置额外可见部门id列表。总数不能超过200
+	* 本部门的员工仅可见员工自己为true时，可以配置额外可见部门，departmentId列表，总数不能超过200。
 	 */
 	private String outerPermitDepts;
 
 	/** 
-	* outerDept为true时，可以配置额外可见人员userid列表，总数不能超过200
+	* 本部门的员工仅可见员工自己为true时，可以配置额外可见人员，userid列表，总数不能超过200。
 	 */
 	private String outerPermitUsers;
-
-	/** 
-	* 是否优先使用父部门的预算 未对外公开字段
-	 */
-	private Boolean parentBalanceFirst;
 
 	/** 
 	* 父部门id，根部门id为1
@@ -89,17 +80,12 @@ public class OapiV2DepartmentCreateRequest extends BaseTaobaoRequest<OapiV2Depar
 	private Long parentId;
 
 	/** 
-	* 是否共享预算 未对外公开字段
-	 */
-	private Boolean shareBalance;
-
-	/** 
 	* 部门标识字段，开发者可用该字段来唯一标识一个部门，并与钉钉外部通讯录里的部门做映射
 	 */
 	private String sourceIdentifier;
 
 	/** 
-	* 可以查看指定隐藏部门的其他人员userid列表，如果部门隐藏，则此值生效，总数不能超过20
+	* 可以查看指定隐藏部门的其他人员列表，如果部门隐藏，则此值生效，总数不能超过200。
 	 */
 	private String userPermits;
 
@@ -111,14 +97,6 @@ public class OapiV2DepartmentCreateRequest extends BaseTaobaoRequest<OapiV2Depar
 		return this.createDeptGroup;
 	}
 
-	public void setDeptHiding(Boolean deptHiding) {
-		this.deptHiding = deptHiding;
-	}
-
-	public Boolean getDeptHiding() {
-		return this.deptHiding;
-	}
-
 	public void setDeptPermits(String deptPermits) {
 		this.deptPermits = deptPermits;
 	}
@@ -127,20 +105,23 @@ public class OapiV2DepartmentCreateRequest extends BaseTaobaoRequest<OapiV2Depar
 		return this.deptPermits;
 	}
 
-	public void setExt(String ext) {
-		this.ext = ext;
+	public void setExtension(String extension) {
+		this.extension = extension;
+	}
+	public void setExtensionString(String extension) {
+		this.extension = extension;
 	}
 
-	public String getExt() {
-		return this.ext;
+	public String getExtension() {
+		return this.extension;
 	}
 
-	public void setId(Long id) {
-		this.id = id;
+	public void setHideDept(Boolean hideDept) {
+		this.hideDept = hideDept;
 	}
 
-	public Long getId() {
-		return this.id;
+	public Boolean getHideDept() {
+		return this.hideDept;
 	}
 
 	public void setName(String name) {
@@ -191,28 +172,12 @@ public class OapiV2DepartmentCreateRequest extends BaseTaobaoRequest<OapiV2Depar
 		return this.outerPermitUsers;
 	}
 
-	public void setParentBalanceFirst(Boolean parentBalanceFirst) {
-		this.parentBalanceFirst = parentBalanceFirst;
-	}
-
-	public Boolean getParentBalanceFirst() {
-		return this.parentBalanceFirst;
-	}
-
 	public void setParentId(Long parentId) {
 		this.parentId = parentId;
 	}
 
 	public Long getParentId() {
 		return this.parentId;
-	}
-
-	public void setShareBalance(Boolean shareBalance) {
-		this.shareBalance = shareBalance;
-	}
-
-	public Boolean getShareBalance() {
-		return this.shareBalance;
 	}
 
 	public void setSourceIdentifier(String sourceIdentifier) {
@@ -266,19 +231,16 @@ public class OapiV2DepartmentCreateRequest extends BaseTaobaoRequest<OapiV2Depar
 	public Map<String, String> getTextParams() {		
 		TaobaoHashMap txtParams = new TaobaoHashMap();
 		txtParams.put("create_dept_group", this.createDeptGroup);
-		txtParams.put("dept_hiding", this.deptHiding);
 		txtParams.put("dept_permits", this.deptPermits);
-		txtParams.put("ext", this.ext);
-		txtParams.put("id", this.id);
+		txtParams.put("extension", this.extension);
+		txtParams.put("hide_dept", this.hideDept);
 		txtParams.put("name", this.name);
 		txtParams.put("order", this.order);
 		txtParams.put("outer_dept", this.outerDept);
 		txtParams.put("outer_dept_only_self", this.outerDeptOnlySelf);
 		txtParams.put("outer_permit_depts", this.outerPermitDepts);
 		txtParams.put("outer_permit_users", this.outerPermitUsers);
-		txtParams.put("parent_balance_first", this.parentBalanceFirst);
 		txtParams.put("parent_id", this.parentId);
-		txtParams.put("share_balance", this.shareBalance);
 		txtParams.put("source_identifier", this.sourceIdentifier);
 		txtParams.put("user_permits", this.userPermits);
 		if(this.udfParams != null) {
@@ -292,10 +254,13 @@ public class OapiV2DepartmentCreateRequest extends BaseTaobaoRequest<OapiV2Depar
 	}
 
 	public void check() throws ApiRuleException {
-		RequestCheckUtils.checkMaxListSize(deptPermits, 20, "deptPermits");
-		RequestCheckUtils.checkMaxListSize(outerPermitDepts, 20, "outerPermitDepts");
-		RequestCheckUtils.checkMaxListSize(outerPermitUsers, 20, "outerPermitUsers");
-		RequestCheckUtils.checkMaxListSize(userPermits, 20, "userPermits");
+		RequestCheckUtils.checkMaxListSize(deptPermits, 200, "deptPermits");
+		RequestCheckUtils.checkNotEmpty(name, "name");
+		RequestCheckUtils.checkMaxLength(name, 64, "name");
+		RequestCheckUtils.checkMaxListSize(outerPermitDepts, 200, "outerPermitDepts");
+		RequestCheckUtils.checkMaxListSize(outerPermitUsers, 200, "outerPermitUsers");
+		RequestCheckUtils.checkNotEmpty(parentId, "parentId");
+		RequestCheckUtils.checkMaxListSize(userPermits, 200, "userPermits");
 	}
 	
 

@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiTdpProjectMemberRemovebyprojectResponse;
  * TOP DingTalk-API: dingtalk.oapi.tdp.project.member.removebyproject request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.31
+ * @since 1.0, 2020.12.23
  */
 public class OapiTdpProjectMemberRemovebyprojectRequest extends BaseTaobaoRequest<OapiTdpProjectMemberRemovebyprojectResponse> {
 	

@@ -98,7 +98,7 @@ public class OapiPbpEventSyncRequest extends BaseTaobaoRequest<OapiPbpEventSyncR
 	 * @since 1.0, null
 	 */
 	public static class PositionOapiVo extends TaobaoObject {
-		private static final long serialVersionUID = 7573789973565178433L;
+		private static final long serialVersionUID = 5782564538765827952L;
 		/**
 		 * 位置点id
 		 */
@@ -131,7 +131,7 @@ public class OapiPbpEventSyncRequest extends BaseTaobaoRequest<OapiPbpEventSyncR
 	 * @since 1.0, null
 	 */
 	public static class UserEventOapiVo extends TaobaoObject {
-		private static final long serialVersionUID = 7876344169932988141L;
+		private static final long serialVersionUID = 2238945443672969635L;
 		/**
 		 * 打卡业务实例id
 		 */
@@ -231,7 +231,7 @@ public class OapiPbpEventSyncRequest extends BaseTaobaoRequest<OapiPbpEventSyncR
 	 * @since 1.0, null
 	 */
 	public static class UserEventOapiRequestVo extends TaobaoObject {
-		private static final long serialVersionUID = 3657279356938951522L;
+		private static final long serialVersionUID = 4575515316728628934L;
 		/**
 		 * 打卡业务代码
 		 */

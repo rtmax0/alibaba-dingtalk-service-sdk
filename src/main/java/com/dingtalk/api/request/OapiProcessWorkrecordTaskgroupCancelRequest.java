@@ -98,7 +98,7 @@ public class OapiProcessWorkrecordTaskgroupCancelRequest extends BaseTaobaoReque
 	 * @since 1.0, null
 	 */
 	public static class UpdateTaskRequest extends TaobaoObject {
-		private static final long serialVersionUID = 4571894629498552753L;
+		private static final long serialVersionUID = 8822483314663261458L;
 		/**
 		 * 任务组id
 		 */

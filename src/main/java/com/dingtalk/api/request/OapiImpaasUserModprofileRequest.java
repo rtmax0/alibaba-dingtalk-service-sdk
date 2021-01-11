@@ -25,7 +25,7 @@ public class OapiImpaasUserModprofileRequest extends BaseTaobaoRequest<OapiImpaa
 	
 
 	/** 
-	* 修改用户信息入参
+	* 修改profile入参
 	 */
 	private String request;
 
@@ -96,19 +96,19 @@ public class OapiImpaasUserModprofileRequest extends BaseTaobaoRequest<OapiImpaa
 	 * @since 1.0, null
 	 */
 	public static class AccountInfo extends TaobaoObject {
-		private static final long serialVersionUID = 2888336276935596427L;
+		private static final long serialVersionUID = 4369942863778247842L;
 		/**
-		 * type为channelUser时有效。接入方channel信息，该值由接入方接入IMPaaS平台时，向IMPaaS平台申请，例如“hema”“eleme”等。
+		 * 渠道
 		 */
 		@ApiField("channel")
 		private String channel;
 		/**
-		 * 待操作成员id，ID类型由type字段确定。当type为“staff”时，本字段填写staffid，当type为“channelUser”时，本字段填写channelUserId。
+		 * 账号id
 		 */
 		@ApiField("id")
 		private String id;
 		/**
-		 * 代操作成员ID类型，目前支持“staff” “channelUser”两种类型
+		 * 类型
 		 */
 		@ApiField("type")
 		private String type;
@@ -134,20 +134,20 @@ public class OapiImpaasUserModprofileRequest extends BaseTaobaoRequest<OapiImpaa
 	}
 	
 	/**
-	 * 修改用户信息入参
+	 * 修改profile入参
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class ModProfileReq extends TaobaoObject {
-		private static final long serialVersionUID = 7276268684585742199L;
+		private static final long serialVersionUID = 4651421148991125118L;
 		/**
 		 * 账号信息
 		 */
 		@ApiField("account_info")
 		private AccountInfo accountInfo;
 		/**
-		 * 头像的mediaid
+		 * 头像
 		 */
 		@ApiField("avatar_mediaid")
 		private String avatarMediaid;
@@ -157,7 +157,7 @@ public class OapiImpaasUserModprofileRequest extends BaseTaobaoRequest<OapiImpaa
 		@ApiField("extension")
 		private String extension;
 		/**
-		 * 昵称
+		 * nick
 		 */
 		@ApiField("nick")
 		private String nick;

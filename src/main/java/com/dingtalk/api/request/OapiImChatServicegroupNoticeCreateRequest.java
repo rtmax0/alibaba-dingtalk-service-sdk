@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiImChatServicegroupNoticeCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.im.chat.servicegroup.notice.create request
  * 
  * @author top auto create
- * @since 1.0, 2019.12.05
+ * @since 1.0, 2019.12.04
  */
 public class OapiImChatServicegroupNoticeCreateRequest extends BaseTaobaoRequest<OapiImChatServicegroupNoticeCreateResponse> {
 	
@@ -39,7 +39,7 @@ public class OapiImChatServicegroupNoticeCreateRequest extends BaseTaobaoRequest
 	private Boolean sticky;
 
 	/** 
-	* 群公告内容(只支持纯文本)
+	* 群公告内容
 	 */
 	private String textContent;
 

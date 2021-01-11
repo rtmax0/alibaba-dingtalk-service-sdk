@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProcessinstanceCspacePreviewResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1119868853712738238L;
+	private static final long serialVersionUID = 6175661675591937374L;
 
 	/** 
 	 * 返回码
@@ -66,7 +66,7 @@ public class OapiProcessinstanceCspacePreviewResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AppSpaceResponse extends TaobaoObject {
-		private static final long serialVersionUID = 8493715691681224457L;
+		private static final long serialVersionUID = 4256673941989293565L;
 		/**
 		 * spaceId
 		 */

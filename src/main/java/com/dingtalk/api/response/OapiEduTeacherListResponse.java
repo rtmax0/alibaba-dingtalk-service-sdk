@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEduTeacherListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4777563239189814818L;
+	private static final long serialVersionUID = 4777385483553999343L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiEduTeacherListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TeacherRespone extends TaobaoObject {
-		private static final long serialVersionUID = 7368597219339792456L;
+		private static final long serialVersionUID = 3689421199982742187L;
 		/**
 		 * 校区ID
 		 */

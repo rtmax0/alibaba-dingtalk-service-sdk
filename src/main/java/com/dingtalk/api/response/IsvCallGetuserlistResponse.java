@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class IsvCallGetuserlistResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5237611941179464892L;
+	private static final long serialVersionUID = 7477159833359462141L;
 
 	/** 
 	 * 返回结果
@@ -40,7 +40,7 @@ public class IsvCallGetuserlistResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 6186414474775419586L;
+		private static final long serialVersionUID = 5298891275935656866L;
 		/**
 		 * hasMore
 		 */
@@ -74,7 +74,7 @@ public class IsvCallGetuserlistResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 2123941337729895576L;
+		private static final long serialVersionUID = 6589955858663979677L;
 		/**
 		 * dingOpenErrcode
 		 */

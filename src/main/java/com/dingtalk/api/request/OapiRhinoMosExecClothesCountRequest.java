@@ -98,7 +98,7 @@ public class OapiRhinoMosExecClothesCountRequest extends BaseTaobaoRequest<OapiR
 	 * @since 1.0, null
 	 */
 	public static class ClothesSearchCondition extends TaobaoObject {
-		private static final long serialVersionUID = 6656935854846541585L;
+		private static final long serialVersionUID = 6416511257729475941L;
 		/**
 		 * 衣服状态列表
 		 */

@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpBlazersRemovemappingResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5541338264217418326L;
+	private static final long serialVersionUID = 6866598711497413926L;
 
 	/** 
 	 * result
@@ -38,7 +38,7 @@ public class CorpBlazersRemovemappingResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 6354168428943488175L;
+		private static final long serialVersionUID = 4857729477935974892L;
 		/**
 		 * dingOpenErrcode
 		 */

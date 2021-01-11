@@ -18,14 +18,14 @@ import com.dingtalk.api.response.OapiImpaasRelationDelResponse;
  * TOP DingTalk-API: dingtalk.oapi.impaas.relation.del request
  * 
  * @author top auto create
- * @since 1.0, 2018.09.13
+ * @since 1.0, 2018.07.25
  */
 public class OapiImpaasRelationDelRequest extends BaseTaobaoRequest<OapiImpaasRelationDelResponse> {
 	
 	
 
 	/** 
-	* 关系删除出参
+	* 关系
 	 */
 	private String request;
 
@@ -90,15 +90,15 @@ public class OapiImpaasRelationDelRequest extends BaseTaobaoRequest<OapiImpaasRe
 	}
 	
 	/**
-	 * 关系删除出参
+	 * 关系
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class DelRelationReq extends TaobaoObject {
-		private static final long serialVersionUID = 5611463686621812486L;
+		private static final long serialVersionUID = 3835521622646997218L;
 		/**
-		 * 接受者的im的唯一id
+		 * 接受者的im的openid
 		 */
 		@ApiField("dst_im_openid")
 		private String dstImOpenid;
@@ -108,7 +108,7 @@ public class OapiImpaasRelationDelRequest extends BaseTaobaoRequest<OapiImpaasRe
 		@ApiField("is_double_way")
 		private Boolean isDoubleWay;
 		/**
-		 * 发送者的im的唯一id
+		 * 发送者的im的openid
 		 */
 		@ApiField("src_im_openid")
 		private String srcImOpenid;

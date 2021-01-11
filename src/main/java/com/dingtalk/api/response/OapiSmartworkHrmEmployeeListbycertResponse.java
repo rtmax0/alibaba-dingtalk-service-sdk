@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartworkHrmEmployeeListbycertResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6416757784273135828L;
+	private static final long serialVersionUID = 8122911457673787381L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiSmartworkHrmEmployeeListbycertResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class SimpleEmpPersonalInfoVo extends TaobaoObject {
-		private static final long serialVersionUID = 7134579796628371115L;
+		private static final long serialVersionUID = 4398857668762438469L;
 		/**
 		 * 身份证号
 		 */

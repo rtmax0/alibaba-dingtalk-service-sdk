@@ -96,7 +96,7 @@ public class OapiAlitripBtripCostCenterDeleteRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class OpenCostCenterDeleteRq extends TaobaoObject {
-		private static final long serialVersionUID = 5486397448614171877L;
+		private static final long serialVersionUID = 1371756849828652625L;
 		/**
 		 * 企业id
 		 */

@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiKacDatavDauSummaryGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4198485272241958623L;
+	private static final long serialVersionUID = 6838874221398854962L;
 
 	/** 
 	 * 结果码
@@ -66,12 +66,17 @@ public class OapiKacDatavDauSummaryGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DauSummaryResponse extends TaobaoObject {
-		private static final long serialVersionUID = 2121774714556854454L;
+		private static final long serialVersionUID = 4589419429511833857L;
 		/**
 		 * 激活人数（累计）
 		 */
 		@ApiField("activated_count")
 		private Long activatedCount;
+		/**
+		 * 钉钉app的登录用户
+		 */
+		@ApiField("app_active_users")
+		private Long appActiveUsers;
 		/**
 		 * 聊天用户数
 		 */
@@ -87,12 +92,23 @@ public class OapiKacDatavDauSummaryGetResponse extends TaobaoResponse {
 		 */
 		@ApiField("daily_active_users")
 		private Long dailyActiveUsers;
+		/**
+		 * 钉钉pc端的登录用户
+		 */
+		@ApiField("pc_active_users")
+		private Long pcActiveUsers;
 	
 		public Long getActivatedCount() {
 			return this.activatedCount;
 		}
 		public void setActivatedCount(Long activatedCount) {
 			this.activatedCount = activatedCount;
+		}
+		public Long getAppActiveUsers() {
+			return this.appActiveUsers;
+		}
+		public void setAppActiveUsers(Long appActiveUsers) {
+			this.appActiveUsers = appActiveUsers;
 		}
 		public Long getChatUserCount() {
 			return this.chatUserCount;
@@ -111,6 +127,12 @@ public class OapiKacDatavDauSummaryGetResponse extends TaobaoResponse {
 		}
 		public void setDailyActiveUsers(Long dailyActiveUsers) {
 			this.dailyActiveUsers = dailyActiveUsers;
+		}
+		public Long getPcActiveUsers() {
+			return this.pcActiveUsers;
+		}
+		public void setPcActiveUsers(Long pcActiveUsers) {
+			this.pcActiveUsers = pcActiveUsers;
 		}
 	}
 	

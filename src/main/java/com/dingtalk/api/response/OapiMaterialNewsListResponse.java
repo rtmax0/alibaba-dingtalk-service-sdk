@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiMaterialNewsListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4359917382878315533L;
+	private static final long serialVersionUID = 4656179889861756983L;
 
 	/** 
 	 * 错误码
@@ -95,7 +95,7 @@ public class OapiMaterialNewsListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ArticleDTO extends TaobaoObject {
-		private static final long serialVersionUID = 1459281237471189235L;
+		private static final long serialVersionUID = 2726195223522754123L;
 		/**
 		 * 文章id
 		 */
@@ -238,7 +238,7 @@ public class OapiMaterialNewsListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class NewsCardDTO extends TaobaoObject {
-		private static final long serialVersionUID = 2194516889794885933L;
+		private static final long serialVersionUID = 1699455935244654543L;
 		/**
 		 * 文章列表
 		 */

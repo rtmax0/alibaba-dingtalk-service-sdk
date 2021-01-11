@@ -13,64 +13,23 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEduClassconversationAsyncsendResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5789218632269258484L;
+	private static final long serialVersionUID = 5811559614617776368L;
 
 	/** 
-	 * 错误码
-	 */
-	@ApiField("errcode")
-	private Long errcode;
-
-	/** 
-	 * 系统错误
-	 */
-	@ApiField("errmsg")
-	private String errmsg;
-
-	/** 
-	 * response
+	 * result
 	 */
 	@ApiField("result")
-	private TopSendConversationMsgResponse result;
-
-	/** 
-	 * 调用是否成功
-	 */
-	@ApiField("success")
-	private Boolean success;
+	private DingOpenResult result;
 
 
-	public void setErrcode(Long errcode) {
-		this.errcode = errcode;
-	}
-	public Long getErrcode( ) {
-		return this.errcode;
-	}
-
-	public void setErrmsg(String errmsg) {
-		this.errmsg = errmsg;
-	}
-	public String getErrmsg( ) {
-		return this.errmsg;
-	}
-
-	public void setResult(TopSendConversationMsgResponse result) {
+	public void setResult(DingOpenResult result) {
 		this.result = result;
 	}
-	public TopSendConversationMsgResponse getResult( ) {
+	public DingOpenResult getResult( ) {
 		return this.result;
 	}
 
-	public void setSuccess(Boolean success) {
-		this.success = success;
-	}
-	public Boolean getSuccess( ) {
-		return this.success;
-	}
-
-	public boolean isSuccess() {
-        return getErrcode() == null || getErrcode().equals(0L);
-    }
+	
 	
 	/**
 	 * response
@@ -79,7 +38,7 @@ public class OapiEduClassconversationAsyncsendResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopSendConversationMsgResponse extends TaobaoObject {
-		private static final long serialVersionUID = 3483959619886916159L;
+		private static final long serialVersionUID = 2579778513894351289L;
 		/**
 		 * 异步任务id
 		 */
@@ -91,6 +50,61 @@ public class OapiEduClassconversationAsyncsendResponse extends TaobaoResponse {
 		}
 		public void setTaskId(String taskId) {
 			this.taskId = taskId;
+		}
+	}
+	
+	/**
+	 * result
+	 *
+	 * @author top auto create
+	 * @since 1.0, null
+	 */
+	public static class DingOpenResult extends TaobaoObject {
+		private static final long serialVersionUID = 7796742928847584641L;
+		/**
+		 * 错误码
+		 */
+		@ApiField("errcode")
+		private Long errcode;
+		/**
+		 * 系统错误
+		 */
+		@ApiField("errmsg")
+		private String errmsg;
+		/**
+		 * response
+		 */
+		@ApiField("response")
+		private TopSendConversationMsgResponse response;
+		/**
+		 * 调用是否成功
+		 */
+		@ApiField("success")
+		private Boolean success;
+	
+		public Long getErrcode() {
+			return this.errcode;
+		}
+		public void setErrcode(Long errcode) {
+			this.errcode = errcode;
+		}
+		public String getErrmsg() {
+			return this.errmsg;
+		}
+		public void setErrmsg(String errmsg) {
+			this.errmsg = errmsg;
+		}
+		public TopSendConversationMsgResponse getResponse() {
+			return this.response;
+		}
+		public void setResponse(TopSendConversationMsgResponse response) {
+			this.response = response;
+		}
+		public Boolean getSuccess() {
+			return this.success;
+		}
+		public void setSuccess(Boolean success) {
+			this.success = success;
 		}
 	}
 	

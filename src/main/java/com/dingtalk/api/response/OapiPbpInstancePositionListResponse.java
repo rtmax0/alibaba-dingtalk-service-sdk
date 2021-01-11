@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiPbpInstancePositionListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3865255274689124885L;
+	private static final long serialVersionUID = 3867194842352157299L;
 
 	/** 
 	 * 系统自动生成
@@ -68,7 +68,7 @@ public class OapiPbpInstancePositionListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PositionVo extends TaobaoObject {
-		private static final long serialVersionUID = 1489625943277488888L;
+		private static final long serialVersionUID = 2267693899416822775L;
 		/**
 		 * 位置唯一标识，根据type不同类型不同，如硬件类型代表硬件设备唯一标识
 		 */
@@ -112,7 +112,7 @@ public class OapiPbpInstancePositionListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 6844414899712161257L;
+		private static final long serialVersionUID = 5828313241585789639L;
 		/**
 		 * 是否还有数据
 		 */

@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiSmartworkHrmEmployeeQuerypreentryResponse;
  * TOP DingTalk-API: dingtalk.oapi.smartwork.hrm.employee.querypreentry request
  * 
  * @author top auto create
- * @since 1.0, 2019.09.11
+ * @since 1.0, 2019.07.01
  */
 public class OapiSmartworkHrmEmployeeQuerypreentryRequest extends BaseTaobaoRequest<OapiSmartworkHrmEmployeeQuerypreentryResponse> {
 	

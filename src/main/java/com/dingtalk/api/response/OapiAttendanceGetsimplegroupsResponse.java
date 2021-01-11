@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGetsimplegroupsResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1156638895386756258L;
+	private static final long serialVersionUID = 4657991155497949499L;
 
 	/** 
 	 * errcode
@@ -69,7 +69,7 @@ public class OapiAttendanceGetsimplegroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtTimeVo extends TaobaoObject {
-		private static final long serialVersionUID = 8575778966446498323L;
+		private static final long serialVersionUID = 6475523714943124545L;
 		/**
 		 * 开始时间
 		 */
@@ -91,7 +91,7 @@ public class OapiAttendanceGetsimplegroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ClassSettingVo extends TaobaoObject {
-		private static final long serialVersionUID = 3411219986786555562L;
+		private static final long serialVersionUID = 4215466128523118835L;
 		/**
 		 * 旷工迟到时长,单位分钟
 		 */
@@ -190,7 +190,7 @@ public class OapiAttendanceGetsimplegroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class SetionTimeVO extends TaobaoObject {
-		private static final long serialVersionUID = 4597717755242687688L;
+		private static final long serialVersionUID = 2745629357229839885L;
 		/**
 		 * 打卡时间跨度
 		 */
@@ -234,7 +234,7 @@ public class OapiAttendanceGetsimplegroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtSectionVo extends TaobaoObject {
-		private static final long serialVersionUID = 8798285331823257798L;
+		private static final long serialVersionUID = 4761276418279131467L;
 		/**
 		 * 时间段列表
 		 */
@@ -257,7 +257,7 @@ public class OapiAttendanceGetsimplegroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtClassVo extends TaobaoObject {
-		private static final long serialVersionUID = 6447235757596275752L;
+		private static final long serialVersionUID = 5517615583318657553L;
 		/**
 		 * 考勤班次id
 		 */
@@ -313,7 +313,7 @@ public class OapiAttendanceGetsimplegroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtGroupForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 4175972877367735318L;
+		private static final long serialVersionUID = 5735422164344385245L;
 		/**
 		 * 一周的班次时间展示列表。["周一、二 班次A:09:00-18:00", "周六、周日 休息"]
 		 */
@@ -337,6 +337,17 @@ public class OapiAttendanceGetsimplegroupsResponse extends TaobaoResponse {
 		@ApiListField("dept_name_list")
 		@ApiField("string")
 		private List<String> deptNameList;
+		/**
+		 * 自由工时考勤组考勤开始时间与当天0点偏移分钟数（如：240表示4:00）
+		 */
+		@ApiField("freecheck_day_start_min_offset")
+		private Long freecheckDayStartMinOffset;
+		/**
+		 * 自由工时考勤组工作日（1表示周一，0表示周日）
+		 */
+		@ApiListField("freecheck_work_days")
+		@ApiField("number")
+		private List<Long> freecheckWorkDays;
 		/**
 		 * 考勤组id
 		 */
@@ -416,6 +427,18 @@ public class OapiAttendanceGetsimplegroupsResponse extends TaobaoResponse {
 		public void setDeptNameList(List<String> deptNameList) {
 			this.deptNameList = deptNameList;
 		}
+		public Long getFreecheckDayStartMinOffset() {
+			return this.freecheckDayStartMinOffset;
+		}
+		public void setFreecheckDayStartMinOffset(Long freecheckDayStartMinOffset) {
+			this.freecheckDayStartMinOffset = freecheckDayStartMinOffset;
+		}
+		public List<Long> getFreecheckWorkDays() {
+			return this.freecheckWorkDays;
+		}
+		public void setFreecheckWorkDays(List<Long> freecheckWorkDays) {
+			this.freecheckWorkDays = freecheckWorkDays;
+		}
 		public Long getGroupId() {
 			return this.groupId;
 		}
@@ -485,7 +508,7 @@ public class OapiAttendanceGetsimplegroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtGroupListForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 6238976457294617488L;
+		private static final long serialVersionUID = 1229794892967728729L;
 		/**
 		 * 考勤组列表
 		 */

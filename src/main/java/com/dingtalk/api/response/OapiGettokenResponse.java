@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiGettokenResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6814749192693345436L;
+	private static final long serialVersionUID = 2459287934256522418L;
 
 	/** 
 	 * access_token

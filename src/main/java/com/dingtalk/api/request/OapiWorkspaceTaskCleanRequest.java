@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiWorkspaceTaskCleanResponse;
  * TOP DingTalk-API: dingtalk.oapi.workspace.task.clean request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.07
+ * @since 1.0, 2020.12.23
  */
 public class OapiWorkspaceTaskCleanRequest extends BaseTaobaoRequest<OapiWorkspaceTaskCleanResponse> {
 	

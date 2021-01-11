@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProcessinstanceListidsResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2567115387144257123L;
+	private static final long serialVersionUID = 8577157419541588641L;
 
 	/** 
 	 * errcode
@@ -68,7 +68,7 @@ public class OapiProcessinstanceListidsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 2721996167347217815L;
+		private static final long serialVersionUID = 8436526489563292928L;
 		/**
 		 * id列表
 		 */

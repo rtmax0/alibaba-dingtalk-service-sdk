@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiMessageMassRecallResponse;
  * TOP DingTalk-API: dingtalk.oapi.message.mass.recall request
  * 
  * @author top auto create
- * @since 1.0, 2020.01.14
+ * @since 1.0, 2019.07.19
  */
 public class OapiMessageMassRecallRequest extends BaseTaobaoRequest<OapiMessageMassRecallResponse> {
 	

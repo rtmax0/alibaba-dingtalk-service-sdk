@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAppstoreInternalOrderGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2873188885395625939L;
+	private static final long serialVersionUID = 1723177449513329569L;
 
 	/** 
 	 * 服务调用成功
@@ -66,7 +66,7 @@ public class OapiAppstoreInternalOrderGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class InAppGoodsOrderVo extends TaobaoObject {
-		private static final long serialVersionUID = 1736882642831938962L;
+		private static final long serialVersionUID = 1496158722268256113L;
 		/**
 		 * 内购商品订单号
 		 */

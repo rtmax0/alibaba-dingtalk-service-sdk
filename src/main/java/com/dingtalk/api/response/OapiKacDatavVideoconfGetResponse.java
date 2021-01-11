@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiKacDatavVideoconfGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4834854812992831383L;
+	private static final long serialVersionUID = 7213426988683924117L;
 
 	/** 
 	 * 错误码
@@ -66,7 +66,7 @@ public class OapiKacDatavVideoconfGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class McsSummaryResponse extends TaobaoObject {
-		private static final long serialVersionUID = 6533198388159275487L;
+		private static final long serialVersionUID = 1283482114645652133L;
 		/**
 		 * 视频会议企业的累积消耗时长（即参会者入会总时长，且算到发起企业上）(毫秒)
 		 */

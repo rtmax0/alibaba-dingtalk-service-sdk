@@ -97,7 +97,7 @@ public class OapiCustomerserviceTicketQueryRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class TicketPageQueryDto extends TaobaoObject {
-		private static final long serialVersionUID = 4183485256167699161L;
+		private static final long serialVersionUID = 7679426912913173652L;
 		/**
 		 * 游标
 		 */

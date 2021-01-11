@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartdeviceMeetingroomListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8848117746137524322L;
+	private static final long serialVersionUID = 2154198694692531896L;
 
 	/** 
 	 * errorCode
@@ -68,7 +68,7 @@ public class OapiSmartdeviceMeetingroomListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class MeetingRoomOpenInfo extends TaobaoObject {
-		private static final long serialVersionUID = 2736547654421516345L;
+		private static final long serialVersionUID = 6614422287615733712L;
 		/**
 		 * 会议室容量
 		 */
@@ -124,7 +124,7 @@ public class OapiSmartdeviceMeetingroomListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenPageResult extends TaobaoObject {
-		private static final long serialVersionUID = 2345218248746611379L;
+		private static final long serialVersionUID = 6119751574723331269L;
 		/**
 		 * 是否有下一页
 		 */

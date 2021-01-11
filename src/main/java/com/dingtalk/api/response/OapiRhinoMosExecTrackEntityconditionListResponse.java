@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoMosExecTrackEntityconditionListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6145628923735755242L;
+	private static final long serialVersionUID = 4245337328625324993L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiRhinoMosExecTrackEntityconditionListResponse extends TaobaoResp
 	 * @since 1.0, null
 	 */
 	public static class TrackRecordDto extends TaobaoObject {
-		private static final long serialVersionUID = 4427914431493798477L;
+		private static final long serialVersionUID = 8673533739814293368L;
 		/**
 		 * 生效结束时间
 		 */
@@ -113,11 +113,6 @@ public class OapiRhinoMosExecTrackEntityconditionListResponse extends TaobaoResp
 		 */
 		@ApiField("entity_type")
 		private String entityType;
-		/**
-		 * 订单ID
-		 */
-		@ApiField("order_id")
-		private Long orderId;
 		/**
 		 * 租户ID
 		 */
@@ -170,12 +165,6 @@ public class OapiRhinoMosExecTrackEntityconditionListResponse extends TaobaoResp
 		public void setEntityType(String entityType) {
 			this.entityType = entityType;
 		}
-		public Long getOrderId() {
-			return this.orderId;
-		}
-		public void setOrderId(Long orderId) {
-			this.orderId = orderId;
-		}
 		public String getTenantId() {
 			return this.tenantId;
 		}
@@ -203,7 +192,7 @@ public class OapiRhinoMosExecTrackEntityconditionListResponse extends TaobaoResp
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 3588446174555242364L;
+		private static final long serialVersionUID = 5441548243356154548L;
 		/**
 		 * 当前起始位置
 		 */

@@ -96,7 +96,7 @@ public class OapiOrgOpenencryptHeartbeatRequest extends BaseTaobaoRequest<OapiOr
 	 * @since 1.0, null
 	 */
 	public static class TopKMSHeartbeat extends TaobaoObject {
-		private static final long serialVersionUID = 5617723937357634645L;
+		private static final long serialVersionUID = 3238165594891947877L;
 		/**
 		 * 企业内部应用id
 		 */

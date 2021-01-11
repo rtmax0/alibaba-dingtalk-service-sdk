@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEduDeptListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1395142397252464877L;
+	private static final long serialVersionUID = 8569587353346229189L;
 
 	/** 
 	 * 错误码，只有success为false时有效
@@ -81,7 +81,7 @@ public class OapiEduDeptListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenEduDeptDetails extends TaobaoObject {
-		private static final long serialVersionUID = 8558113931186242615L;
+		private static final long serialVersionUID = 4274852259255959493L;
 		/**
 		 * 部门链
 		 */
@@ -169,7 +169,7 @@ public class OapiEduDeptListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenEduDeptListResponse extends TaobaoObject {
-		private static final long serialVersionUID = 2379359428669578858L;
+		private static final long serialVersionUID = 5625861672312974473L;
 		/**
 		 * 部门节点列表，不空。
 		 */

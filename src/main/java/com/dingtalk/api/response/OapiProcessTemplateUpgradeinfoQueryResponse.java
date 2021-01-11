@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProcessTemplateUpgradeinfoQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7117581967958793874L;
+	private static final long serialVersionUID = 6845772894451642929L;
 
 	/** 
 	 * dingOpenErrcode
@@ -69,7 +69,7 @@ public class OapiProcessTemplateUpgradeinfoQueryResponse extends TaobaoResponse 
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 2492719617713726838L;
+		private static final long serialVersionUID = 7125881594125475218L;
 		/**
 		 * 是否可升级
 		 */

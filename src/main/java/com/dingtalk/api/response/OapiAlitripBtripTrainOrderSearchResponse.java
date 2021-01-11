@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripTrainOrderSearchResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2142182479189984124L;
+	private static final long serialVersionUID = 2674351944862812862L;
 
 	/** 
 	 * 错误码
@@ -83,7 +83,7 @@ public class OapiAlitripBtripTrainOrderSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenInvoiceDo extends TaobaoObject {
-		private static final long serialVersionUID = 1887382278965943886L;
+		private static final long serialVersionUID = 5852819348248666438L;
 		/**
 		 * 商旅发票id
 		 */
@@ -116,7 +116,7 @@ public class OapiAlitripBtripTrainOrderSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenCostCenterDo extends TaobaoObject {
-		private static final long serialVersionUID = 8529596631865798213L;
+		private static final long serialVersionUID = 2419842426445919535L;
 		/**
 		 * 企业id
 		 */
@@ -171,7 +171,7 @@ public class OapiAlitripBtripTrainOrderSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenPriceInfo extends TaobaoObject {
-		private static final long serialVersionUID = 6813539536485188975L;
+		private static final long serialVersionUID = 2325228153657433453L;
 		/**
 		 * 消费类型
 		 */
@@ -248,7 +248,7 @@ public class OapiAlitripBtripTrainOrderSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenUserAffiliateDo extends TaobaoObject {
-		private static final long serialVersionUID = 4235335932853163613L;
+		private static final long serialVersionUID = 8419682746786387549L;
 		/**
 		 * 乘车人名称
 		 */
@@ -281,7 +281,7 @@ public class OapiAlitripBtripTrainOrderSearchResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenTrainOrderRs extends TaobaoObject {
-		private static final long serialVersionUID = 4197352796344977116L;
+		private static final long serialVersionUID = 6325362565769154188L;
 		/**
 		 * 商旅审批单id
 		 */
@@ -302,6 +302,11 @@ public class OapiAlitripBtripTrainOrderSearchResponse extends TaobaoResponse {
 		 */
 		@ApiField("arr_time")
 		private Date arrTime;
+		/**
+		 * 申请单名称
+		 */
+		@ApiField("btrip_title")
+		private String btripTitle;
 		/**
 		 * 联系人名称
 		 */
@@ -394,6 +399,11 @@ public class OapiAlitripBtripTrainOrderSearchResponse extends TaobaoResponse {
 		@ApiField("status")
 		private Long status;
 		/**
+		 * 第三方申请单ID
+		 */
+		@ApiField("thirdpart_apply_id")
+		private String thirdpartApplyId;
+		/**
 		 * 第三方行程id
 		 */
 		@ApiField("thirdpart_itinerary_id")
@@ -458,6 +468,12 @@ public class OapiAlitripBtripTrainOrderSearchResponse extends TaobaoResponse {
 		}
 		public void setArrTime(Date arrTime) {
 			this.arrTime = arrTime;
+		}
+		public String getBtripTitle() {
+			return this.btripTitle;
+		}
+		public void setBtripTitle(String btripTitle) {
+			this.btripTitle = btripTitle;
 		}
 		public String getContactName() {
 			return this.contactName;
@@ -566,6 +582,12 @@ public class OapiAlitripBtripTrainOrderSearchResponse extends TaobaoResponse {
 		}
 		public void setStatus(Long status) {
 			this.status = status;
+		}
+		public String getThirdpartApplyId() {
+			return this.thirdpartApplyId;
+		}
+		public void setThirdpartApplyId(String thirdpartApplyId) {
+			this.thirdpartApplyId = thirdpartApplyId;
 		}
 		public String getThirdpartItineraryId() {
 			return this.thirdpartItineraryId;

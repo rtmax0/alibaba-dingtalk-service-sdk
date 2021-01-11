@@ -98,7 +98,7 @@ public class OapiRhinoMosExecClothesUnfinishRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class BatchClothesPerformBaseReq extends TaobaoObject {
-		private static final long serialVersionUID = 8282184625432117915L;
+		private static final long serialVersionUID = 6296717781167782834L;
 		/**
 		 * 实体列表
 		 */

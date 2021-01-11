@@ -96,7 +96,7 @@ public class OapiAlitripBtripCategoryAddressGetRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class OpenJumpInfoRq extends TaobaoObject {
-		private static final long serialVersionUID = 4535581147797274755L;
+		private static final long serialVersionUID = 5551441437678434542L;
 		/**
 		 * 企业id
 		 */

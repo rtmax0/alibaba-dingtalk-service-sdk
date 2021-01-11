@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiServiceGetUnactiveCorpResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5412497896292351899L;
+	private static final long serialVersionUID = 5658996637167416757L;
 
 	/** 
 	 * app_id

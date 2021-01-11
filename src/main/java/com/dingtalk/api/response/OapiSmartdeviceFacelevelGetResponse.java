@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartdeviceFacelevelGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4135848768711652354L;
+	private static final long serialVersionUID = 1353111123256718289L;
 
 	/** 
 	 * 错误码
@@ -70,7 +70,7 @@ public class OapiSmartdeviceFacelevelGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FaceResultVo extends TaobaoObject {
-		private static final long serialVersionUID = 1289622592663481897L;
+		private static final long serialVersionUID = 7593482536591319461L;
 		/**
 		 * 实人认证结果
 		 */

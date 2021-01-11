@@ -128,7 +128,7 @@ public class OapiAttendanceGroupPositionsAddRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class Position extends TaobaoObject {
-		private static final long serialVersionUID = 2435599314796479574L;
+		private static final long serialVersionUID = 5615368671667535114L;
 		/**
 		 * 地址描述
 		 */

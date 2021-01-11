@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiMicroappCheckuidResponse;
  * TOP DingTalk-API: dingtalk.oapi.microapp.checkuid request
  * 
  * @author top auto create
- * @since 1.0, 2019.07.01
+ * @since 1.0, 2020.11.17
  */
 public class OapiMicroappCheckuidRequest extends BaseTaobaoRequest<OapiMicroappCheckuidResponse> {
 	

@@ -229,7 +229,7 @@ public class OapiWorkrecordAddRequest extends BaseTaobaoRequest<OapiWorkrecordAd
 	 * @since 1.0, null
 	 */
 	public static class FormItemVo extends TaobaoObject {
-		private static final long serialVersionUID = 1767476148969288532L;
+		private static final long serialVersionUID = 5867398241713232638L;
 		/**
 		 * 内容
 		 */

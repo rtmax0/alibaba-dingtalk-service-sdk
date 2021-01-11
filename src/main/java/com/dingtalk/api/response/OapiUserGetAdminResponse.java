@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiUserGetAdminResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8174724555693229964L;
+	private static final long serialVersionUID = 1546848788847629243L;
 
 	/** 
 	 * admin_list
@@ -69,7 +69,7 @@ public class OapiUserGetAdminResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AdminList extends TaobaoObject {
-		private static final long serialVersionUID = 6576529198676616955L;
+		private static final long serialVersionUID = 6323438261679387758L;
 		/**
 		 * admin_mobile
 		 */

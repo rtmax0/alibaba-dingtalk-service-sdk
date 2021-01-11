@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiBlackboardListidsResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3489352136357925556L;
+	private static final long serialVersionUID = 1672842435471527483L;
 
 	/** 
 	 * 请求失败的错误码
@@ -29,14 +29,14 @@ public class OapiBlackboardListidsResponse extends TaobaoResponse {
 	private String errmsg;
 
 	/** 
-	 * 公告id列表
+	 * success为true时，返回公告id列表。否则值为空
 	 */
 	@ApiListField("result")
 	@ApiField("string")
 	private List<String> result;
 
 	/** 
-	 * 请求成功
+	 * 本次调用是否成功，该值为false时，根据errcode和errMsg排查失败原因
 	 */
 	@ApiField("success")
 	private Boolean success;

@@ -96,7 +96,7 @@ public class OapiCustomerserviceStatusUpdateRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class ServiceStatusChangeDto extends TaobaoObject {
-		private static final long serialVersionUID = 6799627111887277732L;
+		private static final long serialVersionUID = 3737231193994637928L;
 		/**
 		 * 客服所在bu
 		 */

@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiProjectInviteDataQueryResponse;
  * TOP DingTalk-API: dingtalk.oapi.project.invite.data.query request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.18
+ * @since 1.0, 2020.07.28
  */
 public class OapiProjectInviteDataQueryRequest extends BaseTaobaoRequest<OapiProjectInviteDataQueryResponse> {
 	
@@ -96,9 +96,9 @@ public class OapiProjectInviteDataQueryRequest extends BaseTaobaoRequest<OapiPro
 	 * @since 1.0, null
 	 */
 	public static class InviteDataQuery extends TaobaoObject {
-		private static final long serialVersionUID = 2785993733391488268L;
+		private static final long serialVersionUID = 5197468811657424936L;
 		/**
-		 * 修改时间，输入上次查询时间，初始传1970-01-01对应的毫秒值
+		 * 数据游标，初始传0。后续传入返回参数中的next_cursor值
 		 */
 		@ApiField("cursor")
 		private Long cursor;
@@ -108,7 +108,7 @@ public class OapiProjectInviteDataQueryRequest extends BaseTaobaoRequest<OapiPro
 		@ApiField("size")
 		private Long size;
 		/**
-		 * 状态0:无效（包括过程数据），1:有效(默认)
+		 * 状态0:无效（包括过程数据），1:有效(默认)，不传表示查询全部
 		 */
 		@ApiField("status")
 		private Long status;

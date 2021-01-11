@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCalendarCreateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8528839629988293833L;
+	private static final long serialVersionUID = 7334474943125343245L;
 
 	/** 
 	 * dingOpenErrcode
@@ -68,7 +68,7 @@ public class OapiCalendarCreateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class CorpCalendarCreateResult extends TaobaoObject {
-		private static final long serialVersionUID = 8244539259843327125L;
+		private static final long serialVersionUID = 6293328574319749218L;
 		/**
 		 * dingtalkCalendarId
 		 */

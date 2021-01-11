@@ -96,7 +96,7 @@ public class OapiImpaasGroupModifyRequest extends BaseTaobaoRequest<OapiImpaasGr
 	 * @since 1.0, null
 	 */
 	public static class BaseGroupMemberInfo extends TaobaoObject {
-		private static final long serialVersionUID = 4598181561645457669L;
+		private static final long serialVersionUID = 2299433455969165532L;
 		/**
 		 * 修改后的群主ID，ID类型由type字段决定
 		 */
@@ -129,7 +129,7 @@ public class OapiImpaasGroupModifyRequest extends BaseTaobaoRequest<OapiImpaasGr
 	 * @since 1.0, null
 	 */
 	public static class GroupInfoModifyRequest extends TaobaoObject {
-		private static final long serialVersionUID = 4813193666748527743L;
+		private static final long serialVersionUID = 6551217445112659616L;
 		/**
 		 * 群ID，由创建群接口返回
 		 */

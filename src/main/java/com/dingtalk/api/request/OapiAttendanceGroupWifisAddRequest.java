@@ -128,7 +128,7 @@ public class OapiAttendanceGroupWifisAddRequest extends BaseTaobaoRequest<OapiAt
 	 * @since 1.0, null
 	 */
 	public static class Wifi extends TaobaoObject {
-		private static final long serialVersionUID = 6841839757498322164L;
+		private static final long serialVersionUID = 3624219483946454728L;
 		/**
 		 * 业务方wifiId
 		 */

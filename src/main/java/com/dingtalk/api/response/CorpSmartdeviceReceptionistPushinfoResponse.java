@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpSmartdeviceReceptionistPushinfoResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2512861145677259961L;
+	private static final long serialVersionUID = 7452577364146499633L;
 
 	/** 
 	 * result
@@ -38,7 +38,7 @@ public class CorpSmartdeviceReceptionistPushinfoResponse extends TaobaoResponse 
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 2153682758865546426L;
+		private static final long serialVersionUID = 2462911892627499234L;
 		/**
 		 * dingOpenErrcode
 		 */

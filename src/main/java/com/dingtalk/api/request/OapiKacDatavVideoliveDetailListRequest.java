@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiKacDatavVideoliveDetailListResponse;
  * TOP DingTalk-API: dingtalk.oapi.kac.datav.videolive.detail.list request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.26
+ * @since 1.0, 2020.07.13
  */
 public class OapiKacDatavVideoliveDetailListRequest extends BaseTaobaoRequest<OapiKacDatavVideoliveDetailListResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiKacDatavVideoliveDetailListRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class VideoLiveDetailRequest extends TaobaoObject {
-		private static final long serialVersionUID = 5866182677867196836L;
+		private static final long serialVersionUID = 4548677698345537252L;
 		/**
 		 * 分页游标；首页请使用0，之后直接使用返回结果中的next_cursor
 		 */

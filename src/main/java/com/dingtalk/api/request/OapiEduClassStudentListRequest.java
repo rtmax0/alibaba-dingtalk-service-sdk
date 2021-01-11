@@ -130,7 +130,7 @@ public class OapiEduClassStudentListRequest extends BaseTaobaoRequest<OapiEduCla
 	 * @since 1.0, null
 	 */
 	public static class OpenStudentParam extends TaobaoObject {
-		private static final long serialVersionUID = 1617461777414549519L;
+		private static final long serialVersionUID = 1764269767536685539L;
 		/**
 		 * 班级ID
 		 */

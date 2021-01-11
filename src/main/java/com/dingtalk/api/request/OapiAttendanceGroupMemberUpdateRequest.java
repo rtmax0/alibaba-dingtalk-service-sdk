@@ -21,7 +21,7 @@ import com.dingtalk.api.response.OapiAttendanceGroupMemberUpdateResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.group.member.update request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.17
+ * @since 1.0, 2019.08.16
  */
 public class OapiAttendanceGroupMemberUpdateRequest extends BaseTaobaoRequest<OapiAttendanceGroupMemberUpdateResponse> {
 	
@@ -144,7 +144,7 @@ public class OapiAttendanceGroupMemberUpdateRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class TopGroupMemberUpdateParam extends TaobaoObject {
-		private static final long serialVersionUID = 2332649857815964479L;
+		private static final long serialVersionUID = 3712746735623342398L;
 		/**
 		 * 要添加的考勤部门，没有的话，无需赋值
 		 */

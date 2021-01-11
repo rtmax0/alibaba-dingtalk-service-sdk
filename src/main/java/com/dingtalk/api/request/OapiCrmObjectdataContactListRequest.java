@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiCrmObjectdataContactListResponse;
  * TOP DingTalk-API: dingtalk.oapi.crm.objectdata.contact.list request
  * 
  * @author top auto create
- * @since 1.0, 2020.02.14
+ * @since 1.0, 2020.11.16
  */
 public class OapiCrmObjectdataContactListRequest extends BaseTaobaoRequest<OapiCrmObjectdataContactListResponse> {
 	
@@ -33,6 +33,11 @@ public class OapiCrmObjectdataContactListRequest extends BaseTaobaoRequest<OapiC
 	 */
 	private String dataIdList;
 
+	/** 
+	* 自建应用时传入定制服务商ID
+	 */
+	private String providerCorpid;
+
 	public void setCurrentOperatorUserid(String currentOperatorUserid) {
 		this.currentOperatorUserid = currentOperatorUserid;
 	}
@@ -47,6 +52,14 @@ public class OapiCrmObjectdataContactListRequest extends BaseTaobaoRequest<OapiC
 
 	public String getDataIdList() {
 		return this.dataIdList;
+	}
+
+	public void setProviderCorpid(String providerCorpid) {
+		this.providerCorpid = providerCorpid;
+	}
+
+	public String getProviderCorpid() {
+		return this.providerCorpid;
 	}
 
 	public String getApiMethodName() {
@@ -85,6 +98,7 @@ public class OapiCrmObjectdataContactListRequest extends BaseTaobaoRequest<OapiC
 		TaobaoHashMap txtParams = new TaobaoHashMap();
 		txtParams.put("current_operator_userid", this.currentOperatorUserid);
 		txtParams.put("data_id_list", this.dataIdList);
+		txtParams.put("provider_corpid", this.providerCorpid);
 		if(this.udfParams != null) {
 			txtParams.putAll(this.udfParams);
 		}

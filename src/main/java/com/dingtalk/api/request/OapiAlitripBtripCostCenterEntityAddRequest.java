@@ -98,7 +98,7 @@ public class OapiAlitripBtripCostCenterEntityAddRequest extends BaseTaobaoReques
 	 * @since 1.0, null
 	 */
 	public static class OpenOrgEntityDo extends TaobaoObject {
-		private static final long serialVersionUID = 2352192393999768712L;
+		private static final long serialVersionUID = 8124721439394837848L;
 		/**
 		 * 员工部门角色id
 		 */
@@ -131,7 +131,7 @@ public class OapiAlitripBtripCostCenterEntityAddRequest extends BaseTaobaoReques
 	 * @since 1.0, null
 	 */
 	public static class OpenCostCenterAddEntityRq extends TaobaoObject {
-		private static final long serialVersionUID = 7648749793555785551L;
+		private static final long serialVersionUID = 6115846735779976132L;
 		/**
 		 * 企业id
 		 */

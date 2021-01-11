@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiMessageCorpconversationGetsendresultResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1378691771866595665L;
+	private static final long serialVersionUID = 5111147559511434831L;
 
 	/** 
 	 * errcode
@@ -68,7 +68,7 @@ public class OapiMessageCorpconversationGetsendresultResponse extends TaobaoResp
 	 * @since 1.0, null
 	 */
 	public static class SendForbiddenModel extends TaobaoObject {
-		private static final long serialVersionUID = 2366874588229679896L;
+		private static final long serialVersionUID = 7698531655526836392L;
 		/**
 		 * 流控code
 		 */
@@ -112,7 +112,7 @@ public class OapiMessageCorpconversationGetsendresultResponse extends TaobaoResp
 	 * @since 1.0, null
 	 */
 	public static class AsyncSendResult extends TaobaoObject {
-		private static final long serialVersionUID = 7385445195136491999L;
+		private static final long serialVersionUID = 5812873686866762225L;
 		/**
 		 * 发送失败的用户id
 		 */

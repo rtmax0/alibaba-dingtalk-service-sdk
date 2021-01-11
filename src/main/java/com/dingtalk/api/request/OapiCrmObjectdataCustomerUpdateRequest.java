@@ -21,7 +21,7 @@ import com.dingtalk.api.response.OapiCrmObjectdataCustomerUpdateResponse;
  * TOP DingTalk-API: dingtalk.oapi.crm.objectdata.customer.update request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.12
+ * @since 1.0, 2021.01.07
  */
 public class OapiCrmObjectdataCustomerUpdateRequest extends BaseTaobaoRequest<OapiCrmObjectdataCustomerUpdateResponse> {
 	
@@ -99,7 +99,7 @@ public class OapiCrmObjectdataCustomerUpdateRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class DataPermissionVo extends TaobaoObject {
-		private static final long serialVersionUID = 4214696896769279166L;
+		private static final long serialVersionUID = 8514719744377299897L;
 		/**
 		 * 负责人的用户ID
 		 */
@@ -134,7 +134,7 @@ public class OapiCrmObjectdataCustomerUpdateRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class ObjectDataInstanceVo extends TaobaoObject {
-		private static final long serialVersionUID = 8394417325254412448L;
+		private static final long serialVersionUID = 7235877628366188966L;
 		/**
 		 * 数据内容
 		 */

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiConferenceGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1841187664978744865L;
+	private static final long serialVersionUID = 3515891194437948337L;
 
 	/** 
 	 * 服务调用结果码
@@ -68,7 +68,7 @@ public class OapiConferenceGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ConferenceInfoDo extends TaobaoObject {
-		private static final long serialVersionUID = 1683925257338295993L;
+		private static final long serialVersionUID = 2777797494866371514L;
 		/**
 		 * 会务地点
 		 */
@@ -116,7 +116,7 @@ public class OapiConferenceGetResponse extends TaobaoResponse {
 		@ApiField("modified_userid")
 		private String modifiedUserid;
 		/**
-		 * 会务地址经纬度信息
+		 * 高德经纬度，格式:longitude,latitude
 		 */
 		@ApiField("poi")
 		private String poi;

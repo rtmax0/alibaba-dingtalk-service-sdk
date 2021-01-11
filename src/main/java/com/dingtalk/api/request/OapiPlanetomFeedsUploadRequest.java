@@ -130,7 +130,7 @@ public class OapiPlanetomFeedsUploadRequest extends BaseTaobaoRequest<OapiPlanet
 	 * @since 1.0, null
 	 */
 	public static class FeedContentModel extends TaobaoObject {
-		private static final long serialVersionUID = 2784984895348816653L;
+		private static final long serialVersionUID = 2451662758538133115L;
 		/**
 		 * 内容类型 2 视频 3 音频
 		 */
@@ -174,7 +174,7 @@ public class OapiPlanetomFeedsUploadRequest extends BaseTaobaoRequest<OapiPlanet
 	 * @since 1.0, null
 	 */
 	public static class FeedBaseModel extends TaobaoObject {
-		private static final long serialVersionUID = 7472761795567858228L;
+		private static final long serialVersionUID = 2193713394996757116L;
 		/**
 		 * 课程封面URL
 		 */
@@ -240,7 +240,7 @@ public class OapiPlanetomFeedsUploadRequest extends BaseTaobaoRequest<OapiPlanet
 	 * @since 1.0, null
 	 */
 	public static class FeedPayModel extends TaobaoObject {
-		private static final long serialVersionUID = 4112446444772938831L;
+		private static final long serialVersionUID = 1333434213483535649L;
 		/**
 		 * 客服手机号码
 		 */
@@ -339,7 +339,7 @@ public class OapiPlanetomFeedsUploadRequest extends BaseTaobaoRequest<OapiPlanet
 	 * @since 1.0, null
 	 */
 	public static class BatchUploadFeedInfoModel extends TaobaoObject {
-		private static final long serialVersionUID = 4612733965245996414L;
+		private static final long serialVersionUID = 6897772535778243593L;
 		/**
 		 * 课程基础
 		 */

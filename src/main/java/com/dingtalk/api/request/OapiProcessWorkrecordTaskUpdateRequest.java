@@ -98,7 +98,7 @@ public class OapiProcessWorkrecordTaskUpdateRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class TaskTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 5795291172292381895L;
+		private static final long serialVersionUID = 2156276651928668422L;
 		/**
 		 * 任务结果，分为agree和refuse。当status为CANCELED时，不需要传result
 		 */
@@ -142,7 +142,7 @@ public class OapiProcessWorkrecordTaskUpdateRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class UpdateTaskRequest extends TaobaoObject {
-		private static final long serialVersionUID = 1346282187682486346L;
+		private static final long serialVersionUID = 5737271694969876873L;
 		/**
 		 * 应用id
 		 */

@@ -96,7 +96,7 @@ public class OapiProcessDeleteRequest extends BaseTaobaoRequest<OapiProcessDelet
 	 * @since 1.0, null
 	 */
 	public static class DeleteProcessRequest extends TaobaoObject {
-		private static final long serialVersionUID = 2431796681453265332L;
+		private static final long serialVersionUID = 3432695414316365292L;
 		/**
 		 * 微应用agentId，ISV必填
 		 */

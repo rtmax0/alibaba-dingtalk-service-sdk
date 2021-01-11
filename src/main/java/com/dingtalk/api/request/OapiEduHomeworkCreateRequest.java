@@ -21,7 +21,7 @@ import com.dingtalk.api.response.OapiEduHomeworkCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.edu.homework.create request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.04
+ * @since 1.0, 2020.12.04
  */
 public class OapiEduHomeworkCreateRequest extends BaseTaobaoRequest<OapiEduHomeworkCreateResponse> {
 	
@@ -48,6 +48,16 @@ public class OapiEduHomeworkCreateRequest extends BaseTaobaoRequest<OapiEduHomew
 	private String hwContent;
 
 	/** 
+	* 截止时间
+	 */
+	private Long hwDeadline;
+
+	/** 
+	* 是否开启截止时间
+	 */
+	private String hwDeadlineOpen;
+
+	/** 
 	* 作业视频
 	 */
 	private String hwMedia;
@@ -61,6 +71,11 @@ public class OapiEduHomeworkCreateRequest extends BaseTaobaoRequest<OapiEduHomew
 	* 作业标题
 	 */
 	private String hwTitle;
+
+	/** 
+	* 作业类型
+	 */
+	private String hwType;
 
 	/** 
 	* 作业录音
@@ -144,6 +159,22 @@ public class OapiEduHomeworkCreateRequest extends BaseTaobaoRequest<OapiEduHomew
 		return this.hwContent;
 	}
 
+	public void setHwDeadline(Long hwDeadline) {
+		this.hwDeadline = hwDeadline;
+	}
+
+	public Long getHwDeadline() {
+		return this.hwDeadline;
+	}
+
+	public void setHwDeadlineOpen(String hwDeadlineOpen) {
+		this.hwDeadlineOpen = hwDeadlineOpen;
+	}
+
+	public String getHwDeadlineOpen() {
+		return this.hwDeadlineOpen;
+	}
+
 	public void setHwMedia(String hwMedia) {
 		this.hwMedia = hwMedia;
 	}
@@ -166,6 +197,14 @@ public class OapiEduHomeworkCreateRequest extends BaseTaobaoRequest<OapiEduHomew
 
 	public String getHwTitle() {
 		return this.hwTitle;
+	}
+
+	public void setHwType(String hwType) {
+		this.hwType = hwType;
+	}
+
+	public String getHwType() {
+		return this.hwType;
 	}
 
 	public void setHwVideo(String hwVideo) {
@@ -294,9 +333,12 @@ public class OapiEduHomeworkCreateRequest extends BaseTaobaoRequest<OapiEduHomew
 		txtParams.put("biz_code", this.bizCode);
 		txtParams.put("course_name", this.courseName);
 		txtParams.put("hw_content", this.hwContent);
+		txtParams.put("hw_deadline", this.hwDeadline);
+		txtParams.put("hw_deadline_open", this.hwDeadlineOpen);
 		txtParams.put("hw_media", this.hwMedia);
 		txtParams.put("hw_photo", this.hwPhoto);
 		txtParams.put("hw_title", this.hwTitle);
+		txtParams.put("hw_type", this.hwType);
 		txtParams.put("hw_video", this.hwVideo);
 		txtParams.put("identifier", this.identifier);
 		txtParams.put("scheduled_release", this.scheduledRelease);
@@ -337,7 +379,7 @@ public class OapiEduHomeworkCreateRequest extends BaseTaobaoRequest<OapiEduHomew
 	 * @since 1.0, null
 	 */
 	public static class ClassInfoItem extends TaobaoObject {
-		private static final long serialVersionUID = 7313865361546889563L;
+		private static final long serialVersionUID = 2162373279347388817L;
 		/**
 		 * 班级ID
 		 */
@@ -370,7 +412,7 @@ public class OapiEduHomeworkCreateRequest extends BaseTaobaoRequest<OapiEduHomew
 	 * @since 1.0, null
 	 */
 	public static class StuInfoItem extends TaobaoObject {
-		private static final long serialVersionUID = 2518322783172743992L;
+		private static final long serialVersionUID = 6377914545113911973L;
 		/**
 		 * 学生userid
 		 */
@@ -403,7 +445,7 @@ public class OapiEduHomeworkCreateRequest extends BaseTaobaoRequest<OapiEduHomew
 	 * @since 1.0, null
 	 */
 	public static class SelectStuItem extends TaobaoObject {
-		private static final long serialVersionUID = 7193455633851537196L;
+		private static final long serialVersionUID = 6563375629811127342L;
 		/**
 		 * 班级ID
 		 */

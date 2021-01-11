@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class SmartworkBlackboardListtoptenResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3257625432398452754L;
+	private static final long serialVersionUID = 2861767621715734625L;
 
 	/** 
 	 * result
@@ -41,7 +41,7 @@ public class SmartworkBlackboardListtoptenResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OapiBlackboardVo extends TaobaoObject {
-		private static final long serialVersionUID = 2852793577329724223L;
+		private static final long serialVersionUID = 3515766972448767558L;
 		/**
 		 * 创建时间
 		 */
@@ -85,7 +85,7 @@ public class SmartworkBlackboardListtoptenResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 7725993898454373383L;
+		private static final long serialVersionUID = 3357734188589785836L;
 		/**
 		 * result
 		 */

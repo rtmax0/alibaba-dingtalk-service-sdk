@@ -98,7 +98,7 @@ public class OapiProcessWorkrecordBatchupdateRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class UpdateProcessInstanceRequest extends TaobaoObject {
-		private static final long serialVersionUID = 5114799991445392467L;
+		private static final long serialVersionUID = 6869432548751829387L;
 		/**
 		 * 实例id，通过创建待办实例接口获取
 		 */
@@ -142,7 +142,7 @@ public class OapiProcessWorkrecordBatchupdateRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class BatchUpdateProcessInstanceRequest extends TaobaoObject {
-		private static final long serialVersionUID = 6715938212585344738L;
+		private static final long serialVersionUID = 4721197755674347998L;
 		/**
 		 * 企业应用标识
 		 */

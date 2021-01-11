@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGetleavetimebynamesResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4629473817724559457L;
+	private static final long serialVersionUID = 5815173727549998462L;
 
 	/** 
 	 * dingOpenErrcode
@@ -69,7 +69,7 @@ public class OapiAttendanceGetleavetimebynamesResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ColumnForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 4155228661625339378L;
+		private static final long serialVersionUID = 7164761759299133582L;
 		/**
 		 * 别名
 		 */
@@ -168,7 +168,7 @@ public class OapiAttendanceGetleavetimebynamesResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ColumnDayAndVal extends TaobaoObject {
-		private static final long serialVersionUID = 6797881979143975128L;
+		private static final long serialVersionUID = 6742114272446995285L;
 		/**
 		 * 时间
 		 */
@@ -201,7 +201,7 @@ public class OapiAttendanceGetleavetimebynamesResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ColumnValForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 6288692863177161995L;
+		private static final long serialVersionUID = 2478319954323126287L;
 		/**
 		 * 列值数据
 		 */
@@ -235,7 +235,7 @@ public class OapiAttendanceGetleavetimebynamesResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ColumnValListForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 8598971524543254869L;
+		private static final long serialVersionUID = 8246191785194816481L;
 		/**
 		 * 列信息与列值数据
 		 */

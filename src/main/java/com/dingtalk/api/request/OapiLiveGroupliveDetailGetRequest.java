@@ -96,7 +96,7 @@ public class OapiLiveGroupliveDetailGetRequest extends BaseTaobaoRequest<OapiLiv
 	 * @since 1.0, null
 	 */
 	public static class GroupLiveStatisticsReq extends TaobaoObject {
-		private static final long serialVersionUID = 3786175238411568524L;
+		private static final long serialVersionUID = 7193355489715688169L;
 		/**
 		 * 直播所属群对应部门id
 		 */

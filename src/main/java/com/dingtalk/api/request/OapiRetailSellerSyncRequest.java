@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiRetailSellerSyncResponse;
  * TOP DingTalk-API: dingtalk.oapi.retail.seller.sync request
  * 
  * @author top auto create
- * @since 1.0, 2020.01.14
+ * @since 1.0, 2019.12.03
  */
 public class OapiRetailSellerSyncRequest extends BaseTaobaoRequest<OapiRetailSellerSyncResponse> {
 	
@@ -110,7 +110,7 @@ public class OapiRetailSellerSyncRequest extends BaseTaobaoRequest<OapiRetailSel
 	 * @since 1.0, null
 	 */
 	public static class SellerParam extends TaobaoObject {
-		private static final long serialVersionUID = 5417786978425874524L;
+		private static final long serialVersionUID = 2133495541443997868L;
 		/**
 		 * 操作类型
 		 */

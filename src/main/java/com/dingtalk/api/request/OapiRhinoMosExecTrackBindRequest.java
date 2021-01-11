@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiRhinoMosExecTrackBindResponse;
  * TOP DingTalk-API: dingtalk.oapi.rhino.mos.exec.track.bind request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.19
+ * @since 1.0, 2020.07.16
  */
 public class OapiRhinoMosExecTrackBindRequest extends BaseTaobaoRequest<OapiRhinoMosExecTrackBindResponse> {
 	
@@ -163,7 +163,7 @@ public class OapiRhinoMosExecTrackBindRequest extends BaseTaobaoRequest<OapiRhin
 		TaobaoHashMap txtParams = new TaobaoHashMap();
 		txtParams.put("entities", this.entities);
 		txtParams.put("entity_type", this.entityType);
-		txtParams.put("orderId", this.orderId);
+		txtParams.put("order_id", this.orderId);
 		txtParams.put("tenant_id", this.tenantId);
 		txtParams.put("track_id", this.trackId);
 		txtParams.put("track_type", this.trackType);

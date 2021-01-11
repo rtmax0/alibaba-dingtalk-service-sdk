@@ -98,7 +98,7 @@ public class CorpExtUpdateRequest extends BaseTaobaoRequest<CorpExtUpdateRespons
 	 * @since 1.0, null
 	 */
 	public static class OpenExtContact extends TaobaoObject {
-		private static final long serialVersionUID = 7824349727989939836L;
+		private static final long serialVersionUID = 7324393312541457371L;
 		/**
 		 * 地址
 		 */

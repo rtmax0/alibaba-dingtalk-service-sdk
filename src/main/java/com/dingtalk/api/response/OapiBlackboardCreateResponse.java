@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiBlackboardCreateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1566657621141463911L;
+	private static final long serialVersionUID = 4395312628957145783L;
 
 	/** 
 	 * 请求失败返回的错误码
@@ -27,13 +27,13 @@ public class OapiBlackboardCreateResponse extends TaobaoResponse {
 	private String errmsg;
 
 	/** 
-	 * result
+	 * success为true时，该值不为空，否则值为空
 	 */
 	@ApiField("result")
 	private Boolean result;
 
 	/** 
-	 * 本次调用是否成功
+	 * 本次调用是否成功，该值为false时，根据errcode和errMsg排查失败原因
 	 */
 	@ApiField("success")
 	private Boolean success;

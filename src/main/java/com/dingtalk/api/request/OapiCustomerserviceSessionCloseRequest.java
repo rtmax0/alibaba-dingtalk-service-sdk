@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiCustomerserviceSessionCloseResponse;
  * TOP DingTalk-API: dingtalk.oapi.customerservice.session.close request
  * 
  * @author top auto create
- * @since 1.0, 2020.02.12
+ * @since 1.0, 2020.11.17
  */
 public class OapiCustomerserviceSessionCloseRequest extends BaseTaobaoRequest<OapiCustomerserviceSessionCloseResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiCustomerserviceSessionCloseRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class CloseSessionDTO extends TaobaoObject {
-		private static final long serialVersionUID = 6285928981236437529L;
+		private static final long serialVersionUID = 2463714853821934766L;
 		/**
 		 * 客服所在bu
 		 */
@@ -108,10 +108,20 @@ public class OapiCustomerserviceSessionCloseRequest extends BaseTaobaoRequest<Oa
 		@ApiField("operator_id")
 		private String operatorId;
 		/**
+		 * 4,小二；1，会员
+		 */
+		@ApiField("operator_type")
+		private String operatorType;
+		/**
 		 * 关闭原因，memberIsSilentheartBeatBreakmemberCloseTheSession
 		 */
 		@ApiField("reason")
 		private String reason;
+		/**
+		 * 客服的id
+		 */
+		@ApiField("service_id")
+		private String serviceId;
 		/**
 		 * 会话来源
 		 */
@@ -135,11 +145,23 @@ public class OapiCustomerserviceSessionCloseRequest extends BaseTaobaoRequest<Oa
 		public void setOperatorId(String operatorId) {
 			this.operatorId = operatorId;
 		}
+		public String getOperatorType() {
+			return this.operatorType;
+		}
+		public void setOperatorType(String operatorType) {
+			this.operatorType = operatorType;
+		}
 		public String getReason() {
 			return this.reason;
 		}
 		public void setReason(String reason) {
 			this.reason = reason;
+		}
+		public String getServiceId() {
+			return this.serviceId;
+		}
+		public void setServiceId(String serviceId) {
+			this.serviceId = serviceId;
 		}
 		public String getSessionSource() {
 			return this.sessionSource;

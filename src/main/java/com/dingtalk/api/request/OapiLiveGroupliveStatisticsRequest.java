@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiLiveGroupliveStatisticsResponse;
  * TOP DingTalk-API: dingtalk.oapi.live.grouplive.statistics request
  * 
  * @author top auto create
- * @since 1.0, 2019.07.01
+ * @since 1.0, 2020.12.08
  */
 public class OapiLiveGroupliveStatisticsRequest extends BaseTaobaoRequest<OapiLiveGroupliveStatisticsResponse> {
 	

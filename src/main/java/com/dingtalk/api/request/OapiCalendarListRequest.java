@@ -200,7 +200,7 @@ public class OapiCalendarListRequest extends BaseTaobaoRequest<OapiCalendarListR
 	 * @since 1.0, null
 	 */
 	public static class DateTime extends TaobaoObject {
-		private static final long serialVersionUID = 7328612659759941785L;
+		private static final long serialVersionUID = 3616582992848858814L;
 		/**
 		 * 时间 'yyyy-MM-ddTHH:mm:ssZ',
 		 */

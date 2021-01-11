@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGroupWifisRemoveResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6371366823386139713L;
+	private static final long serialVersionUID = 3279635362999279656L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiAttendanceGroupWifisRemoveResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ErrorInfo extends TaobaoObject {
-		private static final long serialVersionUID = 6124475669498985476L;
+		private static final long serialVersionUID = 5377829637926612439L;
 		/**
 		 * 错误码
 		 */
@@ -126,7 +126,7 @@ public class OapiAttendanceGroupWifisRemoveResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 5292878622124596794L;
+		private static final long serialVersionUID = 8712439155676897643L;
 		/**
 		 * 失败列表
 		 */

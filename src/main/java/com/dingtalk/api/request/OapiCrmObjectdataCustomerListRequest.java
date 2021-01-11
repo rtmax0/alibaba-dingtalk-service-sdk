@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiCrmObjectdataCustomerListResponse;
  * TOP DingTalk-API: dingtalk.oapi.crm.objectdata.customer.list request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.10
+ * @since 1.0, 2020.02.14
  */
 public class OapiCrmObjectdataCustomerListRequest extends BaseTaobaoRequest<OapiCrmObjectdataCustomerListResponse> {
 	

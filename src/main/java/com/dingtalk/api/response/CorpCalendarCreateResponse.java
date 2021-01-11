@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpCalendarCreateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4176697644171115917L;
+	private static final long serialVersionUID = 8768133528128814278L;
 
 	/** 
 	 * result
@@ -40,7 +40,7 @@ public class CorpCalendarCreateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class CorpCalendarCreateResult extends TaobaoObject {
-		private static final long serialVersionUID = 4553659316268195962L;
+		private static final long serialVersionUID = 5483819781616536649L;
 		/**
 		 * dingtalkCalendarId
 		 */
@@ -74,7 +74,7 @@ public class CorpCalendarCreateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 3213322836588877675L;
+		private static final long serialVersionUID = 3768517121558245998L;
 		/**
 		 * dingOpenErrcode
 		 */

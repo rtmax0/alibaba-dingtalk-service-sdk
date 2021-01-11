@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoOrderQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4435223994533647287L;
+	private static final long serialVersionUID = 8671371175973418868L;
 
 	/** 
 	 * 响应码
@@ -69,7 +69,7 @@ public class OapiRhinoOrderQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ProductOrderDto extends TaobaoObject {
-		private static final long serialVersionUID = 1332245433764741695L;
+		private static final long serialVersionUID = 6687161612549119248L;
 		/**
 		 * 实际完成时间
 		 */
@@ -322,7 +322,7 @@ public class OapiRhinoOrderQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageInfo extends TaobaoObject {
-		private static final long serialVersionUID = 2136418138582829728L;
+		private static final long serialVersionUID = 6726686117849595432L;
 		/**
 		 * 分页数组
 		 */

@@ -99,7 +99,7 @@ public class OapiBipaasNotifyGrouprobotRequest extends BaseTaobaoRequest<OapiBip
 	 * @since 1.0, null
 	 */
 	public static class GroupRobotNotifyDto extends TaobaoObject {
-		private static final long serialVersionUID = 5819841856548777848L;
+		private static final long serialVersionUID = 5555685788116424147L;
 		/**
 		 * 需要@到的金融云租户下操作员列表
 		 */

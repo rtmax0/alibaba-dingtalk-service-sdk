@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartdeviceApplyoutidResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5749699877895415867L;
+	private static final long serialVersionUID = 7789272111599184777L;
 
 	/** 
 	 * 错误编码
@@ -79,7 +79,7 @@ public class OapiSmartdeviceApplyoutidResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OutDeviceIdVo extends TaobaoObject {
-		private static final long serialVersionUID = 5857275697577144514L;
+		private static final long serialVersionUID = 6536831635657516898L;
 		/**
 		 * 外部设备id
 		 */

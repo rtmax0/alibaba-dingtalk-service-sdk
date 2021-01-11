@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiOcrStructuredRecognizeResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4448245768326565378L;
+	private static final long serialVersionUID = 4873914754714362825L;
 
 	/** 
 	 * 错误码
@@ -66,7 +66,7 @@ public class OapiOcrStructuredRecognizeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OcrStructuredResult extends TaobaoObject {
-		private static final long serialVersionUID = 7776153889974425679L;
+		private static final long serialVersionUID = 6472647784663953483L;
 		/**
 		 * 旋转度
 		 */

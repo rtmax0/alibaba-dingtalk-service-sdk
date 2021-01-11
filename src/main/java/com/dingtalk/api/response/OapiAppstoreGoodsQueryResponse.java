@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAppstoreGoodsQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1388239444877896744L;
+	private static final long serialVersionUID = 2269561182742975656L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiAppstoreGoodsQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenGoodsItemCycVo extends TaobaoObject {
-		private static final long serialVersionUID = 4361284319822263599L;
+		private static final long serialVersionUID = 1861976513276257795L;
 		/**
 		 * 周期别名
 		 */
@@ -112,7 +112,7 @@ public class OapiAppstoreGoodsQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenGoodsItemVo extends TaobaoObject {
-		private static final long serialVersionUID = 7122796494831871669L;
+		private static final long serialVersionUID = 1494975713453313567L;
 		/**
 		 * 是否试用
 		 */
@@ -190,7 +190,7 @@ public class OapiAppstoreGoodsQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenGoodsVo extends TaobaoObject {
-		private static final long serialVersionUID = 4713977422583358851L;
+		private static final long serialVersionUID = 6174869627217641337L;
 		/**
 		 * 规格列表
 		 */

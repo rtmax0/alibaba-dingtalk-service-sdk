@@ -96,7 +96,7 @@ public class OapiCustomerserviceEventChangeRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class EventDto extends TaobaoObject {
-		private static final long serialVersionUID = 3586883639694762575L;
+		private static final long serialVersionUID = 3653641584148633681L;
 		/**
 		 * 事件业务类型，参考com.dingtalk.customerservice.common.EventBizTypeEnum
 		 */

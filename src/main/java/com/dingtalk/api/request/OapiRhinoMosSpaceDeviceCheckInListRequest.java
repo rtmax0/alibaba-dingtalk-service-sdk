@@ -96,7 +96,7 @@ public class OapiRhinoMosSpaceDeviceCheckInListRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class ProdWorkstationDeviceListReq extends TaobaoObject {
-		private static final long serialVersionUID = 4838542614279163867L;
+		private static final long serialVersionUID = 3897429862427829654L;
 		/**
 		 * 站位code
 		 */

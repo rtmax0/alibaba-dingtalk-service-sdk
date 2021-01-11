@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceScheduleShiftListbydaysResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8313916712529275982L;
+	private static final long serialVersionUID = 6124393792984276677L;
 
 	/** 
 	 * 错误码
@@ -83,7 +83,7 @@ public class OapiAttendanceScheduleShiftListbydaysResponse extends TaobaoRespons
 	 * @since 1.0, null
 	 */
 	public static class TopDayScheduleShiftVo extends TaobaoObject {
-		private static final long serialVersionUID = 1336472865257261827L;
+		private static final long serialVersionUID = 4319785286921528886L;
 		/**
 		 * 企业id
 		 */

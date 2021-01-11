@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCrmObjectdataContactCreateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8197734917234796141L;
+	private static final long serialVersionUID = 6773691684767772628L;
 
 	/** 
 	 * 错误码
@@ -79,13 +79,35 @@ public class OapiCrmObjectdataContactCreateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ObjectDataCreateDto extends TaobaoObject {
-		private static final long serialVersionUID = 5254391449223837236L;
+		private static final long serialVersionUID = 6239375877837119373L;
+		/**
+		 * 联系人用户ID
+		 */
+		@ApiField("contact_unionid")
+		private String contactUnionid;
+		/**
+		 * 联系人通讯录员工ID
+		 */
+		@ApiField("contact_userid")
+		private String contactUserid;
 		/**
 		 * 联系人数据id
 		 */
 		@ApiField("instance_id")
 		private String instanceId;
 	
+		public String getContactUnionid() {
+			return this.contactUnionid;
+		}
+		public void setContactUnionid(String contactUnionid) {
+			this.contactUnionid = contactUnionid;
+		}
+		public String getContactUserid() {
+			return this.contactUserid;
+		}
+		public void setContactUserid(String contactUserid) {
+			this.contactUserid = contactUserid;
+		}
 		public String getInstanceId() {
 			return this.instanceId;
 		}

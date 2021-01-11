@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiKacDatavTelconfGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1732827517157259856L;
+	private static final long serialVersionUID = 1861698221616537536L;
 
 	/** 
 	 * 结果码
@@ -66,7 +66,7 @@ public class OapiKacDatavTelconfGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TelConferenceSummaryResponse extends TaobaoObject {
-		private static final long serialVersionUID = 4676938949231693627L;
+		private static final long serialVersionUID = 1112374361615872142L;
 		/**
 		 * 呼叫成功次数
 		 */
@@ -77,6 +77,11 @@ public class OapiKacDatavTelconfGetResponse extends TaobaoResponse {
 		 */
 		@ApiField("call_duration")
 		private String callDuration;
+		/**
+		 * 呼叫成功时长(分钟)
+		 */
+		@ApiField("call_duration_min")
+		private String callDurationMin;
 		/**
 		 * 呼叫参与人次
 		 */
@@ -94,6 +99,12 @@ public class OapiKacDatavTelconfGetResponse extends TaobaoResponse {
 		}
 		public void setCallDuration(String callDuration) {
 			this.callDuration = callDuration;
+		}
+		public String getCallDurationMin() {
+			return this.callDurationMin;
+		}
+		public void setCallDurationMin(String callDurationMin) {
+			this.callDurationMin = callDurationMin;
 		}
 		public Long getCallJoinPv() {
 			return this.callJoinPv;

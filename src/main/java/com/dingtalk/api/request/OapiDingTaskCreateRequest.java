@@ -96,7 +96,7 @@ public class OapiDingTaskCreateRequest extends BaseTaobaoRequest<OapiDingTaskCre
 	 * @since 1.0, null
 	 */
 	public static class AttachmentVo extends TaobaoObject {
-		private static final long serialVersionUID = 7551122919413562368L;
+		private static final long serialVersionUID = 2531682983139448234L;
 		/**
 		 * 文件后缀, 用于展示文件对应图标
 		 */
@@ -217,7 +217,7 @@ public class OapiDingTaskCreateRequest extends BaseTaobaoRequest<OapiDingTaskCre
 	 * @since 1.0, null
 	 */
 	public static class TaskSendVo extends TaobaoObject {
-		private static final long serialVersionUID = 7893874696826618458L;
+		private static final long serialVersionUID = 1356665563617489481L;
 		/**
 		 * 附件
 		 */

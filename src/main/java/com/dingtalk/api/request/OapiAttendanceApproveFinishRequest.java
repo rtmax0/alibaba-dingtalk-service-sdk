@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiAttendanceApproveFinishResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.approve.finish request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.16
+ * @since 1.0, 2019.10.17
  */
 public class OapiAttendanceApproveFinishRequest extends BaseTaobaoRequest<OapiAttendanceApproveFinishResponse> {
 	

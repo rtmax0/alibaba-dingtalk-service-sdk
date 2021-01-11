@@ -99,7 +99,7 @@ public class OapiWorkspaceProjectMemberAddRequest extends BaseTaobaoRequest<Oapi
 	 * @since 1.0, null
 	 */
 	public static class OpenMemberAddDto extends TaobaoObject {
-		private static final long serialVersionUID = 3613381792396596932L;
+		private static final long serialVersionUID = 2622493834578561568L;
 		/**
 		 * 从哪个组织选人
 		 */

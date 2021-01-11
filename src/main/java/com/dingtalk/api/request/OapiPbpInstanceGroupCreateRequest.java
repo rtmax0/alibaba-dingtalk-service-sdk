@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiPbpInstanceGroupCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.pbp.instance.group.create request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.24
+ * @since 1.0, 2019.12.21
  */
 public class OapiPbpInstanceGroupCreateRequest extends BaseTaobaoRequest<OapiPbpInstanceGroupCreateResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiPbpInstanceGroupCreateRequest extends BaseTaobaoRequest<OapiPbp
 	 * @since 1.0, null
 	 */
 	public static class PunchGroupCreateParam extends TaobaoObject {
-		private static final long serialVersionUID = 2161981137558463166L;
+		private static final long serialVersionUID = 2326619621648572475L;
 		/**
 		 * 业务唯一标识
 		 */

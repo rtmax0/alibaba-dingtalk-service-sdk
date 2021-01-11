@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripCostCenterNewResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8745192679381946792L;
+	private static final long serialVersionUID = 3184197583716463839L;
 
 	/** 
 	 * 错误码
@@ -79,7 +79,7 @@ public class OapiAlitripBtripCostCenterNewResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenCostCenterSaveRs extends TaobaoObject {
-		private static final long serialVersionUID = 4644335974117223924L;
+		private static final long serialVersionUID = 5193587484331731683L;
 		/**
 		 * 商旅横版中心id
 		 */

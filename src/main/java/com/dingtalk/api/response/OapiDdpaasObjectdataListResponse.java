@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiDdpaasObjectdataListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3251351782399121849L;
+	private static final long serialVersionUID = 4125471183152667414L;
 
 	/** 
 	 * 错误码
@@ -70,7 +70,7 @@ public class OapiDdpaasObjectdataListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DataPermissionVo extends TaobaoObject {
-		private static final long serialVersionUID = 8682647887128731537L;
+		private static final long serialVersionUID = 5745138737864761598L;
 		/**
 		 * 负责人用户ID列表
 		 */
@@ -105,7 +105,7 @@ public class OapiDdpaasObjectdataListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ObjectDataInstanceVo extends TaobaoObject {
-		private static final long serialVersionUID = 3728274127731288532L;
+		private static final long serialVersionUID = 6654617625377482576L;
 		/**
 		 * 创建记录的用户昵称
 		 */

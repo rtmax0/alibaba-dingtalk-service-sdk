@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiPbpInstanceGroupMemberUpdateResponse;
  * TOP DingTalk-API: dingtalk.oapi.pbp.instance.group.member.update request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.29
+ * @since 1.0, 2020.08.25
  */
 public class OapiPbpInstanceGroupMemberUpdateRequest extends BaseTaobaoRequest<OapiPbpInstanceGroupMemberUpdateResponse> {
 	
@@ -98,7 +98,7 @@ public class OapiPbpInstanceGroupMemberUpdateRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class PunchGroupMemberParam extends TaobaoObject {
-		private static final long serialVersionUID = 8432312934654787118L;
+		private static final long serialVersionUID = 1716325961315341912L;
 		/**
 		 * 员工userId
 		 */
@@ -131,7 +131,7 @@ public class OapiPbpInstanceGroupMemberUpdateRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class PunchGroupSyncMemberParam extends TaobaoObject {
-		private static final long serialVersionUID = 3752843819678158689L;
+		private static final long serialVersionUID = 4462933742729598738L;
 		/**
 		 * 新增成员列表
 		 */

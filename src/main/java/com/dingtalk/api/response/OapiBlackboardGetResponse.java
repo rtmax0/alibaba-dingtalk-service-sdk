@@ -16,10 +16,10 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiBlackboardGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5278736914443157962L;
+	private static final long serialVersionUID = 4739347398684877369L;
 
 	/** 
-	 * 请求失败返回错误码
+	 * 请求失败返回错误码，0代表无错误
 	 */
 	@ApiField("errcode")
 	private Long errcode;
@@ -31,13 +31,13 @@ public class OapiBlackboardGetResponse extends TaobaoResponse {
 	private String errmsg;
 
 	/** 
-	 * 出参
+	 * 出参，success为true时，该值不为空，否则值为空
 	 */
 	@ApiField("result")
 	private OapiBlackboardVo result;
 
 	/** 
-	 * 请求成功
+	 * 本次调用是否成功，该值为false时，根据errcode和errMsg排查失败原因
 	 */
 	@ApiField("success")
 	private Boolean success;
@@ -76,13 +76,13 @@ public class OapiBlackboardGetResponse extends TaobaoResponse {
     }
 	
 	/**
-	 * 出参
+	 * 出参，success为true时，该值不为空，否则值为空
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class OapiBlackboardVo extends TaobaoObject {
-		private static final long serialVersionUID = 5719278259466554642L;
+		private static final long serialVersionUID = 2719898116794769846L;
 		/**
 		 * 公告作者
 		 */

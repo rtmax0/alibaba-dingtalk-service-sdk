@@ -96,7 +96,7 @@ public class OapiImpaasUserGetprofileRequest extends BaseTaobaoRequest<OapiImpaa
 	 * @since 1.0, null
 	 */
 	public static class AccountInfo extends TaobaoObject {
-		private static final long serialVersionUID = 4292322622438153159L;
+		private static final long serialVersionUID = 7663486176738155651L;
 		/**
 		 * type为channelUser时有效。接入方channel信息，该值由接入方接入IMPaaS平台时，向IMPaaS平台申请，例如“hema”“eleme”等。
 		 */
@@ -140,7 +140,7 @@ public class OapiImpaasUserGetprofileRequest extends BaseTaobaoRequest<OapiImpaa
 	 * @since 1.0, null
 	 */
 	public static class GetProfileReq extends TaobaoObject {
-		private static final long serialVersionUID = 1353716172965779294L;
+		private static final long serialVersionUID = 2672757968898955651L;
 		/**
 		 * 用户信息
 		 */

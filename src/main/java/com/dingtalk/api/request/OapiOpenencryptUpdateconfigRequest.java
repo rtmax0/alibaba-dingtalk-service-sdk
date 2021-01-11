@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiOpenencryptUpdateconfigResponse;
  * TOP DingTalk-API: dingtalk.oapi.openencrypt.updateconfig request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.06
+ * @since 1.0, 2019.10.09
  */
 public class OapiOpenencryptUpdateconfigRequest extends BaseTaobaoRequest<OapiOpenencryptUpdateconfigResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiOpenencryptUpdateconfigRequest extends BaseTaobaoRequest<OapiOp
 	 * @since 1.0, null
 	 */
 	public static class TopResourceKmsConfig extends TaobaoObject {
-		private static final long serialVersionUID = 8236425163261486471L;
+		private static final long serialVersionUID = 7814227778321458575L;
 		/**
 		 * 企业内部应用id
 		 */

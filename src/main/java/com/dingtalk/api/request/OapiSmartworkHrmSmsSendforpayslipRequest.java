@@ -98,7 +98,7 @@ public class OapiSmartworkHrmSmsSendforpayslipRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class PayslipSmsMessageParam extends TaobaoObject {
-		private static final long serialVersionUID = 7858768882438398233L;
+		private static final long serialVersionUID = 8641134575395639726L;
 		/**
 		 * 工资条月份
 		 */

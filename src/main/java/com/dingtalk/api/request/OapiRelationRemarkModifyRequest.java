@@ -115,7 +115,7 @@ public class OapiRelationRemarkModifyRequest extends BaseTaobaoRequest<OapiRelat
 	 * @since 1.0, null
 	 */
 	public static class RemarkModel extends TaobaoObject {
-		private static final long serialVersionUID = 5311941871454487485L;
+		private static final long serialVersionUID = 6399252377865443117L;
 		/**
 		 * 被修改的备注名
 		 */

@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiMessageCorpconversationGetsendprogressResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5728434146269349357L;
+	private static final long serialVersionUID = 4715967127429671917L;
 
 	/** 
 	 * errcode
@@ -66,7 +66,7 @@ public class OapiMessageCorpconversationGetsendprogressResponse extends TaobaoRe
 	 * @since 1.0, null
 	 */
 	public static class AsyncSendProgress extends TaobaoObject {
-		private static final long serialVersionUID = 8553198133114733242L;
+		private static final long serialVersionUID = 1181433223874568488L;
 		/**
 		 * 取值 0-100，表示处理的百分比
 		 */

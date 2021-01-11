@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiRhinoMosExecOperationConditionInactiveRespo
  * TOP DingTalk-API: dingtalk.oapi.rhino.mos.exec.operation.condition.inactive request
  * 
  * @author top auto create
- * @since 1.0, 2020.07.03
+ * @since 1.0, 2020.07.14
  */
 public class OapiRhinoMosExecOperationConditionInactiveRequest extends BaseTaobaoRequest<OapiRhinoMosExecOperationConditionInactiveResponse> {
 	
@@ -98,7 +98,7 @@ public class OapiRhinoMosExecOperationConditionInactiveRequest extends BaseTaoba
 	 * @since 1.0, null
 	 */
 	public static class Source extends TaobaoObject {
-		private static final long serialVersionUID = 7585426664686943998L;
+		private static final long serialVersionUID = 3346667926179128853L;
 		/**
 		 * source id
 		 */
@@ -131,7 +131,7 @@ public class OapiRhinoMosExecOperationConditionInactiveRequest extends BaseTaoba
 	 * @since 1.0, null
 	 */
 	public static class OperationCondition extends TaobaoObject {
-		private static final long serialVersionUID = 2414951226814471195L;
+		private static final long serialVersionUID = 2158662741993468322L;
 		/**
 		 * 记录id
 		 */
@@ -165,7 +165,7 @@ public class OapiRhinoMosExecOperationConditionInactiveRequest extends BaseTaoba
 	 * @since 1.0, null
 	 */
 	public static class InactiveOperationByConditionReq extends TaobaoObject {
-		private static final long serialVersionUID = 8371585383124144145L;
+		private static final long serialVersionUID = 7446438635674449489L;
 		/**
 		 * 条件
 		 */

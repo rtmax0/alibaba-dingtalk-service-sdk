@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiSmartdeviceBindCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.smartdevice.bind.create request
  * 
  * @author top auto create
- * @since 1.0, 2019.09.16
+ * @since 1.0, 2019.07.01
  */
 public class OapiSmartdeviceBindCreateRequest extends BaseTaobaoRequest<OapiSmartdeviceBindCreateResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiSmartdeviceBindCreateRequest extends BaseTaobaoRequest<OapiSmar
 	 * @since 1.0, null
 	 */
 	public static class DeviceBindReqVo extends TaobaoObject {
-		private static final long serialVersionUID = 8876585474461875565L;
+		private static final long serialVersionUID = 8722158927592663425L;
 		/**
 		 * 设备在3方的唯一标识
 		 */

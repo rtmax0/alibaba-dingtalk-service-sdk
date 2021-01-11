@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiTdpTaskBasicGetbysourceidResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7253151882815995159L;
+	private static final long serialVersionUID = 8555556529444555687L;
 
 	/** 
 	 * 错误码
@@ -69,7 +69,7 @@ public class OapiTdpTaskBasicGetbysourceidResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TaskExtension extends TaobaoObject {
-		private static final long serialVersionUID = 3644864482813361875L;
+		private static final long serialVersionUID = 7518154698262256894L;
 		/**
 		 * 评论数
 		 */
@@ -113,7 +113,7 @@ public class OapiTdpTaskBasicGetbysourceidResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OrgTask extends TaobaoObject {
-		private static final long serialVersionUID = 1154224745487836792L;
+		private static final long serialVersionUID = 1658195439354458416L;
 		/**
 		 * 归属企业id
 		 */

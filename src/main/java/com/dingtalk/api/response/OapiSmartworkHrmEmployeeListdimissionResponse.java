@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartworkHrmEmployeeListdimissionResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2674865616457675115L;
+	private static final long serialVersionUID = 2814788991774513391L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiSmartworkHrmEmployeeListdimissionResponse extends TaobaoRespons
 	 * @since 1.0, null
 	 */
 	public static class EmpDeptVO extends TaobaoObject {
-		private static final long serialVersionUID = 7629537171318355244L;
+		private static final long serialVersionUID = 1519584244642792367L;
 		/**
 		 * 部门id
 		 */
@@ -115,7 +115,7 @@ public class OapiSmartworkHrmEmployeeListdimissionResponse extends TaobaoRespons
 	 * @since 1.0, null
 	 */
 	public static class EmpDimissionInfoVo extends TaobaoObject {
-		private static final long serialVersionUID = 3889528867992598234L;
+		private static final long serialVersionUID = 6147745666648374496L;
 		/**
 		 * 离职部门列表
 		 */

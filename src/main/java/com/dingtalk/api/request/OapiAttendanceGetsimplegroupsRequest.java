@@ -16,7 +16,7 @@ import com.dingtalk.api.response.OapiAttendanceGetsimplegroupsResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.getsimplegroups request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.31
+ * @since 1.0, 2020.12.17
  */
 public class OapiAttendanceGetsimplegroupsRequest extends BaseTaobaoRequest<OapiAttendanceGetsimplegroupsResponse> {
 	

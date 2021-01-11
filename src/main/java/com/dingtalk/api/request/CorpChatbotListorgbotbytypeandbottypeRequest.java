@@ -17,7 +17,7 @@ import com.dingtalk.api.response.CorpChatbotListorgbotbytypeandbottypeResponse;
  * TOP DingTalk-API: dingtalk.corp.chatbot.listorgbotbytypeandbottype request
  * 
  * @author top auto create
- * @since 1.0, 2018.07.25
+ * @since 1.0, 2020.09.18
  */
 public class CorpChatbotListorgbotbytypeandbottypeRequest extends BaseTaobaoRequest<CorpChatbotListorgbotbytypeandbottypeResponse> {
 	

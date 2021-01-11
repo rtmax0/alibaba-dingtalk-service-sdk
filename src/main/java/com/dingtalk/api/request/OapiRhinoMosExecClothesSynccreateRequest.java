@@ -22,7 +22,7 @@ import com.dingtalk.api.response.OapiRhinoMosExecClothesSynccreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.rhino.mos.exec.clothes.synccreate request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.28
+ * @since 1.0, 2020.03.23
  */
 public class OapiRhinoMosExecClothesSynccreateRequest extends BaseTaobaoRequest<OapiRhinoMosExecClothesSynccreateResponse> {
 	
@@ -39,7 +39,7 @@ public class OapiRhinoMosExecClothesSynccreateRequest extends BaseTaobaoRequest<
 	private Boolean autoStart;
 
 	/** 
-	* 业务类型,NORMAL,TRAIL,TRAINING
+	* 业务类型
 	 */
 	private String bizType;
 
@@ -212,11 +212,9 @@ public class OapiRhinoMosExecClothesSynccreateRequest extends BaseTaobaoRequest<
 
 	public void check() throws ApiRuleException {
 		RequestCheckUtils.checkObjectMaxListSize(additionalOperations, 500, "additionalOperations");
-		RequestCheckUtils.checkNotEmpty(bizType, "bizType");
 		RequestCheckUtils.checkObjectMaxListSize(clothes, 20, "clothes");
 		RequestCheckUtils.checkNotEmpty(entityType, "entityType");
 		RequestCheckUtils.checkNotEmpty(orderId, "orderId");
-		RequestCheckUtils.checkNotEmpty(tenantId, "tenantId");
 	}
 	
 	/**
@@ -226,7 +224,7 @@ public class OapiRhinoMosExecClothesSynccreateRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class AddtionalOperation extends TaobaoObject {
-		private static final long serialVersionUID = 2324677496936586831L;
+		private static final long serialVersionUID = 8154484685583439683L;
 		/**
 		 * 设备ID列表
 		 */
@@ -371,7 +369,7 @@ public class OapiRhinoMosExecClothesSynccreateRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class Source extends TaobaoObject {
-		private static final long serialVersionUID = 3475846972386571593L;
+		private static final long serialVersionUID = 8772268752125773435L;
 		/**
 		 * 来源ID
 		 */
@@ -404,7 +402,7 @@ public class OapiRhinoMosExecClothesSynccreateRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class ClothesInfoReq extends TaobaoObject {
-		private static final long serialVersionUID = 1472136327444476575L;
+		private static final long serialVersionUID = 4759841968287872813L;
 		/**
 		 * 颜色code
 		 */

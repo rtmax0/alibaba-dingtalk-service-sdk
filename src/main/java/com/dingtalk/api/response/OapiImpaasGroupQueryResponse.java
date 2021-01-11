@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImpaasGroupQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2443251276637214989L;
+	private static final long serialVersionUID = 3474996355944778374L;
 
 	/** 
 	 * 错误码
@@ -66,7 +66,7 @@ public class OapiImpaasGroupQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class BaseGroupMemberInfo extends TaobaoObject {
-		private static final long serialVersionUID = 1457663558483557228L;
+		private static final long serialVersionUID = 6247831124172292927L;
 		/**
 		 * 群主ID，类型由type字段决定
 		 */
@@ -99,7 +99,7 @@ public class OapiImpaasGroupQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class GroupInfo extends TaobaoObject {
-		private static final long serialVersionUID = 5273159134164512585L;
+		private static final long serialVersionUID = 8334637212347642777L;
 		/**
 		 * 群ID
 		 */

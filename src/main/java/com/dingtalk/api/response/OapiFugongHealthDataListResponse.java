@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiFugongHealthDataListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7718525479694425478L;
+	private static final long serialVersionUID = 3479668484163838867L;
 
 	/** 
 	 * 错误码
@@ -69,7 +69,7 @@ public class OapiFugongHealthDataListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormData extends TaobaoObject {
-		private static final long serialVersionUID = 1348653616571197962L;
+		private static final long serialVersionUID = 6282453476787976888L;
 		/**
 		 * 名称。当label字段为空或不存在时，忽略这个label和value
 		 */
@@ -102,7 +102,7 @@ public class OapiFugongHealthDataListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormInstanceResponse extends TaobaoObject {
-		private static final long serialVersionUID = 1291566386145852164L;
+		private static final long serialVersionUID = 3163332454339451142L;
 		/**
 		 * 毫秒级时间戳，填表提交时间
 		 */
@@ -169,7 +169,7 @@ public class OapiFugongHealthDataListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 7346136379687732531L;
+		private static final long serialVersionUID = 1148975337676768283L;
 		/**
 		 * 是否还有下一页
 		 */

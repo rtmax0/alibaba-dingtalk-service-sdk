@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiTdpTaskBasicDeleteResponse;
  * TOP DingTalk-API: dingtalk.oapi.tdp.task.basic.delete request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.31
+ * @since 1.0, 2020.12.23
  */
 public class OapiTdpTaskBasicDeleteRequest extends BaseTaobaoRequest<OapiTdpTaskBasicDeleteResponse> {
 	

@@ -96,7 +96,7 @@ public class OapiAlitripBtripCostCenterTransferRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class OpenCostCenterTransferRq extends TaobaoObject {
-		private static final long serialVersionUID = 5479659698835787519L;
+		private static final long serialVersionUID = 2418983332657278611L;
 		/**
 		 * 企业id
 		 */

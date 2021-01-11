@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCalendarV2AttendeeUpdateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6176529581365583799L;
+	private static final long serialVersionUID = 7589314557382227895L;
 
 	/** 
 	 * 错误编码

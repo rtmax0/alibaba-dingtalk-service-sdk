@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiHrmEmployeeUpdateresumerecordResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8185254326622438387L;
+	private static final long serialVersionUID = 1733661817869159292L;
 
 	/** 
 	 * dingOpenErrcode

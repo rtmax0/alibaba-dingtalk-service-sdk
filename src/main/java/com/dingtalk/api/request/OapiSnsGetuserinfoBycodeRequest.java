@@ -16,7 +16,7 @@ import com.dingtalk.api.response.OapiSnsGetuserinfoBycodeResponse;
  * TOP DingTalk-API: dingtalk.oapi.sns.getuserinfo_bycode request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.30
+ * @since 1.0, 2019.05.10
  */
 public class OapiSnsGetuserinfoBycodeRequest extends BaseTaobaoRequest<OapiSnsGetuserinfoBycodeResponse> {
 	

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiWorkspaceProjectNoticeSendResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8159492667433635134L;
+	private static final long serialVersionUID = 5533229713795863886L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiWorkspaceProjectNoticeSendResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenSendNoticeResponseDto extends TaobaoObject {
-		private static final long serialVersionUID = 1783346147912626824L;
+		private static final long serialVersionUID = 2861657541496973375L;
 		/**
 		 * 被发送额度控制的userids
 		 */

@@ -98,7 +98,7 @@ public class OapiRhinoMosSpacePoiListRequest extends BaseTaobaoRequest<OapiRhino
 	 * @since 1.0, null
 	 */
 	public static class SpacePoiConditionListReq extends TaobaoObject {
-		private static final long serialVersionUID = 3246557361436552586L;
+		private static final long serialVersionUID = 7144199648134596752L;
 		/**
 		 * poi_code_list
 		 */

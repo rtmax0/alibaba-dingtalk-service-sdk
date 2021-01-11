@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiWorkspaceTaskGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.workspace.task.get request
  * 
  * @author top auto create
- * @since 1.0, 2020.02.23
+ * @since 1.0, 2020.12.23
  */
 public class OapiWorkspaceTaskGetRequest extends BaseTaobaoRequest<OapiWorkspaceTaskGetResponse> {
 	

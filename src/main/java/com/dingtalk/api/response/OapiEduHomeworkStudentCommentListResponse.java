@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEduHomeworkStudentCommentListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5586991925979427278L;
+	private static final long serialVersionUID = 5428791578253565177L;
 
 	/** 
 	 * 错误编码
@@ -83,7 +83,7 @@ public class OapiEduHomeworkStudentCommentListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenHwCommentResponse extends TaobaoObject {
-		private static final long serialVersionUID = 1234572981268717131L;
+		private static final long serialVersionUID = 2759493139555125746L;
 		/**
 		 * 扩展属性
 		 */

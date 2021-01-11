@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiRhinoMosSpaceWorkstationUpsertResponse;
  * TOP DingTalk-API: dingtalk.oapi.rhino.mos.space.workstation.upsert request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.10
+ * @since 1.0, 2020.03.07
  */
 public class OapiRhinoMosSpaceWorkstationUpsertRequest extends BaseTaobaoRequest<OapiRhinoMosSpaceWorkstationUpsertResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiRhinoMosSpaceWorkstationUpsertRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class ProdWorkstationUpsertDto extends TaobaoObject {
-		private static final long serialVersionUID = 1385892887639879134L;
+		private static final long serialVersionUID = 7477171781598265724L;
 		/**
 		 * 类目code
 		 */

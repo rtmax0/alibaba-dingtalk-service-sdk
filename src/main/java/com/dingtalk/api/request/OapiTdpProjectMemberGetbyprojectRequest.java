@@ -19,7 +19,7 @@ import com.dingtalk.api.response.OapiTdpProjectMemberGetbyprojectResponse;
  * TOP DingTalk-API: dingtalk.oapi.tdp.project.member.getbyproject request
  * 
  * @author top auto create
- * @since 1.0, 2020.03.31
+ * @since 1.0, 2020.12.23
  */
 public class OapiTdpProjectMemberGetbyprojectRequest extends BaseTaobaoRequest<OapiTdpProjectMemberGetbyprojectResponse> {
 	
@@ -126,7 +126,7 @@ public class OapiTdpProjectMemberGetbyprojectRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class PageRequest extends TaobaoObject {
-		private static final long serialVersionUID = 5717921395388145773L;
+		private static final long serialVersionUID = 3236465636185268535L;
 		/**
 		 * 排序字段
 		 */

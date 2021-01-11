@@ -96,7 +96,7 @@ public class OapiProcessPrinterInstanceGetRequest extends BaseTaobaoRequest<Oapi
 	 * @since 1.0, null
 	 */
 	public static class InstancePrintDataRequest extends TaobaoObject {
-		private static final long serialVersionUID = 3613843458583185479L;
+		private static final long serialVersionUID = 8254398827473281695L;
 		/**
 		 * 微应用agentId
 		 */

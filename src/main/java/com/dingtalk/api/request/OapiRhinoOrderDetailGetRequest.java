@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiRhinoOrderDetailGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.rhino.order.detail.get request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.12
+ * @since 1.0, 2020.04.20
  */
 public class OapiRhinoOrderDetailGetRequest extends BaseTaobaoRequest<OapiRhinoOrderDetailGetResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiRhinoOrderDetailGetRequest extends BaseTaobaoRequest<OapiRhinoO
 	 * @since 1.0, null
 	 */
 	public static class OpenApiGetProductOrderDetailReq extends TaobaoObject {
-		private static final long serialVersionUID = 4395251167862729937L;
+		private static final long serialVersionUID = 6761757147757996587L;
 		/**
 		 * 生产订单id
 		 */

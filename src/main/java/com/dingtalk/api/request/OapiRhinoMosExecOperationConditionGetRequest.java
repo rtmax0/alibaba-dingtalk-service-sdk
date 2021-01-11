@@ -98,7 +98,7 @@ public class OapiRhinoMosExecOperationConditionGetRequest extends BaseTaobaoRequ
 	 * @since 1.0, null
 	 */
 	public static class Source extends TaobaoObject {
-		private static final long serialVersionUID = 1133868616759631594L;
+		private static final long serialVersionUID = 4488953424244988726L;
 		/**
 		 * source_id
 		 */
@@ -131,7 +131,7 @@ public class OapiRhinoMosExecOperationConditionGetRequest extends BaseTaobaoRequ
 	 * @since 1.0, null
 	 */
 	public static class EntityCondition extends TaobaoObject {
-		private static final long serialVersionUID = 1567136442776279837L;
+		private static final long serialVersionUID = 8272543269844525547L;
 		/**
 		 * 实体id
 		 */
@@ -176,7 +176,7 @@ public class OapiRhinoMosExecOperationConditionGetRequest extends BaseTaobaoRequ
 	 * @since 1.0, null
 	 */
 	public static class Page extends TaobaoObject {
-		private static final long serialVersionUID = 7241762361721348812L;
+		private static final long serialVersionUID = 2878734888226775836L;
 		/**
 		 * 页大小
 		 */
@@ -209,7 +209,7 @@ public class OapiRhinoMosExecOperationConditionGetRequest extends BaseTaobaoRequ
 	 * @since 1.0, null
 	 */
 	public static class GetClothesConditionReq extends TaobaoObject {
-		private static final long serialVersionUID = 2755556883376213676L;
+		private static final long serialVersionUID = 4499222378265141981L;
 		/**
 		 * 实体条件
 		 */

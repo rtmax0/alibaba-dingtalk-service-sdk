@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoHumanresEmployeeProcessBestdeviceQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2513658862794163918L;
+	private static final long serialVersionUID = 5393568597697197736L;
 
 	/** 
 	 * 1
@@ -108,7 +108,7 @@ public class OapiRhinoHumanresEmployeeProcessBestdeviceQueryResponse extends Tao
 	 * @since 1.0, null
 	 */
 	public static class EmployeeProcessDeviceCapacityDto extends TaobaoObject {
-		private static final long serialVersionUID = 7111468688297382777L;
+		private static final long serialVersionUID = 3248945999251488375L;
 		/**
 		 * 设备型号id
 		 */

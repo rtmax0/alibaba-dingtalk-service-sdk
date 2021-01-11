@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEnterpriseMainorgTotaldataStatResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6667958324354617625L;
+	private static final long serialVersionUID = 8815845843946549362L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiEnterpriseMainorgTotaldataStatResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class MainStatDataVo extends TaobaoObject {
-		private static final long serialVersionUID = 1793277941792796588L;
+		private static final long serialVersionUID = 3464828331719867381L;
 		/**
 		 * 在线组织激活用户数
 		 */

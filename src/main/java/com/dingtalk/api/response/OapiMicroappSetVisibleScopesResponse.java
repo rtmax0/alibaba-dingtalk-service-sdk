@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiMicroappSetVisibleScopesResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3855523565736873522L;
+	private static final long serialVersionUID = 7537322632774651877L;
 
 	/** 
 	 * 对返回码的文本描述内容

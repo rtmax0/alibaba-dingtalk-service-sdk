@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRoleGetroleResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1815552772895328367L;
+	private static final long serialVersionUID = 6798687296454765565L;
 
 	/** 
 	 * dingOpenErrcode
@@ -66,7 +66,7 @@ public class OapiRoleGetroleResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenRole extends TaobaoObject {
-		private static final long serialVersionUID = 1875161811938238755L;
+		private static final long serialVersionUID = 4552918512759319242L;
 		/**
 		 * 角色组id
 		 */

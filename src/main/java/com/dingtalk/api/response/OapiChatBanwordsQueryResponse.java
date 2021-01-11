@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiChatBanwordsQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1389968446939647287L;
+	private static final long serialVersionUID = 4441457154272796722L;
 
 	/** 
 	 * 错误码
@@ -79,7 +79,7 @@ public class OapiChatBanwordsQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class UserBanWordModel extends TaobaoObject {
-		private static final long serialVersionUID = 6313632745899529352L;
+		private static final long serialVersionUID = 2327862759948232445L;
 		/**
 		 * true为该用户禁言，false该用户没有被禁言
 		 */
@@ -123,7 +123,7 @@ public class OapiChatBanwordsQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenBanWordModel extends TaobaoObject {
-		private static final long serialVersionUID = 2255974527652636674L;
+		private static final long serialVersionUID = 2432696836474738122L;
 		/**
 		 * true为开启全员禁言，false为关闭全员禁言
 		 */

@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiDingpayOrderMarkotherpayResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5573564938511795341L;
+	private static final long serialVersionUID = 5151684566597735519L;
 
 	/** 
 	 * 钉钉错误代码
@@ -80,7 +80,7 @@ public class OapiDingpayOrderMarkotherpayResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OrderMarkOtherPayOpenResponse extends TaobaoObject {
-		private static final long serialVersionUID = 7651447776895215626L;
+		private static final long serialVersionUID = 7198148356494734436L;
 		/**
 		 * 标记结果
 		 */

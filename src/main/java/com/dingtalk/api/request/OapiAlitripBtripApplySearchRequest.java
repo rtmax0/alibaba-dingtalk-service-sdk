@@ -19,7 +19,7 @@ import com.dingtalk.api.response.OapiAlitripBtripApplySearchResponse;
  * TOP DingTalk-API: dingtalk.oapi.alitrip.btrip.apply.search request
  * 
  * @author top auto create
- * @since 1.0, 2019.07.03
+ * @since 1.0, 2020.09.11
  */
 public class OapiAlitripBtripApplySearchRequest extends BaseTaobaoRequest<OapiAlitripBtripApplySearchResponse> {
 	
@@ -97,7 +97,12 @@ public class OapiAlitripBtripApplySearchRequest extends BaseTaobaoRequest<OapiAl
 	 * @since 1.0, null
 	 */
 	public static class OpenSearchRq extends TaobaoObject {
-		private static final long serialVersionUID = 2675872811174362947L;
+		private static final long serialVersionUID = 8263435527168231584L;
+		/**
+		 * false:未报销的申请单
+		 */
+		@ApiField("all_apply")
+		private Boolean allApply;
 		/**
 		 * 企业id
 		 */
@@ -119,6 +124,11 @@ public class OapiAlitripBtripApplySearchRequest extends BaseTaobaoRequest<OapiAl
 		@ApiField("gmt_modified")
 		private Date gmtModified;
 		/**
+		 * true:商旅申请单
+		 */
+		@ApiField("only_shang_lv_apply")
+		private Boolean onlyShangLvApply;
+		/**
 		 * 页数，从1开始
 		 */
 		@ApiField("page")
@@ -139,6 +149,12 @@ public class OapiAlitripBtripApplySearchRequest extends BaseTaobaoRequest<OapiAl
 		@ApiField("userid")
 		private String userid;
 	
+		public Boolean getAllApply() {
+			return this.allApply;
+		}
+		public void setAllApply(Boolean allApply) {
+			this.allApply = allApply;
+		}
 		public String getCorpid() {
 			return this.corpid;
 		}
@@ -162,6 +178,12 @@ public class OapiAlitripBtripApplySearchRequest extends BaseTaobaoRequest<OapiAl
 		}
 		public void setGmtModified(Date gmtModified) {
 			this.gmtModified = gmtModified;
+		}
+		public Boolean getOnlyShangLvApply() {
+			return this.onlyShangLvApply;
+		}
+		public void setOnlyShangLvApply(Boolean onlyShangLvApply) {
+			this.onlyShangLvApply = onlyShangLvApply;
 		}
 		public Long getPage() {
 			return this.page;

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGroupPositionsRemoveResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6153851212753164333L;
+	private static final long serialVersionUID = 1144871336463484474L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiAttendanceGroupPositionsRemoveResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ErrorInfo extends TaobaoObject {
-		private static final long serialVersionUID = 6542899579869443548L;
+		private static final long serialVersionUID = 8827569448629711232L;
 		/**
 		 * 错误码
 		 */
@@ -126,7 +126,7 @@ public class OapiAttendanceGroupPositionsRemoveResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 2441695245278588928L;
+		private static final long serialVersionUID = 4668386358292174898L;
 		/**
 		 * 错误列表
 		 */

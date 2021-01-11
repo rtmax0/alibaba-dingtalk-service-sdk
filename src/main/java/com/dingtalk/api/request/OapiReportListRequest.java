@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiReportListResponse;
  * TOP DingTalk-API: dingtalk.oapi.report.list request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.14
+ * @since 1.0, 2020.08.24
  */
 public class OapiReportListRequest extends BaseTaobaoRequest<OapiReportListResponse> {
 	

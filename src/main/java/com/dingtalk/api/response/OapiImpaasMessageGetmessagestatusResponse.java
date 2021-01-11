@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImpaasMessageGetmessagestatusResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6251493813492883735L;
+	private static final long serialVersionUID = 1832622341386562113L;
 
 	/** 
 	 * dingOpenErrcode
@@ -66,7 +66,7 @@ public class OapiImpaasMessageGetmessagestatusResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class GetMessageStatusResponse extends TaobaoObject {
-		private static final long serialVersionUID = 8853254488632193417L;
+		private static final long serialVersionUID = 1624324296137941731L;
 		/**
 		 * 消息任务执行返回码 0表示成功
 		 */

@@ -96,7 +96,7 @@ public class OapiKacDatavVideoconfGetRequest extends BaseTaobaoRequest<OapiKacDa
 	 * @since 1.0, null
 	 */
 	public static class McsSummaryRequest extends TaobaoObject {
-		private static final long serialVersionUID = 8485465827689687623L;
+		private static final long serialVersionUID = 4291243959252513449L;
 		/**
 		 * 日期标识
 		 */

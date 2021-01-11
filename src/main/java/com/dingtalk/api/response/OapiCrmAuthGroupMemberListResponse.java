@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCrmAuthGroupMemberListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7195977351336678441L;
+	private static final long serialVersionUID = 8259245225624362216L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiCrmAuthGroupMemberListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Staff extends TaobaoObject {
-		private static final long serialVersionUID = 6697778966833916989L;
+		private static final long serialVersionUID = 7732375771628455872L;
 		/**
 		 * 员工姓名
 		 */
@@ -101,7 +101,7 @@ public class OapiCrmAuthGroupMemberListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Dept extends TaobaoObject {
-		private static final long serialVersionUID = 3274673321168736774L;
+		private static final long serialVersionUID = 1515312412195632718L;
 		/**
 		 * 部门id
 		 */
@@ -134,7 +134,7 @@ public class OapiCrmAuthGroupMemberListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Tag extends TaobaoObject {
-		private static final long serialVersionUID = 1241547762413354236L;
+		private static final long serialVersionUID = 2463818588757893493L;
 		/**
 		 * 角色名称
 		 */
@@ -167,7 +167,7 @@ public class OapiCrmAuthGroupMemberListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class MemberInfo extends TaobaoObject {
-		private static final long serialVersionUID = 1387742273544384935L;
+		private static final long serialVersionUID = 5224573841418746223L;
 		/**
 		 * 是否是全员分组
 		 */
@@ -225,7 +225,7 @@ public class OapiCrmAuthGroupMemberListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 2525163668491637766L;
+		private static final long serialVersionUID = 3123943345267219257L;
 		/**
 		 * 成员信息
 		 */

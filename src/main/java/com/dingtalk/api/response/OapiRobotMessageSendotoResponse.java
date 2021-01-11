@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRobotMessageSendotoResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2249795474877119657L;
+	private static final long serialVersionUID = 6451423238917297717L;
 
 	/** 
 	 * 错误代码
@@ -79,7 +79,7 @@ public class OapiRobotMessageSendotoResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OtoMessageSendTopResponse extends TaobaoObject {
-		private static final long serialVersionUID = 2128588335934852421L;
+		private static final long serialVersionUID = 5211165835887313757L;
 		/**
 		 * 用于查询发送进度的唯一标识
 		 */

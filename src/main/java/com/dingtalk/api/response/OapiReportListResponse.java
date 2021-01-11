@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiReportListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6598498474985759824L;
+	private static final long serialVersionUID = 6422444275257721513L;
 
 	/** 
 	 * errcode
@@ -68,7 +68,7 @@ public class OapiReportListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class JsonObject extends TaobaoObject {
-		private static final long serialVersionUID = 8229734298822786338L;
+		private static final long serialVersionUID = 7655941545962728296L;
 		/**
 		 * 模板内容
 		 */
@@ -123,7 +123,7 @@ public class OapiReportListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ReportOapiVo extends TaobaoObject {
-		private static final long serialVersionUID = 1448912336583244293L;
+		private static final long serialVersionUID = 6696517586148959244L;
 		/**
 		 * 日志内容
 		 */
@@ -268,7 +268,7 @@ public class OapiReportListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageVo extends TaobaoObject {
-		private static final long serialVersionUID = 7219174883218588143L;
+		private static final long serialVersionUID = 2525646139147854179L;
 		/**
 		 * 日志列表
 		 */

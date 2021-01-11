@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class SmartworkBpmsProcessinstanceListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6499674734882154278L;
+	private static final long serialVersionUID = 2433448938842146196L;
 
 	/** 
 	 * result
@@ -41,7 +41,7 @@ public class SmartworkBpmsProcessinstanceListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormComponentValueVo extends TaobaoObject {
-		private static final long serialVersionUID = 7197919626149267716L;
+		private static final long serialVersionUID = 2435766415785299764L;
 		/**
 		 * 表单标签名
 		 */
@@ -74,7 +74,7 @@ public class SmartworkBpmsProcessinstanceListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ProcessInstanceTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 5277386623849533687L;
+		private static final long serialVersionUID = 3112161151728495487L;
 		/**
 		 * 审批人列表
 		 */
@@ -220,7 +220,7 @@ public class SmartworkBpmsProcessinstanceListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 6491713636166474689L;
+		private static final long serialVersionUID = 4545419241831352466L;
 		/**
 		 * list
 		 */
@@ -254,7 +254,7 @@ public class SmartworkBpmsProcessinstanceListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 3666222426336157857L;
+		private static final long serialVersionUID = 5623998584659474282L;
 		/**
 		 * dingOpenErrcode
 		 */

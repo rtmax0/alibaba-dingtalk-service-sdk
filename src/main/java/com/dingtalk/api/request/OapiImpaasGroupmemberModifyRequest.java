@@ -98,7 +98,7 @@ public class OapiImpaasGroupmemberModifyRequest extends BaseTaobaoRequest<OapiIm
 	 * @since 1.0, null
 	 */
 	public static class BaseGroupMemberInfo extends TaobaoObject {
-		private static final long serialVersionUID = 7234361412312357728L;
+		private static final long serialVersionUID = 5231758146554768323L;
 		/**
 		 * 待操作成员id，ID类型由type字段确定。当type为“staff”时，本字段填写staffid，当type为“channelUser”时，本字段填写channelUserId。
 		 */
@@ -131,7 +131,7 @@ public class OapiImpaasGroupmemberModifyRequest extends BaseTaobaoRequest<OapiIm
 	 * @since 1.0, null
 	 */
 	public static class GroupMemberListModifyRequest extends TaobaoObject {
-		private static final long serialVersionUID = 7242997814179984228L;
+		private static final long serialVersionUID = 8354651279931225542L;
 		/**
 		 * 接入方channel信息，该值由接入方接入IMPaaS平台时，向IMPaaS平台申请，例如“hema”“eleme”等。
 		 */

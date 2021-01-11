@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCheckinRecordResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8436899377172472881L;
+	private static final long serialVersionUID = 3243229472452542946L;
 
 	/** 
 	 * data
@@ -69,7 +69,7 @@ public class OapiCheckinRecordResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Data extends TaobaoObject {
-		private static final long serialVersionUID = 6377596347928381942L;
+		private static final long serialVersionUID = 6622856849226795344L;
 		/**
 		 * 头像url
 		 */

@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEduCardTaskTodayListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6322712769398314279L;
+	private static final long serialVersionUID = 2114987912337971781L;
 
 	/** 
 	 * 错误码
@@ -83,7 +83,7 @@ public class OapiEduCardTaskTodayListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class CardTaskDTO extends TaobaoObject {
-		private static final long serialVersionUID = 7667516783118268394L;
+		private static final long serialVersionUID = 3494953227367374428L;
 		/**
 		 * 卡片id
 		 */

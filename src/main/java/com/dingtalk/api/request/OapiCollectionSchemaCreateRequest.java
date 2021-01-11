@@ -99,7 +99,7 @@ public class OapiCollectionSchemaCreateRequest extends BaseTaobaoRequest<OapiCol
 	 * @since 1.0, null
 	 */
 	public static class ProcessVisibleValueVo extends TaobaoObject {
-		private static final long serialVersionUID = 2615935187448477138L;
+		private static final long serialVersionUID = 4631618742835166427L;
 		/**
 		 * 类型
 		 */
@@ -132,7 +132,7 @@ public class OapiCollectionSchemaCreateRequest extends BaseTaobaoRequest<OapiCol
 	 * @since 1.0, null
 	 */
 	public static class FormSchemaSettingVo extends TaobaoObject {
-		private static final long serialVersionUID = 1683764186476386567L;
+		private static final long serialVersionUID = 3138457885296148235L;
 		/**
 		 * 业务类型
 		 */
@@ -210,7 +210,7 @@ public class OapiCollectionSchemaCreateRequest extends BaseTaobaoRequest<OapiCol
 	 * @since 1.0, null
 	 */
 	public static class BehaviorTarget extends TaobaoObject {
-		private static final long serialVersionUID = 3168214345697578294L;
+		private static final long serialVersionUID = 5713567734717681641L;
 		/**
 		 * 行为
 		 */
@@ -243,7 +243,7 @@ public class OapiCollectionSchemaCreateRequest extends BaseTaobaoRequest<OapiCol
 	 * @since 1.0, null
 	 */
 	public static class BehaviorLinkageVo extends TaobaoObject {
-		private static final long serialVersionUID = 3493573754159651195L;
+		private static final long serialVersionUID = 8342652748444556236L;
 		/**
 		 * 选项级联目标
 		 */
@@ -277,7 +277,7 @@ public class OapiCollectionSchemaCreateRequest extends BaseTaobaoRequest<OapiCol
 	 * @since 1.0, null
 	 */
 	public static class ComponentPropOptionVo extends TaobaoObject {
-		private static final long serialVersionUID = 6734978648651465894L;
+		private static final long serialVersionUID = 4245355427219512495L;
 		/**
 		 * 名称
 		 */
@@ -310,7 +310,7 @@ public class OapiCollectionSchemaCreateRequest extends BaseTaobaoRequest<OapiCol
 	 * @since 1.0, null
 	 */
 	public static class ComponentMatrixDefVo extends TaobaoObject {
-		private static final long serialVersionUID = 5893658573911536216L;
+		private static final long serialVersionUID = 6212657296734589369L;
 		/**
 		 * 别名
 		 */
@@ -354,7 +354,7 @@ public class OapiCollectionSchemaCreateRequest extends BaseTaobaoRequest<OapiCol
 	 * @since 1.0, null
 	 */
 	public static class ComponentPropVo extends TaobaoObject {
-		private static final long serialVersionUID = 6196933299263163428L;
+		private static final long serialVersionUID = 7329531329873651755L;
 		/**
 		 * 选项级联属性
 		 */
@@ -468,7 +468,7 @@ public class OapiCollectionSchemaCreateRequest extends BaseTaobaoRequest<OapiCol
 	 * @since 1.0, null
 	 */
 	public static class FormComponentVo extends TaobaoObject {
-		private static final long serialVersionUID = 5573128326867294554L;
+		private static final long serialVersionUID = 1294243385762591242L;
 		/**
 		 * 控件名称
 		 */
@@ -501,7 +501,7 @@ public class OapiCollectionSchemaCreateRequest extends BaseTaobaoRequest<OapiCol
 	 * @since 1.0, null
 	 */
 	public static class FormContentVo extends TaobaoObject {
-		private static final long serialVersionUID = 1124449112514484925L;
+		private static final long serialVersionUID = 4373392924334853825L;
 		/**
 		 * 控件数组
 		 */
@@ -524,7 +524,7 @@ public class OapiCollectionSchemaCreateRequest extends BaseTaobaoRequest<OapiCol
 	 * @since 1.0, null
 	 */
 	public static class SaveFormSchemaRequest extends TaobaoObject {
-		private static final long serialVersionUID = 3736658665433354393L;
+		private static final long serialVersionUID = 5673368128742847662L;
 		/**
 		 * 控件字符串
 		 */

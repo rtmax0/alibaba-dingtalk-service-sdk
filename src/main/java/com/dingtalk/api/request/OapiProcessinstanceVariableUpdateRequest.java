@@ -128,7 +128,7 @@ public class OapiProcessinstanceVariableUpdateRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class BizValueVo extends TaobaoObject {
-		private static final long serialVersionUID = 8347527765976847934L;
+		private static final long serialVersionUID = 3861152764761393258L;
 		/**
 		 * 额外信息
 		 */

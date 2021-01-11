@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiLiveGroupliveStatisticsResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2363992363224447151L;
+	private static final long serialVersionUID = 6863173476984196669L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiLiveGroupliveStatisticsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Groupliveviewers extends TaobaoObject {
-		private static final long serialVersionUID = 6863746184296428327L;
+		private static final long serialVersionUID = 8728886291783747488L;
 		/**
 		 * openid
 		 */
@@ -112,13 +112,18 @@ public class OapiLiveGroupliveStatisticsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class GroupLiveStatistics extends TaobaoObject {
-		private static final long serialVersionUID = 7428212921955978974L;
+		private static final long serialVersionUID = 7827747466213715439L;
 		/**
 		 * 观看列表
 		 */
 		@ApiListField("group_live_viewers")
 		@ApiField("groupliveviewers")
 		private List<Groupliveviewers> groupLiveViewers;
+		/**
+		 * 直播总时长
+		 */
+		@ApiField("live_duration")
+		private Long liveDuration;
 		/**
 		 * 消息
 		 */
@@ -135,6 +140,16 @@ public class OapiLiveGroupliveStatisticsResponse extends TaobaoResponse {
 		@ApiField("pv")
 		private Long pv;
 		/**
+		 * 开始时间
+		 */
+		@ApiField("start_sime")
+		private Long startSime;
+		/**
+		 * 直播标题
+		 */
+		@ApiField("title")
+		private String title;
+		/**
 		 * 未看数
 		 */
 		@ApiField("unviewed_count")
@@ -150,6 +165,12 @@ public class OapiLiveGroupliveStatisticsResponse extends TaobaoResponse {
 		}
 		public void setGroupLiveViewers(List<Groupliveviewers> groupLiveViewers) {
 			this.groupLiveViewers = groupLiveViewers;
+		}
+		public Long getLiveDuration() {
+			return this.liveDuration;
+		}
+		public void setLiveDuration(Long liveDuration) {
+			this.liveDuration = liveDuration;
 		}
 		public Long getMessageCount() {
 			return this.messageCount;
@@ -168,6 +189,18 @@ public class OapiLiveGroupliveStatisticsResponse extends TaobaoResponse {
 		}
 		public void setPv(Long pv) {
 			this.pv = pv;
+		}
+		public Long getStartSime() {
+			return this.startSime;
+		}
+		public void setStartSime(Long startSime) {
+			this.startSime = startSime;
+		}
+		public String getTitle() {
+			return this.title;
+		}
+		public void setTitle(String title) {
+			this.title = title;
 		}
 		public Long getUnviewedCount() {
 			return this.unviewedCount;

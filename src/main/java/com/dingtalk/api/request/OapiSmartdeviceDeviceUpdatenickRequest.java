@@ -96,7 +96,7 @@ public class OapiSmartdeviceDeviceUpdatenickRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class DeviceNickModifyVo extends TaobaoObject {
-		private static final long serialVersionUID = 6331573898282288248L;
+		private static final long serialVersionUID = 7357151485971259986L;
 		/**
 		 * 设备id，和设备名称不能同时为空
 		 */

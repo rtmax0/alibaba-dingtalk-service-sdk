@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiChatbotMessageSendResponse;
  * TOP DingTalk-API: dingtalk.oapi.chatbot.message.send request
  * 
  * @author top auto create
- * @since 1.0, 2019.12.31
+ * @since 1.0, 2019.08.20
  */
 public class OapiChatbotMessageSendRequest extends BaseTaobaoRequest<OapiChatbotMessageSendResponse> {
 	

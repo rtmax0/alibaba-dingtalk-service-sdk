@@ -115,7 +115,7 @@ public class OapiSmartworkHrmMasterDeleteRequest extends BaseTaobaoRequest<OapiS
 	 * @since 1.0, null
 	 */
 	public static class Fieldlist extends TaobaoObject {
-		private static final long serialVersionUID = 6386586186285277321L;
+		private static final long serialVersionUID = 5414448635438838416L;
 		/**
 		 * 字段名
 		 */
@@ -148,7 +148,7 @@ public class OapiSmartworkHrmMasterDeleteRequest extends BaseTaobaoRequest<OapiS
 	 * @since 1.0, null
 	 */
 	public static class ScopeVo extends TaobaoObject {
-		private static final long serialVersionUID = 3595578522429899691L;
+		private static final long serialVersionUID = 2325279625224579957L;
 		/**
 		 * 业务域code
 		 */
@@ -181,7 +181,7 @@ public class OapiSmartworkHrmMasterDeleteRequest extends BaseTaobaoRequest<OapiS
 	 * @since 1.0, null
 	 */
 	public static class BizDataVo extends TaobaoObject {
-		private static final long serialVersionUID = 8353546532923153684L;
+		private static final long serialVersionUID = 1362424242337354968L;
 		/**
 		 * 数据业务时间戳
 		 */

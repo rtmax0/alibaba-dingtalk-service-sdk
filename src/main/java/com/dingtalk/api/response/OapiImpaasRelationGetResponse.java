@@ -15,10 +15,10 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImpaasRelationGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5196224892482853994L;
+	private static final long serialVersionUID = 4334727755146865369L;
 
 	/** 
-	 * 错误码  -1 系统异常 40035 参数错误
+	 * dingOpenErrcode
 	 */
 	@ApiField("errcode")
 	private Long errcode;
@@ -30,14 +30,14 @@ public class OapiImpaasRelationGetResponse extends TaobaoResponse {
 	private String errmsg;
 
 	/** 
-	 * 关系查询出参
+	 * result
 	 */
 	@ApiListField("result")
 	@ApiField("relation_model")
 	private List<RelationModel> result;
 
 	/** 
-	 * 接口是否调用成功
+	 * success
 	 */
 	@ApiField("success")
 	private Boolean success;
@@ -76,30 +76,30 @@ public class OapiImpaasRelationGetResponse extends TaobaoResponse {
     }
 	
 	/**
-	 * 关系查询出参
+	 * result
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class RelationModel extends TaobaoObject {
-		private static final long serialVersionUID = 5136338179639948936L;
+		private static final long serialVersionUID = 6543953429183922687L;
 		/**
-		 * 关系有效的开始时间（毫秒）
+		 * beginTime
 		 */
 		@ApiField("begin_time")
 		private Long beginTime;
 		/**
-		 * 接受者的im的唯一id
+		 * dstImOpenid
 		 */
 		@ApiField("dst_im_openid")
 		private String dstImOpenid;
 		/**
-		 * 关系有效的结束时间（毫秒）
+		 * endTime
 		 */
 		@ApiField("end_time")
 		private Long endTime;
 		/**
-		 * 发送者的im的唯一id
+		 * srcImOpenid
 		 */
 		@ApiField("src_im_openid")
 		private String srcImOpenid;

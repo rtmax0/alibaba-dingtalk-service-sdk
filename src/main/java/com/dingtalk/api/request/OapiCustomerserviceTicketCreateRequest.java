@@ -98,7 +98,7 @@ public class OapiCustomerserviceTicketCreateRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class TicketFieldDto extends TaobaoObject {
-		private static final long serialVersionUID = 5594574832755328841L;
+		private static final long serialVersionUID = 7261352143415792915L;
 		/**
 		 * 字段值
 		 */
@@ -131,7 +131,7 @@ public class OapiCustomerserviceTicketCreateRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class TicketCreateDto extends TaobaoObject {
-		private static final long serialVersionUID = 3552852451473943277L;
+		private static final long serialVersionUID = 3112577991654441815L;
 		/**
 		 * 第三方会员id
 		 */

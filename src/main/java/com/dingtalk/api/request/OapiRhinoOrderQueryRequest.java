@@ -99,7 +99,7 @@ public class OapiRhinoOrderQueryRequest extends BaseTaobaoRequest<OapiRhinoOrder
 	 * @since 1.0, null
 	 */
 	public static class OpenApiQueryProductOrderReq extends TaobaoObject {
-		private static final long serialVersionUID = 2163473731898546366L;
+		private static final long serialVersionUID = 2758167732496375489L;
 		/**
 		 * 搜索字段
 		 */

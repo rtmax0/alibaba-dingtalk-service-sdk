@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiEduHomeworkUserRoleQueryResponse;
  * TOP DingTalk-API: dingtalk.oapi.edu.homework.user.role.query request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.28
+ * @since 1.0, 2020.07.09
  */
 public class OapiEduHomeworkUserRoleQueryRequest extends BaseTaobaoRequest<OapiEduHomeworkUserRoleQueryResponse> {
 	

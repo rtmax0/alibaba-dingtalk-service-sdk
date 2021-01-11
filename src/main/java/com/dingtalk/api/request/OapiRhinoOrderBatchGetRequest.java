@@ -98,7 +98,7 @@ public class OapiRhinoOrderBatchGetRequest extends BaseTaobaoRequest<OapiRhinoOr
 	 * @since 1.0, null
 	 */
 	public static class OpenApiBatchGetProductOrderReq extends TaobaoObject {
-		private static final long serialVersionUID = 1692535323852941324L;
+		private static final long serialVersionUID = 7516758665763772962L;
 		/**
 		 * 订单id列表
 		 */

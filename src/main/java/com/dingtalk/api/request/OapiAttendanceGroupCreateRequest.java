@@ -110,7 +110,7 @@ public class OapiAttendanceGroupCreateRequest extends BaseTaobaoRequest<OapiAtte
 	 * @since 1.0, null
 	 */
 	public static class Group extends TaobaoObject {
-		private static final long serialVersionUID = 5385569562761985988L;
+		private static final long serialVersionUID = 2354548787875269816L;
 		/**
 		 * 是否开启拍照打卡，默认false
 		 */

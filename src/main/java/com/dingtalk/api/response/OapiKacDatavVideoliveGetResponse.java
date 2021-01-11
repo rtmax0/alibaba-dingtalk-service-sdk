@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiKacDatavVideoliveGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5396374729741216962L;
+	private static final long serialVersionUID = 3828393142648645488L;
 
 	/** 
 	 * 错误码
@@ -66,7 +66,7 @@ public class OapiKacDatavVideoliveGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class VideoLiveSummaryResponse extends TaobaoObject {
-		private static final long serialVersionUID = 7851739513378336653L;
+		private static final long serialVersionUID = 2142496423775848412L;
 		/**
 		 * 成功发起5分钟直播次数
 		 */

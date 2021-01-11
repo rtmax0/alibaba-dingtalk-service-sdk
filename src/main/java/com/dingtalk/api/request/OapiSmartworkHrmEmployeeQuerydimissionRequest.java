@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiSmartworkHrmEmployeeQuerydimissionResponse;
  * TOP DingTalk-API: dingtalk.oapi.smartwork.hrm.employee.querydimission request
  * 
  * @author top auto create
- * @since 1.0, 2019.09.17
+ * @since 1.0, 2020.12.09
  */
 public class OapiSmartworkHrmEmployeeQuerydimissionRequest extends BaseTaobaoRequest<OapiSmartworkHrmEmployeeQuerydimissionResponse> {
 	

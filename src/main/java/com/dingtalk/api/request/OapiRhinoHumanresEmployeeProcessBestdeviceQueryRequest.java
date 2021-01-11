@@ -146,7 +146,7 @@ public class OapiRhinoHumanresEmployeeProcessBestdeviceQueryRequest extends Base
 	 * @since 1.0, null
 	 */
 	public static class DeviceModelDto extends TaobaoObject {
-		private static final long serialVersionUID = 8211971143375947427L;
+		private static final long serialVersionUID = 3785486117457486714L;
 		/**
 		 * 设备型号id
 		 */
@@ -179,7 +179,7 @@ public class OapiRhinoHumanresEmployeeProcessBestdeviceQueryRequest extends Base
 	 * @since 1.0, null
 	 */
 	public static class EmployeeProcessCapacityUnitReq extends TaobaoObject {
-		private static final long serialVersionUID = 4758585253711893348L;
+		private static final long serialVersionUID = 1712481187691173496L;
 		/**
 		 * 结构化工序id
 		 */

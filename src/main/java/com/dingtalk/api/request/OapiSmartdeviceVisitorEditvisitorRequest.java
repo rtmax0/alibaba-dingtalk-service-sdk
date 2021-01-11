@@ -114,7 +114,7 @@ public class OapiSmartdeviceVisitorEditvisitorRequest extends BaseTaobaoRequest<
 	 * @since 1.0, null
 	 */
 	public static class DidoVisitorVo extends TaobaoObject {
-		private static final long serialVersionUID = 5727991351479398815L;
+		private static final long serialVersionUID = 2337169924471429893L;
 		/**
 		 * 预约开始时间
 		 */

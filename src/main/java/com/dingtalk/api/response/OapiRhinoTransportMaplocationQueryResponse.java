@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoTransportMaplocationQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4763367739542536489L;
+	private static final long serialVersionUID = 2653681168671266953L;
 
 	/** 
 	 * 错误码
@@ -95,7 +95,7 @@ public class OapiRhinoTransportMaplocationQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Configs extends TaobaoObject {
-		private static final long serialVersionUID = 6467374953394274811L;
+		private static final long serialVersionUID = 5613672942646547798L;
 		/**
 		 * 位置id
 		 */
@@ -150,7 +150,7 @@ public class OapiRhinoTransportMaplocationQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class MapLocationDetailResult extends TaobaoObject {
-		private static final long serialVersionUID = 8293618346887545273L;
+		private static final long serialVersionUID = 6153376672489278693L;
 		/**
 		 * config信息
 		 */

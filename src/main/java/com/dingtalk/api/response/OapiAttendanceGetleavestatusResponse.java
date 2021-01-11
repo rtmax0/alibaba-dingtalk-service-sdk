@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGetleavestatusResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6278826643719719556L;
+	private static final long serialVersionUID = 7275139184686814417L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiAttendanceGetleavestatusResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class LeaveStatusVO extends TaobaoObject {
-		private static final long serialVersionUID = 5776835671825678434L;
+		private static final long serialVersionUID = 1533174374495977613L;
 		/**
 		 * 假期时长*100，例如用户请假时长为1天，该值就等于100
 		 */
@@ -147,7 +147,7 @@ public class OapiAttendanceGetleavestatusResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class LeaveStatusListVO extends TaobaoObject {
-		private static final long serialVersionUID = 6597785216377819941L;
+		private static final long serialVersionUID = 6444412311629235584L;
 		/**
 		 * 是否有更多数据
 		 */

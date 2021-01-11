@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiCustomerserviceActionQueryResponse;
  * TOP DingTalk-API: dingtalk.oapi.customerservice.action.query request
  * 
  * @author top auto create
- * @since 1.0, 2020.05.19
+ * @since 1.0, 2020.11.17
  */
 public class OapiCustomerserviceActionQueryRequest extends BaseTaobaoRequest<OapiCustomerserviceActionQueryResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiCustomerserviceActionQueryRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class TicketActionPageQueryDto extends TaobaoObject {
-		private static final long serialVersionUID = 3262225343291951377L;
+		private static final long serialVersionUID = 6131829968821483999L;
 		/**
 		 * 查询游标
 		 */

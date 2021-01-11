@@ -144,7 +144,7 @@ public class OapiRhinoMosLayoutOperationdefsEditassignRequest extends BaseTaobao
 	 * @since 1.0, null
 	 */
 	public static class OperationExecutorAssignDto extends TaobaoObject {
-		private static final long serialVersionUID = 2315296258943373974L;
+		private static final long serialVersionUID = 1199398325673296157L;
 		/**
 		 * 工序执行器ID
 		 */
@@ -177,7 +177,7 @@ public class OapiRhinoMosLayoutOperationdefsEditassignRequest extends BaseTaobao
 	 * @since 1.0, null
 	 */
 	public static class DeviceAssignDto extends TaobaoObject {
-		private static final long serialVersionUID = 3392454667612567438L;
+		private static final long serialVersionUID = 5219295269677836925L;
 		/**
 		 * 设备ID
 		 */
@@ -232,7 +232,7 @@ public class OapiRhinoMosLayoutOperationdefsEditassignRequest extends BaseTaobao
 	 * @since 1.0, null
 	 */
 	public static class WorkerAssignDto extends TaobaoObject {
-		private static final long serialVersionUID = 4645625694546444196L;
+		private static final long serialVersionUID = 5556563463994837721L;
 		/**
 		 * 姓名
 		 */
@@ -265,7 +265,7 @@ public class OapiRhinoMosLayoutOperationdefsEditassignRequest extends BaseTaobao
 	 * @since 1.0, null
 	 */
 	public static class WorkstationAssignDto extends TaobaoObject {
-		private static final long serialVersionUID = 6854165635145389329L;
+		private static final long serialVersionUID = 1149565533245414632L;
 		/**
 		 * 站位编码
 		 */
@@ -287,7 +287,7 @@ public class OapiRhinoMosLayoutOperationdefsEditassignRequest extends BaseTaobao
 	 * @since 1.0, null
 	 */
 	public static class WorkUnitDto extends TaobaoObject {
-		private static final long serialVersionUID = 8283765729191885457L;
+		private static final long serialVersionUID = 4522563784216729222L;
 		/**
 		 * 设备分配列表
 		 */
@@ -334,7 +334,7 @@ public class OapiRhinoMosLayoutOperationdefsEditassignRequest extends BaseTaobao
 	 * @since 1.0, null
 	 */
 	public static class AssignInfoModifyItem extends TaobaoObject {
-		private static final long serialVersionUID = 7425988619349476773L;
+		private static final long serialVersionUID = 4665278259126642158L;
 		/**
 		 * 工序执行器分配列表
 		 */

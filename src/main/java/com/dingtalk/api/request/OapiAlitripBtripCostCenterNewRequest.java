@@ -96,7 +96,7 @@ public class OapiAlitripBtripCostCenterNewRequest extends BaseTaobaoRequest<Oapi
 	 * @since 1.0, null
 	 */
 	public static class OpenCostCenterSaveRq extends TaobaoObject {
-		private static final long serialVersionUID = 1366675886939819414L;
+		private static final long serialVersionUID = 5888415831369249332L;
 		/**
 		 * 绑定支付宝账号
 		 */

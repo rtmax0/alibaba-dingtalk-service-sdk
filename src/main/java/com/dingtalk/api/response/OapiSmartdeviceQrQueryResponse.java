@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiSmartdeviceQrQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5741784892782382481L;
+	private static final long serialVersionUID = 5822514551436679141L;
 
 	/** 
 	 * 错误代码

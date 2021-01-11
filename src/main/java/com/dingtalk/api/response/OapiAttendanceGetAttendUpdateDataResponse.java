@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceGetAttendUpdateDataResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8295691373715443612L;
+	private static final long serialVersionUID = 2651178855155248894L;
 
 	/** 
 	 * dingOpenErrcode
@@ -80,7 +80,7 @@ public class OapiAttendanceGetAttendUpdateDataResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtAttendanceResultForOpenVo extends TaobaoObject {
-		private static final long serialVersionUID = 4429338114488111287L;
+		private static final long serialVersionUID = 6311692333874952837L;
 		/**
 		 * 打卡类型 上班还是下班
 		 */
@@ -245,7 +245,7 @@ public class OapiAttendanceGetAttendUpdateDataResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtApproveForOpenVo extends TaobaoObject {
-		private static final long serialVersionUID = 8347174191115518814L;
+		private static final long serialVersionUID = 4675365178872791347L;
 		/**
 		 * 审批单开始时间
 		 */
@@ -355,7 +355,7 @@ public class OapiAttendanceGetAttendUpdateDataResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtAttendanceRecordForOpenVo extends TaobaoObject {
-		private static final long serialVersionUID = 8834589415221244496L;
+		private static final long serialVersionUID = 8335776647998995564L;
 		/**
 		 * 基本定位精度
 		 */
@@ -487,7 +487,7 @@ public class OapiAttendanceGetAttendUpdateDataResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtCheckInfoForOpenVo extends TaobaoObject {
-		private static final long serialVersionUID = 8814773893423715381L;
+		private static final long serialVersionUID = 8479558597875476315L;
 		/**
 		 * 审批单列表
 		 */

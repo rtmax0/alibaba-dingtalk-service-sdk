@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRoleListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8237127234697441145L;
+	private static final long serialVersionUID = 2181387166691992674L;
 
 	/** 
 	 * errcode
@@ -68,7 +68,7 @@ public class OapiRoleListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenRole extends TaobaoObject {
-		private static final long serialVersionUID = 5148442268428781873L;
+		private static final long serialVersionUID = 6438266596352581291L;
 		/**
 		 * 角色id
 		 */
@@ -101,7 +101,7 @@ public class OapiRoleListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenRoleGroup extends TaobaoObject {
-		private static final long serialVersionUID = 3647627946336178238L;
+		private static final long serialVersionUID = 5836843816862213541L;
 		/**
 		 * 角色组id
 		 */
@@ -146,7 +146,7 @@ public class OapiRoleListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageVo extends TaobaoObject {
-		private static final long serialVersionUID = 8842427333449342145L;
+		private static final long serialVersionUID = 8426218518169172979L;
 		/**
 		 * hasMore
 		 */

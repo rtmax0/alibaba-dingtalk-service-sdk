@@ -97,7 +97,7 @@ public class OapiLivePlaybackRequest extends BaseTaobaoRequest<OapiLivePlaybackR
 	 * @since 1.0, null
 	 */
 	public static class PlayBackReqModel extends TaobaoObject {
-		private static final long serialVersionUID = 6512362328145246435L;
+		private static final long serialVersionUID = 5625513986483831618L;
 		/**
 		 * 偏移量
 		 */

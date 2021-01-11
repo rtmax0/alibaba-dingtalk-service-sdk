@@ -21,7 +21,7 @@ import com.dingtalk.api.response.OapiRhinoMosExecClothesBatchUnscrapResponse;
  * TOP DingTalk-API: dingtalk.oapi.rhino.mos.exec.clothes.batch.unscrap request
  * 
  * @author top auto create
- * @since 1.0, 2020.07.03
+ * @since 1.0, 2020.07.14
  */
 public class OapiRhinoMosExecClothesBatchUnscrapRequest extends BaseTaobaoRequest<OapiRhinoMosExecClothesBatchUnscrapResponse> {
 	
@@ -99,7 +99,7 @@ public class OapiRhinoMosExecClothesBatchUnscrapRequest extends BaseTaobaoReques
 	 * @since 1.0, null
 	 */
 	public static class BatchClothesPerformBaseReq extends TaobaoObject {
-		private static final long serialVersionUID = 5147835581123299381L;
+		private static final long serialVersionUID = 2453988592928551956L;
 		/**
 		 * 实体列表
 		 */

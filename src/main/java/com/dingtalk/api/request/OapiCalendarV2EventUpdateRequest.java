@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiCalendarV2EventUpdateResponse;
  * TOP DingTalk-API: dingtalk.oapi.calendar.v2.event.update request
  * 
  * @author top auto create
- * @since 1.0, 2019.11.22
+ * @since 1.0, 2020.07.16
  */
 public class OapiCalendarV2EventUpdateRequest extends BaseTaobaoRequest<OapiCalendarV2EventUpdateResponse> {
 	
@@ -112,7 +112,7 @@ public class OapiCalendarV2EventUpdateRequest extends BaseTaobaoRequest<OapiCale
 	 * @since 1.0, null
 	 */
 	public static class Attendee extends TaobaoObject {
-		private static final long serialVersionUID = 4483841333119446173L;
+		private static final long serialVersionUID = 2834345228333259555L;
 		/**
 		 * 添加或者删除状态，add:添加；remove:删除；若通过该接口新增或删除参会人，则该字段必填
 		 */
@@ -145,7 +145,7 @@ public class OapiCalendarV2EventUpdateRequest extends BaseTaobaoRequest<OapiCale
 	 * @since 1.0, null
 	 */
 	public static class DateTime extends TaobaoObject {
-		private static final long serialVersionUID = 1473942184489687333L;
+		private static final long serialVersionUID = 1899241573375664884L;
 		/**
 		 * 日期，全天日程使用，格式必须为'yyyy-mm-dd',和timestamp字段互斥，该字段有值时，则忽略timestamp字段
 		 */
@@ -189,7 +189,7 @@ public class OapiCalendarV2EventUpdateRequest extends BaseTaobaoRequest<OapiCale
 	 * @since 1.0, null
 	 */
 	public static class OpenCalendarReminderVo extends TaobaoObject {
-		private static final long serialVersionUID = 2431266457695947838L;
+		private static final long serialVersionUID = 1292922587271268767L;
 		/**
 		 * 提醒方式.app表示应用内提醒
 		 */
@@ -222,7 +222,7 @@ public class OapiCalendarV2EventUpdateRequest extends BaseTaobaoRequest<OapiCale
 	 * @since 1.0, null
 	 */
 	public static class LocationVo extends TaobaoObject {
-		private static final long serialVersionUID = 7399974569463783119L;
+		private static final long serialVersionUID = 6395161644889458384L;
 		/**
 		 * 纬度
 		 */
@@ -266,7 +266,7 @@ public class OapiCalendarV2EventUpdateRequest extends BaseTaobaoRequest<OapiCale
 	 * @since 1.0, null
 	 */
 	public static class Event extends TaobaoObject {
-		private static final long serialVersionUID = 6582663954412696838L;
+		private static final long serialVersionUID = 2711279314229722856L;
 		/**
 		 * 日程参与者，参与人数最多100人，包括组织者
 		 */

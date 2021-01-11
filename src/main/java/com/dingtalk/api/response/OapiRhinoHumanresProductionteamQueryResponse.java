@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoHumanresProductionteamQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2127846326283618615L;
+	private static final long serialVersionUID = 6865678194246214158L;
 
 	/** 
 	 * errcode
@@ -109,7 +109,7 @@ public class OapiRhinoHumanresProductionteamQueryResponse extends TaobaoResponse
 	 * @since 1.0, null
 	 */
 	public static class EmpList extends TaobaoObject {
-		private static final long serialVersionUID = 6415867666623841594L;
+		private static final long serialVersionUID = 3254372677777476269L;
 		/**
 		 * 部门邮箱
 		 */
@@ -263,7 +263,7 @@ public class OapiRhinoHumanresProductionteamQueryResponse extends TaobaoResponse
 	 * @since 1.0, null
 	 */
 	public static class WeekdayConfigList extends TaobaoObject {
-		private static final long serialVersionUID = 2839742555481316194L;
+		private static final long serialVersionUID = 5715115814814844386L;
 		/**
 		 * 星期
 		 */
@@ -340,7 +340,7 @@ public class OapiRhinoHumanresProductionteamQueryResponse extends TaobaoResponse
 	 * @since 1.0, null
 	 */
 	public static class Model extends TaobaoObject {
-		private static final long serialVersionUID = 2644524944425853495L;
+		private static final long serialVersionUID = 6757475252363264156L;
 		/**
 		 * 业务ID
 		 */

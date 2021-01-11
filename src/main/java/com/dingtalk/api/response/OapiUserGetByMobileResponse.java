@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiUserGetByMobileResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1799978692876121493L;
+	private static final long serialVersionUID = 4145356669812875362L;
 
 	/** 
 	 * errcode

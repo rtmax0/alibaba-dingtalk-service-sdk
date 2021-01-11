@@ -98,7 +98,7 @@ public class OapiRhinoMosExecPerformInvalidbyentopRequest extends BaseTaobaoRequ
 	 * @since 1.0, null
 	 */
 	public static class EntityOperation extends TaobaoObject {
-		private static final long serialVersionUID = 7532678895732697193L;
+		private static final long serialVersionUID = 8277349367361314187L;
 		/**
 		 * 实体ID
 		 */
@@ -131,7 +131,7 @@ public class OapiRhinoMosExecPerformInvalidbyentopRequest extends BaseTaobaoRequ
 	 * @since 1.0, null
 	 */
 	public static class SpecificEntitiesAndSpecificOperationsReq extends TaobaoObject {
-		private static final long serialVersionUID = 4275361652177148772L;
+		private static final long serialVersionUID = 4138315567561963137L;
 		/**
 		 * 实体和工序
 		 */

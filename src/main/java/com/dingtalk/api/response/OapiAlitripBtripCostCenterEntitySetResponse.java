@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripCostCenterEntitySetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5658296865331231626L;
+	private static final long serialVersionUID = 4869211686937425755L;
 
 	/** 
 	 * 错误码
@@ -79,7 +79,7 @@ public class OapiAlitripBtripCostCenterEntitySetResponse extends TaobaoResponse 
 	 * @since 1.0, null
 	 */
 	public static class OpenCostCenterSetEntityRs extends TaobaoObject {
-		private static final long serialVersionUID = 1674296845465658871L;
+		private static final long serialVersionUID = 4469122445125574543L;
 		/**
 		 * 增加的人员信息条数
 		 */

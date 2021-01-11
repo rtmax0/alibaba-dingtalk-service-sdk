@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiProjectInviteShareurlGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.project.invite.shareurl.get request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.22
+ * @since 1.0, 2020.07.09
  */
 public class OapiProjectInviteShareurlGetRequest extends BaseTaobaoRequest<OapiProjectInviteShareurlGetResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiProjectInviteShareurlGetRequest extends BaseTaobaoRequest<OapiP
 	 * @since 1.0, null
 	 */
 	public static class InviteUrlQuery extends TaobaoObject {
-		private static final long serialVersionUID = 6584495988728325726L;
+		private static final long serialVersionUID = 7883879888755569646L;
 		/**
 		 * 圈子里关联的某个群ID
 		 */

@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiCalendarV2AttendeeUpdateResponse;
  * TOP DingTalk-API: dingtalk.oapi.calendar.v2.attendee.update request
  * 
  * @author top auto create
- * @since 1.0, 2019.11.21
+ * @since 1.0, 2020.07.16
  */
 public class OapiCalendarV2AttendeeUpdateRequest extends BaseTaobaoRequest<OapiCalendarV2AttendeeUpdateResponse> {
 	
@@ -145,7 +145,7 @@ public class OapiCalendarV2AttendeeUpdateRequest extends BaseTaobaoRequest<OapiC
 	 * @since 1.0, null
 	 */
 	public static class Attendee extends TaobaoObject {
-		private static final long serialVersionUID = 6891652984398392682L;
+		private static final long serialVersionUID = 3493423887987691819L;
 		/**
 		 * 添加或者删除状态，add:添加；remove:删除
 		 */

@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiWorkbenchShortcutDeleteResponse;
  * TOP DingTalk-API: dingtalk.oapi.workbench.shortcut.delete request
  * 
  * @author top auto create
- * @since 1.0, 2019.07.01
+ * @since 1.0, 2020.09.21
  */
 public class OapiWorkbenchShortcutDeleteRequest extends BaseTaobaoRequest<OapiWorkbenchShortcutDeleteResponse> {
 	

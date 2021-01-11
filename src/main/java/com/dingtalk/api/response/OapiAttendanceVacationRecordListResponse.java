@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceVacationRecordListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5486925792725221931L;
+	private static final long serialVersionUID = 2242615439617631813L;
 
 	/** 
 	 * dingOpenErrcode
@@ -81,7 +81,7 @@ public class OapiAttendanceVacationRecordListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OapiLeaveRecordVo extends TaobaoObject {
-		private static final long serialVersionUID = 2338871678562863291L;
+		private static final long serialVersionUID = 8413135259372917733L;
 		/**
 		 * 计算类型(add delete update 如果是请假则为null)
 		 */
@@ -246,7 +246,7 @@ public class OapiAttendanceVacationRecordListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OapiLeaveRecordListVo extends TaobaoObject {
-		private static final long serialVersionUID = 4413771537719183913L;
+		private static final long serialVersionUID = 4122384861216871937L;
 		/**
 		 * 是否存在更多记录
 		 */

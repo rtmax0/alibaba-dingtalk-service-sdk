@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRoleVisibleGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5377997745838648598L;
+	private static final long serialVersionUID = 2218516235898643719L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiRoleVisibleGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageVo extends TaobaoObject {
-		private static final long serialVersionUID = 6874739165113231238L;
+		private static final long serialVersionUID = 6378129171263879487L;
 		/**
 		 * 是否还有数据
 		 */

@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiChatUpdatebanwordsResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8682732516323333732L;
+	private static final long serialVersionUID = 4572328438915374898L;
 
 	/** 
 	 * 成功

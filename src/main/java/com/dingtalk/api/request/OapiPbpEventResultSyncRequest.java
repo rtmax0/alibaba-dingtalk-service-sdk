@@ -96,7 +96,7 @@ public class OapiPbpEventResultSyncRequest extends BaseTaobaoRequest<OapiPbpEven
 	 * @since 1.0, null
 	 */
 	public static class PositionOapiVo extends TaobaoObject {
-		private static final long serialVersionUID = 1227432397258191911L;
+		private static final long serialVersionUID = 1487389763366792217L;
 		/**
 		 * 打卡成功的位置点id
 		 */
@@ -129,7 +129,7 @@ public class OapiPbpEventResultSyncRequest extends BaseTaobaoRequest<OapiPbpEven
 	 * @since 1.0, null
 	 */
 	public static class UserEventResultOapiRequestVo extends TaobaoObject {
-		private static final long serialVersionUID = 5815835989473219351L;
+		private static final long serialVersionUID = 6223557447698214919L;
 		/**
 		 * 打卡业务代码
 		 */

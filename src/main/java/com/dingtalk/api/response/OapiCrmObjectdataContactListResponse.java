@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCrmObjectdataContactListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1128818889341131778L;
+	private static final long serialVersionUID = 1134965881469493671L;
 
 	/** 
 	 * 错误码
@@ -70,7 +70,7 @@ public class OapiCrmObjectdataContactListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DataPermissionVo extends TaobaoObject {
-		private static final long serialVersionUID = 2568324868755155732L;
+		private static final long serialVersionUID = 6863299143191673465L;
 		/**
 		 * 负责人用户ID列表
 		 */
@@ -105,7 +105,7 @@ public class OapiCrmObjectdataContactListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ObjectDataInstanceVo extends TaobaoObject {
-		private static final long serialVersionUID = 6883242624873965553L;
+		private static final long serialVersionUID = 3376575723129543474L;
 		/**
 		 * 记录创建人的昵称
 		 */

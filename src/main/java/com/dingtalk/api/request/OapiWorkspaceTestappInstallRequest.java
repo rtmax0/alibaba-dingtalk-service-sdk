@@ -96,7 +96,7 @@ public class OapiWorkspaceTestappInstallRequest extends BaseTaobaoRequest<OapiWo
 	 * @since 1.0, null
 	 */
 	public static class AuthOpenIsvMicroAppDto extends TaobaoObject {
-		private static final long serialVersionUID = 4712342487867171341L;
+		private static final long serialVersionUID = 1261224129364232698L;
 		/**
 		 * 圈子组织的corpId，圈子归属组织必须是isv组织
 		 */

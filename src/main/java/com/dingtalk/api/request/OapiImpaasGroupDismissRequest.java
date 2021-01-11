@@ -96,7 +96,7 @@ public class OapiImpaasGroupDismissRequest extends BaseTaobaoRequest<OapiImpaasG
 	 * @since 1.0, null
 	 */
 	public static class DismissGroupRequest extends TaobaoObject {
-		private static final long serialVersionUID = 8491692874119918298L;
+		private static final long serialVersionUID = 6682486918168185312L;
 		/**
 		 * 群ID
 		 */

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceVacationQuotaInitResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7537892295445715413L;
+	private static final long serialVersionUID = 3338666619156798862L;
 
 	/** 
 	 * dingOpenErrcode
@@ -82,7 +82,7 @@ public class OapiAttendanceVacationQuotaInitResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Quota extends TaobaoObject {
-		private static final long serialVersionUID = 4233357853262833523L;
+		private static final long serialVersionUID = 6875578115664964214L;
 		/**
 		 * 假期类型唯一标识
 		 */
@@ -126,7 +126,7 @@ public class OapiAttendanceVacationQuotaInitResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 8733174985474865773L;
+		private static final long serialVersionUID = 7342721366435365415L;
 		/**
 		 * 失败记录
 		 */

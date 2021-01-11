@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAuthScopesResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7788351782132493243L;
+	private static final long serialVersionUID = 6117231174233447395L;
 
 	/** 
 	 * auth_org_scopes
@@ -96,7 +96,7 @@ public class OapiAuthScopesResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AuthOrgScopes extends TaobaoObject {
-		private static final long serialVersionUID = 5356738264751643444L;
+		private static final long serialVersionUID = 7197774682746388261L;
 		/**
 		 * 企业授权的部门id列表
 		 */

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiWorkrecordGetbyuseridResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7861267563838617394L;
+	private static final long serialVersionUID = 2579881683785986343L;
 
 	/** 
 	 * dingOpenErrcode
@@ -68,7 +68,7 @@ public class OapiWorkrecordGetbyuseridResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormItemVo extends TaobaoObject {
-		private static final long serialVersionUID = 7877486546652325564L;
+		private static final long serialVersionUID = 2429262494594852288L;
 		/**
 		 * content
 		 */
@@ -101,7 +101,7 @@ public class OapiWorkrecordGetbyuseridResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class WorkRecordVo extends TaobaoObject {
-		private static final long serialVersionUID = 2628344315535782165L;
+		private static final long serialVersionUID = 2526991117474498588L;
 		/**
 		 * createAt
 		 */
@@ -168,7 +168,7 @@ public class OapiWorkrecordGetbyuseridResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 4619214742824411847L;
+		private static final long serialVersionUID = 7451582579852788472L;
 		/**
 		 * hasMore
 		 */

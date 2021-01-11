@@ -16,7 +16,7 @@ import com.dingtalk.api.response.OapiUserGetuserinfoResponse;
  * TOP DingTalk-API: dingtalk.oapi.user.getuserinfo request
  * 
  * @author top auto create
- * @since 1.0, 2020.01.15
+ * @since 1.0, 2018.07.25
  */
 public class OapiUserGetuserinfoRequest extends BaseTaobaoRequest<OapiUserGetuserinfoResponse> {
 	

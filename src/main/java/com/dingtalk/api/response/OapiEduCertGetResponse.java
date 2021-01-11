@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEduCertGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4412415989772796263L;
+	private static final long serialVersionUID = 1468196216471921314L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiEduCertGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Certdata extends TaobaoObject {
-		private static final long serialVersionUID = 3815839341237931334L;
+		private static final long serialVersionUID = 3464979347871624358L;
 		/**
 		 * 当前认证考试是否可以参加。true：可以；false：敬请期待；
 		 */
@@ -119,13 +119,46 @@ public class OapiEduCertGetResponse extends TaobaoResponse {
 	}
 	
 	/**
+	 * 实操任务完成信息
+	 *
+	 * @author top auto create
+	 * @since 1.0, null
+	 */
+	public static class OpenPracticalTaskData extends TaobaoObject {
+		private static final long serialVersionUID = 8717195343784277925L;
+		/**
+		 * true表示完成，false表示未完成
+		 */
+		@ApiField("finish")
+		private Boolean finish;
+		/**
+		 * 实操任务code，sendCard表示发布打卡，sendImMsg表示发布消息
+		 */
+		@ApiField("task_code")
+		private String taskCode;
+	
+		public Boolean getFinish() {
+			return this.finish;
+		}
+		public void setFinish(Boolean finish) {
+			this.finish = finish;
+		}
+		public String getTaskCode() {
+			return this.taskCode;
+		}
+		public void setTaskCode(String taskCode) {
+			this.taskCode = taskCode;
+		}
+	}
+	
+	/**
 	 * 返回结果值
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class OpenQueryCertResponse extends TaobaoObject {
-		private static final long serialVersionUID = 4825294542544436229L;
+		private static final long serialVersionUID = 8156991152377637229L;
 		/**
 		 * 认证明细
 		 */
@@ -137,6 +170,12 @@ public class OapiEduCertGetResponse extends TaobaoResponse {
 		 */
 		@ApiField("current_cert_level")
 		private Long currentCertLevel;
+		/**
+		 * 实操任务完成信息
+		 */
+		@ApiListField("practical_task_data")
+		@ApiField("open_practical_task_data")
+		private List<OpenPracticalTaskData> practicalTaskData;
 	
 		public List<Certdata> getCertDatas() {
 			return this.certDatas;
@@ -149,6 +188,12 @@ public class OapiEduCertGetResponse extends TaobaoResponse {
 		}
 		public void setCurrentCertLevel(Long currentCertLevel) {
 			this.currentCertLevel = currentCertLevel;
+		}
+		public List<OpenPracticalTaskData> getPracticalTaskData() {
+			return this.practicalTaskData;
+		}
+		public void setPracticalTaskData(List<OpenPracticalTaskData> practicalTaskData) {
+			this.practicalTaskData = practicalTaskData;
 		}
 	}
 	

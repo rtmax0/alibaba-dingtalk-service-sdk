@@ -96,7 +96,7 @@ public class OapiAlitripBtripTrainCitySuggestRequest extends BaseTaobaoRequest<O
 	 * @since 1.0, null
 	 */
 	public static class SuggestRq extends TaobaoObject {
-		private static final long serialVersionUID = 6312778254647524574L;
+		private static final long serialVersionUID = 3199133148885481533L;
 		/**
 		 * 企业id
 		 */

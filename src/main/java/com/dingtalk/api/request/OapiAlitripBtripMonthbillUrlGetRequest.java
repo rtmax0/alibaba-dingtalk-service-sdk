@@ -96,7 +96,7 @@ public class OapiAlitripBtripMonthbillUrlGetRequest extends BaseTaobaoRequest<Oa
 	 * @since 1.0, null
 	 */
 	public static class OpenAccountRq extends TaobaoObject {
-		private static final long serialVersionUID = 7878139582325121417L;
+		private static final long serialVersionUID = 4871493734848436876L;
 		/**
 		 * 对账单月份，不传取最新对账单
 		 */

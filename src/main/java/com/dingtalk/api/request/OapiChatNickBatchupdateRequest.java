@@ -114,7 +114,7 @@ public class OapiChatNickBatchupdateRequest extends BaseTaobaoRequest<OapiChatNi
 	 * @since 1.0, null
 	 */
 	public static class OpenStaffIdAndNickModel extends TaobaoObject {
-		private static final long serialVersionUID = 6162789771638362659L;
+		private static final long serialVersionUID = 2521219245967819178L;
 		/**
 		 * 昵称
 		 */

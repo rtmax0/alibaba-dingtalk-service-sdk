@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAppstoreInternalUnfinishedorderListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4567579879439363999L;
+	private static final long serialVersionUID = 7445252658924689862L;
 
 	/** 
 	 * 服务结果码
@@ -68,7 +68,7 @@ public class OapiAppstoreInternalUnfinishedorderListResponse extends TaobaoRespo
 	 * @since 1.0, null
 	 */
 	public static class InAppGoodsOrderVO extends TaobaoObject {
-		private static final long serialVersionUID = 1559324675737999598L;
+		private static final long serialVersionUID = 8354455737489546668L;
 		/**
 		 * 订单号
 		 */
@@ -178,7 +178,7 @@ public class OapiAppstoreInternalUnfinishedorderListResponse extends TaobaoRespo
 	 * @since 1.0, null
 	 */
 	public static class PageModel extends TaobaoObject {
-		private static final long serialVersionUID = 3578684826259255991L;
+		private static final long serialVersionUID = 2258314851856781262L;
 		/**
 		 * 订单信息列表
 		 */

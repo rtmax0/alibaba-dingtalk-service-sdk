@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiInspectFeedbackGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8183991199446932746L;
+	private static final long serialVersionUID = 8138127364445211897L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiInspectFeedbackGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopInspectFeedbackFormItemVO extends TaobaoObject {
-		private static final long serialVersionUID = 1376973769391533475L;
+		private static final long serialVersionUID = 8428476947456836566L;
 		/**
 		 * 表单项的业务别名
 		 */
@@ -134,7 +134,7 @@ public class OapiInspectFeedbackGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopInspectFeedbackVo extends TaobaoObject {
-		private static final long serialVersionUID = 3856691786934453887L;
+		private static final long serialVersionUID = 4189782468417862579L;
 		/**
 		 * 表单内容
 		 */

@@ -96,7 +96,7 @@ public class OapiAlitripBtripAddressGetRequest extends BaseTaobaoRequest<OapiAli
 	 * @since 1.0, null
 	 */
 	public static class OpenApiJumpInfoRq extends TaobaoObject {
-		private static final long serialVersionUID = 1342841769585486326L;
+		private static final long serialVersionUID = 3154917414255592924L;
 		/**
 		 * 操作类型：1：预订，2：我的订单列表，3：商旅管理后台（其他参数可不要，只需corpid，userid）
 		 */

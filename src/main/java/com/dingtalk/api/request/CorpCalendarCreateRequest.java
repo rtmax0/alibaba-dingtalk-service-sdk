@@ -98,7 +98,7 @@ public class CorpCalendarCreateRequest extends BaseTaobaoRequest<CorpCalendarCre
 	 * @since 1.0, null
 	 */
 	public static class OpenCalendarReminderVo extends TaobaoObject {
-		private static final long serialVersionUID = 4491369146928444968L;
+		private static final long serialVersionUID = 8822439529984943779L;
 		/**
 		 * 距开始时多久进行提醒(单位:分钟)
 		 */
@@ -131,7 +131,7 @@ public class CorpCalendarCreateRequest extends BaseTaobaoRequest<CorpCalendarCre
 	 * @since 1.0, null
 	 */
 	public static class DatetimeVo extends TaobaoObject {
-		private static final long serialVersionUID = 2443168678389193699L;
+		private static final long serialVersionUID = 5112877755959246844L;
 		/**
 		 * 时区
 		 */
@@ -164,7 +164,7 @@ public class CorpCalendarCreateRequest extends BaseTaobaoRequest<CorpCalendarCre
 	 * @since 1.0, null
 	 */
 	public static class OpenCalendarSourceVo extends TaobaoObject {
-		private static final long serialVersionUID = 2426819758728992832L;
+		private static final long serialVersionUID = 4453939954334971169L;
 		/**
 		 * 日程来源
 		 */
@@ -197,7 +197,7 @@ public class CorpCalendarCreateRequest extends BaseTaobaoRequest<CorpCalendarCre
 	 * @since 1.0, null
 	 */
 	public static class OpenCalendarCreateVo extends TaobaoObject {
-		private static final long serialVersionUID = 7813115524431194977L;
+		private static final long serialVersionUID = 3758989941665188266L;
 		/**
 		 * 业务方自己的主键
 		 */

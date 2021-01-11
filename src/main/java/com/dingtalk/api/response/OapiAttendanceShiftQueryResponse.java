@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceShiftQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8172143958819167954L;
+	private static final long serialVersionUID = 7568142639166895161L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiAttendanceShiftQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopShiftSettingVo extends TaobaoObject {
-		private static final long serialVersionUID = 7583323336489899272L;
+		private static final long serialVersionUID = 7692735174742523866L;
 		/**
 		 * 该班次对应的出勤天数
 		 */
@@ -181,7 +181,12 @@ public class OapiAttendanceShiftQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopPunchVo extends TaobaoObject {
-		private static final long serialVersionUID = 7492737784926919373L;
+		private static final long serialVersionUID = 5452863927851992946L;
+		/**
+		 * 旷工早退迟到的时长
+		 */
+		@ApiField("absenteeism_late_minutes")
+		private String absenteeismLateMinutes;
 		/**
 		 * 是否跨天
 		 */
@@ -208,6 +213,12 @@ public class OapiAttendanceShiftQueryResponse extends TaobaoResponse {
 		@ApiField("end_min")
 		private Long endMin;
 		/**
+		 * 当前卡点允许弹性调整范围
+		 */
+		@ApiListField("flex_minutes")
+		@ApiField("number")
+		private List<Long> flexMinutes;
+		/**
 		 * 是否免打卡
 		 */
 		@ApiField("free_check")
@@ -222,7 +233,18 @@ public class OapiAttendanceShiftQueryResponse extends TaobaoResponse {
 		 */
 		@ApiField("permit_minutes")
 		private Long permitMinutes;
+		/**
+		 * 严重早退迟到的时长
+		 */
+		@ApiField("serious_late_minutes")
+		private String seriousLateMinutes;
 	
+		public String getAbsenteeismLateMinutes() {
+			return this.absenteeismLateMinutes;
+		}
+		public void setAbsenteeismLateMinutes(String absenteeismLateMinutes) {
+			this.absenteeismLateMinutes = absenteeismLateMinutes;
+		}
 		public Long getAcross() {
 			return this.across;
 		}
@@ -253,6 +275,12 @@ public class OapiAttendanceShiftQueryResponse extends TaobaoResponse {
 		public void setEndMin(Long endMin) {
 			this.endMin = endMin;
 		}
+		public List<Long> getFlexMinutes() {
+			return this.flexMinutes;
+		}
+		public void setFlexMinutes(List<Long> flexMinutes) {
+			this.flexMinutes = flexMinutes;
+		}
 		public Boolean getFreeCheck() {
 			return this.freeCheck;
 		}
@@ -271,6 +299,12 @@ public class OapiAttendanceShiftQueryResponse extends TaobaoResponse {
 		public void setPermitMinutes(Long permitMinutes) {
 			this.permitMinutes = permitMinutes;
 		}
+		public String getSeriousLateMinutes() {
+			return this.seriousLateMinutes;
+		}
+		public void setSeriousLateMinutes(String seriousLateMinutes) {
+			this.seriousLateMinutes = seriousLateMinutes;
+		}
 	}
 	
 	/**
@@ -280,7 +314,7 @@ public class OapiAttendanceShiftQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopRestVo extends TaobaoObject {
-		private static final long serialVersionUID = 2166251148449412882L;
+		private static final long serialVersionUID = 8412195798994418338L;
 		/**
 		 * 是否跨天
 		 */
@@ -335,7 +369,7 @@ public class OapiAttendanceShiftQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopSectionVo extends TaobaoObject {
-		private static final long serialVersionUID = 7567323231784633991L;
+		private static final long serialVersionUID = 3529989792824617525L;
 		/**
 		 * id
 		 */
@@ -392,7 +426,7 @@ public class OapiAttendanceShiftQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopShiftVo extends TaobaoObject {
-		private static final long serialVersionUID = 4596338577714912597L;
+		private static final long serialVersionUID = 6372213267849154854L;
 		/**
 		 * 企业id
 		 */
@@ -408,6 +442,11 @@ public class OapiAttendanceShiftQueryResponse extends TaobaoResponse {
 		 */
 		@ApiField("name")
 		private String name;
+		/**
+		 * 班次负责人
+		 */
+		@ApiField("owner")
+		private String owner;
 		/**
 		 * 卡段
 		 */
@@ -447,6 +486,12 @@ public class OapiAttendanceShiftQueryResponse extends TaobaoResponse {
 		}
 		public void setName(String name) {
 			this.name = name;
+		}
+		public String getOwner() {
+			return this.owner;
+		}
+		public void setOwner(String owner) {
+			this.owner = owner;
 		}
 		public List<TopSectionVo> getSections() {
 			return this.sections;

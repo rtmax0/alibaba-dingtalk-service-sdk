@@ -16,7 +16,7 @@ import com.dingtalk.api.response.OapiMicroappRuleGetUserTotalResponse;
  * TOP DingTalk-API: dingtalk.oapi.microapp.rule.get_user_total request
  * 
  * @author top auto create
- * @since 1.0, 2019.06.24
+ * @since 1.0, 2018.07.25
  */
 public class OapiMicroappRuleGetUserTotalRequest extends BaseTaobaoRequest<OapiMicroappRuleGetUserTotalResponse> {
 	

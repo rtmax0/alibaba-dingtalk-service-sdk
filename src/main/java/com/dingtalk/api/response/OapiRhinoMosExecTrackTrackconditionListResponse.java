@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoMosExecTrackTrackconditionListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1687765194445696855L;
+	private static final long serialVersionUID = 4817753284863691116L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiRhinoMosExecTrackTrackconditionListResponse extends TaobaoRespo
 	 * @since 1.0, null
 	 */
 	public static class TrackRecordDto extends TaobaoObject {
-		private static final long serialVersionUID = 4777864634491122771L;
+		private static final long serialVersionUID = 3214524587881373412L;
 		/**
 		 * 生效结束时间
 		 */
@@ -203,7 +203,7 @@ public class OapiRhinoMosExecTrackTrackconditionListResponse extends TaobaoRespo
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 1318811566428776735L;
+		private static final long serialVersionUID = 1168145687678184348L;
 		/**
 		 * 当前起始位置
 		 */

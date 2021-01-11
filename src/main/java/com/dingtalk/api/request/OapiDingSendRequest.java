@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiDingSendResponse;
  * TOP DingTalk-API: dingtalk.oapi.ding.send request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.14
+ * @since 1.0, 2019.07.25
  */
 public class OapiDingSendRequest extends BaseTaobaoRequest<OapiDingSendResponse> {
 	
@@ -98,7 +98,7 @@ public class OapiDingSendRequest extends BaseTaobaoRequest<OapiDingSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class AttachmentVo extends TaobaoObject {
-		private static final long serialVersionUID = 5121448712772749843L;
+		private static final long serialVersionUID = 1338988369335637934L;
 		/**
 		 * 文件后缀, 用于展示文件对应图标
 		 */
@@ -219,7 +219,7 @@ public class OapiDingSendRequest extends BaseTaobaoRequest<OapiDingSendResponse>
 	 * @since 1.0, null
 	 */
 	public static class OpenDingSendVo extends TaobaoObject {
-		private static final long serialVersionUID = 8124972337682311991L;
+		private static final long serialVersionUID = 2631534112115975782L;
 		/**
 		 * 附件
 		 */

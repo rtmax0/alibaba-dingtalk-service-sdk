@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceListscheduleResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5581841419739657566L;
+	private static final long serialVersionUID = 8752262744391486174L;
 
 	/** 
 	 * errcode
@@ -69,7 +69,7 @@ public class OapiAttendanceListscheduleResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtScheduleForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 8241245317625557155L;
+		private static final long serialVersionUID = 2745242718966275567L;
 		/**
 		 * 审批id,结果集中没有的话表示没有审批单
 		 */
@@ -179,7 +179,7 @@ public class OapiAttendanceListscheduleResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtScheduleListForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 1717684936449952213L;
+		private static final long serialVersionUID = 7133646816329525144L;
 		/**
 		 * 分页用，表示是否还有下一页
 		 */

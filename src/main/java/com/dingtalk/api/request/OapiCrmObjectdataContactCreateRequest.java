@@ -21,7 +21,7 @@ import com.dingtalk.api.response.OapiCrmObjectdataContactCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.crm.objectdata.contact.create request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.04
+ * @since 1.0, 2021.01.08
  */
 public class OapiCrmObjectdataContactCreateRequest extends BaseTaobaoRequest<OapiCrmObjectdataContactCreateResponse> {
 	
@@ -31,6 +31,11 @@ public class OapiCrmObjectdataContactCreateRequest extends BaseTaobaoRequest<Oap
 	* 联系人数据
 	 */
 	private String instance;
+
+	/** 
+	* 自建应用时可选服务商组织ID
+	 */
+	private String providerCorpid;
 
 	public void setInstance(String instance) {
 		this.instance = instance;
@@ -42,6 +47,14 @@ public class OapiCrmObjectdataContactCreateRequest extends BaseTaobaoRequest<Oap
 
 	public String getInstance() {
 		return this.instance;
+	}
+
+	public void setProviderCorpid(String providerCorpid) {
+		this.providerCorpid = providerCorpid;
+	}
+
+	public String getProviderCorpid() {
+		return this.providerCorpid;
 	}
 
 	public String getApiMethodName() {
@@ -79,6 +92,7 @@ public class OapiCrmObjectdataContactCreateRequest extends BaseTaobaoRequest<Oap
 	public Map<String, String> getTextParams() {		
 		TaobaoHashMap txtParams = new TaobaoHashMap();
 		txtParams.put("instance", this.instance);
+		txtParams.put("provider_corpid", this.providerCorpid);
 		if(this.udfParams != null) {
 			txtParams.putAll(this.udfParams);
 		}
@@ -99,7 +113,7 @@ public class OapiCrmObjectdataContactCreateRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class DataPermissionVo extends TaobaoObject {
-		private static final long serialVersionUID = 4189314615493338295L;
+		private static final long serialVersionUID = 6296278584572723329L;
 		/**
 		 * 负责人的用户ID
 		 */
@@ -134,7 +148,7 @@ public class OapiCrmObjectdataContactCreateRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class ObjectDataInstanceVo extends TaobaoObject {
-		private static final long serialVersionUID = 6213557266899235941L;
+		private static final long serialVersionUID = 5824313617175698239L;
 		/**
 		 * 记录创建人的昵称
 		 */

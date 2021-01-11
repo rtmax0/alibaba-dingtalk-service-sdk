@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiRhinoMosExecTrackTrackconditionListResponse
  * TOP DingTalk-API: dingtalk.oapi.rhino.mos.exec.track.trackcondition.list request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.29
+ * @since 1.0, 2020.07.22
  */
 public class OapiRhinoMosExecTrackTrackconditionListRequest extends BaseTaobaoRequest<OapiRhinoMosExecTrackTrackconditionListResponse> {
 	
@@ -98,7 +98,7 @@ public class OapiRhinoMosExecTrackTrackconditionListRequest extends BaseTaobaoRe
 	 * @since 1.0, null
 	 */
 	public static class Page extends TaobaoObject {
-		private static final long serialVersionUID = 6592785621672176615L;
+		private static final long serialVersionUID = 1149295388239522773L;
 		/**
 		 * 每页大小
 		 */
@@ -131,7 +131,7 @@ public class OapiRhinoMosExecTrackTrackconditionListRequest extends BaseTaobaoRe
 	 * @since 1.0, null
 	 */
 	public static class ListTrackRecordWithTrackIdsReq extends TaobaoObject {
-		private static final long serialVersionUID = 4575228813627792841L;
+		private static final long serialVersionUID = 1812213496642474784L;
 		/**
 		 * 实体类型
 		 */

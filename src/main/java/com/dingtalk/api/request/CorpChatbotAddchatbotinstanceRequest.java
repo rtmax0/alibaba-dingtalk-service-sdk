@@ -17,7 +17,7 @@ import com.dingtalk.api.response.CorpChatbotAddchatbotinstanceResponse;
  * TOP DingTalk-API: dingtalk.corp.chatbot.addchatbotinstance request
  * 
  * @author top auto create
- * @since 1.0, 2019.07.03
+ * @since 1.0, 2020.09.18
  */
 public class CorpChatbotAddchatbotinstanceRequest extends BaseTaobaoRequest<CorpChatbotAddchatbotinstanceResponse> {
 	

@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiWorkbenchShortcutDeleteResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8823527597772763787L;
+	private static final long serialVersionUID = 6834744587786999632L;
 
 	/** 
 	 * dingOpenErrcode
@@ -66,7 +66,7 @@ public class OapiWorkbenchShortcutDeleteResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class IsvOrgShortcutStatusDTO extends TaobaoObject {
-		private static final long serialVersionUID = 5762856958586256345L;
+		private static final long serialVersionUID = 4222374178274311256L;
 		/**
 		 * 系统交互唯一流水号(ISV维度下不可重复)
 		 */

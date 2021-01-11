@@ -98,7 +98,7 @@ public class OapiCallbackFailrecordListRequest extends BaseTaobaoRequest<OapiCal
 	 * @since 1.0, null
 	 */
 	public static class Req extends TaobaoObject {
-		private static final long serialVersionUID = 1214847437498381621L;
+		private static final long serialVersionUID = 3457157793976114386L;
 		/**
 		 * 开始时间(单位：秒)。空表示不限，左闭右开。PS：当前只保留了7天的记录
 		 */

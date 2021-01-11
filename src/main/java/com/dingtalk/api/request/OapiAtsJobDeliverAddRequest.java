@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiAtsJobDeliverAddResponse;
  * TOP DingTalk-API: dingtalk.oapi.ats.job.deliver.add request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.24
+ * @since 1.0, 2020.08.04
  */
 public class OapiAtsJobDeliverAddRequest extends BaseTaobaoRequest<OapiAtsJobDeliverAddResponse> {
 	
@@ -34,12 +34,22 @@ public class OapiAtsJobDeliverAddRequest extends BaseTaobaoRequest<OapiAtsJobDel
 	private String deliverChannel;
 
 	/** 
-	* 投递状态 fail,success
+	* 失败原因
+	 */
+	private String deliverMsg;
+
+	/** 
+	* 渠道中的一次职位外投的唯一id，如需要更新deliver_status该入参必传
+	 */
+	private String deliverOuterId;
+
+	/** 
+	* 投递中:created,投递失败:fail,投递成功:success,已下架:off_shelf
 	 */
 	private String deliverStatus;
 
 	/** 
-	* 职位id
+	* 智能招聘职位id
 	 */
 	private String jobId;
 
@@ -57,6 +67,22 @@ public class OapiAtsJobDeliverAddRequest extends BaseTaobaoRequest<OapiAtsJobDel
 
 	public String getDeliverChannel() {
 		return this.deliverChannel;
+	}
+
+	public void setDeliverMsg(String deliverMsg) {
+		this.deliverMsg = deliverMsg;
+	}
+
+	public String getDeliverMsg() {
+		return this.deliverMsg;
+	}
+
+	public void setDeliverOuterId(String deliverOuterId) {
+		this.deliverOuterId = deliverOuterId;
+	}
+
+	public String getDeliverOuterId() {
+		return this.deliverOuterId;
 	}
 
 	public void setDeliverStatus(String deliverStatus) {
@@ -111,6 +137,8 @@ public class OapiAtsJobDeliverAddRequest extends BaseTaobaoRequest<OapiAtsJobDel
 		TaobaoHashMap txtParams = new TaobaoHashMap();
 		txtParams.put("biz_code", this.bizCode);
 		txtParams.put("deliver_channel", this.deliverChannel);
+		txtParams.put("deliver_msg", this.deliverMsg);
+		txtParams.put("deliver_outer_id", this.deliverOuterId);
 		txtParams.put("deliver_status", this.deliverStatus);
 		txtParams.put("job_id", this.jobId);
 		if(this.udfParams != null) {

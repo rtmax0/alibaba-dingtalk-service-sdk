@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCspaceAuthCancelResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4812433839348234317L;
+	private static final long serialVersionUID = 7193618525365439358L;
 
 	/** 
 	 * 错误码

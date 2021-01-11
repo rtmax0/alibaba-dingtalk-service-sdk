@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoMosExecClothesGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3113692923213786469L;
+	private static final long serialVersionUID = 5122143846397474368L;
 
 	/** 
 	 * 钉钉平台错误码
@@ -95,7 +95,7 @@ public class OapiRhinoMosExecClothesGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ClothesDto extends TaobaoObject {
-		private static final long serialVersionUID = 7289621786386198189L;
+		private static final long serialVersionUID = 3848964636658882456L;
 		/**
 		 * 业务类型
 		 */

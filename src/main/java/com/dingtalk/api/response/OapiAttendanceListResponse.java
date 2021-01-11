@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7869654178266213579L;
+	private static final long serialVersionUID = 5651278891571583394L;
 
 	/** 
 	 * errcode
@@ -83,7 +83,7 @@ public class OapiAttendanceListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Recordresult extends TaobaoObject {
-		private static final long serialVersionUID = 2558639362721773636L;
+		private static final long serialVersionUID = 8895532416235964848L;
 		/**
 		 * approveId
 		 */

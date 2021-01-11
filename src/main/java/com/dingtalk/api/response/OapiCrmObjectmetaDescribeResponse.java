@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCrmObjectmetaDescribeResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4239357523681597829L;
+	private static final long serialVersionUID = 1639714262946678576L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiCrmObjectmetaDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class SelectOptions extends TaobaoObject {
-		private static final long serialVersionUID = 5613596387816475196L;
+		private static final long serialVersionUID = 1793234742511381464L;
 		/**
 		 * 选项key
 		 */
@@ -101,7 +101,7 @@ public class OapiCrmObjectmetaDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ReferenceFields extends TaobaoObject {
-		private static final long serialVersionUID = 5323246516694273492L;
+		private static final long serialVersionUID = 2636198448815382122L;
 		/**
 		 * 引用的关联对象字段格式
 		 */
@@ -190,7 +190,7 @@ public class OapiCrmObjectmetaDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class RollUpSummaryFields extends TaobaoObject {
-		private static final long serialVersionUID = 4139264911426491616L;
+		private static final long serialVersionUID = 2612534214592771514L;
 		/**
 		 * 汇总方法
 		 */
@@ -223,7 +223,7 @@ public class OapiCrmObjectmetaDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Fields extends TaobaoObject {
-		private static final long serialVersionUID = 2282928451967164855L;
+		private static final long serialVersionUID = 8238669292116688254L;
 		/**
 		 * 是否自定义字段
 		 */
@@ -369,7 +369,7 @@ public class OapiCrmObjectmetaDescribeResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DObject extends TaobaoObject {
-		private static final long serialVersionUID = 3558316182219893814L;
+		private static final long serialVersionUID = 2294668362585824126L;
 		/**
 		 * 是否自定义对象
 		 */

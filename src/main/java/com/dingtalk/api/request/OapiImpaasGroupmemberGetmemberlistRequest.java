@@ -96,7 +96,7 @@ public class OapiImpaasGroupmemberGetmemberlistRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class GetGroupMemberListRequest extends TaobaoObject {
-		private static final long serialVersionUID = 5399576327324478297L;
+		private static final long serialVersionUID = 7195462572251173255L;
 		/**
 		 * 群ID
 		 */

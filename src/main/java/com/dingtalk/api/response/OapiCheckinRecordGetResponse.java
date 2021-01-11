@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCheckinRecordGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5213251687485443794L;
+	private static final long serialVersionUID = 8595839396779459731L;
 
 	/** 
 	 * errcode
@@ -68,7 +68,7 @@ public class OapiCheckinRecordGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class CheckinRecordVo extends TaobaoObject {
-		private static final long serialVersionUID = 1151346656389537885L;
+		private static final long serialVersionUID = 3662325619355879292L;
 		/**
 		 * 签到时间,单位毫秒
 		 */
@@ -179,7 +179,7 @@ public class OapiCheckinRecordGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 1894213439764461877L;
+		private static final long serialVersionUID = 5388418587414487122L;
 		/**
 		 * 表示下次查询的游标，为null代表没有更多的数据了
 		 */

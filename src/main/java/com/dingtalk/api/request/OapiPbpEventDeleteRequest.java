@@ -98,7 +98,7 @@ public class OapiPbpEventDeleteRequest extends BaseTaobaoRequest<OapiPbpEventDel
 	 * @since 1.0, null
 	 */
 	public static class UserEventOapiVo extends TaobaoObject {
-		private static final long serialVersionUID = 3142929527487292768L;
+		private static final long serialVersionUID = 7666924161696726363L;
 		/**
 		 * 打卡业务实例id
 		 */
@@ -153,7 +153,7 @@ public class OapiPbpEventDeleteRequest extends BaseTaobaoRequest<OapiPbpEventDel
 	 * @since 1.0, null
 	 */
 	public static class UserEventOapiRequestVo extends TaobaoObject {
-		private static final long serialVersionUID = 7835585686223823492L;
+		private static final long serialVersionUID = 3515916131734665367L;
 		/**
 		 * 打卡业务代码
 		 */

@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProcessTemplateListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7755511871721196934L;
+	private static final long serialVersionUID = 5443626914374639227L;
 
 	/** 
 	 * dingOpenErrcode
@@ -81,7 +81,7 @@ public class OapiProcessTemplateListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Templatelist extends TaobaoObject {
-		private static final long serialVersionUID = 2522548121132284548L;
+		private static final long serialVersionUID = 6367415756985668346L;
 		/**
 		 * 是否可升级，加入收款账户组件
 		 */
@@ -169,7 +169,7 @@ public class OapiProcessTemplateListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class CorpTemplateVo extends TaobaoObject {
-		private static final long serialVersionUID = 8691251974831446284L;
+		private static final long serialVersionUID = 5429734678923665614L;
 		/**
 		 * 下次调用时的offset入参
 		 */

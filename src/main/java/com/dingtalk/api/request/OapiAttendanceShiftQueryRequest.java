@@ -16,7 +16,7 @@ import com.dingtalk.api.response.OapiAttendanceShiftQueryResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.shift.query request
  * 
  * @author top auto create
- * @since 1.0, 2019.07.31
+ * @since 1.0, 2020.11.20
  */
 public class OapiAttendanceShiftQueryRequest extends BaseTaobaoRequest<OapiAttendanceShiftQueryResponse> {
 	

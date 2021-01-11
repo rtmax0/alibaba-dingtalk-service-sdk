@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAlitripBtripCostCenterDeleteResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1852458884598647599L;
+	private static final long serialVersionUID = 5375866415151269644L;
 
 	/** 
 	 * 错误码

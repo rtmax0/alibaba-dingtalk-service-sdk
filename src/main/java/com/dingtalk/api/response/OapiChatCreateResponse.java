@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiChatCreateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3579884874947684498L;
+	private static final long serialVersionUID = 2296688271688975195L;
 
 	/** 
 	 * chatid

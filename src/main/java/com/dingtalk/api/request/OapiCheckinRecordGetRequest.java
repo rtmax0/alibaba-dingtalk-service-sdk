@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiCheckinRecordGetResponse;
  * TOP DingTalk-API: dingtalk.oapi.checkin.record.get request
  * 
  * @author top auto create
- * @since 1.0, 2019.07.03
+ * @since 1.0, 2020.07.09
  */
 public class OapiCheckinRecordGetRequest extends BaseTaobaoRequest<OapiCheckinRecordGetResponse> {
 	

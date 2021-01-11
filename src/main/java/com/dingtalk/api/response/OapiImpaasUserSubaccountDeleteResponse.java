@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiImpaasUserSubaccountDeleteResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6871619822462191229L;
+	private static final long serialVersionUID = 5219259246675431193L;
 
 	/** 
 	 * 错误码  -1 系统异常 40035 参数错误

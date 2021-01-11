@@ -138,7 +138,7 @@ public class OapiProcessPropertyUpdateRequest extends BaseTaobaoRequest<OapiProc
 	 * @since 1.0, null
 	 */
 	public static class ProcessTemplatePropsVo extends TaobaoObject {
-		private static final long serialVersionUID = 6739556183489879457L;
+		private static final long serialVersionUID = 4824473943535326127L;
 		/**
 		 * 单个控件属性
 		 */

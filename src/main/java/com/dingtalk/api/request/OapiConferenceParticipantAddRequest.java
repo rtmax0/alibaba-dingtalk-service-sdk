@@ -112,7 +112,7 @@ public class OapiConferenceParticipantAddRequest extends BaseTaobaoRequest<OapiC
 	public void check() throws ApiRuleException {
 		RequestCheckUtils.checkNotEmpty(conferenceId, "conferenceId");
 		RequestCheckUtils.checkNotEmpty(participantUseridList, "participantUseridList");
-		RequestCheckUtils.checkMaxListSize(participantUseridList, 2000, "participantUseridList");
+		RequestCheckUtils.checkMaxListSize(participantUseridList, 1000, "participantUseridList");
 		RequestCheckUtils.checkNotEmpty(userid, "userid");
 	}
 	

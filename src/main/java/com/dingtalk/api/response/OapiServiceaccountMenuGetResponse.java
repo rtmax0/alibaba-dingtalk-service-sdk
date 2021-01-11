@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiServiceaccountMenuGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3352399276898654283L;
+	private static final long serialVersionUID = 1569394943451459852L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiServiceaccountMenuGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class MenuSubButtonDTO extends TaobaoObject {
-		private static final long serialVersionUID = 1189717712211235417L;
+		private static final long serialVersionUID = 1542246543884678315L;
 		/**
 		 * 菜单绑定的key值
 		 */
@@ -134,7 +134,7 @@ public class OapiServiceaccountMenuGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class MenuButtonDTO extends TaobaoObject {
-		private static final long serialVersionUID = 2758869246624131465L;
+		private static final long serialVersionUID = 7747797699351813736L;
 		/**
 		 * 菜单绑定的key值
 		 */
@@ -212,7 +212,7 @@ public class OapiServiceaccountMenuGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class MenuConfigDTO extends TaobaoObject {
-		private static final long serialVersionUID = 5711659631457534699L;
+		private static final long serialVersionUID = 5798366972156163396L;
 		/**
 		 * 菜单按钮列表
 		 */

@@ -114,7 +114,7 @@ public class OapiAttendanceCorpConfirmRequest extends BaseTaobaoRequest<OapiAtte
 	 * @since 1.0, null
 	 */
 	public static class Corp extends TaobaoObject {
-		private static final long serialVersionUID = 8892942946749566856L;
+		private static final long serialVersionUID = 1698222781846776422L;
 		/**
 		 * 管理员名称
 		 */

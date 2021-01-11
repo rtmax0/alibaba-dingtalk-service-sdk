@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiMaterialArticleListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7562832795363398563L;
+	private static final long serialVersionUID = 2592316277179414997L;
 
 	/** 
 	 * 错误码
@@ -95,7 +95,7 @@ public class OapiMaterialArticleListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ArticleDTO extends TaobaoObject {
-		private static final long serialVersionUID = 5527338585128513932L;
+		private static final long serialVersionUID = 8461887168227477358L;
 		/**
 		 * 文章id
 		 */

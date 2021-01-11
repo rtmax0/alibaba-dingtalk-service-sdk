@@ -110,7 +110,7 @@ public class OapiSnsSendMsgRequest extends BaseTaobaoRequest<OapiSnsSendMsgRespo
 	 * @since 1.0, null
 	 */
 	public static class Eapp extends TaobaoObject {
-		private static final long serialVersionUID = 3622925833219896598L;
+		private static final long serialVersionUID = 3188646836129823365L;
 		/**
 		 * 消息内容
 		 */
@@ -165,7 +165,7 @@ public class OapiSnsSendMsgRequest extends BaseTaobaoRequest<OapiSnsSendMsgRespo
 	 * @since 1.0, null
 	 */
 	public static class Msg extends TaobaoObject {
-		private static final long serialVersionUID = 6881998978842728399L;
+		private static final long serialVersionUID = 7386954977366363585L;
 		/**
 		 * 消息内容
 		 */

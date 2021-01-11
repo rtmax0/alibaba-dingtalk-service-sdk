@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiEnterpriseSubareaTotaldataStatResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2232788791819528682L;
+	private static final long serialVersionUID = 4532513512365357718L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiEnterpriseSubareaTotaldataStatResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AreaStatDataVO extends TaobaoObject {
-		private static final long serialVersionUID = 3462184372687882843L;
+		private static final long serialVersionUID = 7878821817954744224L;
 		/**
 		 * 所辖区域活跃率
 		 */

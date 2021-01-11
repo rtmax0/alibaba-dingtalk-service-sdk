@@ -20,7 +20,7 @@ import com.dingtalk.api.response.OapiBlackboardCreateResponse;
  * TOP DingTalk-API: dingtalk.oapi.blackboard.create request
  * 
  * @author top auto create
- * @since 1.0, 2019.11.04
+ * @since 1.0, 2020.07.29
  */
 public class OapiBlackboardCreateRequest extends BaseTaobaoRequest<OapiBlackboardCreateResponse> {
 	
@@ -98,7 +98,7 @@ public class OapiBlackboardCreateRequest extends BaseTaobaoRequest<OapiBlackboar
 	 * @since 1.0, null
 	 */
 	public static class BlackboardReceiverOpenVo extends TaobaoObject {
-		private static final long serialVersionUID = 8617682359444321225L;
+		private static final long serialVersionUID = 5516769239798759453L;
 		/**
 		 * 接收部门id列表
 		 */
@@ -133,7 +133,7 @@ public class OapiBlackboardCreateRequest extends BaseTaobaoRequest<OapiBlackboar
 	 * @since 1.0, null
 	 */
 	public static class OapiCreateBlackboardVo extends TaobaoObject {
-		private static final long serialVersionUID = 4593824577267764618L;
+		private static final long serialVersionUID = 1441558425113447115L;
 		/**
 		 * 公告作者
 		 */
@@ -145,7 +145,7 @@ public class OapiBlackboardCreateRequest extends BaseTaobaoRequest<OapiBlackboar
 		@ApiField("blackboard_receiver")
 		private BlackboardReceiverOpenVo blackboardReceiver;
 		/**
-		 * 公告分类id，可以通过https:oapi.dingtalk.comblackboardcategoryget获取有效值
+		 * 公告分类id，可以通过公告开放接口：（获取企业公告未删除分类列表）获取有效值
 		 */
 		@ApiField("category_id")
 		private String categoryId;
@@ -155,7 +155,7 @@ public class OapiBlackboardCreateRequest extends BaseTaobaoRequest<OapiBlackboar
 		@ApiField("content")
 		private String content;
 		/**
-		 * 封面图,需要使用mediaId,可以通过https:oapi.dingtalk.commediaupload上传图片获取mediaId
+		 * 封面图,需要使用mediaId,可以通过钉钉开放接口：https:ding-doc.dingtalk.comdoc#serverapi2bcmg0i 上传图片获取mediaId
 		 */
 		@ApiField("coverpic_mediaid")
 		private String coverpicMediaid;

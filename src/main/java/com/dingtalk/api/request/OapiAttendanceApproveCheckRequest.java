@@ -16,7 +16,7 @@ import com.dingtalk.api.response.OapiAttendanceApproveCheckResponse;
  * TOP DingTalk-API: dingtalk.oapi.attendance.approve.check request
  * 
  * @author top auto create
- * @since 1.0, 2020.06.19
+ * @since 1.0, 2019.08.30
  */
 public class OapiAttendanceApproveCheckRequest extends BaseTaobaoRequest<OapiAttendanceApproveCheckResponse> {
 	

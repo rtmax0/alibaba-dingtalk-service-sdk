@@ -96,7 +96,7 @@ public class OapiSmartdeviceDeviceUnbindRequest extends BaseTaobaoRequest<OapiSm
 	 * @since 1.0, null
 	 */
 	public static class DeviceUnbindVo extends TaobaoObject {
-		private static final long serialVersionUID = 6435884311534912596L;
+		private static final long serialVersionUID = 2319418166412284555L;
 		/**
 		 * 设备id，和设备名称不能同时为空
 		 */

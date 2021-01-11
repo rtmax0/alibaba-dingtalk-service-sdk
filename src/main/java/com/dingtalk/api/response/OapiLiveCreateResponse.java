@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiLiveCreateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2229147444328344454L;
+	private static final long serialVersionUID = 5878785131184532668L;
 
 	/** 
 	 * 错误码
@@ -67,7 +67,7 @@ public class OapiLiveCreateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class LiveUrlExtModel extends TaobaoObject {
-		private static final long serialVersionUID = 2863314822244788446L;
+		private static final long serialVersionUID = 2879864694355857738L;
 		/**
 		 * 播放地址flv,超清-720p
 		 */
@@ -133,7 +133,7 @@ public class OapiLiveCreateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class CreateLiveRespModel extends TaobaoObject {
-		private static final long serialVersionUID = 5656934914121724952L;
+		private static final long serialVersionUID = 2515955863955494778L;
 		/**
 		 * 预约直播时间
 		 */

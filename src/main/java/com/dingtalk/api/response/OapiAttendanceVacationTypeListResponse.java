@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceVacationTypeListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2777733257716115995L;
+	private static final long serialVersionUID = 6788446187218813875L;
 
 	/** 
 	 * dingOpenErrcode
@@ -82,7 +82,7 @@ public class OapiAttendanceVacationTypeListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 5713646187845894576L;
+		private static final long serialVersionUID = 3731552852872745145L;
 		/**
 		 * 假期类型，普通假期或者加班转调休假期。(general_leave、lieu_leave其中一种)
 		 */

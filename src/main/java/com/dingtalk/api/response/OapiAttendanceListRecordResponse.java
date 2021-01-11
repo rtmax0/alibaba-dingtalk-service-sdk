@@ -16,209 +16,243 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceListRecordResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 8257428992454356961L;
+	private static final long serialVersionUID = 1353174196734914811L;
 
 	/** 
-	 * 接口返回model
+	 * errcode
 	 */
-	@ApiField("result")
-	private Result result;
+	@ApiField("errcode")
+	private Long errcode;
+
+	/** 
+	 * errmsg
+	 */
+	@ApiField("errmsg")
+	private String errmsg;
+
+	/** 
+	 * recordresult
+	 */
+	@ApiListField("recordresult")
+	@ApiField("recordresult")
+	private List<Recordresult> recordresult;
 
 
-	public void setResult(Result result) {
-		this.result = result;
+	public void setErrcode(Long errcode) {
+		this.errcode = errcode;
 	}
-	public Result getResult( ) {
-		return this.result;
+	public Long getErrcode( ) {
+		return this.errcode;
 	}
 
-	
+	public void setErrmsg(String errmsg) {
+		this.errmsg = errmsg;
+	}
+	public String getErrmsg( ) {
+		return this.errmsg;
+	}
+
+	public void setRecordresult(List<Recordresult> recordresult) {
+		this.recordresult = recordresult;
+	}
+	public List<Recordresult> getRecordresult( ) {
+		return this.recordresult;
+	}
+
+	public boolean isSuccess() {
+        return getErrcode() == null || getErrcode().equals(0L);
+    }
 	
 	/**
-	 * 流水明细
+	 * recordresult
 	 *
 	 * @author top auto create
 	 * @since 1.0, null
 	 */
 	public static class Recordresult extends TaobaoObject {
-		private static final long serialVersionUID = 3456219883811643963L;
+		private static final long serialVersionUID = 3315913375181693833L;
 		/**
-		 * 审批单id
+		 * approveId
 		 */
 		@ApiField("approveId")
 		private Long approveId;
 		/**
-		 * 基准准确率
+		 * baseAccuracy
 		 */
 		@ApiField("baseAccuracy")
 		private String baseAccuracy;
 		/**
-		 * 基准地址
+		 * baseAddress
 		 */
 		@ApiField("baseAddress")
 		private String baseAddress;
 		/**
-		 * 基础打卡时间
+		 * baseCheckTime
 		 */
 		@ApiField("baseCheckTime")
 		private Date baseCheckTime;
 		/**
-		 * 基准纬度
+		 * baseLatitude
 		 */
 		@ApiField("baseLatitude")
 		private String baseLatitude;
 		/**
-		 * 基准经度
+		 * baseLongitude
 		 */
 		@ApiField("baseLongitude")
 		private String baseLongitude;
 		/**
-		 * 基准mac地址
+		 * baseMacAddr
 		 */
 		@ApiField("baseMacAddr")
 		private String baseMacAddr;
 		/**
-		 * 基准ssid
+		 * baseSsid
 		 */
 		@ApiField("baseSsid")
 		private String baseSsid;
 		/**
-		 * 流水的业务id
+		 * bizId
 		 */
 		@ApiField("bizId")
 		private String bizId;
 		/**
-		 * 上班
+		 * checkType
 		 */
 		@ApiField("checkType")
 		private String checkType;
 		/**
-		 * 班次id
+		 * classId
 		 */
 		@ApiField("classId")
 		private Long classId;
 		/**
-		 * 设备id
+		 * deviceId
 		 */
 		@ApiField("deviceId")
 		private String deviceId;
 		/**
-		 * 创建时间
+		 * deviceSN
+		 */
+		@ApiField("deviceSN")
+		private String deviceSN;
+		/**
+		 * gmtCreate
 		 */
 		@ApiField("gmtCreate")
 		private Date gmtCreate;
 		/**
-		 * 最后修改时间
+		 * gmtModified
 		 */
 		@ApiField("gmtModified")
 		private Date gmtModified;
 		/**
-		 * 考勤组id
+		 * groupId
 		 */
 		@ApiField("groupId")
 		private Long groupId;
 		/**
-		 * 流水id
+		 * id
 		 */
 		@ApiField("id")
 		private Long id;
 		/**
-		 * 无效打卡消息
+		 * invalidRecordMsg
 		 */
 		@ApiField("invalidRecordMsg")
 		private String invalidRecordMsg;
 		/**
-		 * 无效打卡类型
+		 * invalidRecordType
 		 */
 		@ApiField("invalidRecordType")
 		private String invalidRecordType;
 		/**
-		 * 是否合法
+		 * isLegal
 		 */
 		@ApiField("isLegal")
 		private String isLegal;
 		/**
-		 * 定位方法
+		 * locationMethod
 		 */
 		@ApiField("locationMethod")
 		private String locationMethod;
 		/**
-		 * 地理位置结果
+		 * locationResult
 		 */
 		@ApiField("locationResult")
 		private String locationResult;
 		/**
-		 * 外勤打卡备注
+		 * outsideRemark
 		 */
 		@ApiField("outsideRemark")
 		private String outsideRemark;
 		/**
-		 * 排班打卡时间
+		 * planCheckTime
 		 */
 		@ApiField("planCheckTime")
 		private Date planCheckTime;
 		/**
-		 * 排班id
+		 * planId
 		 */
 		@ApiField("planId")
 		private Long planId;
 		/**
-		 * 审批单实例id
+		 * procInstId
 		 */
 		@ApiField("procInstId")
 		private String procInstId;
 		/**
-		 * 打卡来源，考勤机等
+		 * sourceType
 		 */
 		@ApiField("sourceType")
 		private String sourceType;
 		/**
-		 * 时间结果
+		 * timeResult
 		 */
 		@ApiField("timeResult")
 		private String timeResult;
 		/**
-		 * 用户打卡定位精度
+		 * userAccuracy
 		 */
 		@ApiField("userAccuracy")
 		private String userAccuracy;
 		/**
-		 * 用户打卡地址
+		 * userAddress
 		 */
 		@ApiField("userAddress")
 		private String userAddress;
 		/**
-		 * 用户打卡时间
+		 * userCheckTime
 		 */
 		@ApiField("userCheckTime")
 		private Date userCheckTime;
 		/**
-		 * 用户的user id
+		 * userId
 		 */
 		@ApiField("userId")
 		private String userId;
 		/**
-		 * 用户打卡纬度
+		 * userLatitude
 		 */
 		@ApiField("userLatitude")
 		private String userLatitude;
 		/**
-		 * 用户打卡精度
+		 * userLongitude
 		 */
 		@ApiField("userLongitude")
 		private String userLongitude;
 		/**
-		 * 用户mac地址
+		 * userMacAddr
 		 */
 		@ApiField("userMacAddr")
 		private String userMacAddr;
 		/**
-		 * 用户ssid
+		 * userSsid
 		 */
 		@ApiField("userSsid")
 		private String userSsid;
 		/**
-		 * 工作日期
+		 * workDate
 		 */
 		@ApiField("workDate")
 		private Date workDate;
@@ -294,6 +328,12 @@ public class OapiAttendanceListRecordResponse extends TaobaoResponse {
 		}
 		public void setDeviceId(String deviceId) {
 			this.deviceId = deviceId;
+		}
+		public String getDeviceSN() {
+			return this.deviceSN;
+		}
+		public void setDeviceSN(String deviceSN) {
+			this.deviceSN = deviceSN;
 		}
 		public Date getGmtCreate() {
 			return this.gmtCreate;
@@ -438,51 +478,6 @@ public class OapiAttendanceListRecordResponse extends TaobaoResponse {
 		}
 		public void setWorkDate(Date workDate) {
 			this.workDate = workDate;
-		}
-	}
-	
-	/**
-	 * 接口返回model
-	 *
-	 * @author top auto create
-	 * @since 1.0, null
-	 */
-	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 5689256321996511342L;
-		/**
-		 * 错误码
-		 */
-		@ApiField("errcode")
-		private Long errcode;
-		/**
-		 * 错误消息
-		 */
-		@ApiField("errmsg")
-		private String errmsg;
-		/**
-		 * 流水明细
-		 */
-		@ApiListField("recordresult")
-		@ApiField("recordresult")
-		private List<Recordresult> recordresult;
-	
-		public Long getErrcode() {
-			return this.errcode;
-		}
-		public void setErrcode(Long errcode) {
-			this.errcode = errcode;
-		}
-		public String getErrmsg() {
-			return this.errmsg;
-		}
-		public void setErrmsg(String errmsg) {
-			this.errmsg = errmsg;
-		}
-		public List<Recordresult> getRecordresult() {
-			return this.recordresult;
-		}
-		public void setRecordresult(List<Recordresult> recordresult) {
-			this.recordresult = recordresult;
 		}
 	}
 	

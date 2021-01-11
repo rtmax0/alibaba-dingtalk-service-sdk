@@ -99,7 +99,7 @@ public class OapiSmartworkHrmEmployeeListbycertRequest extends BaseTaobaoRequest
 	 * @since 1.0, null
 	 */
 	public static class NameAndCertNumberQueryParam extends TaobaoObject {
-		private static final long serialVersionUID = 1312288455551515454L;
+		private static final long serialVersionUID = 4786993798667219342L;
 		/**
 		 * 身份证号
 		 */

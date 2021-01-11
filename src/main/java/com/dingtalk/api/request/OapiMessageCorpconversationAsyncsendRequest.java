@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiMessageCorpconversationAsyncsendResponse;
  * TOP DingTalk-API: dingtalk.oapi.message.corpconversation.asyncsend request
  * 
  * @author top auto create
- * @since 1.0, 2020.07.04
+ * @since 1.0, 2019.07.03
  */
 public class OapiMessageCorpconversationAsyncsendRequest extends BaseTaobaoRequest<OapiMessageCorpconversationAsyncsendResponse> {
 	

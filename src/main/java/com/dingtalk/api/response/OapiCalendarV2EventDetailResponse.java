@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCalendarV2EventDetailResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2524441263826597735L;
+	private static final long serialVersionUID = 7443741193718716427L;
 
 	/** 
 	 * 错误编码
@@ -81,7 +81,7 @@ public class OapiCalendarV2EventDetailResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Attendee extends TaobaoObject {
-		private static final long serialVersionUID = 5414549233572152719L;
+		private static final long serialVersionUID = 7754511137499791979L;
 		/**
 		 * 员工工号
 		 */
@@ -103,7 +103,7 @@ public class OapiCalendarV2EventDetailResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DateTime extends TaobaoObject {
-		private static final long serialVersionUID = 8663444899385171314L;
+		private static final long serialVersionUID = 1846812337762598427L;
 		/**
 		 * 日期，全天日程使用，格式必须为'yyyy-mm-dd',和timestamp字段互斥，该字段有值时，则忽略timestamp字段
 		 */
@@ -147,7 +147,7 @@ public class OapiCalendarV2EventDetailResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenCalendarReminderVo extends TaobaoObject {
-		private static final long serialVersionUID = 8417798257955444475L;
+		private static final long serialVersionUID = 8393794649996327964L;
 		/**
 		 * 提醒方式.app表示应用内提醒
 		 */
@@ -180,7 +180,7 @@ public class OapiCalendarV2EventDetailResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class LocationVo extends TaobaoObject {
-		private static final long serialVersionUID = 8614831227987564744L;
+		private static final long serialVersionUID = 5673716595725113435L;
 		/**
 		 * 经度
 		 */
@@ -224,7 +224,7 @@ public class OapiCalendarV2EventDetailResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Event extends TaobaoObject {
-		private static final long serialVersionUID = 3325458741578284485L;
+		private static final long serialVersionUID = 8331449756922529926L;
 		/**
 		 * 日程参与者
 		 */

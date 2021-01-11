@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRhinoMosExecClothesConditionGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7194645842737223125L;
+	private static final long serialVersionUID = 1578675743545192593L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiRhinoMosExecClothesConditionGetResponse extends TaobaoResponse 
 	 * @since 1.0, null
 	 */
 	public static class ClothesDto extends TaobaoObject {
-		private static final long serialVersionUID = 5665731689135976843L;
+		private static final long serialVersionUID = 4459882951943871775L;
 		/**
 		 * 颜色id
 		 */
@@ -213,7 +213,7 @@ public class OapiRhinoMosExecClothesConditionGetResponse extends TaobaoResponse 
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 5458577818626183815L;
+		private static final long serialVersionUID = 3665397521687975627L;
 		/**
 		 * 当前起始
 		 */

@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpUserPersonainfoGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1244873186697774825L;
+	private static final long serialVersionUID = 3437382352783381446L;
 
 	/** 
 	 * result
@@ -41,7 +41,7 @@ public class CorpUserPersonainfoGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class OpenPersonaInfo extends TaobaoObject {
-		private static final long serialVersionUID = 2648687472967332681L;
+		private static final long serialVersionUID = 7527929134266435522L;
 		/**
 		 * 生日
 		 */
@@ -119,7 +119,7 @@ public class CorpUserPersonainfoGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 7726157135591271964L;
+		private static final long serialVersionUID = 4384924499956278619L;
 		/**
 		 * dingOpenErrcode
 		 */

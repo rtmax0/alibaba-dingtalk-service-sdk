@@ -97,7 +97,7 @@ public class OapiAlitripBtripApprovalUpdateRequest extends BaseTaobaoRequest<Oap
 	 * @since 1.0, null
 	 */
 	public static class OpenApiUpdateApplyRq extends TaobaoObject {
-		private static final long serialVersionUID = 2143865397324373227L;
+		private static final long serialVersionUID = 1339222628365993157L;
 		/**
 		 * 企业id
 		 */

@@ -113,7 +113,7 @@ public class CorpHrmEmployeeDelemployeedismissionandhandoverRequest extends Base
 	 * @since 1.0, null
 	 */
 	public static class EmpDismissionInfoWithHandOverVo extends TaobaoObject {
-		private static final long serialVersionUID = 7165346267871524861L;
+		private static final long serialVersionUID = 1257244583386134348L;
 		/**
 		 * 离职描述
 		 */

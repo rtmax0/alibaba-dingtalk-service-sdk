@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCateringStoreGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2882859942337418482L;
+	private static final long serialVersionUID = 2356545993418357979L;
 
 	/** 
 	 * 错误码
@@ -81,7 +81,7 @@ public class OapiCateringStoreGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Managerlist extends TaobaoObject {
-		private static final long serialVersionUID = 4146617933948225792L;
+		private static final long serialVersionUID = 8635892333162587758L;
 		/**
 		 * 门店店长工号
 		 */
@@ -103,7 +103,7 @@ public class OapiCateringStoreGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Data extends TaobaoObject {
-		private static final long serialVersionUID = 5498285683877164612L;
+		private static final long serialVersionUID = 4251919773728332798L;
 		/**
 		 * 部门编号
 		 */
@@ -159,7 +159,7 @@ public class OapiCateringStoreGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 5435276553758622939L;
+		private static final long serialVersionUID = 3171148738472134316L;
 		/**
 		 * 当前页码
 		 */

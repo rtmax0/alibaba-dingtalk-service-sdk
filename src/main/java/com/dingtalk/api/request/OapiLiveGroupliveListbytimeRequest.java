@@ -18,7 +18,7 @@ import com.dingtalk.api.response.OapiLiveGroupliveListbytimeResponse;
  * TOP DingTalk-API: dingtalk.oapi.live.grouplive.listbytime request
  * 
  * @author top auto create
- * @since 1.0, 2020.04.30
+ * @since 1.0, 2020.07.23
  */
 public class OapiLiveGroupliveListbytimeRequest extends BaseTaobaoRequest<OapiLiveGroupliveListbytimeResponse> {
 	
@@ -96,7 +96,7 @@ public class OapiLiveGroupliveListbytimeRequest extends BaseTaobaoRequest<OapiLi
 	 * @since 1.0, null
 	 */
 	public static class GroupLiveRecordReq extends TaobaoObject {
-		private static final long serialVersionUID = 1426732936142433984L;
+		private static final long serialVersionUID = 8862874368461834422L;
 		/**
 		 * 直播所属群对应的部门
 		 */

@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiAttendanceShiftHistoryQueryResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1313153514428713111L;
+	private static final long serialVersionUID = 3521281654376831587L;
 
 	/** 
 	 * 错误码
@@ -82,7 +82,7 @@ public class OapiAttendanceShiftHistoryQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopShiftSettingVo extends TaobaoObject {
-		private static final long serialVersionUID = 7596837973824742578L;
+		private static final long serialVersionUID = 5856263398252693577L;
 		/**
 		 * 该班次对应的出勤天数
 		 */
@@ -181,7 +181,7 @@ public class OapiAttendanceShiftHistoryQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopPunchVo extends TaobaoObject {
-		private static final long serialVersionUID = 4367846668395242535L;
+		private static final long serialVersionUID = 3878774324447695596L;
 		/**
 		 * 是否跨天
 		 */
@@ -280,7 +280,7 @@ public class OapiAttendanceShiftHistoryQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopRestVo extends TaobaoObject {
-		private static final long serialVersionUID = 8888559495425665368L;
+		private static final long serialVersionUID = 4713766929691615858L;
 		/**
 		 * 是否跨天
 		 */
@@ -335,7 +335,7 @@ public class OapiAttendanceShiftHistoryQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopSectionVo extends TaobaoObject {
-		private static final long serialVersionUID = 6788736924648221569L;
+		private static final long serialVersionUID = 7627176399279863633L;
 		/**
 		 * id
 		 */
@@ -392,7 +392,7 @@ public class OapiAttendanceShiftHistoryQueryResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class TopShiftVo extends TaobaoObject {
-		private static final long serialVersionUID = 8746877962338933471L;
+		private static final long serialVersionUID = 5134493447328631654L;
 		/**
 		 * 企业id
 		 */

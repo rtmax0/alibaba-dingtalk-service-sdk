@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiUserGetUseridByUnionidResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5611292726321177648L;
+	private static final long serialVersionUID = 7795834234495735894L;
 
 	/** 
 	 * contactType

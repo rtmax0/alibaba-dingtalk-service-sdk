@@ -112,7 +112,7 @@ public class OapiServicegroupMessageSendRequest extends BaseTaobaoRequest<OapiSe
 	 * @since 1.0, null
 	 */
 	public static class ConversationMessage extends TaobaoObject {
-		private static final long serialVersionUID = 1646389621725716668L;
+		private static final long serialVersionUID = 5415395935852368197L;
 		/**
 		 * 内容
 		 */

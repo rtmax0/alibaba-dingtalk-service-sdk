@@ -16,22 +16,22 @@ import com.dingtalk.api.response.OapiUserGetOrgUserCountResponse;
  * TOP DingTalk-API: dingtalk.oapi.user.get_org_user_count request
  * 
  * @author top auto create
- * @since 1.0, 2019.06.24
+ * @since 1.0, 2018.07.25
  */
 public class OapiUserGetOrgUserCountRequest extends BaseTaobaoRequest<OapiUserGetOrgUserCountResponse> {
 	
 	
 
 	/** 
-	* false：包含未激活钉钉的人员数量 true：不包含未激活钉钉的人员数量
+	* 0：包含未激活钉钉的人员数量 1：不包含未激活钉钉的人员数量
 	 */
-	private Boolean onlyActive;
+	private Long onlyActive;
 
-	public void setOnlyActive(Boolean onlyActive) {
+	public void setOnlyActive(Long onlyActive) {
 		this.onlyActive = onlyActive;
 	}
 
-	public Boolean getOnlyActive() {
+	public Long getOnlyActive() {
 		return this.onlyActive;
 	}
 

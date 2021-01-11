@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiReportTemplateListbyuseridResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5473366164539949131L;
+	private static final long serialVersionUID = 2337591518296271916L;
 
 	/** 
 	 * 错误码
@@ -68,7 +68,7 @@ public class OapiReportTemplateListbyuseridResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ReportTemplateTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 7866875486584334577L;
+		private static final long serialVersionUID = 2391549193642331216L;
 		/**
 		 * 模板图标url
 		 */
@@ -123,7 +123,7 @@ public class OapiReportTemplateListbyuseridResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class HomePageReportTemplateVo extends TaobaoObject {
-		private static final long serialVersionUID = 8433856817318334789L;
+		private static final long serialVersionUID = 8529832563673831863L;
 		/**
 		 * 下一次分页调用的offset值，当返回结果里没有nextCursor时，表示分页结束
 		 */

@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiCollectionFormListResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 7685441616769771187L;
+	private static final long serialVersionUID = 1132574137479477615L;
 
 	/** 
 	 * 错误码
@@ -69,7 +69,7 @@ public class OapiCollectionFormListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormSchemaSettingVo extends TaobaoObject {
-		private static final long serialVersionUID = 2375867386185164322L;
+		private static final long serialVersionUID = 2391233744732521632L;
 		/**
 		 * 表单类型
 		 */
@@ -169,7 +169,7 @@ public class OapiCollectionFormListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FormSchemaResponse extends TaobaoObject {
-		private static final long serialVersionUID = 1421839645436969626L;
+		private static final long serialVersionUID = 2177171546888273956L;
 		/**
 		 * 创建人
 		 */
@@ -235,7 +235,7 @@ public class OapiCollectionFormListResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class PageResult extends TaobaoObject {
-		private static final long serialVersionUID = 5617942792282291253L;
+		private static final long serialVersionUID = 6461734726891111947L;
 		/**
 		 * 是否有下一页
 		 */

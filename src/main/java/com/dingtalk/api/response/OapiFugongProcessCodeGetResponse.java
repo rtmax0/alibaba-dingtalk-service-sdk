@@ -14,7 +14,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiFugongProcessCodeGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6112418279938983741L;
+	private static final long serialVersionUID = 5696976346195783671L;
 
 	/** 
 	 * 错误码

@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProcessinstanceFileDownloadResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3225424694331272911L;
+	private static final long serialVersionUID = 2563657447333938812L;
 
 	/** 
 	 * 错误码
@@ -79,7 +79,7 @@ public class OapiProcessinstanceFileDownloadResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AppSpaceResponse extends TaobaoObject {
-		private static final long serialVersionUID = 8263411242389251115L;
+		private static final long serialVersionUID = 6785819944226133747L;
 		/**
 		 * 临时授权码
 		 */

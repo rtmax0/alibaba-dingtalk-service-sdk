@@ -17,7 +17,7 @@ import com.dingtalk.api.response.OapiBlackboardDeleteResponse;
  * TOP DingTalk-API: dingtalk.oapi.blackboard.delete request
  * 
  * @author top auto create
- * @since 1.0, 2019.11.04
+ * @since 1.0, 2020.07.29
  */
 public class OapiBlackboardDeleteRequest extends BaseTaobaoRequest<OapiBlackboardDeleteResponse> {
 	

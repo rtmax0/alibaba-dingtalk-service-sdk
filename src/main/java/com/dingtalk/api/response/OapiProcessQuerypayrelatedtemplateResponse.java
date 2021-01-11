@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiProcessQuerypayrelatedtemplateResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 4415364774511213193L;
+	private static final long serialVersionUID = 3893819178191342653L;
 
 	/** 
 	 * dingOpenErrcode
@@ -82,7 +82,7 @@ public class OapiProcessQuerypayrelatedtemplateResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class Result extends TaobaoObject {
-		private static final long serialVersionUID = 3714189929236493673L;
+		private static final long serialVersionUID = 8334627156159663565L;
 		/**
 		 * iconUrl
 		 */

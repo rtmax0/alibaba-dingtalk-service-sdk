@@ -96,7 +96,7 @@ public class OapiOpenencryptEncryptboxStatusUpdateRequest extends BaseTaobaoRequ
 	 * @since 1.0, null
 	 */
 	public static class TopEncryptBoxStatus extends TaobaoObject {
-		private static final long serialVersionUID = 6424358863543927175L;
+		private static final long serialVersionUID = 4883516592854948288L;
 		/**
 		 * 微应用的id
 		 */

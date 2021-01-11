@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiRetailUserTokenCheckResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 6562955189967648688L;
+	private static final long serialVersionUID = 4465457465318924155L;
 
 	/** 
 	 * 错误码
@@ -79,7 +79,7 @@ public class OapiRetailUserTokenCheckResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class UserBindDto extends TaobaoObject {
-		private static final long serialVersionUID = 3568644869246521993L;
+		private static final long serialVersionUID = 7194395427733729678L;
 		/**
 		 * 中心组织唯一ID
 		 */

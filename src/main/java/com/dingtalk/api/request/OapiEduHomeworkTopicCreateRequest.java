@@ -99,7 +99,7 @@ public class OapiEduHomeworkTopicCreateRequest extends BaseTaobaoRequest<OapiEdu
 	 * @since 1.0, null
 	 */
 	public static class SyncTopicItem extends TaobaoObject {
-		private static final long serialVersionUID = 6837327126899456544L;
+		private static final long serialVersionUID = 1621652285483936336L;
 		/**
 		 * 解析
 		 */

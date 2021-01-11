@@ -13,7 +13,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class CorpMessageCorpconversationGetsendprogressResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 2593134174235682526L;
+	private static final long serialVersionUID = 2498888383244769797L;
 
 	/** 
 	 * result
@@ -38,7 +38,7 @@ public class CorpMessageCorpconversationGetsendprogressResponse extends TaobaoRe
 	 * @since 1.0, null
 	 */
 	public static class AsyncSendProgress extends TaobaoObject {
-		private static final long serialVersionUID = 1319912119674999118L;
+		private static final long serialVersionUID = 1323221893138984785L;
 		/**
 		 * 取值 0-100，表示处理的百分比
 		 */
@@ -71,7 +71,7 @@ public class CorpMessageCorpconversationGetsendprogressResponse extends TaobaoRe
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 4799791245371523938L;
+		private static final long serialVersionUID = 8579259262587143792L;
 		/**
 		 * dingOpenErrcode
 		 */

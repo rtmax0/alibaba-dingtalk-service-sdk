@@ -98,7 +98,7 @@ public class OapiImpaasConversationUpdateentranceidRequest extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class AccountInfo extends TaobaoObject {
-		private static final long serialVersionUID = 7372736253665676778L;
+		private static final long serialVersionUID = 2231261772713997541L;
 		/**
 		 * 账号通道:eleme,hema等
 		 */
@@ -142,7 +142,7 @@ public class OapiImpaasConversationUpdateentranceidRequest extends BaseTaobaoReq
 	 * @since 1.0, null
 	 */
 	public static class UpdateEntranceIdRequest extends TaobaoObject {
-		private static final long serialVersionUID = 8317821972933829264L;
+		private static final long serialVersionUID = 1691564967757591577L;
 		/**
 		 * 要设置的用户列表
 		 */

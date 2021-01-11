@@ -15,7 +15,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiHrmEmployeeGetResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 3342898524249972632L;
+	private static final long serialVersionUID = 5727163942238789611L;
 
 	/** 
 	 * dingOpenErrcode
@@ -69,7 +69,7 @@ public class OapiHrmEmployeeGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class SysCustomFieldVpo extends TaobaoObject {
-		private static final long serialVersionUID = 2813338628763951247L;
+		private static final long serialVersionUID = 8691968791416346685L;
 		/**
 		 * 人事管理员确认员工入职的时候，是否必填该字段
 		 */
@@ -300,7 +300,7 @@ public class OapiHrmEmployeeGetResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class FieldGroupVpo extends TaobaoObject {
-		private static final long serialVersionUID = 6287383265217252291L;
+		private static final long serialVersionUID = 5561596497599639523L;
 		/**
 		 * 字段列表
 		 */

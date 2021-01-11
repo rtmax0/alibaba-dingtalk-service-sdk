@@ -16,7 +16,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class SmartworkAttendsGetsimplegroupsResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 5367683426165517129L;
+	private static final long serialVersionUID = 4121126175617211697L;
 
 	/** 
 	 * result
@@ -41,7 +41,7 @@ public class SmartworkAttendsGetsimplegroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtTimeVo extends TaobaoObject {
-		private static final long serialVersionUID = 3531857662254433853L;
+		private static final long serialVersionUID = 7551489776364452116L;
 		/**
 		 * 开始时间
 		 */
@@ -63,7 +63,7 @@ public class SmartworkAttendsGetsimplegroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class ClassSettingVo extends TaobaoObject {
-		private static final long serialVersionUID = 4594617566467941619L;
+		private static final long serialVersionUID = 6794689345326181256L;
 		/**
 		 * 旷工迟到时长,单位分钟
 		 */
@@ -162,7 +162,7 @@ public class SmartworkAttendsGetsimplegroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtSectionVo extends TaobaoObject {
-		private static final long serialVersionUID = 1623763981458159136L;
+		private static final long serialVersionUID = 6535354555417443711L;
 		/**
 		 * 时间段列表
 		 */
@@ -185,7 +185,7 @@ public class SmartworkAttendsGetsimplegroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtClassVo extends TaobaoObject {
-		private static final long serialVersionUID = 2436739183376834925L;
+		private static final long serialVersionUID = 5648763292548229227L;
 		/**
 		 * 考勤班次id
 		 */
@@ -241,7 +241,7 @@ public class SmartworkAttendsGetsimplegroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtGroupForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 3527928751789597219L;
+		private static final long serialVersionUID = 7646723226229453136L;
 		/**
 		 * 一周的班次时间展示列表。["周一、二 班次A:09:00-18:00", "周六、周日 休息"]
 		 */
@@ -378,7 +378,7 @@ public class SmartworkAttendsGetsimplegroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class AtGroupListForTopVo extends TaobaoObject {
-		private static final long serialVersionUID = 3892523347267383967L;
+		private static final long serialVersionUID = 5679381438335699733L;
 		/**
 		 * 考勤组列表
 		 */
@@ -412,7 +412,7 @@ public class SmartworkAttendsGetsimplegroupsResponse extends TaobaoResponse {
 	 * @since 1.0, null
 	 */
 	public static class DingOpenResult extends TaobaoObject {
-		private static final long serialVersionUID = 5319819355489246263L;
+		private static final long serialVersionUID = 3637885483564467832L;
 		/**
 		 * dingOpenErrcode
 		 */

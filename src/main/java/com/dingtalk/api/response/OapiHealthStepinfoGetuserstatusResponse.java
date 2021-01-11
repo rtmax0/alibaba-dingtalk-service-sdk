@@ -12,7 +12,7 @@ import com.taobao.api.TaobaoResponse;
  */
 public class OapiHealthStepinfoGetuserstatusResponse extends TaobaoResponse {
 
-	private static final long serialVersionUID = 1617355595742393715L;
+	private static final long serialVersionUID = 1748469419897138356L;
 
 	/** 
 	 * errcode
