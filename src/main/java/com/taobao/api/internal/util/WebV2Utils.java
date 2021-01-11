@@ -58,8 +58,8 @@ public abstract class WebV2Utils {
 	 * @param params 请求参数
 	 * @return 响应字符串
 	 */
-	public static HttpResponseData doPost(String url, Map<String, String> params, int connectTimeout, int readTimeout) throws IOException {
-		return doPost(url, params, DEFAULT_CHARSET, connectTimeout, readTimeout);
+	public static HttpResponseData doPost(String url, Map<String, String> params, int connectTimeout, int readTimeout, Proxy proxy) throws IOException {
+		return doPost(url, params, DEFAULT_CHARSET, connectTimeout, readTimeout, proxy);
 	}
 
 	/**
@@ -70,8 +70,8 @@ public abstract class WebV2Utils {
 	 * @param charset 字符集，如UTF-8, GBK, GB2312
 	 * @return 响应字符串
 	 */
-	public static HttpResponseData doPost(String url, Map<String, String> params, String charset, int connectTimeout, int readTimeout) throws IOException {
-		return doPost(url, params, charset, connectTimeout, readTimeout, null, null);
+	public static HttpResponseData doPost(String url, Map<String, String> params, String charset, int connectTimeout, int readTimeout, Proxy proxy) throws IOException {
+		return doPost(url, params, charset, connectTimeout, readTimeout, null, proxy);
 	}
 
 	public static HttpResponseData doPost(String url, Map<String, String> params, String charset, int connectTimeout, int readTimeout, Map<String, String> headerMap, Proxy proxy) throws IOException {
@@ -84,10 +84,10 @@ public abstract class WebV2Utils {
 		return _doPost(url, ctype, content, connectTimeout, readTimeout, headerMap, proxy);
 	}
 
-	public static HttpResponseData doPost(String url, String apiBody, String charset, int connectTimeout, int readTimeout, Map<String, String> headerMap) throws IOException {
+	public static HttpResponseData doPost(String url, String apiBody, String charset, int connectTimeout, int readTimeout, Map<String, String> headerMap, Proxy proxy) throws IOException {
         String ctype = "text/plain;charset=" + charset;
         byte[] content = apiBody.getBytes(charset);
-        return _doPost(url, ctype, content, connectTimeout, readTimeout, headerMap, null);
+        return _doPost(url, ctype, content, connectTimeout, readTimeout, headerMap, proxy);
     }
 
 	/**
@@ -150,16 +150,16 @@ public abstract class WebV2Utils {
 	 * @param fileParams 文件请求参数
 	 * @return 响应字符串
 	 */
-	public static HttpResponseData doPost(String url, Map<String, String> params, Map<String, FileItem> fileParams, int connectTimeout, int readTimeout) throws IOException {
+	public static HttpResponseData doPost(String url, Map<String, String> params, Map<String, FileItem> fileParams, int connectTimeout, int readTimeout, Proxy proxy) throws IOException {
 		if (fileParams == null || fileParams.isEmpty()) {
-			return doPost(url, params, DEFAULT_CHARSET, connectTimeout, readTimeout);
+			return doPost(url, params, DEFAULT_CHARSET, connectTimeout, readTimeout, proxy);
 		} else {
-			return doPost(url, params, fileParams, DEFAULT_CHARSET, connectTimeout, readTimeout);
+			return doPost(url, params, fileParams, DEFAULT_CHARSET, connectTimeout, readTimeout, proxy);
 		}
 	}
 
-	public static HttpResponseData doPost(String url, Map<String, String> params, Map<String, FileItem> fileParams, String charset, int connectTimeout, int readTimeout) throws IOException {
-		return doPost(url, params, fileParams, charset, connectTimeout, readTimeout, null);
+	public static HttpResponseData doPost(String url, Map<String, String> params, Map<String, FileItem> fileParams, String charset, int connectTimeout, int readTimeout, Proxy proxy) throws IOException {
+		return doPost(url, params, fileParams, charset, connectTimeout, readTimeout, null, proxy);
 	}
 
 	/**
@@ -172,11 +172,11 @@ public abstract class WebV2Utils {
 	 * @return 响应字符串
 	 */
 	public static HttpResponseData doPost(String url, Map<String, String> params, Map<String, FileItem> fileParams, String charset,
-			int connectTimeout, int readTimeout, Map<String, String> headerMap) throws IOException {
+			int connectTimeout, int readTimeout, Map<String, String> headerMap, Proxy proxy) throws IOException {
 		if (fileParams == null || fileParams.isEmpty()) {
-			return doPost(url, params, charset, connectTimeout, readTimeout, headerMap, null);
+			return doPost(url, params, charset, connectTimeout, readTimeout, headerMap, proxy);
 		} else {
-			return _doPostWithFile(url, params, fileParams, charset, connectTimeout, readTimeout, headerMap);
+			return _doPostWithFile(url, params, fileParams, charset, connectTimeout, readTimeout, headerMap, proxy);
 		}
 	}
 
@@ -192,7 +192,7 @@ public abstract class WebV2Utils {
 	 * @return
 	 * @throws IOException
 	 */
-	public static HttpResponseData doPostWithJson(String url, Map<String, Object> params, String charset, int connectTimeout, int readTimeout) throws IOException {
+	public static HttpResponseData doPostWithJson(String url, Map<String, Object> params, String charset, int connectTimeout, int readTimeout, Proxy proxy) throws IOException {
 		String ctype = "application/json;charset=" + charset;
 		byte[] content = {};
 
@@ -200,11 +200,11 @@ public abstract class WebV2Utils {
 		if (body != null) {
 			content = body.getBytes(charset);
 		}
-		return _doPost(url, ctype, content, connectTimeout, readTimeout, null, null);
+		return _doPost(url, ctype, content, connectTimeout, readTimeout, null, proxy);
 	}
 
 	private static HttpResponseData _doPostWithFile(String url, Map<String, String> params, Map<String, FileItem> fileParams,
-			String charset, int connectTimeout, int readTimeout, Map<String, String> headerMap) throws IOException {
+			String charset, int connectTimeout, int readTimeout, Map<String, String> headerMap, Proxy proxy) throws IOException {
 		String boundary = String.valueOf(System.nanoTime()); // 随机分隔线
 		HttpURLConnection conn = null;
 		OutputStream out = null;
@@ -212,7 +212,7 @@ public abstract class WebV2Utils {
 		HttpResponseData data = new HttpResponseData();
 		try {
 			String ctype = "multipart/form-data;charset=" + charset + ";boundary=" + boundary;
-			conn = getConnection(new URL(url), Constants.METHOD_POST, ctype, headerMap, null);
+			conn = getConnection(new URL(url), Constants.METHOD_POST, ctype, headerMap, proxy);
 			conn.setConnectTimeout(connectTimeout);
 			conn.setReadTimeout(readTimeout);
 			out = conn.getOutputStream();
@@ -278,8 +278,8 @@ public abstract class WebV2Utils {
 		return entry.toString().getBytes(charset);
 	}
 
-	public static HttpResponseData doGet(String url, Map<String, String> params, int connectTimeout, int readTimeout) throws  IOException {
-		return doGet(url, params, DEFAULT_CHARSET, connectTimeout, readTimeout);
+	public static HttpResponseData doGet(String url, Map<String, String> params, int connectTimeout, int readTimeout, Proxy proxy) throws  IOException {
+		return doGet(url, params, DEFAULT_CHARSET, connectTimeout, readTimeout, proxy);
 	}
 
 	/**
@@ -290,14 +290,14 @@ public abstract class WebV2Utils {
 	 * @param charset 字符集，如UTF-8, GBK, GB2312
 	 * @return 响应字符串
 	 */
-	public static HttpResponseData doGet(String url, Map<String, String> params, String charset, int connectTimeout, int readTimeout) throws IOException {
+	public static HttpResponseData doGet(String url, Map<String, String> params, String charset, int connectTimeout, int readTimeout, Proxy proxy) throws IOException {
 		HttpURLConnection conn = null;
 		String rsp = null;
 		HttpResponseData data = new HttpResponseData();
 		try {
 			String ctype = "application/x-www-form-urlencoded;charset=" + charset;
 			String query = buildQuery(params, charset);
-			conn = getConnection(buildGetUrl(url, query), Constants.METHOD_GET, ctype, null, null);
+			conn = getConnection(buildGetUrl(url, query), Constants.METHOD_GET, ctype, null, proxy);
 			conn.setConnectTimeout(connectTimeout);
 			conn.setReadTimeout(readTimeout);
 			rsp = getResponseAsString(conn);

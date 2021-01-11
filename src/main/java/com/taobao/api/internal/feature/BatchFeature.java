@@ -1,6 +1,14 @@
 package com.taobao.api.internal.feature;
 
-import com.taobao.api.*;
+import com.taobao.api.ApiException;
+import com.taobao.api.ApiRuleException;
+import com.taobao.api.Constants;
+import com.taobao.api.DefaultTaobaoClient;
+import com.taobao.api.TaobaoBatchRequest;
+import com.taobao.api.TaobaoBatchResponse;
+import com.taobao.api.TaobaoParser;
+import com.taobao.api.TaobaoRequest;
+import com.taobao.api.TaobaoResponse;
 import com.taobao.api.internal.parser.json.ObjectJsonParser;
 import com.taobao.api.internal.parser.xml.ObjectXmlParser;
 import com.taobao.api.internal.util.*;
@@ -143,7 +151,7 @@ public abstract class BatchFeature {
             String sysMustQuery = WebUtils.buildQuery(requestHolder.getProtocalMustParams(), Constants.CHARSET_UTF8);
             String sysOptQuery = WebUtils.buildQuery(requestHolder.getProtocalOptParams(), Constants.CHARSET_UTF8);
             String fullUrl = WebUtils.buildRequestUrl(this.batchServerUrl, sysMustQuery, sysOptQuery);
-            HttpResponseData data = WebV2Utils.doPost(fullUrl, apiBody, Constants.CHARSET_UTF8, client.getConnectTimeout(), client.getReadTimeout(), batchRequest.getHeaderMap());
+            HttpResponseData data = WebV2Utils.doPost(fullUrl, apiBody, Constants.CHARSET_UTF8, client.getConnectTimeout(), client.getReadTimeout(), batchRequest.getHeaderMap(), client.getProxy());
             requestHolder.setResponseBody(data.getBody());
         } catch (IOException e) {
             TaobaoLogger.logApiError(client.getAppKey(), "BatchApi", batchServerUrl, requestHolder.getAllParams(), System.currentTimeMillis() - start, e.toString());

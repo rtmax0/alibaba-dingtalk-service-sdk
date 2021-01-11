@@ -54,7 +54,7 @@ public class AutoRetryTaobaoClient extends DefaultTaobaoClient {
 		feature.setRetryErrorCodes(retryErrorCodes);
 	}
 
-		public <T extends TaobaoResponse> T execute(TaobaoRequest<T> request) throws ApiException {
+	public <T extends TaobaoResponse> T execute(TaobaoRequest<T> request) throws ApiException {
 		return this.execute(request, null);
 	}
 

@@ -1,14 +1,27 @@
 package com.dingtalk.api;
 
+import com.taobao.api.ApiException;
+import com.taobao.api.ApiRuleException;
+import com.taobao.api.Constants;
+import com.taobao.api.DefaultTaobaoClient;
+import com.taobao.api.FileItem;
+import com.taobao.api.TaobaoParser;
+import com.taobao.api.TaobaoRequest;
+import com.taobao.api.TaobaoResponse;
+import com.taobao.api.TaobaoUploadRequest;
+import com.taobao.api.internal.parser.json.ObjectJsonParser;
+import com.taobao.api.internal.util.HttpResponseData;
+import com.taobao.api.internal.util.RequestParametersHolder;
+import com.taobao.api.internal.util.TaobaoHashMap;
+import com.taobao.api.internal.util.TaobaoLogger;
+import com.taobao.api.internal.util.TaobaoUtils;
+import com.taobao.api.internal.util.WebV2Utils;
+
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import com.taobao.api.*;
-import com.taobao.api.internal.parser.json.ObjectJsonParser;
-import com.taobao.api.internal.util.*;
 
 /**
  * 钉钉客户端。
@@ -129,13 +142,13 @@ public class DefaultDingTalkClient extends DefaultTaobaoClient implements DingTa
 			}
 
 			if("GET".equals(request.getTopHttpMethod())) {
-				data = WebV2Utils.doGet(fullUrl, appParams, connectTimeout, readTimeout);
+				data = WebV2Utils.doGet(fullUrl, appParams, connectTimeout, readTimeout, this.getProxy());
 			} else {
 				// 是否需要上传文件
 				if (request instanceof TaobaoUploadRequest) {
 					TaobaoUploadRequest<T> uRequest = (TaobaoUploadRequest<T>) request;
 					Map<String, FileItem> fileParams = TaobaoUtils.cleanupMap(uRequest.getFileParams());
-					data = WebV2Utils.doPost(fullUrl, appParams, fileParams, Constants.CHARSET_UTF8, connectTimeout, readTimeout, request.getHeaderMap());
+					data = WebV2Utils.doPost(fullUrl, appParams, fileParams, Constants.CHARSET_UTF8, connectTimeout, readTimeout, request.getHeaderMap(), this.getProxy());
 				} else {
 
 					Map<String, Object> jsonParams = new HashMap<String, Object>();
@@ -153,7 +166,7 @@ public class DefaultDingTalkClient extends DefaultTaobaoClient implements DingTa
 						}
 					}
 
-					data = WebV2Utils.doPostWithJson(fullUrl, jsonParams, Constants.CHARSET_UTF8, connectTimeout, readTimeout);
+					data = WebV2Utils.doPostWithJson(fullUrl, jsonParams, Constants.CHARSET_UTF8, connectTimeout, readTimeout, this.getProxy());
 				}
 			}
 			requestHolder.setResponseBody(data.getBody());

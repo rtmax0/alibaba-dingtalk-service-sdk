@@ -1,12 +1,5 @@
 package com.taobao.api;
 
-import java.io.IOException;
-import java.net.Proxy;
-import java.net.URL;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-
 import com.aliyun.api.internal.mapping.RequestBodyConverter;
 import com.qimen.api.QimenRequest;
 import com.taobao.api.internal.cluster.ClusterManager;
@@ -14,7 +7,22 @@ import com.taobao.api.internal.cluster.DnsConfig;
 import com.taobao.api.internal.dto.RequestDTO;
 import com.taobao.api.internal.parser.json.ObjectJsonParser;
 import com.taobao.api.internal.parser.xml.ObjectXmlParser;
-import com.taobao.api.internal.util.*;
+import com.taobao.api.internal.util.HttpResponseData;
+import com.taobao.api.internal.util.RequestParametersHolder;
+import com.taobao.api.internal.util.StringUtils;
+import com.taobao.api.internal.util.TaobaoHashMap;
+import com.taobao.api.internal.util.TaobaoLogger;
+import com.taobao.api.internal.util.TaobaoUtils;
+import com.taobao.api.internal.util.WebUtils;
+import com.taobao.api.internal.util.WebV2Utils;
+import com.taobao.api.internal.util.XmlWriter;
+
+import java.io.IOException;
+import java.net.Proxy;
+import java.net.URL;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 基于REST的TOP客户端。
@@ -386,7 +394,7 @@ public class DefaultTaobaoClient implements TaobaoClient {
 			if (request.getRequestBase() != null && request.getRequestBase() instanceof TaobaoUploadRequest) {
 				TaobaoUploadRequest<?> uRequest = (TaobaoUploadRequest<?>) request.getRequestBase();
 				Map<String, FileItem> fileParams = TaobaoUtils.cleanupMap(uRequest.getFileParams());
-                data = WebV2Utils.doPost(fullUrl, appParams, fileParams, Constants.CHARSET_UTF8, connectTimeout, readTimeout, request.getHeaderMap());
+                data = WebV2Utils.doPost(fullUrl, appParams, fileParams, Constants.CHARSET_UTF8, connectTimeout, readTimeout, request.getHeaderMap(), this.getProxy());
 			} else {
 				byte[] bodyByte = apiBody == null ? new byte[0] : apiBody.getBytes(Constants.CHARSET_UTF8);
 				if(isJson){
